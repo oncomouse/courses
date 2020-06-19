@@ -1,0 +1,10 @@
+---
+title: "Oncomouse Course Site"
+url: ""
+baseurl: "/courses"
+markdown: kramdown
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - Rakefile
+  - Readme.md
