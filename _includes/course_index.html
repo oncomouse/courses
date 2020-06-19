@@ -1,0 +1,18 @@
+{% assign year = "now" | date: "%Y" |abs %}
+{% assign earliestYear = year %}
+{% assign month = "now" | date: "%m" | abs %}
+{% if month >= 8 %}
+        {% assign semester = "fall" %}
+{% elsif month < 8 and month >= 6 %}
+        {% assign semester = "sum" %}
+{% else %}
+        {% assign semester = "spr" %}
+{% endif %}
+{% assign order = "spr,sum,fall" | split: "," %}
+{% capture keys %}{% for object in site.data %}{% unless object[1].start %}{% continue %}{% endunless %}{% assign y = object[0] | slice: -4, 4 | abs %}{% if y < earliestYear %}{% assign earliestYear = y %}{% endif %}{{ object[0] }} {% endfor %}{% endcapture %}
+{% assign keys = keys | split: " " %}
+{% capture courses %}{% for y in (earliestYear...year) %}{% for s in order %}{% for key in keys %}{% assign my = key | slice: -4, 4 | abs %}{% assign ms = key | slice: 7,3 | replace: "fal", "fall" %}{% if ms == s and my == y %}{{ key }} {% endif %}{% endfor %}{% endfor %}{% endfor %}{% endcapture %}
+{% assign courses = courses | split: " " | reverse %}
+{% for key in courses %}{% assign course = site.data[key] %}{% assign year = course.start | slice: 0,4%}{% capture guessed_title %}{{ key | slice: 0,4 | upcase }} {{ key | slice: 4, 3}}, {{ key | slice: 7,3 | replace: "fal", "Fall" | replace: "spr", "Spring" | replace: "sum", "Summer" }} {{ year }}{% endcapture %}
+* [{{course.title | default: guessed_title }}]({{ year | append: "/" | append: key | relative_url }}){% endfor %}
+{: .f2}
