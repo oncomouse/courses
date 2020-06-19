@@ -49,3 +49,12 @@ task :course do
     write_yaml(file)
   end
 end
+
+task :delete_course do
+  (ARGV[1..]).eac do |course|
+    task course.to_sym do; end
+    year = file[-4..]
+    FileUtils.rm "_data/#{course}.yml" if File.exist? "_data/#{course}.yml"
+    FileUtils.rm "#{year}/#{course}.md" if File.exist? "#{year}/#{course}.md"
+  end
+end
