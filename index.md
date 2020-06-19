@@ -6,14 +6,6 @@ title: "Andrew Pilsch's Courses"
 
 {% assign year = "now" | date: "%Y" |abs %}
 {% assign earliestYear = year %}
-{% assign month = "now" | date: "%m" | abs %}
-{% if month >= 8 %}
-		{% assign semester = "fall" %}
-{% elsif month < 8 and month >= 6 %}
-		{% assign semester = "sum" %}
-{% else %}
-		{% assign semester = "spr" %}
-{% endif %}
 {% assign semester_order = "spr,sum,fall" | split: "," %}
 {% comment %}
 Go through each file, finding the keys that have course data while also
