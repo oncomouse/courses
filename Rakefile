@@ -17,6 +17,8 @@ title: "Course Title"
 end
 
 def write_yaml(file)
+  return if File.exist? "_data/#{file}.yml"
+
   File.write("_data/#{file}.yml", %(---
 title: "Course Title"
 start: 2020-08-19
