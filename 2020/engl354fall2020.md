@@ -10,8 +10,6 @@ title: "ENGL 354, Fall 2020"
 | Paper 1: Modern Rhetoric     | 10/02/2020 | 20% |
 | Exam 1: Rhetorical Theories  | 10/30/2020 | 20% |
 | Paper 2: Case Study Analysis | 12/08/2020 | 40% |
-{:.mdl-data-table.mdl-js-data-table.mdl-data-table--wide}
-
 
 ## Participation Cards
 
@@ -51,6 +49,10 @@ You will be supplied with a list of quotes from the material we have discussed i
 For this assignment, you will write what is called a rhetorical analysis. In a rhetorical analysis, the strategies of persuasion of a particular cultural object are evaluated to explain why (or why not) a particular cultural artifact is (or is not successful) at being persuasive. Rhetorical analyses could study speeches by a politician or advertising slogans in a soda commercial; they can look at paintings, books, or anything else that participates in the creation and circulation of cultural myths.
 
 Specifically, I want you to find a cultural object relating to food in some fashion (defined how you want, subject to my approval). Then, I want you to identify the appeals the object is making to its audience. Pay special attention to the theories of rhetoric we have identified this semester.
+
+# Schedule
+
+{% include schedule.html schedule="engl354fall2020" %}
 
 # Course Policies
 
@@ -155,6 +157,4 @@ more about UWC services or to schedule an appointment, call 458-1455, visit the 
 
 It is my intent that students from all diverse backgrounds and perspectives be well-served by this course, that students' learning needs be addressed both in and out of class, and that the diversity that students bring to this class be viewed as a resource, strength, and benefit. It is my intent to present materials and activities that are respectful of diversity: gender, sexual orientation, disability, age, religion, socioeconomic status, ethnicity, race, culture, perspective, and other background characteristics. I encourage your suggestions about how to improve the value of diversity in this course.
 
-# Schedule
 
-{% include schedule.html schedule="engl354fall2020" %}
