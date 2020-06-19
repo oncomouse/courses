@@ -1,0 +1,25 @@
+---
+start: 2020-08-24
+end: 2020-12-02
+holidays:
+  - date: 2020-11-25
+    name: Thanksgiving
+  - date: 2020-11-26
+    name: Thanksgiving
+  - date: 2020-11-27
+    name: Thanksgiving
+meets:
+  - monday
+  - wednesday
+  - friday
+redefined:
+  - date: 2020-11-30
+    is_a: friday
+units:
+  - title: Gender Theory
+    start: 1
+weeks:
+  "1": Course Overview
+classes:
+  - |
+    * Course Overview

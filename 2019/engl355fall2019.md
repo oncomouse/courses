@@ -1,56 +1,84 @@
 ---
 layout: syllabus
-title: "ENGL 354, Fall 2020"
+title: "ENGL 355, Fall 2019"
 ---
 # Assignments
 
-| Assignment          | Due Date      | Value |
-| ---------------------|---------------|-------|
-| Participation Cards          | Daily | 20% |
-| Paper 1: Modern Rhetoric     | 10/02/2020 | 20% |
-| Exam 1: Rhetorical Theories  | 10/30/2020 | 20% |
-| Paper 2: Case Study Analysis | 12/08/2020 | 40% |
+## Assignment Values
+
+| Assignment                  | Due Date | Value |
+|-----------------------------|----------|-------|
+| Attendance                  | Ongoing  |  10%  |
+| Imitation Analysis Notebook | Twice    |  25%  |
+| Take-home Exam              | 11/21    |  20%  |
+| Analysis Paper 1            | 10/03    |  15%  |
+| Analysis Paper 2            | 12/10    |  30%  |
 {:.mdl-data-table.mdl-js-data-table.mdl-data-table--wide}
 
+## Assignment Descriptions
 
-## Participation Cards
+These are intended as overviews of the general goals of each assignment. Longer hand-outs will be provided along with discussion of the assignments during class.
 
-Starting the second week of class, you will be required to bring a 3"x5" notecard to class each day. These cards will serve to record your attendance in class. More importantly, they will structure class participation.
+### Imitation / Analysis Notebook
 
-There are three required elements on a participation card for it to count as attendance:
+Throughout the course, you will be asked to produce short imitation and short analyses of the readings we do for class. Twice in the semester, the notebooks will be collected and graded.
 
-1. Your name (top of card)
-2. A passage that stuck with you from the reading (front of card)
-3. An unanswered question based on class discussion (back of card)
+#### Imitation
 
-At the beginning of each class, I will give you two minutes to write out *one sentence* from the reading that stuck with you: that you loved, that you hated, or that confused you (you may also bring a prepared card, if you like). We will begin class discussion by going around the room and reading our passages. This activity will serve to spark our discussion of the reading.
+For the imitation, you may write about whatever subject matter you choose, though you are required (and will be evaluated on ability to) write imitating the style of the piece we are working with.
 
-At the end of each class, I will give you three minutes to write out (in complete sentences) an answer to the following: "What topic did we raise today that is going to keep you up tonight? If nothing, what should we have asked that would keep you thinking into the night?" This is your chance to show me what you learned in discussion, what you wished you had learned, and/or what you still want to learn. I will be using these to help shape future discussions.
+#### Analysis
 
-*If you cannot attend class, please email the quote you would have put on your card and a 2-3 sentence explanation for why you chose the quote in question.*
+For the analysis piece, we will have discussed some concept relating to the theory of rhetorical style in the previous lesson. Evaluate the author's use of that concept, citing specific examples, and discuss how this concept benefits their overall rhetorical purpose in writing.
 
-## Paper 1: Modern Rhetoric
+#### Totals
 
-We have identified a number of problems in the first few decades of the 20th century that make the practice of rhetoric and the study of persuasion crucial for the functioning of a mediated society. What is the single most important issue today that you think require a new theory of persuasion?
+Every time [the schedule](schedule.html) mentions "Analyze" or "Imitate", you are to produce an imitation or analysis entry in your notebook. For the semester, you will produce:
 
-In an argumentative essay, discuss your problem, explaining what it is, giving some background on the issue, and why it is a problem that can be addressed through persuasion. You will need to rely on outside sources to support your argument, whether these are scholarly arguments about the topic, technical sources to add background detail, or popular sources to provide examples or to dimensionalize the problem.
+* 10 Imitations
+* 9 Analyses
 
-## Exam 1: Rhetorical Theories
+On the following texts:
 
-*You will be required to bring blue books for this exam.*
+1. Shelly or Borges
+1. Dyson or Burrington
+1. Darwin or More
+1. Lovecraft
+1. Steffan (only analyze either Lovecraft or Steffan)
+1. A.I. Editorial 1
+1. A.I. Editorial 2
+1. Joy
+1. Ellison
+1. Russ
 
-You will be supplied with a list of quotes from the material we have discussed in Unit 2. These will be quotes we talked about in class. For each quote, identify the following information:
+#### Due Dates
 
-1. Author of the quote
-1. Full title of the work in which quote appears
-1. Explain the importance of the quote to the argument of the work
-1. In a short paragraph, summarize the author's full argument and what they contribute to a theory of argument
+* 9/19
+* 12/05
 
-## Paper 2: Case Study Analysis
+### Take-home Exam
 
-For this assignment, you will write what is called a rhetorical analysis. In a rhetorical analysis, the strategies of persuasion of a particular cultural object are evaluated to explain why (or why not) a particular cultural artifact is (or is not successful) at being persuasive. Rhetorical analyses could study speeches by a politician or advertising slogans in a soda commercial; they can look at paintings, books, or anything else that participates in the creation and circulation of cultural myths.
+To test your knowledge of both sentence modification and rhetorical figures, a take-home exam will be distributed at the end of class two days before the due date (listed above). You will be required to return the completed exam to my office by the end of what would be the next class period (there will be no class on the due date). If you are finished with the exam early, you may slip your completed exam under my office door.
 
-Specifically, I want you to find a cultural object relating to food in some fashion (defined how you want, subject to my approval). Then, I want you to identify the appeals the object is making to its audience. Pay special attention to the theories of rhetoric we have identified this semester.
+This exam is open note and is designed to test your abilities to identify and describe characters and actions, complex sentence modifications, tropes, and schemes.
+
+If you miss class on the day the exam is distributed, a copy will be posted to eCampus, but you are responsible for printing your own copy.
+
+### Analysis Paper 1
+
+Pick a text we have not discussed in class. In 4 pages, describe the overall feel of the text. This can be both how you feel about the text but, *more importantly*, how the author wants you to feel as you read. The challenge of this portion of the assignment is twofold: one, how do we describe a feeling without attempting to reproduce it ourselves? two, how do we use evidence from the text to support our claims about this feeling?
+
+Having described the feeling, explain *why* that feeling matters by considering the context in which the text was produced. This portion of the assignment will more than likely require outside research into the author's biography, the political environment in which it was written, and the general culture of the times at which it was produced.
+
+* [More Detailed Assignment Sheet](http://andrew.pilsch.com/courses/engl355fall2018/documents/assignment1.pdf)
+* [Working List of Possible Sources](https://docs.google.com/document/d/1xpzM0x-zuAcebXval4p3SWicHxIo3D0GNmAAL12h6_E/edit?usp=sharing)
+	* Sign in with your TAMU account to access
+
+### Analysis Paper 2
+
+Revising and expanding your first paper, you can now more accurately leverage the skills you have acquired in this class to describe the mood of the piece. This paper will be 8 to 10 pages in length and will include additional elements beyond the first.
+
+In addition to the revision of the first argument, spend some time getting into detail about the stylistic devices the writing uses to present it's point. This detailed discussion is not intended to be a laundry list of tropes, schemes, and sentence structure; rather, I expect you to tie this argument to a larger meditation on the constraints, strategies, motivations, and cultural contexts that shape the writing in question.
 
 # Course Policies
 
@@ -60,7 +88,7 @@ These are the policies that govern our class. You are responsible for knowing th
 
 At the times listed in the sidebar throughout this site, I am in my office and it is your time to come talk to me about anything related (or unrelated) to class. This time is yours, I am not (supposed to be) doing anything else; you will not be interrupting me. If you have questions about class or have other questions I might be able to answer, please drop by.
 
-## Email Hours
+## Email Office Hours
 
 I am available to answer email from 9:00am until 5:00pm Monday through Friday. Emails arriving outside of that time will be answered at my earliest convenience, but do not count on a quick answer to emails sent late at night or on the weekends.
 
@@ -135,7 +163,7 @@ Also, the following is a helpful resource for describing kinds and severity of p
 
 ## Students Needing Support Service
 
-Texas A&M University is committed to providing equitable access to learning opportunities for all students. If you experience barriers to your education due to a disability or think you may have a disability, please contact Disability Resources in the Student Services Building or at (979) 845-1637 or visit [http://disability.tamu.edu](http://disability.tamu.edu). Disabilities may include, but are not limited to attentional, learning, mental health, sensory, physical, or chronic health conditions. All students are encouraged to discuss their disability related needs with Disability Resources and their instructors as soon as possible.
+The Americans with Disabilities Act (ADA) is a federal anti-discrimination statute that provides comprehensive civil rights protection for persons with disabilities. Among other things, this legislation requires that all students with disabilities be guaranteed a learning environment that provides for reasonable accommodation of their disabilities. If you believe you have a disability requiring an accommodation, please contact Disability Services, currently located in the Disability Services building at the Student Services at White Creek complex on west campus or call 979-845- 1637. For additional information, visit [http://disability.tamu.edu](http://disability.tamu.edu).
 
 ## University Writing Center
 
@@ -155,6 +183,20 @@ more about UWC services or to schedule an appointment, call 458-1455, visit the 
 
 It is my intent that students from all diverse backgrounds and perspectives be well-served by this course, that students' learning needs be addressed both in and out of class, and that the diversity that students bring to this class be viewed as a resource, strength, and benefit. It is my intent to present materials and activities that are respectful of diversity: gender, sexual orientation, disability, age, religion, socioeconomic status, ethnicity, race, culture, perspective, and other background characteristics. I encourage your suggestions about how to improve the value of diversity in this course.
 
+  # Books
+
+  
+## Books
+
+Methodological readings will come from the following text, which is available as an eBook from the library:
+
+* [*Performing Prose: The Study and Practice of Style in Composition*](http://muse.jhu.edu.ezproxy.library.tamu.edu/book/1479). Chris Holcomb and Jimmie Killingsworth. Southern Illinois University Press. ISBN: 9780809329533
+
+## Other Materials
+
+* **One bound notebook** (spiral or composition book) to be used for imitation and evaluation exercises.
+* All other readings are linked from the syllabus or online on Blackboard. **It is required you print the readings that are not from *Performing Prose*, as we will be working with them in class. Find a printing arrangement now. Do your reading with the printed copy and make sure that you have a printed copy with you in class on the day we read it.**
+
 # Schedule
 
-{% include schedule.html schedule="engl354fall2020" %}
+{% include schedule.html schedule="engl355fall2019" %}

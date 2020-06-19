@@ -33,14 +33,17 @@ title: "#{guessed_title}"
       
       yaml, *markdown = File.read(markdown_file)[3..].split("---")
       metadata = YAML.load(yaml)
-      contents[metadata['page_link_name']] = markdown
+      contents[metadata['page_link_name']] = markdown.join('---')
     end
-    contents.keys.sort do |section_name|
-      section_content = contents[section_name]
-      output += %(
-# #{section_name}
+    contents.sort_by{|k,v| v}.to_h.each_pair do |section_name, section_content|
+      if section_content.match(/^\s*# /)
+          output += section_content
+      else
+        output += %(
+  # #{section_name}
 
-#{section_content})
+  #{section_content})
+      end
     end
     output += %(
 # Schedule

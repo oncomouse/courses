@@ -1,6 +1,6 @@
 ---
 layout: syllabus
-title: "ENGL 354, Fall 2020"
+title: "ENGL 481, Fall 2020"
 ---
 # Assignments
 
@@ -157,4 +157,4 @@ It is my intent that students from all diverse backgrounds and perspectives be w
 
 # Schedule
 
-{% include schedule.html schedule="engl354fall2020" %}
+{% include schedule.html schedule="engl481fall2020" %}

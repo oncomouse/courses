@@ -1,56 +1,146 @@
 ---
 layout: syllabus
-title: "ENGL 354, Fall 2020"
+title: "ENGL 334, Fall 2019"
 ---
+  # Books
+
+  
+
+## Books to Buy
+
+* *A Princess of Mars* by Edgar Rice Burroughs
+* *Ubik* by Philip K. Dick
+* *The Left Hand of Darkness* by Ursula K. LeGuin
+* *Neuromancer* by William Gibson
+* *Black God's Drums* by P. Djèlí Clark
+* *All Systems Red* by Martha Wells
+
+## Optional Books
+
+* *Ancillary Justice* by Ann Leckie
+
+## Further Reading
+
+*I prepped **way** too much material for this course, so here is a list of stories that did not make it onto the syllabus, but probably should have.*
+
+* Stanley Weinbaum, "A Martian Odyssey"
+* John W. Campbell, "Twilight"
+* C.L. Moore, "No Woman Born"
+* Philip Jose Farmer, ["Sail On! Sail On!"](http://producer.csi.edu/cdraney/2014/278/resources/farmer_sf-story(sail-on).pdf)
+* James Tiptree Jr., ["The Last Flight of Dr. Ain"](http://www.lightspeedmagazine.com/fiction/last-flight-doctor-ain/)
+* Samuel R. Delany, "Driftglass"
+* Ursula K. Le Guin, "The Ones Who Walk Away from Omelas"
+* Joanna Russ, "Barbarians"
+* Octavia Butler, "Bloodchild"
+* Margaret Killjoy, ["The Fortunate Death of Jonathan Sandelson"](http://strangehorizons.com/fiction/the-fortunate-death-of-jonathan-sandelson/)
+* Mary Robinette Kowal, ["The Lady Astronauts of Mars"](https://www.tor.com/2013/09/11/the-lady-astronaut-of-mars/)
+* N.K. Jemisin, Something from *How Long Until Black Future Month?*
+
 # Assignments
 
-| Assignment          | Due Date      | Value |
-| ---------------------|---------------|-------|
-| Participation Cards          | Daily | 20% |
-| Paper 1: Modern Rhetoric     | 10/02/2020 | 20% |
-| Exam 1: Rhetorical Theories  | 10/30/2020 | 20% |
-| Paper 2: Case Study Analysis | 12/08/2020 | 40% |
+## Assignment Values
+
+| Assignment                  | Due Date   | Value |
+|-----------------------------|------------|-------|
+| Attendance                  | Ongoing    |  10%  |
+| Midterm Exam                | 10/10      |  15%  |
+| Final Exam                  | 12/06, 3PM |  15%  |
+| Short Paper #1              | 09/27      |  20%  |
+| Short Paper #2              | 11/08      |  20%  |
+| Short Paper #3              | 12/10      |  20%  |
 {:.mdl-data-table.mdl-js-data-table.mdl-data-table--wide}
 
+## Assignment Descriptions
 
-## Participation Cards
+These are intended as overviews of the general goals of each assignment. Longer hand-outs will be provided along with discussion of the assignments during class.
 
-Starting the second week of class, you will be required to bring a 3"x5" notecard to class each day. These cards will serve to record your attendance in class. More importantly, they will structure class participation.
+### Midterm & Final Exams
 
-There are three required elements on a participation card for it to count as attendance:
+These exams will consist entirely in quote identification. You will be given a list of _six_ quotations sourced from the responses we have produced to the texts we have read immediately preceding the test. You will choose _four_ of these quotes and identify:
 
-1. Your name (top of card)
-2. A passage that stuck with you from the reading (front of card)
-3. An unanswered question based on class discussion (back of card)
+* Title
+* Author
+* Context (what's happening when this happens)
+* Significance to larger themes
 
-At the beginning of each class, I will give you two minutes to write out *one sentence* from the reading that stuck with you: that you loved, that you hated, or that confused you (you may also bring a prepared card, if you like). We will begin class discussion by going around the room and reading our passages. This activity will serve to spark our discussion of the reading.
+Your identification of the **context** should be around two to three sentences. You need to provide some information about characters who are speaking, plot events, or something else to suggest you have an idea what is happening in the action of the book at the moment in which the quote occurs.
 
-At the end of each class, I will give you three minutes to write out (in complete sentences) an answer to the following: "What topic did we raise today that is going to keep you up tonight? If nothing, what should we have asked that would keep you thinking into the night?" This is your chance to show me what you learned in discussion, what you wished you had learned, and/or what you still want to learn. I will be using these to help shape future discussions.
+For the **significance** to larger themes, write one well-developed paragraph about why the quote is important to the larger issues raised in the book. Where the context identifies what is happening, this is more about explaining why this quote is important or interesting within the larger context of the work and the way we have been discussing it online.
 
-*If you cannot attend class, please email the quote you would have put on your card and a 2-3 sentence explanation for why you chose the quote in question.*
+### Short Papers 1-3
 
-## Paper 1: Modern Rhetoric
+Over the course of the semester, you will be asked to write three (3) short (3-4 page) papers in response to course discussion and the readings we are doing in class.
 
-We have identified a number of problems in the first few decades of the 20th century that make the practice of rhetoric and the study of persuasion crucial for the functioning of a mediated society. What is the single most important issue today that you think require a new theory of persuasion?
+Papers should be formatted using 12pt, Times New Roman font and double spaced with 1-inch margins.
 
-In an argumentative essay, discuss your problem, explaining what it is, giving some background on the issue, and why it is a problem that can be addressed through persuasion. You will need to rely on outside sources to support your argument, whether these are scholarly arguments about the topic, technical sources to add background detail, or popular sources to provide examples or to dimensionalize the problem.
+#### Textual Paper
 
-## Exam 1: Rhetorical Theories
+Pick a scene in one of the texts we have read for class. A scene could be a portion of a chapter (3-4 paragraphs) or a paragraph or even a single sentence, but not an entire story or novel chapter. Discuss the stylistic, thematic, and imagistic content of this scene, while also connecting these issues to larger themes within the novel.
 
-*You will be required to bring blue books for this exam.*
+This paper uses internal evidence only (or primarily). You will be quoting material from the section in question and then discussing the style, theme, or imagery of the passage as it relates to the larger theme of the work.
 
-You will be supplied with a list of quotes from the material we have discussed in Unit 2. These will be quotes we talked about in class. For each quote, identify the following information:
+#### Research Paper
 
-1. Author of the quote
-1. Full title of the work in which quote appears
-1. Explain the importance of the quote to the argument of the work
-1. In a short paragraph, summarize the author's full argument and what they contribute to a theory of argument
+Choose one of the texts we have read in class. Conduct research into the publication and authoring history of the piece.
 
-## Paper 2: Case Study Analysis
+Questions to consider:
 
-For this assignment, you will write what is called a rhetorical analysis. In a rhetorical analysis, the strategies of persuasion of a particular cultural object are evaluated to explain why (or why not) a particular cultural artifact is (or is not successful) at being persuasive. Rhetorical analyses could study speeches by a politician or advertising slogans in a soda commercial; they can look at paintings, books, or anything else that participates in the creation and circulation of cultural myths.
+1. Where was the piece first published?
+	* What is the history of that venue?
+1. What else is interesting/important about the publication?
+	* Was it later adapted into a novel?
+	* Was it an early standalone publication?
+	* Was it collected in a short story collection?
+1. Was the work typical of the author?
+	* Is it an exception because of quality? Topic?
+	* What can you learn about how the author worked?
+1. When the work was published, what else was happening in SF history?
+1. What else was the author doing / working on?
+1. Was the work published internationally? When?
 
-Specifically, I want you to find a cultural object relating to food in some fashion (defined how you want, subject to my approval). Then, I want you to identify the appeals the object is making to its audience. Pay special attention to the theories of rhetoric we have identified this semester.
+You may ask other questions as you research, and you are not required to answer all of these questions (you may find that none of these are helpful).
+
+This paper does not advance an argument per se, but will need a thesis that outlines what you plan to focus on. For instance, "this paper considers 'Black Destroyer' by A.E. van Vogt as a classic example of the kind of story John W. Campbell sought out at *Astounding*" would be perfectly fine as a thesis.
+
+Cite your work using MLA 8 citation.
+
+##### Accessing Library Resources Off Campus:
+
+If you need to access library resources from off campus, you have two options, which both have advantages and disadvantages:
+
+1. Use a VPN to access the TAMU network:
+	* [Instructions](https://it.tamu.edu/services/network-and-internet-access/virtual-private-networks/virtual-private-network-vpn/)
+1. Use EZProxy to access library resources:
+	* ["What is EZProxy?"](http://askus.library.tamu.edu/faq/166882)
+	* [Library Instructions](http://askus.library.tamu.edu/faq/50901)
+	* ["Configure Google Scholar to access library resources"](http://askus.library.tamu.edu/faq/165955)
+	* Use an EZProxy browser extension: [Chrome](https://chrome.google.com/webstore/detail/ezproxy-redirect/gfhnhcbpnnnlefhobdnmhenofhfnnfhi?hl=en) or [Firefox](https://addons.mozilla.org/en-US/firefox/addon/ezproxy-redirect-foxified/)
+
+Personally, I use an EZProxy browser extension because I can never remember to connect to the VPN and I don't use a lot of other TAMU services from home. If you use a lot of other campus-only services, the VPN may be right for you (campus VPN is also good if you need to access anything A&M related on an unsecure connection, like coffee shop wi-fi).
+
+#### Analysis Paper
+
+Pick two works we have read in the class. Also pick a topic that both have in common (whether this topic is content-driven or stylistic) and discuss how the two works are similar and/or different based on their treatment. As an example, you could pick depictions of space travel in two works we have read and discuss how both authors treat this topic differently; you might conclude that there is a changing understanding of technology based on the passage of time between the two works you are considering.
+
+This paper should demonstrate both outside research and thematic analysis, combining the aspects of both previous papers.
+
+## Embedded Honors
+
+This year, our course consists of an embedded honors section in addition to the regular section. Students in the honors section are required to complete additional work on the final paper (explained below) and to meet with me (individually or as a group) throughout the semester (in office hours or at a time worked out via email). In addition to course content, I would like to discuss Ann Leckie's *Ancillary Justice*, the novel you will be reading for your final paper.
+
+### Additional Requirements for Paper 3
+
+For paper 3, you will produce a 6-10 page paper analyzing a theme found in Ann Leckie's *Ancillary Justice*. You will need to cite textual evidence to support your claim and you will most likely need to find outside research to help your argument along.
+
+### Additional Meeting Times
+
+I am also available for honors meetings the following Wednesday from 11 until 12:
+
+1. September 4
+1. September 18
+1. October 2
+1. October 16
+1. October 30
 
 # Course Policies
 
@@ -60,7 +150,7 @@ These are the policies that govern our class. You are responsible for knowing th
 
 At the times listed in the sidebar throughout this site, I am in my office and it is your time to come talk to me about anything related (or unrelated) to class. This time is yours, I am not (supposed to be) doing anything else; you will not be interrupting me. If you have questions about class or have other questions I might be able to answer, please drop by.
 
-## Email Hours
+## Email Office Hours
 
 I am available to answer email from 9:00am until 5:00pm Monday through Friday. Emails arriving outside of that time will be answered at my earliest convenience, but do not count on a quick answer to emails sent late at night or on the weekends.
 
@@ -135,7 +225,7 @@ Also, the following is a helpful resource for describing kinds and severity of p
 
 ## Students Needing Support Service
 
-Texas A&M University is committed to providing equitable access to learning opportunities for all students. If you experience barriers to your education due to a disability or think you may have a disability, please contact Disability Resources in the Student Services Building or at (979) 845-1637 or visit [http://disability.tamu.edu](http://disability.tamu.edu). Disabilities may include, but are not limited to attentional, learning, mental health, sensory, physical, or chronic health conditions. All students are encouraged to discuss their disability related needs with Disability Resources and their instructors as soon as possible.
+The Americans with Disabilities Act (ADA) is a federal anti-discrimination statute that provides comprehensive civil rights protection for persons with disabilities. Among other things, this legislation requires that all students with disabilities be guaranteed a learning environment that provides for reasonable accommodation of their disabilities. If you believe you have a disability requiring an accommodation, please contact Disability Services, currently located in the Disability Services building at the Student Services at White Creek complex on west campus or call 979-845- 1637. For additional information, visit [http://disability.tamu.edu](http://disability.tamu.edu).
 
 ## University Writing Center
 
@@ -157,4 +247,4 @@ It is my intent that students from all diverse backgrounds and perspectives be w
 
 # Schedule
 
-{% include schedule.html schedule="engl354fall2020" %}
+{% include schedule.html schedule="engl334fall2019" %}
