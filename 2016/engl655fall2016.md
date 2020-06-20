@@ -1,6 +1,31 @@
 ---
+---
+title: ENGL 655, Fall 2016
+number: ENGL 655
+term: Fall 2016
+description: 'This seminar will consider a number of “post-linguistic” turns (“visual,”
+  “new media,” “nonhuman,” “digital”) in rhetorical theory in terms of and in conversation
+  with the idea of an avant-garde. Borrowing the concept from modernist understandings
+  of politically and formally experimental art, this seminar will explore what it
+  would mean to think about the recent history of rhetoric within a framework of vanguard-led
+  experimentation. As it happens, new terrain for rhetorical study—fields such as
+  the digital or the visual—have often been introduced into the critical conversation
+  via experimental scholarly practices that conform to prior notions of avant-garde
+  art. To this end, we will read work from rhetoricians whose critical practice draws
+  from an avant-garde legacy including Geoffrey Sirc, Victor Vitanza, Gregory L Ulmer,
+  and Jody Shipka. Additionally, we will look closely at the rise of the webtext as
+  a rhetorical phenomenon in journals such as *Kairos* and *Enculturation*. We will
+  also engage with the avant-garde methods these practitioners outline.
+
+'
+instructor:
+  name: Andrew Pilsch
+  email: apilsch@tamu.edu
+  office_hours: Monday 12-2, Wednesday 12-1, LAAH 417
+  twitter: "@oncomouse"
+hidden: false
 layout: syllabus
-title: "ENGL 655, Fall 2016"
+
 ---
 
 # Assignments

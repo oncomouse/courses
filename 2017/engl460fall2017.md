@@ -1,6 +1,24 @@
 ---
+---
+title: ENGL 460, Fall 2017
+number: ENGL 460
+term: Fall 2017
+description: 'Analysis and practice of authoring in digital environments, including
+  individual and collaborative approaches, audience concerns, theoretical, ethical
+  and stylistic issues; environments and topics may include web design, content management
+  system (CMS), text encoding, project management, usability, version tracking, content
+  authoring and accessibility.
+
+'
+instructor:
+  name: Andrew Pilsch
+  email: apilsch@tamu.edu
+  office: LAAH 417
+  office_hours: Monday & Wednesday, 1:30-3:00
+  twitter: "@oncomouse"
+hidden: false
 layout: syllabus
-title: "ENGL 460, Fall 2017"
+
 ---
 
 # Assignments

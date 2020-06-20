@@ -1,6 +1,18 @@
 ---
+---
+title: ENGL 485, Fall 2018
+number: ENGL 485
+term: Fall 2018
+description: 'This independent study will answer the question "How do we write about
+  science?"
+
+'
+instructor:
+  name: Andrew Pilsch
+  email: apilsch@tamu.edu
+  office_hours: MWF 1:30-2:30 LAAH 417
 layout: syllabus
-title: "ENGL 485, Fall 2018"
+
 ---
 # Assignments
 

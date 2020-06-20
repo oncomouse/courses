@@ -1,6 +1,17 @@
 ---
+---
+title: ENGL 334, Fall 2019
+number: ENGL 334
+term: Fall 2019
+description: 'Origins and development of the science fiction genre.
+
+'
+instructor:
+  name: Andrew Pilsch
+  email: apilsch@tamu.edu
+  office_hours: T & Th, 9:30-11 LAAH 417
 layout: syllabus
-title: "ENGL 334, Fall 2019"
+
 ---
   # Books
 

@@ -1,6 +1,26 @@
 ---
+---
+title: ENGL 354, Fall 2016
+number: ENGL 354
+term: Fall 2016
+description: 'This course introduces students to rhetoric in the 20th century. Specifically,
+  we will be exploring two themes that inform the understanding of rhetoric during
+  this period: the discovery of the unconscious and the belief that society is a system
+  for exchanging messages. The unconscious describes a society dominated by primal
+  impulses and subject to violent, erratic behavior. Systems thinking marks society
+  as rational and manageable. The competition between these two ideas structures many
+  of the conversations surrounding persuasion in the 20th century, a century marked
+  by the sudden and pronounced return of the study of rhetoric and persuasion.
+
+'
+instructor:
+  name: Andrew Pilsch
+  email: apilsch@tamu.edu
+  office_hours: Monday 12-2, Wednesday 12-1, LAAH 417
+  twitter: "@oncomouse"
+hidden: false
 layout: syllabus
-title: "ENGL 354, Fall 2016"
+
 ---
 
 # Asking Good Discussion Questions

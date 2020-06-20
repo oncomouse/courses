@@ -1,5 +1,19 @@
 # frozen_string_literal: true
 
+# ---
+# title: "Science Fiction"
+# number: ENGL 334
+# term: Spring 2020
+# description: |
+#   Origins and development of the science fiction genre.
+# primary_color: yellow
+# secondary_color: blue
+# instructor:
+#   name: Andrew Pilsch
+#   email: apilsch@tamu.edu
+#   office_hours: Online by request
+
+
 require 'shellwords'
 require 'fileutils'
 require 'yaml'
@@ -22,9 +36,16 @@ ARGV.each do |dir|
     dir = "./#{year}"
     Dir.mkdir dir unless Dir.exist? dir
 
+    metadata = {}
+    metadata = YAML.load(File.read("#{course_dir}/data/course.yml")) if File.exist? "#{course_dir}/data/course.yml"
+    metadata = metadata.map{ |k,v| [k.sub(/^course_/,''), v]}.to_h
+    metadata.delete('primary_color')
+    metadata.delete('secondary_color')
+    metadata['layout'] = 'syllabus'
+    metadata['title'] = guessed_title
+
      output = %(---
-layout: syllabus
-title: "#{guessed_title}"
+#{YAML.dump(metadata)}
 ---)
 
     contents = {}
