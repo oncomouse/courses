@@ -13,7 +13,6 @@
 #   email: apilsch@tamu.edu
 #   office_hours: Online by request
 
-
 require 'shellwords'
 require 'fileutils'
 require 'yaml'
@@ -28,7 +27,7 @@ ARGV.each do |dir|
 
     department, number, semester, year = course_match.captures
 
-    guessed_title = "#{department.upcase} #{number}, #{ semester == 'fall' ? 'Fall' : 'Spring' } #{year}"
+    guessed_title = "#{department.upcase} #{number}, #{semester == 'fall' ? 'Fall' : 'Spring'} #{year}"
 
     yaml_file_name = "./_data/#{course_key}.yml"
     FileUtils.cp(file, yaml_file_name) unless File.exist? yaml_file_name
@@ -37,26 +36,26 @@ ARGV.each do |dir|
     Dir.mkdir dir unless Dir.exist? dir
 
     metadata = {}
-    metadata = YAML.load(File.read("#{course_dir}/data/course.yml")) if File.exist? "#{course_dir}/data/course.yml"
-    metadata = metadata.map{ |k,v| [k.sub(/^course_/,''), v]}.to_h
+    metadata = YAML.safe_load(File.read("#{course_dir}/data/course.yml")) if File.exist? "#{course_dir}/data/course.yml"
+    metadata = metadata.map { |k, v| [k.sub(/^course_/, ''), v] }.to_h
     metadata.delete('primary_color')
     metadata.delete('secondary_color')
     metadata['layout'] = 'syllabus'
     metadata['title'] = guessed_title
 
-     output = YAML.dump(metadata) + '---'
+    output = YAML.dump(metadata) + '---'
 
     contents = {}
     Dir.glob("#{course_dir}/source/**/*.html.md").each do |markdown_file|
       next if File.basename(markdown_file).match?(/^index/)
-      
-      yaml, *markdown = File.read(markdown_file)[3..].split("---")
-      metadata = YAML.load(yaml)
+
+      yaml, *markdown = File.read(markdown_file)[3..].split('---')
+      metadata = YAML.safe_load(yaml)
       contents[metadata['page_link_name']] = markdown.join('---')
     end
-    contents.sort_by{|k,v| v}.to_h.each_pair do |section_name, section_content|
+    contents.sort_by { |_k, v| v }.to_h.each_pair do |section_name, section_content|
       if section_content.match(/^\s*# /)
-          output += section_content
+        output += section_content
       else
         output += %(
   # #{section_name}
