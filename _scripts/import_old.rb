@@ -27,8 +27,6 @@ ARGV.each do |dir|
 
     department, number, semester, year = course_match.captures
 
-    guessed_title = "#{department.upcase} #{number}, #{semester == 'fall' ? 'Fall' : 'Spring'} #{year}"
-
     yaml_file_name = "./_data/#{course_key}.yml"
     FileUtils.cp(file, yaml_file_name) unless File.exist? yaml_file_name
 
@@ -40,8 +38,33 @@ ARGV.each do |dir|
     metadata = metadata.map { |k, v| [k.sub(/^course_/, ''), v] }.to_h
     metadata.delete('primary_color')
     metadata.delete('secondary_color')
+
+    office_hours = {}
+    unless metadata['instructor'].nil?
+      office_hours['hours'] = metadata['instructor']['office_hours']
+      office_hours['location'] = metadata['instructor']['office']
+      if office_hours['location'].nil?
+        *guess_hours, guess_location = office_hours['hours'].split(/, /)
+        unless guess_location.nil?
+          office_hours['hours'] = guess_hours.join(', ')
+          office_hours['location'] = guess_location
+        end
+      end
+      metadata['instructor'].delete('office_hours')
+      metadata['instructor'].delete('office')
+    end
+    metadata['course'] = {}
+    metadata['course']['term'] = metadata['term']
+    metadata['course']['description'] = metadata['description']
+    metadata['course']['number'] = metadata['number']
+    metadata.delete('description')
+    metadata.delete('number')
+    metadata.delete('term')
+    metadata['instructor']['office'] = [office_hours] unless metadata['instructor'].nil?
+    metadata['instructors'] = metadata['instructor'].nil? ? [] : [metadata['instructor']]
+    metadata.delete('instructor')
     metadata['layout'] = 'syllabus'
-    metadata['title'] = guessed_title
+    metadata['title'] = 'Syllabus'
 
     output = YAML.dump(metadata) + '---'
 

@@ -1,15 +1,18 @@
 ---
-title: ENGL 354, Fall 2020
-number: ENGL 354
-term: Fall 2020
-description: |
-  This course studies the return of interest in rhetorical theory and rhetorical training in the 20th century. There are three units: 1) we explore various texts that situate modern life (cities, cars, and mass media, especially) as a problem that rhetoric can solve; 2) we look at some theories of persuasion that respond specifically to these various challenges; 3) we use these theories to explore a rhetorical case study.
+title: Syllabus
+course:
+  term: Fall 2020
+  description: |
+    This course studies the return of interest in rhetorical theory and rhetorical training in the 20th century. There are three units: 1) we explore various texts that situate modern life (cities, cars, and mass media, especially) as a problem that rhetoric can solve; 2) we look at some theories of persuasion that respond specifically to these various challenges; 3) we use these theories to explore a rhetorical case study.
 
-  This semester, the case study will be on rhetoric and food.
-instructor:
-  name: Andrew Pilsch
+    This semester, the case study will be on rhetoric and food.
+  number: ENGL 354
+instructors:
+- name: Andrew Pilsch
   email: apilsch@tamu.edu
-  office_hours: MWF 10:15-11:15, LAAH 417
+  office:
+  - hours: MWF 10:15-11:15
+    location: LAAH 417
 layout: syllabus
 ---
 # Assignments

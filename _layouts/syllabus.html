@@ -1,6 +1,6 @@
 ---
 ---
-{% assign title = page.title | default: site.title %}
+{% assign title = page.course.number | append: ", " | append: page.course.term | default: site.title %}
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
@@ -22,6 +22,7 @@
         <div class="js-toc column col-md-2 d-none d-md-block float-md-right position-md-sticky"></div>
 
         <div class="content column col-md-10">
+          {% include course_information.html %}
           {{ content }}
         </div>
 

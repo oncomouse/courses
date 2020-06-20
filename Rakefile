@@ -6,7 +6,19 @@ def write_markdown(file, year)
 
   File.write("#{dir}/#{file}.md", %(---
 layout: syllabus
-title: "Course Title"
+title: Syllabus
+course:
+  term: Fall 2020
+  number: ENGL 123
+  description: ""
+  location: LAAH 123
+  time: MWF 10-12
+instructors:
+- name: Andrew Pilsch
+  email: apilsch@tamu.edu
+  office:
+  - hours: MWF 1-2
+    location: LAAH 417
 ---
 
 # Schedule
@@ -42,7 +54,7 @@ end
 
 task :course do
   (ARGV[1..]).each do |file|
-    task file.to_sym({})
+    task(file.to_sym) {}
     year = file[-4..]
     write_markdown(file, year)
     write_yaml(file)
@@ -51,7 +63,7 @@ end
 
 task :delete_course do
   (ARGV[1..]).each do |course|
-    task file.to_sym({})
+    task(course.to_sym) {}
     year = course[-4..]
     FileUtils.rm "_data/#{course}.yml" if File.exist? "_data/#{course}.yml"
     FileUtils.rm "#{year}/#{course}.md" if File.exist? "#{year}/#{course}.md"
