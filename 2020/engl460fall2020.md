@@ -20,4 +20,4 @@ layout: syllabus
 
 # Schedule
 
-{% include schedule.html schedule="engl481fall2020" %}
+{% include schedule.html schedule="engl460fall2020" %}
