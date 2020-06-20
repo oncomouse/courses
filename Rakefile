@@ -2,9 +2,8 @@
 
 def write_markdown(file, year)
   dir = "./#{year}"
-  if not Dir.exist? dir
-    Dir.mkdir dir
-  end
+  Dir.mkdir dir unless Dir.exist? dir
+
   File.write("#{dir}/#{file}.md", %(---
 layout: syllabus
 title: "Course Title"
@@ -43,7 +42,7 @@ end
 
 task :course do
   (ARGV[1..]).each do |file|
-    task file.to_sym do; end
+    task file.to_sym({})
     year = file[-4..]
     write_markdown(file, year)
     write_yaml(file)
@@ -52,9 +51,11 @@ end
 
 task :delete_course do
   (ARGV[1..]).each do |course|
-    task course.to_sym do; end
+    task file.to_sym({})
     year = course[-4..]
     FileUtils.rm "_data/#{course}.yml" if File.exist? "_data/#{course}.yml"
     FileUtils.rm "#{year}/#{course}.md" if File.exist? "#{year}/#{course}.md"
   end
 end
+
+task remove_course: :delete_course
