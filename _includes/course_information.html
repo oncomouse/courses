@@ -2,38 +2,44 @@
   <div class="column col-md-12">
     <h1>Course Information</h1>
   </div>
-  {% if page.course.time != nil %}
+  {% if page.course.meetings != nil or page.course.time != nil %}
   <div class="column col-md-6">
     <h2 class="border-bottom-0 pb-0">Meeting Time & Location</h2>
     <ul>
       <li>{{ page.course.term }}</li>
+      {% if page.course.meetings %}
+        {% for meeting in page.course.meetings %}
+      <li>{{ meeting.time }}, {{ meeting.location }}</li>
+        {% endfor %}
+      {%else%}
       <li>{{ page.course.time }}, {{ page.course.location }}</li>
+      {%endif%}
     </ul>
   </div>
   {%endif%}
-  <div class="column col-md-{% if page.course.time == nil %}12{%else%}6{%endif%}">
+  <div class="column col-md-{% if page.course.meetings == nil and page.course.time == nil %}12{%else%}6{%endif%}">
     {% if page.instructors != nil %}
     <h2 class="border-bottom-0 pb-0">Instructor{% if page.instructors.size > 1 %}s{%endif%}</h2>
     <ul>
     {% for instructor in page.instructors %}
       <li>
-        <strong>Instructor Contact:</strong>
+        <strong>{{instructor.name}}</strong>
         <ul>
           <li>
-            {{instructor.name}} (<a href="mailto: {{ instructor.email }}">{{ instructor.email }}</a>)
+            Contact: <a href="mailto: {{ instructor.email }}">{{ instructor.email }}</a>
           </li>
+          {% if instructor.office != nil %}
+          <li>
+            Office Hours &amp; Locations:
+            <ul>
+            {% for office in instructor.office %}
+            <li>{{office.hours}}, {{ office.location}}</li>  
+            {% endfor %}
+            </ul>
+          </li>
+          {% endif %}
         </ul>
       </li>
-      {% if instructor.office != nil %}
-      <li>
-        <strong>Office Hours &amp; Locations:</strong>
-        <ul>
-        {% for office in instructor.office %}
-        <li>{{office.hours}}, {{ office.location}}</li>  
-        {% endfor %}
-        </ul>
-      </li>
-      {% endif %}
     {% endfor %}
     </ul>
     {% endif %}
