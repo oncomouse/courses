@@ -7,6 +7,7 @@ course:
 
     '
   number: ENGL 485
+  title: Writing About Science
 instructors:
 - name: Andrew Pilsch
   email: apilsch@tamu.edu
@@ -15,6 +16,7 @@ instructors:
     location: MWF 1:30-2:30 LAAH 417
 layout: syllabus
 ---
+
 # Assignments
 
 ## Assignment Values
@@ -64,6 +66,9 @@ From [this syllabus](https://ctlsites.uga.edu/bashi/course-material/syllabus/):
 * Audio/Visual Media project (Final Presentation)
 * One Additional Communication Project – Possible options: “letter to the editor,” op-ed for an organization’s newsletter (conservation group, botanical garden, aquarium, zoo, etc.), teaching & learning activity, blog post, public lecture
 
+
+
+
 # Books
 
 ## To Buy
@@ -75,6 +80,9 @@ From [this syllabus](https://ctlsites.uga.edu/bashi/course-material/syllabus/):
 * [*Field Guide for Science Writers : The Official Guide of the National Association of Science Writers*](https://ebookcentral-proquest-com.ezproxy.library.tamu.edu/lib/tamucs/detail.action?docID=270856)
 * [*Encyclopedia of Science and Technology Communication*](http://sk.sagepub.com.ezproxy.library.tamu.edu/reference/scienceandtechnology)
 * [*The Data Journalism Handbook*](http://datajournalismhandbook.org/1.0/en/)
+
+
+
 
 # Schedule
 

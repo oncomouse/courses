@@ -57,9 +57,12 @@ ARGV.each do |dir|
     metadata['course']['term'] = metadata['term']
     metadata['course']['description'] = metadata['description']
     metadata['course']['number'] = metadata['number']
+    metadata['course']['title'] = metadata['title'] unless metadata['title'].nil?
+    metadata['course']['subtitle'] = metadata['subtitle'] unless metadata['subtitle'].nil?
     metadata.delete('description')
     metadata.delete('number')
     metadata.delete('term')
+    metadata.delete('subtitle')
     metadata['instructor']['office'] = [office_hours] unless metadata['instructor'].nil?
     metadata['instructors'] = metadata['instructor'].nil? ? [] : [metadata['instructor']]
     metadata.delete('instructor')
@@ -77,16 +80,28 @@ ARGV.each do |dir|
       contents[metadata['page_link_name']] = markdown.join('---')
     end
     contents.sort_by { |_k, v| v }.to_h.each_pair do |section_name, section_content|
-      if section_content.match(/^\s*# /)
-        output += section_content
+      if section_name =~ /Policies/
+        output += %(
+# Course Policies
+
+{% include policies.md %}
+
+)
+      elsif section_content =~ /^\s*# /
+        output += %(
+#{section_content}
+
+)
       else
         output += %(
-  # #{section_name}
 
-  #{section_content})
+# #{section_name}
+
+#{section_content})
       end
     end
     output += %(
+
 # Schedule
 
 {% include schedule.html schedule="#{course_key}" %})

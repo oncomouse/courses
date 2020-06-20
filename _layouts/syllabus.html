@@ -1,6 +1,11 @@
 ---
 ---
-{% assign title = page.course.number | append: ", " | append: page.course.term | default: site.title %}
+{% assign title = page.title | default: site.title %}
+{% unless page.course.number == nil %}
+  {% assign title = page.course.number %}
+  {% assign title = title | append: ", " %}
+  {% assign title = title | append: page.course.term %}
+{% endunless %}
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
@@ -13,15 +18,17 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tocbot@4.11.2/dist/tocbot.css">
   </head>
   <body>
-    <article class="container-lg px-3 my-5 markdown-body">
+    <article class="container-lg px-1 px-md-3 my-5 markdown-body">
       <div class="columns">
         <div class="column col-12">
-          <h1><a href="{{ page.url | absolute_url }}">{{ title }}</a></h1>
+          <a href="/"><h1 class="border-bottom-0">
+            {{ page.course.number }}{% if page.course.title %}: {{ page.course.title }}{% endif %}, {{ page.course.term }}
+          </h1></a>
         </div>
 
         <div class="js-toc column col-md-2 d-none d-md-block float-md-right position-md-sticky"></div>
 
-        <div class="content column col-md-10">
+        <div class="content column col-md-10 pr-3">
           {% include course_information.html %}
           {{ content }}
         </div>
