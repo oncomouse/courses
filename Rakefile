@@ -24,6 +24,10 @@ instructors:
 # Schedule
 
 {% include schedule.html schedule="#{file}" %}
+
+# Policies
+
+{% include policies.md %}
 ))
 end
 

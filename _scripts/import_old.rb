@@ -80,14 +80,7 @@ ARGV.each do |dir|
       contents[metadata['page_link_name']] = markdown.join('---')
     end
     contents.sort_by { |_k, v| v }.to_h.each_pair do |section_name, section_content|
-      if section_name =~ /Policies/
-        output += %(
-# Course Policies
-
-{% include policies.md %}
-
-)
-      elsif section_content =~ /^\s*# /
+      if section_content =~ /^\s*# /
         output += %(
 #{section_content}
 
