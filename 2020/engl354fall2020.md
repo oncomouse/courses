@@ -67,13 +67,10 @@ For this assignment, you will write what is called a rhetorical analysis. In a r
 
 Specifically, I want you to find a cultural object relating to food in some fashion (defined how you want, subject to my approval). Then, I want you to identify the appeals the object is making to its audience. Pay special attention to the theories of rhetoric we have identified this semester.
 
+# Schedule
 
-
+{% include schedule.html schedule="engl354fall2020" %}
 
 # Policies
 
 {% include policies.md %}
-
-# Schedule
-
-{% include schedule.html schedule="engl354fall2020" %}

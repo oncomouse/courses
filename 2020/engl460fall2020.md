@@ -14,10 +14,10 @@ instructors:
 layout: syllabus
 ---
 
-# Policies
-
-{% include policies.md %}
-
 # Schedule
 
 {% include schedule.html schedule="engl460fall2020" %}
+
+# Policies
+
+{% include policies.md %}
