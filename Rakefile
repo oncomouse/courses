@@ -6,13 +6,13 @@ def write_markdown(file, year)
 
   File.write("#{dir}/#{file}.md", %(---
 layout: syllabus
-title: Syllabus
 course:
   term: Fall 2020
   number: ENGL 123
   description: ""
-  location: LAAH 123
-  time: MWF 10-12
+  meetings:
+  - location: LAAH 123
+    time: MWF 10-12
 instructors:
 - name: Andrew Pilsch
   email: apilsch@tamu.edu
