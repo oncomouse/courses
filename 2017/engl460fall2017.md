@@ -1,5 +1,4 @@
 ---
----
 title: ENGL 460, Fall 2017
 number: ENGL 460
 term: Fall 2017
@@ -9,7 +8,7 @@ description: 'Analysis and practice of authoring in digital environments, includ
   system (CMS), text encoding, project management, usability, version tracking, content
   authoring and accessibility.
 
-'
+  '
 instructor:
   name: Andrew Pilsch
   email: apilsch@tamu.edu
@@ -18,7 +17,6 @@ instructor:
   twitter: "@oncomouse"
 hidden: false
 layout: syllabus
-
 ---
 
 # Assignments

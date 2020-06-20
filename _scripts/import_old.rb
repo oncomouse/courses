@@ -44,9 +44,7 @@ ARGV.each do |dir|
     metadata['layout'] = 'syllabus'
     metadata['title'] = guessed_title
 
-     output = %(---
-#{YAML.dump(metadata)}
----)
+     output = YAML.dump(metadata) + '---'
 
     contents = {}
     Dir.glob("#{course_dir}/source/**/*.html.md").each do |markdown_file|

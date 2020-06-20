@@ -1,5 +1,4 @@
 ---
----
 title: ENGL 355, Fall 2018
 number: ENGL 355
 term: Fall 2018
@@ -7,13 +6,12 @@ description: 'Fosters an appreciation for and better understanding of English pr
   style; the history of English prose; representative prose models for analysis and
   imitation; the impact of computer analysis.
 
-'
+  '
 instructor:
   name: Andrew Pilsch
   email: apilsch@tamu.edu
   office_hours: MWF 11:30-12:30 LAAH 417
 layout: syllabus
-
 ---
 # Assignments
 

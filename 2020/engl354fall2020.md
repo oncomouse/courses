@@ -1,5 +1,4 @@
 ---
----
 title: ENGL 354, Fall 2020
 number: ENGL 354
 term: Fall 2020
@@ -12,7 +11,6 @@ instructor:
   email: apilsch@tamu.edu
   office_hours: MWF 10:15-11:15, LAAH 417
 layout: syllabus
-
 ---
 # Assignments
 

@@ -1,5 +1,4 @@
 ---
----
 title: ENGL 355, Fall 2019
 number: ENGL 355
 term: Fall 2019
@@ -11,7 +10,6 @@ instructor:
   email: apilsch@tamu.edu
   office_hours: T & Th, 9:30-11 LAAH 417
 layout: syllabus
-
 ---
 # Assignments
 

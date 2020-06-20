@@ -1,5 +1,4 @@
 ---
----
 title: ENGL 354, Fall 2015
 number: ENGL 354
 term: Fall 2015
@@ -8,7 +7,6 @@ description: |-
 
   Students will read a wide range of works dealing with topics of linguistic persuasion. Additionally, students will write in a number of media and genres in response to these, and other, readings.
 layout: syllabus
-
 ---
   # Assignments
 

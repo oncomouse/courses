@@ -1,5 +1,4 @@
 ---
----
 title: ENGL 354, Fall 2016
 number: ENGL 354
 term: Fall 2016
@@ -12,7 +11,7 @@ description: 'This course introduces students to rhetoric in the 20th century. S
   of the conversations surrounding persuasion in the 20th century, a century marked
   by the sudden and pronounced return of the study of rhetoric and persuasion.
 
-'
+  '
 instructor:
   name: Andrew Pilsch
   email: apilsch@tamu.edu
@@ -20,7 +19,6 @@ instructor:
   twitter: "@oncomouse"
 hidden: false
 layout: syllabus
-
 ---
 
 # Asking Good Discussion Questions

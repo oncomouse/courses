@@ -1,5 +1,4 @@
 ---
----
 title: ENGL 655, Fall 2016
 number: ENGL 655
 term: Fall 2016
@@ -17,7 +16,7 @@ description: 'This seminar will consider a number of “post-linguistic” turns
   a rhetorical phenomenon in journals such as *Kairos* and *Enculturation*. We will
   also engage with the avant-garde methods these practitioners outline.
 
-'
+  '
 instructor:
   name: Andrew Pilsch
   email: apilsch@tamu.edu
@@ -25,7 +24,6 @@ instructor:
   twitter: "@oncomouse"
 hidden: false
 layout: syllabus
-
 ---
 
 # Assignments
