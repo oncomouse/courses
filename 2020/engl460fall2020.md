@@ -16,7 +16,7 @@ layout: syllabus
 
 # Schedule
 
-{% include schedule.html schedule="engl460fall2020" %}
+{% include schedule.html %}
 
 # Policies
 

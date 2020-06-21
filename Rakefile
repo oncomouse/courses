@@ -23,7 +23,7 @@ instructors:
 
 # Schedule
 
-{% include schedule.html schedule="#{file}" %}
+{% include schedule.html %}
 
 # Policies
 
