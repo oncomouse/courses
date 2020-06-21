@@ -1,0 +1,19 @@
+---
+title: "Course Title"
+start: 2020-08-19
+end: 2020-11-24
+holidays:
+- date: 2020-11-25
+  name: Reading Day
+meets:
+- monday
+- wednesday
+- friday
+units:
+- title: First Unit
+  start: 1
+weeks:
+"1": First Week
+classes:
+- |
+  * First Class
