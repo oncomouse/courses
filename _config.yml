@@ -1,6 +1,6 @@
 ---
 title: "Oncomouse Course Site"
-url: ""
+url: "https://oncomouse.github.io"
 baseurl: "/courses"
 markdown: kramdown
 exclude:
