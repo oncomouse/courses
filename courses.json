@@ -3,6 +3,7 @@
 [
   {% assign syllabuses = site.pages | where: "layout", "syllabus" %}
   {% for page in syllabuses %}
+  {% if page.hidden %}{%continue%}{%endif%}
   {% assign key = page.name | replace: ".md", "" | replace: ".html", "" %}
   {
     "course_image": "{{ "/images/" | append: key | append: ".png" | absolute_url }}",

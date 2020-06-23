@@ -11,7 +11,7 @@ title: "Andrew Pilsch's Courses"
 Go through each file, finding the keys that have course data while also
 determining the earliest year courses are available.
 {% endcomment %}
-{% capture keys %}{% for object in site.data %}{% unless object[1].start %}{% continue %}{% endunless %}{% assign y = object[0] | slice: -4, 4 | abs %}{% if y < earliestYear %}{% assign earliestYear = y %}{% endif %}{{ object[0] }} {% endfor %}{% endcapture %}
+{% capture keys %}{% for object in site.data %}{% if object[1].hidden %}{% continue %}{%endif%}{% unless object[1].start %}{% continue %}{% endunless %}{% assign y = object[0] | slice: -4, 4 | abs %}{% if y < earliestYear %}{% assign earliestYear = y %}{% endif %}{{ object[0] }} {% endfor %}{% endcapture %}
 {% assign keys = keys | split: " " %}
 {% comment %}
 This code is awful, but I can't figure how else to do it in Liquid. We go year by year, then we go by semester order, then we go through each key to find matches for semester and year. We print those.
