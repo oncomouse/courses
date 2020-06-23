@@ -1,0 +1,16 @@
+---
+---
+[
+  {% assign syllabuses = site.pages | where: "layout", "syllabus" %}
+  {% for page in syllabuses %}
+  {% assign key = page.name | replace: ".md", "" | replace: ".html", "" %}
+  {
+    "course_image": "{{ "/images/" | append: key | append: ".png" | absolute_url }}",
+    "course_url": "{{page.url | absolute_url}}",
+    "course_term": {{ page.course.term | jsonify }},
+    "course_description": {{ page.course.description | strip| jsonify }},
+    "course_title": {{ page.course.title | jsonify }},
+    "course_id": {{ key | jsonify }}
+  }{% unless forloop.last %},{% endunless %}
+  {%endfor %}
+]
