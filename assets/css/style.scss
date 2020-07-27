@@ -3,3 +3,12 @@
 @import "{{ site.theme }}";
 @import "toc";
 @import "schedule";
+
+.content p {
+  line-height: 1.5;
+}
+
+figcaption {
+  margin-top: 1em;
+  text-align: center;
+}
