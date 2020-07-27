@@ -15,7 +15,7 @@ This document will teach you how to create a basic blog using Jekyll and GitHub 
 	* Don't have one yet? [Click here](https://github.com/join?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home)
 	* You might also think about signing up for the [Student Developer Pack](https://education.github.com/pack)
 
-## Creating Our Site
+## Creating Your Site
 
 GitHub uses the concept of a **repository** to organize projects. GitHub "repos" have a lot of features not covered in this tutorial, but we will be creating our first repository for this project.
 
