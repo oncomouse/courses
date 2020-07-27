@@ -144,15 +144,15 @@ Let's create some content!
 
 Once again, we will need to create a file in our repository. This time, we will also be creating a folder!
 
-Blog posts live in a special folder called `_posts` in our repo. Additionally, posts have a special file name structure, which is `YYYY-MM-DD-title.md`. Here `YYYY` would be the present year as a four digit number (2020 for me), `MM` would be today's month as a two digit number (07 for me; you have to use a 0 for the first digit when the month is less than 10), `DD` is today's day of the month as a two digit number (27 for me, again you have to use a 0 for the first digit if less than 10) and `title` is anything you want, but is usually what is called a "slug," a representation of the post's title using only letters, numbers, and the dash (`-`) character.
+Blog posts live in a special folder called `_posts` in our repo. Additionally, posts have a special file name structure, which is `YYYY-MM-DD-title.md`. Here `YYYY` would be the present year as a four digit number (2020 for me), `MM` would be today's month as a two digit number (07 for me; you have to use a 0 for the first digit when the month is less than 10), `DD` is today's day of the month as a two digit number (27 for me, again you have to use a 0 for the first digit if less than 10) and `title` is anything you want, but is usually what is called a "slug," a representation of the post's title using only letters, numbers, and the hyphen (`-`) character.
 
 So, to make our post, once again click on the "Add File" menu on your repo's main page and select "Create new file".
 
-On the new file page, type `_posts/2020-07-26-first-post.md` using whatever today's date actually is for you (or you can just use mine from the past). I am going to title my first post "First Post" because I'm so creative and that's why I'm using `first-post` as my slug. You can use whatever you want for your slug, or you can copy my totally original title.
+In the "New file name" field, type `_posts/2020-07-26-first-post.md` using whatever today's date actually is for you (or you can just use mine from the past). I am going to title my first post "First Post" because I'm creative, which is why I'm using `first-post` as my slug. You can use whatever you want for your slug, or you can copy my totally original title.
 
 You'll note that when you type the `/` character it adds `_posts/` after the name of your repo and removes it from the text box. That's just GitHub's way of acknowledging it knows you are creating a folder.
 
-In the contents of the file, past:
+Copy the contents of the code block below and paste it into the file editor:
 
 ~~~markdown
 ---
@@ -165,7 +165,12 @@ This is my **first post**.
 [Here's a website I like](http://seriouseats.com)
 ~~~
 
-Let's look at this file, real quick. The portion of the file set off by three hyphens (`---`) is called a YAML header. It's written in YAML, as we have already seen when we created our `_config.yml` file. We are telling Jekyll two things: this is a post (by setting `layout: post`), which is required in Jekyll, and we are giving the site a title (which is "First Post" here). This is called "metadata," it's a way of describing data about our post.
+Let's look at this file, real quick. The first four lines, the two sets of three hyphens (`---`) and the other two is called a YAML header. It's written in YAML, the language we saw when we created our `_config.yml` file. We are telling Jekyll two things in this YAML header:
+
+1. This file contains a blog post (by setting `layout: post`)
+2. This post is titled "First Post"
+
+This is called "**metadata**." It's a way of describing data about our post.
 
 Below the second set of three hyphens is the body of our post, which is written in a language called Markdown. Markdown is a simplified version of HTML. We have marked **first post** to be bold by surrounding it with two sets of asterisks (`**`). The line that contains "Here's a website I like" contains a link. The content in brackets (`[` and `]`) is what gets displayed to the user. The content in parentheses (`(` and `)`) is the URL for the website. Try copying and pasting your own favorite website into the parentheses and changing the content that displays to the user.
 
