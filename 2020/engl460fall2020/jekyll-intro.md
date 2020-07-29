@@ -187,7 +187,7 @@ On the new file page, type `_posts/2020-07-29-first-post.md` using whatever toda
 
 You'll note that when you type the `/` character it adds `_posts/` after the name of your repo and removes it from the text box. That's just GitHub's way of acknowledging it knows you are creating a folder.
 
-In the contents of the file, past:
+Copy the contents of the code block below and paste it into the file editor:
 
 ~~~markdown
 ---
@@ -200,7 +200,12 @@ This is my **first post**.
 [Here's a website I like](http://seriouseats.com)
 ~~~
 
-Let's look at this file, real quick. The portion of the file set off by three hyphens (`---`) is called a YAML header. It's written in YAML, as we have already seen when we created our `_config.yml` file. We are telling [Jekyll](https://jekyllrb.com/) two things: this is a post (by setting `layout: post`), which is required in [Jekyll](https://jekyllrb.com/), and we are giving the site a title (which is "First Post" here). This is called "metadata," it's a way of describing data about our post.
+Let's look at this file, real quick. The first four lines, the two sets of three hyphens (`---`) and the other two is called a YAML header. It's written in YAML, the language we saw when we created our `_config.yml` file. We are telling Jekyll two things in this YAML header:
+
+1. This file contains a blog post (by setting `layout: post`)
+2. This post is titled "First Post"
+
+This is more "**metadata**." Where `_config.yml` provides metadata about our site, this YAML header provides metadata about the individual post. Any digital object we can see can have metadata describing it.
 
 Below the second set of three hyphens is the body of our post, which is written in a language called Markdown. Markdown is a simplified version of HTML. We have marked **first post** to be bold by surrounding it with two sets of asterisks (`**`). The line that contains "Here's a website I like" contains a link. The content in brackets (`[` and `]`) is what gets displayed to the user. The content in parentheses (`(` and `)`) is the URL for the website. Try copying and pasting your own favorite website into the parentheses and changing the content that displays to the user.
 
