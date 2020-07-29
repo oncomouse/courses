@@ -19,7 +19,7 @@ This document will teach you how to create a basic blog using [Jekyll](https://j
 
 GitHub uses the concept of a **repository** to organize projects. GitHub "repos" have a lot of features not covered in this tutorial, but we will be creating our first repository for this project.
 
-Visit [http://github.com/new ](http://github.com/new) to create a new repo. When there, you will need to call your new repository **<username>.github.io**, **where you replace \<username> with your GitHub username**. If your GitHub username was `just_an_aggie`, you would type **just_an_aggie.github.io** as your repository name. If your GitHub username was `some_student`, you would type **some_student.github.io** as your repository name.
+Visit [http://github.com/new ](http://github.com/new) to create a new repo. When there, you will need to call your new repository **\<username>.github.io**, **where you replace \<username> with your GitHub username**. If your GitHub username was `just_an_aggie`, you would type **just_an_aggie.github.io** as your repository name. If your GitHub username was `some_student`, you would type **some_student.github.io** as your repository name.
 
 <figure>
 <img alt="An example of creating a new repository on GitHub" src="./images/jk-create-repo.gif">
