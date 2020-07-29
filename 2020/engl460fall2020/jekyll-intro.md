@@ -7,7 +7,7 @@ title: "ENGL 460 – Intro to Jekyll"
 
 # Getting Started
 
-This document will teach you how to create a basic blog using Jekyll and GitHub Pages
+This document will teach you how to create a basic blog using [Jekyll](https://jekyllrb.com/) and GitHub Pages
 
 ## Before You Begin
 
@@ -19,11 +19,11 @@ This document will teach you how to create a basic blog using Jekyll and GitHub 
 
 GitHub uses the concept of a **repository** to organize projects. GitHub "repos" have a lot of features not covered in this tutorial, but we will be creating our first repository for this project.
 
-Visit [http://github.com/new ](http://github.com/new) to create a new repo. When there, you will need to call your new repository "\<username>.github.io", **where you replace \<username> with your GitHub username**. If your GitHub username was `just_an_aggie`, you would type "just_an_aggie.github.io" as your repository name. If your GitHub username was `some_student`, you would type "some_student.github.io" as your repository name.
+Visit [http://github.com/new ](http://github.com/new) to create a new repo. When there, you will need to call your new repository **<username>.github.io**, **where you replace \<username> with your GitHub username**. If your GitHub username was `just_an_aggie`, you would type **just_an_aggie.github.io** as your repository name. If your GitHub username was `some_student`, you would type **some_student.github.io** as your repository name.
 
 <figure>
 <img alt="An example of creating a new repository on GitHub" src="./images/jk-create-repo.gif">
-<figcaption>Creating a new repository on GitHub. Note: I enter "username.github.io" because my <a href="https://github.com/oncomouse/oncomouse.github.io"><code>oncomouse.github.io</code> repository</a> already exists.</figcaption>
+<figcaption>Creating a new repository on GitHub.</figcaption>
 </figure>
 
 ## Adding Initial Content
@@ -116,39 +116,74 @@ Scroll to the bottom and click "Commit New File" to commit `index.html` to your 
 <figcaption>Creating a new <code>index.html</code> file.</figcaption>
 </figure>
 
-## Tell GitHub Pages About Your Blog
+## Checking to Make Sure GitHub Pages Is Working
 
-In order to start sharing our blog on the Internet, we have to tell GitHub Pages that we have created a site (which we just did by making those two files).
+In order to start sharing our blog on the Internet, we need to make sure GitHub Pages Works.
 
-Back on your repo page, click on the "Settings" tab. Scroll to the "GitHub Pages" heading. Under "Source" in the drop-down menu that is currently set to "None," choose "master Branch." GitHub will automatically reload the page to save this setting.
+On your repo page, click on the "Settings" tab. Scroll to the "GitHub Pages" heading. 
 
-When it reloads, you should see a blue message saying "Your site is ready to be published" and giving a link to your site. GitHub Pages has to build your site by turning all the files we have written into a website that can be displayed in your browser.
+You should see a blue message saying "Your site is published at" followed by a link to your site. 
 
-<figure>
-<img alt="Setting the GitHub Pages source" src="./images/jk-settings.gif">
-<figcaption>Setting GitHub Pages to find and build our blog.</figcaption>
-</figure>
+Click the link and you should see your site!
 
-It usually takes less than a minute for the site to build, unless GitHub is exceptionally busy. This happens every time you change your site.
-
-When you reload settings, you will eventually see a green message saying "Your site is published." If you click the link, you can see your site, which won't show much, as we haven't created any content yet.
+If you don't something has gone wrong. Now would be a good time to ask for help.
 
 <figure>
-<img alt="The message displayed when GitHub Pages has been updated successfully" src="./images/jk-settings-success.png">
+<img alt="Checking the GitHub Pages source" src="./images/jk-settings.gif">
 <figcaption>Success! This message displays when GitHub Pages has built our site</figcaption>
 </figure>
 
-Let's create some content!
+# Customizing Site Title
+
+To change "Site Title" as the name of your site, we will need to edit the `_config.yml` file we created earlier. This file is called the site's configuration: it contains metadata about the site that tells GitHub Pages how to display and configure our site.
+
+To edit your file, go back to the repo main page. Click on `_config.yml` in the list of files.
+
+When the page showing the contents of `_config.yml` loads, look for a small pencil icon on the right side of the page. It will be to the right of buttons for "Raw" and "Blame". Clicking this pencil will let you edit the file. Click it now.
+
+We are back in the same editor we used to create the file.
+
+Looking at the file, you should see a line that begins with `title:`. This line controls the setting for our site's title. We can change what comes after the colon (`:`) to change our site's title. Set your title to whatever you want.
+
+You can also change the contents of the line that begins `description:` to give your site a more accurate description.
+
+When you are happy with your site's title and description, click the button labelled "Commit changes".
+
+<figure>
+<img alt="Changing the title and description of our site" src="./images/jk-change-config.gif">
+<figcaption>Changing the title and description of our site on GitHub.</figcaption>
+</figure>
+
+After the site has rebuilt (see below), you should see the results of your changes:
+
+<figure>
+<img alt="My Blog Reloaded with New Title and Description" src="./images/jk-change-config-success.png">
+<figcaption>Results of setting a new title, a new description, and waiting for the site to be rebuilt.</figcaption>
+</figure>
+
+## "My Title Isn't Showing Up!"
+
+Did you get excited and immediately reload your blog and not see your new title? You might be as impatient as I am!
+
+GitHub Pages has to build your site by turning all the files we have written into a website that can be displayed in your browser. This takes time. Time that we have to wait through.
+
+From your repo page, go to "Settings" and scroll to the "GitHub Pages" section. If you see a blue message that reads "Your site is ready to be published at" followed by a link to your site, your site is in the queue to be built. You can keep reloading the page while you wait, or you can be more patient than me and just wait.
+
+Within at most a minute, you will see a green message that reads "Your site has been published at" followed by a link to your site, your site has been built. Click the link and you can see your new blog post!
+
+If you see a red message, something went wrong. Now is a good time to ask for some help.
+
+If everything is working, **let's create some content!**
 
 # Your First Blog Post
 
 Once again, we will need to create a file in our repository. This time, we will also be creating a folder!
 
-Blog posts live in a special folder called `_posts` in our repo. Additionally, posts have a special file name structure, which is `YYYY-MM-DD-title.md`. Here `YYYY` would be the present year as a four digit number (2020 for me), `MM` would be today's month as a two digit number (07 for me; you have to use a 0 for the first digit when the month is less than 10), `DD` is today's day of the month as a two digit number (27 for me, again you have to use a 0 for the first digit if less than 10) and `title` is anything you want, but is usually what is called a "slug," a representation of the post's title using only letters, numbers, and the dash (`-`) character.
+Blog posts live in a special folder called `_posts` in our repo. Additionally, posts have a special file name structure, which is `YYYY-MM-DD-title.md`. Here `YYYY` would be the present year as a four digit number (2020 for me), `MM` would be today's month as a two digit number (07 for me; you have to use a 0 for the first digit when the month is less than 10), `DD` is today's day of the month as a two digit number (29 for me, again you have to use a 0 for the first digit if less than 10) and `title` is anything you want, but is usually what is called a "slug," a representation of the post's title using only letters, numbers, and the dash (`-`) character.
 
 So, to make our post, once again click on the "Add File" menu on your repo's main page and select "Create new file".
 
-On the new file page, type `_posts/2020-07-26-first-post.md` using whatever today's date actually is for you (or you can just use mine from the past). I am going to title my first post "First Post" because I'm so creative and that's why I'm using `first-post` as my slug. You can use whatever you want for your slug, or you can copy my totally original title.
+On the new file page, type `_posts/2020-07-29-first-post.md` using whatever today's date actually is for you (or you can just use mine from the past). I am going to title my first post "First Post" because I'm so creative and that's why I'm using `first-post` as my slug. You can use whatever you want for your slug, or you can copy my totally original title.
 
 You'll note that when you type the `/` character it adds `_posts/` after the name of your repo and removes it from the text box. That's just GitHub's way of acknowledging it knows you are creating a folder.
 
@@ -165,7 +200,7 @@ This is my **first post**.
 [Here's a website I like](http://seriouseats.com)
 ~~~
 
-Let's look at this file, real quick. The portion of the file set off by three hyphens (`---`) is called a YAML header. It's written in YAML, as we have already seen when we created our `_config.yml` file. We are telling Jekyll two things: this is a post (by setting `layout: post`), which is required in Jekyll, and we are giving the site a title (which is "First Post" here). This is called "metadata," it's a way of describing data about our post.
+Let's look at this file, real quick. The portion of the file set off by three hyphens (`---`) is called a YAML header. It's written in YAML, as we have already seen when we created our `_config.yml` file. We are telling [Jekyll](https://jekyllrb.com/) two things: this is a post (by setting `layout: post`), which is required in [Jekyll](https://jekyllrb.com/), and we are giving the site a title (which is "First Post" here). This is called "metadata," it's a way of describing data about our post.
 
 Below the second set of three hyphens is the body of our post, which is written in a language called Markdown. Markdown is a simplified version of HTML. We have marked **first post** to be bold by surrounding it with two sets of asterisks (`**`). The line that contains "Here's a website I like" contains a link. The content in brackets (`[` and `]`) is what gets displayed to the user. The content in parentheses (`(` and `)`) is the URL for the website. Try copying and pasting your own favorite website into the parentheses and changing the content that displays to the user.
 
@@ -176,11 +211,14 @@ When you are happy with your first post, click "Commit new file"
 <figcaption>Creating your first blog post.</figcaption>
 </figure>
 
-## "My Post Isn't Showing Up!"
+Once you wait for the site to rebuild, again, you should be able to reload your site and see your first blog post!
 
-Did you get excited and immediately reload your blog and not see your post? You're as impatient as I am!
+<figure>
+<img alt="My blog showing the post I just created, titled 'My First Post'" src="./images/jk-first-post-success.png">
+<figcaption>The results of successfully creating your first blog post and waiting for your site to rebuild.</figcaption>
+</figure>
 
-Remember when we first set the source for our blog? We have to wait for GitHub Pages to rebuild our site every time we make a change. Wait a minute or so (or go to the "Settings" tab on your repo and press reload a bunch, which is what I usually do), then visit your site: you should see your new post.
+That's it for this tutorial. You should now have a functioning blog built on GitHub Pages and [Jekyll](https://jekyllrb.com/)!
 
 # Further Reading
 
