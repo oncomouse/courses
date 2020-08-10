@@ -13,20 +13,42 @@ meets:
   - wednesday
   - friday
 units:
-  - title: Data and Reality
-    start: 1
   - title: Text and Data
-    start: 3
+    start: 2
   - title: Data and Metadata
-    start: 5
+    start: 4
   - title: Content and Markup
-    start: 7
+    start: 6
   - title: Style and Content
-    start: 9
+    start: 8
   - title: Local and Remote
-    start: 11
+    start: 10
   - title: Field Work
-    start: 13
+    start: 12
 classes:
   - |
     * Course Overview
+  - |
+    * **Introduction Activity Due**
+  - |
+    * [Read Jekyll Tutorial](jekyll-intro.html)
+  - |
+    * Work on Jekyll Blog
+  - |
+    * **Jekyll Blog Check-In Due**
+  - |
+    * [Read "What is a Data?"](#data)
+  - |
+    * Data Visualization Activity
+  - |
+    * **Blog Post Due**
+  - |
+    * [Read "What is a File?"](#file)
+  - |
+    * File Format Activity
+  - |
+    * **Blog Post Due**
+  - |
+    * [Read "What is Metadata"](#metadata)
+  - |
+    * Metadata Activity

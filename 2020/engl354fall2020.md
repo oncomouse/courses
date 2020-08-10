@@ -9,32 +9,33 @@ course:
   number: ENGL 354
   title: Modern Rhetorical Theory
   meetings:
-  - time: MWF 12:00-12:50
-    location: Online
+    - time: MWF 12:00-12:50
+      location: Online
 instructors:
-- name: Andrew Pilsch
-  email: apilsch@tamu.edu
-  office:
-  - hours: MWF 10:15-11:15
-    location: Zoom
+  - name: Andrew Pilsch
+    email: apilsch@tamu.edu
+    office:
+      - hours: MWF 10:15-11:15
+        location: Zoom
 layout: syllabus
 ---
 
 # Course Learning Outcomes
 
-* 
+-
 
-# Textbook and Resource Materials 
+# Textbook and Resource Materials
 
-*None require for this course*
+_None required for this course_
 
 # Assignments
 
-| Assignment          | Due Date      | Value |
-| ---------------------|---------------|-------|
-| Discussion Groups            | Weekly | 40% |
-| Paper 1: Modern Rhetoric     |  | 20% |
-| Paper 2: Case Study Analysis |  | 40% |
+| Assignment                   | Due Date | Value |
+| ---------------------------- | -------- | ----- |
+| Discussion Groups            | Weekly   | 40%   |
+| Paper 1: Modern Rhetoric     |          | 20%   |
+| Paper 2: Case Study Analysis |          | 40%   |
+
 {:.mdl-data-table.mdl-js-data-table.mdl-data-table--wide}
 
 ## Participation Groups
@@ -56,4 +57,3 @@ Specifically, I want you to find a cultural object relating to food in some fash
 {% include schedule.html %}
 
 {% include policies-fall2020.md %}
-
