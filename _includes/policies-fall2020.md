@@ -2,19 +2,11 @@
 
 ## Student Visiting Hours
 
-At the times listed in the sidebar throughout this site, I am in my office and it is your time to come talk to me about anything related (or unrelated) to class. This time is yours, I am not (supposed to be) doing anything else; you will not be interrupting me. If you have questions about class or have other questions I might be able to answer, please drop by.
+*Forthcoming*
 
 ## Email Hours
 
 I am available to answer email from 9:00am until 5:00pm Monday through Friday. Emails arriving outside of that time will be answered at my earliest convenience, but do not count on a quick answer to emails sent late at night or on the weekends.
-
-## Office Door
-
-If my door is closed and it is not during office hours, please do not knock. I open my door when I'm available to chat outside of office hours, but close my door if I am working and cannot be disturbed.
-
-## Absences
-
-Attendance in class is mandatory and is necessary for you to get what you need out of this course. You may have **2 unexcused absences**. Every absence after 2 will result in a **5 point deduction from your attendance grade**. I must have documentation (doctor's notes, schedule for sports, etc) for excused absences. Please talk to me in advance if you have any extenuating circumstances.
 
 ## Late Work
 
@@ -48,6 +40,7 @@ Absences related to Title IX of the Education Amendments of 1972 may necessitate
 
 Students who request an excused absence are expected to uphold the Aggie Honor Code and Student Conduct Code. (See [Student Rule 24](https://student-rules.tamu.edu/rule24/).)
 
+
 ## Academic Integrity Statement and Policy
 
 "An Aggie does not lie, cheat or steal, or tolerate those who do."
@@ -79,11 +72,37 @@ Students can learn more about filing a report, accessing supportive resources, a
 
 Texas A&M University recognizes that mental health and wellness are critical factors that influence a student's academic success and overall wellbeing. Students are encouraged to engage in proper self-care by utilizing the resources and services available from Counseling & Psychological Services (CAPS). Students who need someone to talk to can call the TAMU Helpline (979-845-2700) from 4:00 p.m. to 8:00 a.m. weekdays and 24 hours on weekends. 24-hour emergency help is also available through the National Suicide Prevention Hotline (800-273-8255) or at [suicidepreventionlifeline.org](https://suicidepreventionlifeline.org/). 
 
+## COVID-19 Temporary Amendment to Minimum Syllabus Requirements
+
+The Faculty Senate temporarily added the following statements to the minimum syllabus requirements in Fall 2020 as part of the university's COVID-19 response. 
+
+### Campus Safety Measures
+
+To promote public safety and protect students, faculty, and staff during the coronavirus pandemic, Texas A&M University has adopted policies and practices for the Fall 2020 academic term to limit virus transmission. Students must observe the following practices while participating in face-to-face courses and course-related activities (office hours, help sessions, transitioning to and between classes, study spaces, academic services, etc.):
+
+*   Self-monitoring—Students should follow CDC recommendations for self-monitoring. **Students who have a fever or exhibit symptoms of COVID-19 should participate in class remotely and should not participate in face-to-face instruction.**
+*   Face Coverings—[Face coverings](https://rules-saps.tamu.edu/PDFs/34.99.99.M0.03.pdf) (cloth face covering, surgical mask, etc.) must be properly worn in all non-private spaces including classrooms, teaching laboratories, common spaces such as lobbies and hallways, public study spaces, libraries, academic resource and support offices, and outdoor spaces where 6 feet of physical distancing is difficult to reliably maintain. Description of face coverings and additional guidance are provided in the [Face Covering policy](https://rules-saps.tamu.edu/PDFs/34.99.99.M0.03.pdf) and [Frequently Asked Questions (FAQ)](https://provost.tamu.edu/Menu/News/TAMU-Face-Covering-FAQs) available on the [Provost website](https://provost.tamu.edu/Menu/News/TAMU-Face-Covering-FAQs).
+*   Physical Distancing—Physical distancing must be maintained between students, instructors, and others in course and course-related activities.
+*   Classroom Ingress/Egress—Students must follow marked pathways for entering and exiting classrooms and other teaching spaces. Leave classrooms promptly after course activities have concluded. Do not congregate in hallways and maintain 6-foot physical distancing when waiting to enter classrooms and other instructional spaces.
+*   To attend a face-to-face class, students must wear a face covering (or a face shield if they have an exemption letter). If a student refuses to wear a face covering, the instructor should ask the student to leave and join the class remotely. If the student does not leave the class, the faculty member should report that student to the [Student Conduct office](https://studentlife.tamu.edu/sco/face-covering-violations/) for sanctions. Additionally, the faculty member may choose to teach that day's class remotely for all students.
+
+### Personal Illness and Quarantine
+
+Students required to quarantine must participate in courses and course-related activities remotely and **must not attend face-to-face course activities**. Students should notify their instructors of the quarantine requirement. Students under quarantine are expected to participate in courses and complete graded work unless they have symptoms that are too severe to participate in course activities.
+
+Students experiencing personal injury or Illness that is too severe for the student to attend class qualify for an excused absence (See [Student Rule 7, Section 7.2.2](https://student-rules.tamu.edu/rule07/).) To receive an excused absence, students must comply with the documentation and notification guidelines outlined in Student Rule 7. While Student Rule 7, Section 7.3.2.1, indicates a medical confirmation note from the student's medical provider is preferred, **for Fall 2020 only, students may use the Explanatory Statement for Absence from Class form in lieu of a medical confirmation. Students must submit the Explanatory Statement for Absence from Class within two business days after the last date of absence.**
+
+### Operational Details for Fall 2020 Courses
+
+For additional information, please review the [FAQ](https://provost.tamu.edu/Campus-Messages/Fall-2020-Courses-at-TAMU) on Fall 2020 courses at Texas A&M University.
+
 # Department Policies
 
 ## University Writing Center
 
 The mission of the University Writing Center (UWC) is to help you develop and refine the communication skills vital to success in college and beyond. You can choose to work with a trained UWC peer consultant in person or via web conference or email. Consultants can help with everything from lab reports to application essays and at any stage of your process, from brainstorming to reviewing the final draft. You can also get help with public speaking, presentations, and group projects. The UWC's main location is on the second floor of Evans Library; there's also a walk-in location on the second floor of the Business Library & Collaboration Commons. To schedule an appointment or view our helpful handouts and videos, visit [writingcenter.tamu.edu](https://writingcenter.tamu.edu). Or call 979-458-1455.
+
+Due to the pandemic, the UWC is not currently able to offer face-to-face appointments or walk-ins. All appointments will be conducted online or via web conference using Zoom. Contact us at [uwc@tamu.edu](mailto:uwc@tamu.edu) or 979-458-1455 if you need assistance.
 
 ## Diversity Statement
 
