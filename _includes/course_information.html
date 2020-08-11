@@ -4,43 +4,48 @@
   </div>
   {% if page.course.meetings != nil or page.course.time != nil %}
   <div class="column col-md-6">
-    <h2 class="border-bottom-0 pb-0">Meeting Time & Location</h2>
+    <h2 class="border-bottom-0 pb-0">Course</h2>
     <ul>
-      <li>{{ page.course.term }}</li>
-      {% if page.course.meetings %}
-        {% for meeting in page.course.meetings %}
-      <li>{{ meeting.time }}, {{ meeting.location }}</li>
-        {% endfor %}
-      {%else%}
-      <li>{{ page.course.time }}, {{ page.course.location }}</li>
+      <li><strong>Number:</strong> {{page.course.number}}</li>
+      <li><strong>Title:</strong> {{page.course.title}}</li>
+      <li><strong>Term:</strong> {{ page.course.term }}</li>
+      {% if page.course.meetings %} {% for meeting in page.course.meetings %}
+      <li>
+        <strong>Meeting:</strong> {{ meeting.time }}, {{ meeting.location }}
+      </li>
+      {% endfor %} {%else%}
+      <li>
+        <strong>Meeting:</strong> {{ page.course.time }}, {{
+        page.course.location }}
+      </li>
       {%endif%}
     </ul>
   </div>
   {%endif%}
-  <div class="column col-md-{% if page.course.meetings == nil and page.course.time == nil %}12{%else%}6{%endif%}">
+  <div
+    class="column col-md-{% if page.course.meetings == nil and page.course.time == nil %}12{%else%}6{%endif%}"
+  >
     {% if page.instructors != nil %}
-    <h2 class="border-bottom-0 pb-0">Instructor{% if page.instructors.size > 1 %}s{%endif%}</h2>
+    <h2 class="border-bottom-0 pb-0">
+      Instructor{% if page.instructors.size > 1 %}s{%endif%}
+    </h2>
     <ul>
-    {% for instructor in page.instructors %}
+      {% for instructor in page.instructors %}
+      <li><strong>Name: </strong>{{instructor.name}}</li>
       <li>
-        <strong>{{instructor.name}}</strong>
+        <strong>Contact:</strong>
+        <a href="mailto: {{ instructor.email }}">{{ instructor.email }}</a>
+      </li>
+      {% if instructor.office != nil %}
+      <li>
+        <strong>Office Hours &amp; Locations:</strong>
         <ul>
-          <li>
-            Contact: <a href="mailto: {{ instructor.email }}">{{ instructor.email }}</a>
-          </li>
-          {% if instructor.office != nil %}
-          <li>
-            Office Hours &amp; Locations:
-            <ul>
-            {% for office in instructor.office %}
-            <li>{{office.hours}}, {{ office.location}}</li>  
-            {% endfor %}
-            </ul>
-          </li>
-          {% endif %}
+          {% for office in instructor.office %}
+          <li>{{office.hours}}, {{ office.location}}</li>
+          {% endfor %}
         </ul>
       </li>
-    {% endfor %}
+      {% endif %} {% endfor %}
     </ul>
     {% endif %}
   </div>
