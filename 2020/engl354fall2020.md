@@ -1,6 +1,5 @@
 ---
 title: Syllabus
-toc: true
 course:
   term: Fall 2020
   description: |
