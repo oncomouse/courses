@@ -1,5 +1,6 @@
 ---
 ---
+{% assign toc = page.toc | default: site.toc %}
 {% assign title = page.title | default: site.title %}
 {% unless page.course.number == nil %}
   {% assign title = page.course.number %}
@@ -26,9 +27,7 @@
           </h1></a>
         </div>
 
-        <div class="js-toc column col-md-2 d-none d-md-block float-md-right position-md-sticky"></div>
-
-        <div class="content column col-md-10 pr-3">
+        <div class="content column{%if toc%} col-md-10{% endif %} pr-3">
           {% include course_information.html %}
           {{ content }}
         </div>
@@ -41,13 +40,19 @@
       </div>
     </article>
     <script src="https://cdn.jsdelivr.net/npm/anchor-js@4.2.2" integrity="sha384-6dhz+LFvhiM4G9QxNyE07x2m2kV0EVfSRSnAaLtTNFSAMe2GA0MGr9r3Yghs03FG" crossorigin="anonymous"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {anchors.add()}, { once: true });
+    </script>
+    {% if toc %}
     <!-- Polyfill -->
     <script src="https://cdn.jsdelivr.net/npm/stickyfilljs@2.1.0" integrity="sha384-nVkrD5zHAtjdlF6XlsjithJouHflTzRN5XVC4iST/boiBaWFzQCAcOCEKuEi65o+" crossorigin="anonymous"></script>
     <!-- Load TOC Script -->
     <script src="https://cdn.jsdelivr.net/npm/tocbot@4.11.2/dist/tocbot.js" integrity="sha384-TnuMTlegqfBi40E9e3dO2qfmPVKDjLFCCgyZ5bR3SA/hYTJXI090bTbAr/AXO+bc" crossorigin="anonymous"></script>
     <script>
       document.addEventListener('DOMContentLoaded', function() {
-        anchors.add();
+        var toc = document.createElement('DIV');
+        toc.className = 'js-toc column col-md-2 d-none d-md-block float-md-right position-md-sticky';
+        document.querySelector('.content').insertAdjacentElement('beforebegin', toc);
         // Initiate StickyFill:
         Stickyfill.add(document.querySelectorAll('.sticky'));
 
@@ -66,6 +71,7 @@
         once: true,
       });
     </script>
+    {% endif %}
     {% if site.google_analytics %}
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
