@@ -16,7 +16,7 @@
 {%capture seo_tag %}{% seo %}{%endcapture%}
 {{ seo_tag | replace: site.title, title }}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tocbot@4.11.2/dist/tocbot.css">
+    {% if toc %}<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tocbot@4.11.2/dist/tocbot.css">{% endif %}
   </head>
   <body>
     <article class="container-lg px-1 px-md-3 my-5 markdown-body">
