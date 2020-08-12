@@ -22,11 +22,11 @@ layout: syllabus
 
 # Course Learning Outcomes
 
--
+*
 
 # Textbook and Resource Materials
 
-_None required for this course_
+*None required for this course*
 
 # Assignments
 
@@ -48,13 +48,13 @@ You have a number of group tasks to complete during the semester, outlined below
 
 I will also allow group sign-up, so if you have a group of friends you would like to work with, feel free to sign-up for a group with them. Otherwise, I will be using the responses to your introduction assignment to group you, as best as I can.
 
-### Daily Exit Tickets
+### Twice-Weekly Exit Tickets
 
 For each day there is assigned reading (Mondays & Wednesdays), during the final five minutes of class, you will post a question to our discussion board that you wished had been answered in class. I will use these to structure our 
 
 ### Bonus Points: Answer a Question
 
-To earn bonus points, our to make up for a missed discussion, you may answer a class mate's question or provide your own thoughts on the issue, if you are not sure of the exact answer.
+To earn bonus points, or to make up for a missed discussion, you may answer a class mate's question or provide your own thoughts on the issue, if you are not sure of the exact answer.
 
 ### Weekly Wrap-up Posts
 
@@ -76,7 +76,7 @@ In advance of both papers, you will be required to read and provide feedback on 
 
 If you plan to take an [extension](#extension-policy) on an assignment, negotiate modified peer review deadlines amongst yourselves.
 
-## Paper 1: Modern Rhetoric
+## Paper 1: Contemporary Rhetoric
 
 We have identified a number of problems in the first few decades of the 20th century that make the practice of rhetoric and the study of persuasion crucial for the functioning of a mediated society. What is the single most important issue today that you think require a new theory of persuasion?
 
@@ -86,7 +86,7 @@ In an argumentative essay, discuss your problem, explaining what it is, giving s
 
 For this assignment, you will write what is called a rhetorical analysis. In a rhetorical analysis, the strategies of persuasion of a particular cultural object are evaluated to explain why (or why not) a particular cultural artifact is (or is not successful) at being persuasive. Rhetorical analyses could study speeches by a politician or advertising slogans in a soda commercial; they can look at paintings, books, or anything else that participates in the creation and circulation of cultural myths.
 
-Specifically, I want you to find a cultural object relating to food in some fashion (defined how you want, subject to my approval). Then, I want you to identify the appeals the object is making to its audience. Pay special attention to the theories of rhetoric we have identified this semester.
+Specifically, I want you to find a cultural object (defined how you want, subject to my approval). Then, I want you to identify the appeals the object is making to its audience. Pay special attention to the theories of rhetoric we have identified this semester.
 
 # Schedule
 
