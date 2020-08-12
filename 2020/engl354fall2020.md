@@ -30,15 +30,15 @@ layout: syllabus
 
 # Assignments
 
-| Assignment                                 | Due Date | Value |
-|--------------------------------------------|----------|-------|
-| Discussion Groups: Introduction Assignment |          | 1%    |
-| Discussion Groups: Exit Tickets            |          | 10%   |
-| Discussion Groups: Weekly Wrap-up          |          | 10%   |
-| Discussion Groups: State of the Board      |          | 19%   |
-| Discussion Groups: Online Peer-Review      |          | 20%   |
-| Paper 1: Contemporary Rhetoric             |          | 20%   |
-| Paper 2: Rhetorical Analysis               |          | 20%   |
+| Assignment                                 | Due Date          | Value |
+|--------------------------------------------|-------------------|-------|
+| Discussion Groups: Introduction Assignment | Weekly            | 1%    |
+| Discussion Groups: Exit Tickets            | Weekly            | 10%   |
+| Discussion Groups: Weekly Wrap-up          | Weekly            | 10%   |
+| Discussion Groups: State of the Board      | Once Per Semester | 19%   |
+| Discussion Groups: Online Peer-Review      | Before Each Paper | 20%   |
+| Paper 1: Contemporary Rhetoric             |                   | 20%   |
+| Paper 2: Rhetorical Analysis               | Dec 08, 2020      | 20%   |
 
 ## Discussion Groups
 
