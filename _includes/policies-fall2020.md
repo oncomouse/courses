@@ -2,7 +2,9 @@
 
 ## Student Visiting Hours
 
-*Forthcoming*
+This semester, I will be available for visits virtually via Zoom. As always, these will be on a first-come-first-served basis. A Zoom link is posted to the course Canvas shell. It will be active during the time I am available. You will be in the Zoom waiting room until I can see you.
+
+As always, these office hours are your time to get help with anything related to class (however you define that; if you want to ask me for science fiction novel recommendations or graduate school, that counts as "course related"). Though I may be working during this time, these visiting hours are your time, so please come. You will never bother me. It is **your** time.
 
 ## Email Hours
 
