@@ -35,7 +35,7 @@ Though you are perfectly welcome to read ahead and complete work early if you ch
 
 ## Asynchronous Resources
 
-In addition to this syllabus, we will be using **Canvas**, **Microsoft Teams**, and a **Course Blog** to facilitate class activities.
+In addition to this syllabus, we will be using [**Canvas**](#canvas), [**Microsoft Teams**](#microsoft-teams), and a [**Course Blog**](#course-blog) to facilitate class activities.
 
 ### Canvas
 
