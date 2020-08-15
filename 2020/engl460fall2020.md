@@ -37,13 +37,13 @@ Though you are perfectly welcome to read ahead and complete work early if you ch
 
 In addition to this syllabus, we will be using **Canvas** and **Microsoft Teams** to facilitate class activities.
 
-Canvas will be used for:
+**Canvas** will be used for:
 
 1. Sharing resources, including any `.PDF` files you need to read.
 1. Distributing grades
 1. Turning in materials not posted to your blog
 
-Microsoft Teams will be used for:
+**Microsoft Teams** will be used for:
 
 1. Communicating about issues that arise in class. This space is for:
 	* Me to communicate with you
@@ -56,6 +56,10 @@ Microsoft Teams will be used for:
 Check first on Microsoft Teams if you are having issues with some aspect of your weekly work or a problem with a technical issue. Also, if you know the solution to another student's problem, feel free to help!
 
 Our Microsoft Teams site is linked on Canvas.
+
+## Course Blog
+
+The course blog is posted at [https://oncomouse.github.io/460blog](https://oncomouse.github.io/460blog). This site is my weekly blog for class and where you will post [your individual recaps of previous posts](#semesterly-blog-recap).
 
 # Textbook and Resource Materials
 
@@ -85,6 +89,19 @@ When we are working on our final projects, you should use your blog posts to ref
 ## Semesterly Blog Recap
 
 Once in the semester, you will write up a recap of every blog post written that week. This post will be shared on the course blog.
+
+You can write your blog post initially on your blog. When you are finished, you need to file a [new GitHub issue](https://docs.github.com/en/github/managing-your-work-on-github/creating-an-issue) on the course blog's [GitHub repo](https://github.com/oncomouse/460blog/).
+
+To file a new issue, click on the "Issues" tab. Then click on the "New Issue" button. Click the green "Get Started" button next to the label that reads "Recap Blog Post".
+
+This will load the new issue form with a template for submitting your recap post. You may change the title of the issue to whatever you want and can include any information you need (think of an issue like an email). Where the template says "Paste contents of your posts's markdown file here," you will need to paste the contents of the markdown file you created containing your recap.
+
+The animated GIF below shows how to do this:
+
+<figure>
+<img alt="Animated depiction of submitting a new recap blog post" src="./images/posting-issue.gif">
+<figcaption>Submitting a new recap blog</figcaption>
+</figure>
 
 ## Final Project
 
