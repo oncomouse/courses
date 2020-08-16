@@ -142,6 +142,8 @@ Specifically, I want you to find a cultural object (defined how you want, subjec
 
 # Schedule
 
+**Note:** Course readings that are not links are posted on the "Course Resources" page in [Canvas](https://canvas.tamu.edu).
+
 {% include schedule.html %}
 
 {% include policies-fall2020.md %}
