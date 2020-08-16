@@ -72,9 +72,9 @@ The assignments for this class, including final grade percentages, are listed in
 | Discussion Groups: Exit Tickets       | Weekly            | 10%   |
 | Discussion Groups: Weekly Wrap-up     | Weekly            | 10%   |
 | Discussion Groups: State of the Board | Once Per Semester | 19%   |
-| Discussion Groups: Online Peer-Review | Before Each Paper | 20%   |
-| Paper 1: Contemporary Rhetoric        | Oct 05, 2020      | 20%   |
-| Paper 2: Rhetorical Analysis          | Dec 08, 2020      | 20%   |
+| Discussion Groups: Online Peer-Review | Before Each Paper | 10%   |
+| Paper 1: Contemporary Rhetoric        | Oct 05, 2020      | 25%   |
+| Paper 2: Rhetorical Analysis          | Dec 08, 2020      | 25%   |
 
 ## Introduction Assignment
 
