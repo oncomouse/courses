@@ -12,45 +12,90 @@ meets:
   - monday
   - wednesday
   - friday
-units:
-  - title: Text and Data
-    start: 2
-  - title: Data and Metadata
-    start: 4
-  - title: Content and Markup
-    start: 6
-  - title: Style and Content
-    start: 8
-  - title: Local and Remote
-    start: 10
-  - title: Field Work
-    start: 12
 classes:
   - |
-    * Course Overview
+    * Watch Course Overview Screencast on Canvas
   - |
-    * **Introduction Activity Due**
+    * Watch Course Overview Screencast on Canvas
   - |
-    * [Read Jekyll Tutorial](jekyll-intro.html)
+    * Read [Jekyll Tutorial](jekyll-intro.html)
   - |
     * Work on Jekyll Blog
   - |
     * **Jekyll Blog Check-In Due**
   - |
-    * [Read "What is a Data?"](#data)
+    * Read ["What is a Data?"](#data)
   - |
     * Data Visualization Activity
   - |
-    * **Blog Post Due**
+    * **Reflection Blog Post Due**
   - |
-    * [Read "What is a File?"](#file)
+    * Read ["What is Markup?"](#markup)
   - |
-    * File Format Activity
+    * Markup Activity
   - |
-    * **Blog Post Due**
+    * **Reflection Blog Post Due**
   - |
-    * [Read "What is Metadata?"](#metadata)
+    * Read ["What is Metadata?"](#metadata)
   - |
     * Metadata Activity
   - |
-    * **Blog Post Due**
+    * **Reflection Blog Post Due**
+  - |
+    * Read ["What is a File?"](#file)
+  - |
+    * File Format Activity
+  - |
+    * **Reflection Blog Post Due**
+  - |
+    * Read ["What is Content? What is Style?"](#style-content)
+  - |
+    * Style & Content Activity
+  - |
+    * **Reflection Blog Post Due**
+  - |
+    * Read ["Where Are My Files?"](#remote)
+  - |
+    * Remote Activity
+  - |
+    * **Reflection Blog Post Due**
+  - |
+    * Read ["What is Hypertext?"](#hypertext)
+  - |
+    * Hypertext Activity
+  - |
+    * **Reflection Blog Post Due**
+  - |
+    * Read ["What is Aleatory Poetry?"](#chance)
+  - |
+    * Chance-based Writing Activity
+  - |
+    * **Reflection Blog Post Due**
+  - |
+    * Read ["What is an Audience?"](#audience)
+  - |
+    * Brainstorming for your Final Project
+  - |
+    * **Reflection Blog Post Due**
+  - |
+    * Final Project Work
+  - |
+    * Final Project Work
+  - |
+    * **Final Project: Proposal Due**
+    * **Reflection Blog Post Due**
+  - |
+    * Final Project Work
+  - |
+    * Final Project Work
+  - |
+    * **Reflection Blog Post Due**
+  - |
+    * Final Project Work
+  - |
+    * Final Project Work
+  - |
+    * **Reflection Blog Post Due**
+  - |
+    * **Final Project: Object Due, 12/08**
+    * **Final Project: Reflection Due, 12/08**

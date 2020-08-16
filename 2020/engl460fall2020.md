@@ -172,11 +172,37 @@ The animated GIF below shows how to do this:
 
 *This assignment may be completed individually or in teams*
 
+To apply everything we are going to learn this semester, I ask that you make a thing.
+
+While vague, I want you (or your team) to produce an artifact utilizing the skills we have developed this semester. This may take the form of a blog, a site for an organization, a hypertext, or a bot of some sort. The form your project takes is up to you, but you will need to produce something that lets you further explore the principals of digital authoring we have discussed.
+
 ### Proposal
+
+*This portion of the project will be submitted individually or as part of a team.*
+
+The first step in this process will be to research audience expectations and produce a proposal.
+
+Who is likely to use your site? What are they likely to need from looking at your site? How can you organize your site to best allow your users find what they need?
+
+What do other sites in the same genre as yours do? What kind of design elements, what kind of colors, what kind of information hierarchies do these other sites use?
+
+As you explore these and similar questions, you will gain a better understanding of your audience and the type of site they need. When you feel confident in your understanding of these issues, you can produce a proposal.
+
+Your proposal needs to clearly state what you propose to do, how you propose doing so, and identify steps needed to complete this task. I would also like to see some other examples of good (or bad) versions of the kind of site you want to use, along with annotations about what you think they do well and what they might improve upon.
+
+Your proposal will be graded both on the quality of your document and on the detail and feasibility of your plan. Be as specific as possible.
 
 ### Object
 
+*This portion of the project will be submitted individually or as part of a team.*
+
+This needs to be the completed object you produce. Don't worry if the result is not as polished as you might have wanted. Webtexts require a lot of polish to get right. I am most interested in seeing how you adapt to the genre conventions you identified in your proposal.
+
 ### Reflection
+
+*This portion of the project will be submitted individually, even if you work as part of a team.*
+
+In addition to your object, you (individually if working in a team) will evaluate how the project went. Reflect on the original goals of the proposed project as well as the object you produced. How could things have gone better? What worked well? What skills did you have to acquire? What communication strategies might have been more effective in your group?
 
 # Schedule
 
