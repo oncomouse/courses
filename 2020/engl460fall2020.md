@@ -121,7 +121,7 @@ Next to the pencil icon you click to edit a post is a trashcan icon. Clicking th
 
 | Assignment Name           | Due Date   | Value |
 |---------------------------|------------|-------|
-| Blog Check-in             | 08.21.2020 | 1%    |
+| Blog Check-in             | 08.28.2020 | 1%    |
 | Hands-on Activities       | Weekly     | 14%   |
 | Reflective Blog Posts     | Weekly     | 25%   |
 | Blog Recap                | Semesterly | 10%   |
