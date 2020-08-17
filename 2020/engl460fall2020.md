@@ -129,6 +129,29 @@ Next to the pencil icon you click to edit a post is a trashcan icon. Clicking th
 | Final Project: Object     |            | 25%   |
 | Final Project: Reflection |            | 10%   |
 
+## Blog Check-In
+
+After completing the [Jekyll Tutorial](./jekyll-intro.html) during the first week, you will need to make a first post on your blog, following the prompt below. Additionally, you will need to DM the URL of your blog to me on [Microsoft Teams](https://teams.microsoft.com). You must DM me this blog post by the end of the day on the first Friday of class.
+
+If you are having problems with your blog, contact me or ask for help from the rest of the class using [Microsoft Teams](https://teams.microsoft.com).
+
+### Prompt
+
+The first post on your blog needs to include some information about yourself. Remember to read over the [FERPA Privacy Notice](#ferpa-privacy-notice) before posting any personal information on your class blog.
+
+1. Any "fun-facts" about yourself you feel comfortable sharing with the class, such as:
+	* Class standing
+	* Home town
+	* Favorite movie, music, video games, etc.
+	* Fandoms you belong to
+	* Favorite taco
+	* **Anything Else**
+1. Your reason for taking this course. I will use this to try and sort you into [discussion groups](#discussion-groups) based on shared interests. Interests might include:
+	* Wanting to become a better writer
+	* An interest in "digital" writing
+	* Pursuing a career in writing
+	* **Anything Else**
+
 ## Weekly Hands-On Activities
 
 *This assignment will be completed individually*
