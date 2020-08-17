@@ -146,7 +146,7 @@ The first post on your blog needs to include some information about yourself. Re
 	* Fandoms you belong to
 	* Favorite taco
 	* **Anything Else**
-1. Your reason for taking this course. I will use this to try and sort you into [discussion groups](#discussion-groups) based on shared interests. Interests might include:
+1. Your reason for taking this course. Interests might include:
 	* Wanting to become a better writer
 	* An interest in "digital" writing
 	* Pursuing a career in writing
@@ -176,9 +176,19 @@ For a refresher on posting to your blog, see ["Posting To Your Jekyll Blog"](#po
 
 *This assignment will be completed as a class*.
 
-Once in the semester, you will write up a recap of every blog post written that week. This post will be shared on the course blog.
+Once in the semester, you will write up a recap of every blog post written that week. These posts are intended to synthesize the week's activities on blogs. What are your classmates writing about? What larger issues can you discern from these patterns? This post will be shared on the course blog.
+
+A recap is not meant to be a complete, point-by-point summary of the week's blog posts. Hit the high points and provide your own interpretation of the themes you see developing in the week's assignments. You may quote from your classmate's blogs and link to them as you see fit. You may be as formal or informal in your voice with these posts as you wish.
+
+These posts need to be roughly 750-1000 words in length.
+
+### Scheduling Your Recap
+
+You can sign-up for a week to recap on Canvas, using the Calendar feature. Each slot is for the Wednesday of the week *following* the week you are to recap. So, the first due date is September 2, which would be for the recap of all blog posts from Week 3. The sign-up slots our for 9:20-10:10, which is when our course would be schedule to meet, but it is not actually due to me until the end of the day.
 
 You can write your blog post initially on your blog. When you are finished, you need to file a [new GitHub issue](https://docs.github.com/en/github/managing-your-work-on-github/creating-an-issue) on the course blog's [GitHub repo](https://github.com/oncomouse/460blog/).
+
+### Creating and Submitting Your Recap
 
 To file a new issue, click on the "Issues" tab. Then click on the "New Issue" button. Click the green "Get Started" button next to the label that reads "Recap Blog Post".
 
@@ -193,7 +203,7 @@ The animated GIF below shows how to do this:
 
 ## Final Project
 
-*This assignment may be completed individually or in teams*
+*This assignment may be completed individually or as part of a team.*
 
 To apply everything we are going to learn this semester, I ask that you make a thing.
 
