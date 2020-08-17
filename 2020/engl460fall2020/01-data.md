@@ -91,5 +91,3 @@ If we can abstract from this example and think in terms of data, a printed dicti
 # Plain Text: Writing as Data
 
 # Data as Writing
-
-[Back to Syllabus](./)
