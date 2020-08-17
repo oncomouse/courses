@@ -47,7 +47,7 @@ This is where compound data enters into the picture. Compound data represents co
 
 Imagine we are cooking a pot roast. It takes a while, and we're lazy. We have a [probe thermometer](https://images-na.ssl-images-amazon.com/images/I/61mFSRa7LbL._AC_SL1500_.jpg) stuck into the roast that is also connected via Bluetooth to our phone. Our phone will read the temperature of the roast every 30 seconds or so until the temperature reads 145°F for enough times in a row. When it reaches that threshold, our phone will signal that our roast is cooked.
 
-If the phone records every temperature reading in one variable, we would have what is generally referred to as a "list" of data. Lists are sequential data, meaning they represent a sequence of values, in this case the list of temperatures read by our thermometer as our roast cooked.
+If the phone records every temperature reading in one variable (one place in memory), we would have what is generally referred to as a "list" of data. Lists are sequential data, meaning they represent a sequence of values, in this case the list of temperatures read by our thermometer as our roast cooked.
 
 Lists are the most common compound data type on a computer. Many things can be represented as lists. We could have a list of boolean values representing a number of coin flips, with `true` equal to heads and `false` equal to tails.
 
