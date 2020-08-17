@@ -100,14 +100,14 @@ Post
 Any Markdown you post after the second set of three hyphens will be the body of your post. When you are done, click "Commit New File."
 
 <figure>
-<img alt="Creating the first post" src="./images/jk-first-post.gif">
+<img alt="Creating the first post" src="./engl460fall2020/images/jk-first-post.gif">
 <figcaption>Creating your first blog post.</figcaption>
 </figure>
 
 You can also edit posts in GitHub. Click on the file in your repo. Find the pencil icon, in the upper right hand corner, next to buttons saying "Raw" and "Blame." Clicking this icon loads the same editing interface as we used to create the file. You can make changes and click "Commit" when done.
 
 <figure>
-<img alt="Editing a blog post in Jekyll" src="./images/jk-edit-post.gif">
+<img alt="Editing a blog post in Jekyll" src="./engl460fall2020/images/jk-edit-post.gif">
 <figcaption>Editing a blog post in Jekyll.</figcaption>
 </figure>
 
@@ -131,7 +131,7 @@ Next to the pencil icon you click to edit a post is a trashcan icon. Clicking th
 
 ## Blog Check-In
 
-After completing the [Jekyll Tutorial](./jekyll-intro.html) during the first week, you will need to make a first post on your blog, following the prompt below. Additionally, you will need to DM the URL of your blog to me on [Microsoft Teams](https://teams.microsoft.com). You must DM me this blog post by the end of the day on the first Friday of class.
+After completing the [Jekyll Tutorial](./engl460fall2020/jekyll-intro.html) during the first week, you will need to make a first post on your blog, following the prompt below. Additionally, you will need to DM the URL of your blog to me on [Microsoft Teams](https://teams.microsoft.com). You must DM me this blog post by the end of the day on the first Friday of class.
 
 If you are having problems with your blog, contact me or ask for help from the rest of the class using [Microsoft Teams](https://teams.microsoft.com).
 
@@ -197,7 +197,7 @@ This will load the new issue form with a template for submitting your recap post
 The animated GIF below shows how to do this:
 
 <figure>
-<img alt="Animated depiction of submitting a new recap blog post" src="./images/posting-issue.gif">
+<img alt="Animated depiction of submitting a new recap blog post" src="./engl460fall2020/images/posting-issue.gif">
 <figcaption>Submitting a new recap blog</figcaption>
 </figure>
 
