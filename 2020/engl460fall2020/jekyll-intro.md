@@ -225,6 +225,8 @@ Once you wait for the site to rebuild, again, you should be able to reload your 
 
 That's it for this tutorial. You should now have a functioning blog built on GitHub Pages and [Jekyll](https://jekyllrb.com/)!
 
+Now, you may want to review [the syllabus](../engl460fall2020) and edit the first post following the prompt for your [blog check-in assignment](../engl460fall2020#blog-check-in)
+
 # Further Reading
 
 Now that you have created a basic blog, there are more things to learn. Here are some links to topics related to customizing and posting on your new blog.
