@@ -16,11 +16,6 @@ instructors:
       - hours: MWF 10:15-11:15
         location: Zoom
 ---
-
-# Course Learning Outcomes
-
--
-
 # Class Procedures
 
 This course is entirely **asynchronous**. You will be responsible for completing the work in the course, as the semester progresses.
@@ -166,7 +161,7 @@ For a refresher on posting to your blog, see ["Posting To Your Jekyll Blog"](#po
 
 Each week, I ask you to post to your Jekyll blog (which we will be building the first week of class). These posts need to be substantial (500 words) and respond to the week's work.
 
-When we are completely course readings, your blog posts should attempt to provide a real-world example of what we have been talking about. This can be a news article, a video, an image, or any other web artifact that you think illustrates your understanding of what we are talking about this week. Your post should explain how your artifact illustrates 
+When we are completely course readings, your blog posts should attempt to provide a real-world example of what we have been talking about. This can be a news article, a video, an image, or any other web artifact that you think illustrates your understanding of what we are talking about this week. Your post should explain how your artifact illustrates the principles discussed in your reading. It can also help to flesh out your thoughts on how the web artifact in question could be improved or what is effective about it.
 
 When we are working on our final projects, you should use your blog posts to reflect on the work you are doing, the challenges you are encountering, and any work that remains to be completed.
 
