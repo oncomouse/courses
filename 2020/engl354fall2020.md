@@ -102,6 +102,17 @@ You have a number of group tasks to complete during the semester, outlined below
 
 I will also allow group sign-up, so if you have a group of friends you would like to work with, feel free to sign-up for a group with them. Otherwise, I will be using the responses to your introduction assignment to group you, as best as I can.
 
+### Where to Turn in Discussion Posts
+
+Wondering where to turn a particular discussion assignment? This chart should help sort it out:
+
+| **Assignment Name** | **Discussion Board on Canvas** |
+|---------------------|--------------------------------|
+| Exit Tickets        | Group Discussion               |
+| Weekly Wrap-up      | Group Discussion               |
+| Online Peer-Review  | Group Discussion               |
+| State of the Board  | State-of-the-Board             |
+
 ### Twice-Weekly Exit Tickets
 
 For each day there is assigned reading (Mondays & Wednesdays), during the final five minutes of class, you will post a question to our discussion board that you wished had been answered in class. I will use these to structure our [open discussion](#structure-of-the-week) on Fridays.
