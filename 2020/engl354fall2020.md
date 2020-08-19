@@ -31,7 +31,7 @@ This semester, students can expect:
 
 ## Other Location of Class Information
 
-In addition to this syllabus, course information will be posted on our class Canvas shell. This additional information is required and will include:
+In addition to this syllabus, course information will be posted on our class [Canvas shell](https://canvas.tamu.edu). This additional information is required and will include:
 
 * Readings not linked in the schedule below
 	* As `.PDF` files in "Readings"

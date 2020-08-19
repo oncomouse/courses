@@ -151,9 +151,15 @@ Now, think about writing the same message on a keyboard. I peck keys on a keyboa
 	<figcaption>"Writing" "on" "Screen"</figcaption>
 </figure>
 
+Letters become the result of picking, rather than things I make with my pen. More importantly, the ability to edit in a word processor, to delete "Hello World" and type "HELLO WORLD" or `Hello World` means that writing is never final, in the way that it is with a pen.
 
+Also, writing on screen is different from writing on paper. I can get bored half-way through a *Wikipedia* article and follow a hyperlink somewhere else. I can read things out of order. Are you watching Netflix while reading this?
+
+Distraction, non-linearity, and the ability to edit infinitely all change writing in digital spaces. And the do this because writing is now just another type of data to a computer.
 
 # Plain Text: Writing as Data
+
+Computers are weird for a lot of reasons, but a particularly big one
 
 # Plain Text: Data as Writing
 
