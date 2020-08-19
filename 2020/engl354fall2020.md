@@ -104,7 +104,7 @@ I will also allow group sign-up, so if you have a group of friends you would lik
 
 ### Where to Turn in Discussion Posts
 
-Wondering where to turn a particular discussion assignment? This chart should help sort it out:
+Wondering where to turn in a particular discussion assignment? This chart should help sort it out:
 
 | **Assignment Name** | **Discussion Board on Canvas** |
 |---------------------|--------------------------------|
