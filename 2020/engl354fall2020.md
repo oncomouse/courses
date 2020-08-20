@@ -3,7 +3,7 @@ title: Syllabus
 course:
   term: Fall 2020
   description: |
-    This course studies the return of interest in rhetorical theory and rhetorical training in the 20th century. There are three units: 1) we explore various texts that situate modern life (cities, cars, and mass media, especially) as a problem that rhetoric can solve; 2) we look at some theories of persuasion that respond specifically to these various challenges; 3) we use these theories to explore a rhetorical case study.
+    This course studies the return of interest in rhetorical theory and rhetorical training in the 20th century. We will explore various texts that situate modern life (cities, cars, and mass media, especially) as a problem that rhetoric can solve before considering how rhteorical theory develops in response to these new pressures.
   number: ENGL 354
   title: Modern Rhetorical Theory
   meetings:
@@ -68,7 +68,7 @@ The assignments for this class, including final grade percentages, are listed in
 
 | Assignment                            | Due Date          | Value |
 |---------------------------------------|-------------------|-------|
-| Introduction Assignment               | Weekly            | 1%    |
+| Introduction Assignment               | 08.21.2020        | 1%    |
 | Discussion Groups: Exit Tickets       | Weekly            | 10%   |
 | Discussion Groups: Weekly Wrap-up     | Weekly            | 10%   |
 | Discussion Groups: State of the Board | Once Per Semester | 19%   |
@@ -101,6 +101,17 @@ You will be divided into groups of five students. These small discussion groups 
 You have a number of group tasks to complete during the semester, outlined below.
 
 I will also allow group sign-up, so if you have a group of friends you would like to work with, feel free to sign-up for a group with them. Otherwise, I will be using the responses to your introduction assignment to group you, as best as I can.
+
+### Where to Turn in Discussion Posts
+
+Wondering where to turn in a particular discussion assignment? This chart should help sort it out:
+
+| **Assignment Name** | **Discussion Board on Canvas** |
+|---------------------|--------------------------------|
+| Exit Tickets        | Group Discussion               |
+| Weekly Wrap-up      | Group Discussion               |
+| Online Peer-Review  | Group Discussion               |
+| State of the Board  | State-of-the-Board             |
 
 ### Twice-Weekly Exit Tickets
 
