@@ -157,9 +157,39 @@ Also, writing on screen is different from writing on paper. I can get bored half
 
 Distraction, non-linearity, and the ability to edit infinitely all change writing in digital spaces. And the do this because writing is now just another type of data to a computer.
 
+This is born out to in how writing is represented in a computer. To a computer, text is usually stored in something called a "string." In early computing systems, strings were types of lists that contained scalars called "characters." Each character is a number that maps to something called a character table. The earliest of these was called [ASCII](https://en.wikipedia.org/wiki/ASCII), which associated numbers to letters for the purpose display. Taking the "Hello world" message, I typed earlier in MS Word, in ASCII, it would be: `72 101 108 108 111 32 119 111 114 108 100`. `72` is the ASCII character code for `H`, `101` for `e` and so on. The ASCII table doesn't just match letters, as the space between the two words is also encoded (by character code `32`). 
+
+There's a long and complicated history about ASCII, as well. Namely, ASCII is the "American Standard Code for Information Interchange." It was originally intended just for use in America, with American English. ASCII does not handle accented languages like Spanish, let alone non-Latin languages such as Arabic or Chinese. However, as America was the primary designer of computing equipment for much of the early history of computing, ASCII became a global standard. The creation of the [Unicode](https://en.wikipedia.org/wiki/Unicode) initiative has attempted to address this, by making it possible to encode a variety of accented characters, non-Latin writing systems, and, of course, emoji, which are managed by the Unicode consortium.
+
+Being a list of characters to a computer, strings become just another list-formatted data object to a computer. We can process strings just like any other list. Writing becomes just another data source to a computer.
+
 # Plain Text: Writing as Data
 
-Computers are weird for a lot of reasons, but a particularly big one
+Computers are weird for a lot of reasons, but the number of metaphors they require us to use to think about them is a big one. At a physical level, data is just a series of charged or uncharged particles in a matrix our computer uses to represent data. This on or off nature of data is actually what makes something digital. Computers "see" a music file the same as they "see" a term paper you might be writing: as a string of on or off particles (which gets translated by the machine to 1 and 0).
+
+Digital contrasts with "analog," an older system of representing data. Writing with a pen and paper is analog, as is listening to music on a vinyl record. Analog works by analogy (hence the name). In the case of writing with a pen, the lines of ink I mark on a page analogize the sounds I would be making if I spoke words to you (or you hear in your head if you read my writing). On a vinyl record, tiny grooves in the surface of the vinyl analogize the sound that was recorded onto the disk:
+
+<figure>
+<img src="https://video-images.vice.com/articles/5899ce48fe2fd44ee0f76330/lede/1487355536788-screen_shot_2017-02-17_at_10828_pm.png" alt="A microscope picture of a vinyl record">
+<figcaption>Source: <a href="https://www.vice.com/en_au/article/9anq48/heres-what-spinning-vinyl-looks-like-under-a-microscope">https://www.vice.com/en_au/article/9anq48/heres-what-spinning-vinyl-looks-like-under-a-microscope</a></figcaption>
+</figure>
+
+So analog stores data through this process of analogy, but digital systems store data through a series of 1s and 0s. Everything---music, tax records, a novel, photos from your vacation, this web browser---is the same.
+
+But we never see data this way when we use a computer. This is what I meant about metaphor earlier. You are looking at this webpage. It has nice fonts and some colors. The lines are all ordered into a fixed width column to facilitate reading. If you right click on this page (or hold <kbd>Control</kbd> and click on a Mac) and select the menu option for "View Page Source," you can see the HTML source code for this website. HTML is a special way of formatting a document that tells a web browser how to display it. However, [if you click here](https://raw.githubusercontent.com/oncomouse/courses/master/2020/engl460fall2020/01-data.md), you can see the file I created when I wrote this chapter. It is a Markdown file, which is another special way of formatting a document. When I upload this Markdown file to GitHub, Jekyll---the blog software you set up last week---automatically translates Markdown into HTML. Then, when you went to this site in your web browser, you saw a fancy rendered version of that HTML. So, we have Markdown, we have HTML, and we have the rendered web page.
+
+They are the same but they are also different. And that's because there are layers of processing and translation just in the chain of files I'm actually looking at (the HTML is also translated into a series of HTTP messages to be sent to your browser, and both HTML and Markdown are a bunch of electrons whirring around on hard disks somewhere in GitHub's massive storage array).
+
+HTML and Markdown are, however, unified in both being what are called "plain text files." Plain text is a way of storing data in contrast to binary, which is a file structure readable at the source level only by computers. Examples of binary files include most images, movies, and sound files. A Microsoft Word document is also a binary file. Binary files are only able to be edited by specialized programs that format the file for us to see. If you tried to do the equivalent of "View Source" on a Microsoft Word document, you might think your computer is trying to summon some sort of demon:
+
+<figure>
+<img src="./images/data-binary.png" alt="The incomprehensible results of trying to view the source of a Microsoft Word Document">
+<figcaption>The incomprehensible results of trying to view the source of a Microsoft Word Document</figcaption>
+</figure>
+
+This is binary data. While we can read parts of it, we can't edit it intelligibly outside of the way Word displays it.
+
+Plain text files, then, let us see both something of how the data is described to the computer and how the data will be displayed to humans. Plain text moves you out of the land of visual editors (called GUIs, or Graphical User Interfaces in computing) and lets you see both content and display simultaneously. Plain text, while we may encounter it in different formats, is readable by any program that can edit plain text. While I don't recommend it, you can open an HTML or Markdown file in Microsoft Word. You can also use other programs to combine data from multiple plain text files. It allows us, as digital authors, to have more control over our writing: how it looks, how it is processed, and what happens to it.
 
 # Plain Text: Data as Writing
 
