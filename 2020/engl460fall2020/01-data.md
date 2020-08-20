@@ -174,7 +174,7 @@ Digital contrasts with "analog," an older system of representing data. Writing w
 <figcaption>Source: <a href="https://www.vice.com/en_au/article/9anq48/heres-what-spinning-vinyl-looks-like-under-a-microscope">https://www.vice.com/en_au/article/9anq48/heres-what-spinning-vinyl-looks-like-under-a-microscope</a></figcaption>
 </figure>
 
-So analog stores data through this process of analogy, but digital systems store data through a series of 1s and 0s. Everything---music, tax records, a novel, photos from your vacation, this web browser---is the same.
+While analog stores data through this process of analogy, but digital systems store data through a series of 1s and 0s. Everything---music, tax records, a novel, photos from your vacation, this web browser---is the same.
 
 But we never see data this way when we use a computer. This is what I meant about metaphor earlier. You are looking at this webpage. It has nice fonts and some colors. The lines are all ordered into a fixed width column to facilitate reading. If you right click on this page (or hold <kbd>Control</kbd> and click on a Mac) and select the menu option for "View Page Source," you can see the HTML source code for this website. HTML is a special way of formatting a document that tells a web browser how to display it. However, [if you click here](https://raw.githubusercontent.com/oncomouse/courses/master/2020/engl460fall2020/01-data.md), you can see the file I created when I wrote this chapter. It is a Markdown file, which is another special way of formatting a document. When I upload this Markdown file to GitHub, Jekyll---the blog software you set up last week---automatically translates Markdown into HTML. Then, when you went to this site in your web browser, you saw a fancy rendered version of that HTML. So, we have Markdown, we have HTML, and we have the rendered web page.
 
@@ -220,6 +220,8 @@ Check the description from the earlier section again. We have a list (represente
 The list at key `contents` contains two dictionaries, representing two items in my shopping cart. Each item has two keys, `product` and `quantity`, showing what I'm buying and how many I plan to purchase.
 
 JSON is a short-hand way of representing data that is more visual than English prose, but is still understandable by a computer. It is also an example of a particular file type. Though it is just plain text, JSON is formatted in a particular way so that the computer knows how to read the information it contains.
+
+More importantly, by thinking about JSON as data readable by both the computer and its human users, we start to see, hopefully, why plain text is so powerful. We are working directly with the computer to control how data is structured.
 
 We will read more about file types next week.
 
