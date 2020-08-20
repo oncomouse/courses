@@ -80,7 +80,7 @@ If you have questions about FERPA and this class, I am happy to speak with you d
 
 *This will make more sense after the first week of class. It's posted here for later reference.*
 
-We create a new blog post in the [Jekyll tutorial](jekyll-intro.html) (completed during Week 1), but to create additional blog posts, you follow the same general idea. On your blog's GitHub repo, click "Add File" and select "Create New File" from the dropdown. In the "Name your file" input box, type your version of `_posts/YYYY-MM-DD-slug.md`, where `YYYY` is the four digit year, `MM` is the two digit month (add a `0` for months less than `10`), and `DD` is the two digit month. `slug` can be whatever you want, but most consist of letters, numbers, and the hyphen character (so `my-first-post` would be a valid slug; `My First Post!` would not).
+We create a new blog post in the [Jekyll tutorial](./engl460fall2020/jekyll-intro.html) (completed during Week 1), but to create additional blog posts, you follow the same general idea. On your blog's GitHub repo, click "Add File" and select "Create New File" from the dropdown. In the "Name your file" input box, type your version of `_posts/YYYY-MM-DD-slug.md`, where `YYYY` is the four digit year, `MM` is the two digit month (add a `0` for months less than `10`), and `DD` is the two digit month. `slug` can be whatever you want, but most consist of letters, numbers, and the hyphen character (so `my-first-post` would be a valid slug; `My First Post!` would not).
 
 Copy the following code block to get started and paste it in the editor:
 
