@@ -39,4 +39,8 @@ contents:
     quantity: 2
 ~~~
 
-YAML uses a more compressed way of expressing data (called a syntax in computing) but represents the same data. If you don't believe me, [check either the YAML or JSON in this online converter](https://www.json2yaml.com/convert-yaml-to-json).
+YAML uses a more compressed way of expressing data (called a "syntax" in computing) but represents the same data. If you don't believe me, [check either the YAML or JSON in this online converter](https://www.json2yaml.com/convert-yaml-to-json).
+
+As we've been discussing, plain text is one way of expressing data. However, plain text can be formatted differently, telling the computer different ways to interact with 
+
+Text editor: https://code.visualstudio.com/
