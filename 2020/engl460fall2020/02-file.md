@@ -16,6 +16,56 @@ In this chapter, we will explore
 
 # Files and Folders
 
+On our computers, data is organized into files that are themselves placed in folders (which themselves are in more folders). This paradigm, developed from the early use of computers in offices as document management systems, is a metaphor for how data is organized on our disk, a physical organization of electrons to which we are not privy nor would we be likely able to understand. Once again, we see how metaphor is an important operation in understanding what computers do. We use more a understandable metaphor (folders and files) to think about something less understandable, namely the physical operation of the computer.
+
+Other metaphors may help understand the file and folder metaphor, however. Sometimes, in computer science, the file system---the collective name for all the files and folders on a computer disk---are thought of as a tree. Each folder is a branch. Like a tree, branches can contain other branches (more folders) but also can contains leaves (which are files in this metaphor). Files are leaves because, unlike folders, they contain individual pieces of data instead of containing other files or folders. They are the ends of the branch. The other end of the tree---the base of the file system---is called "the root." On a Macintosh, this is the special directory `/`. On a Windows machine, each disk in the computer has a root, so `C:\`, the base of the `C` or main drive, is the root.
+
+Files and folders are what is known as a "hierarchical system," and can be visualized using another metaphor, the hierarchical nature of a family tree. Except for the file system room, each file or folder has a parent. The parent is the folder where the file or folder is housed. A file's parent will also have a parent and so on, until you reach the root of the file system. Folders, as they can contain other folders and files, will also have children. The contents of a folder is that folder's child. You can navigate around a file system by thinking in terms of parents and children.
+
+Thinking hierarchically about files and folders, also reminds us that we can think of a file system as a data structure, like the kinds we read about last chapter. Each file and folder in a file system is a dictionary that contains the file or folder's name. A file will also have a dictionary key for the file's contents. A folder will have a key for children, which will be a list of other file or folder dictionaries.
+
+So, for instance, if we have a folder called `Documents` that contains another folder called `ENGL 460`, a file called `notes.md`, a file called `schedule.html`, and a folder called `report.docx` inside of `ENGL 460`, we could represent it as a dictionary using JSON:
+
+~~~json
+{
+	"name": "Documents",
+	"children": [
+		{
+			"name": "notes.md",
+			"contents": "My notes"
+		},
+		{
+			"name": "schedule.html",
+			"contents": "<html></html>"
+		},
+			"name": "ENGL 460",
+			"children": [
+				{
+					"name": "report.docx",
+					"contents": "word"
+				}
+			]
+		}
+	]
+}
+~~~
+
+This data structure could be extended infinitely further down, by adding more folders inside of folders inside of folders, but it could only be extended up until we reached the root of the disk, which is a folder that does not have a parent.
+
+Traditionally, the location of files on a disk has been represented by a very compact string format known as a file path. In a file path, the root of the disk is a `/`. After this first slash, the name of the child of the root will be typed and if that itself is a directory, it will be followed by a slash. This process of appending file or folder names with slashes continues until the file we wish to recognize is reached.
+
+For instance, this file is currently in `/Users/apilsch/Projects/courses/2020/engl460fall2020/02-file.md` on my computer. `Users` is a directory under root at the base of my file system. Within that, `apilsch` is my home directory, and then I store all my GitHub work in a `Projects` directory. `courses` is the name of this project, it is in the `2020` directory because I sort courses by year, then a folder for our course, until we finally get to the name of the file, which is `02-file.md`. So file path notation is another way to represent files on a disk.
+
+Relatedly, let's look at the URL for this page (the address in the bar of our browser): `https://oncomouse.github.io/courses/2020/engl460fall2020/02-file.html`. What do you notice that seems familiar about this?
+
+Is it a coincidence that `/courses/2020/engl460fall2020/02-file.html` is repeated between both the URL of this website and the file path on my computer?
+
+It isn't, because URLs also represent file paths, but represent file paths of remote computers. `oncomouse.github.io` is a computer somewhere hosted by GitHub. Your browser tells that machine it wants the file `/courses/2020/engl460fall2020/02-file.html`. GitHub's computer goes to look for that file, finds it exists, and gives the contents to your browser to display.
+
+When I edit this file on my home computer, I create a local copy of what is on the GitHub server on my computer. This local copy has the same file system structure as the remote GitHub computer you accessed. So, it is unsurprising then that the file path on my computer and the file path on GitHub's computer would be the same. They are copies of the same data, the same file structure. All I do is edit the files on my local computer, because I don't have access to edit them directly on GitHub, and send them back to the remote server. We will read more about how to do this in coming weeks.
+
+You may have noticed, if you were reading carefully, one key difference between the file path on my computer and the URL for this chapter: `.md` and `.html` at the end of the two locations. What has changed here? This part of the file path tells me that there are two different types of a files, one containing Markdown and one containing HTML. We can now talk about what this difference is and why it matters.
+
 # Types of Files
 
 # Plaintext File Types
