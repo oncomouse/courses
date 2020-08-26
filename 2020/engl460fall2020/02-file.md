@@ -155,3 +155,5 @@ Ultimately, in this class, we will be moving toward working with an industrial-s
 <img src="./images/files-vscode.png" alt="Visual Studio Code, a more advanced text editor">
 <figcaption>Visual Studio Code, a more advanced text editor</figcaption>
 </figure>
+
+## Conclusion
