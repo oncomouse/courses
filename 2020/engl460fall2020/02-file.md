@@ -5,6 +5,17 @@ title: "ENGL 460 – What is a File?"
 
 # Overview
 
+Last chapter, we discussed data, which is a fundamental concept for digital authoring. Data is often encountered, on a day to day basis, in terms of files. The idea of a file was developed as a convenient way to manage and organize data for computers.
+
+In this chapter, we will explore
+
+1. Files as a metaphor for the data on a computer
+1. Different types of files
+1. Plain text as a special type of file
+1. Editing and viewing plain text files
+
+# Files and Folders
+
 # Types of Files
 
 # Plaintext File Types
@@ -71,4 +82,26 @@ Similarly, YAML is a data description language focused on ease of human reading 
 
 And this is the power of plain text. We are always writing in the same way, in the same program, but we are writing using different formats which serve different purposes.
 
-Text editor: https://code.visualstudio.com/
+## Reading and Writing Plain Text
+
+Now that we've learned a little about what files are to our computers and how plain text is a great tool for the modern, digital author, the question you might ask is "how do I work with plain text?"
+
+When you want to write a document for a class, you usually open Microsoft Word or Google Docs. They are both editors designed to work with word processing files. When you want to record a video, you may open a program such as [OBS](https://obsproject.com/) or iMovie. Editing images can be done in programs like Adobe Photoshop or MS Paint. Each of these programs have a dedicated editor for the type of file you want to work on.
+
+The same is true of plain text. There are myriad of plain text editors available on most modern computers. Windows has the venerable "Notepad," while macOS ships with "Text Edit." When you edit your blog on GitHub, you are also using a text editor.
+
+<figure>
+<img src="./images/files-gh-text-edit.png" alt="GitHub as a text editor">
+<figcaption>GitHub as a text editor</figcaption>
+</figure>
+
+While GitHub is great for quickly editing texts, web browsers as a rule (outside of dedicated apps such as Google Docs) are not great for writing. Like Notepad or Text Edit, GitHub's editor does not offer a lot in the way of features. It does indent things for us and it does highlight syntax when we need it.
+
+However, most people who work on webpages use some kind of dedicated text editor designed to enhance their workflow. Again, as I said, webpage developers, like most programmers, are inherently lazy. Or, putting it more nicely, they are focused on the ideas of their work that they do not want to fight with a complicated interface. Instead, they look for tools that help enhance their workflow.
+
+Ultimately, in this class, we will be moving toward working with an industrial-strength text editor, most likely [Microsoft Visual Studio Code](https://code.visualstudio.com/) (if you prefer a different text editor, feel free to use it). Here is the same blog post above in VSCode:
+
+<figure>
+<img src="./images/files-vscode.png" alt="Visual Studio Code, a more advanced text editor">
+<figcaption>Visual Studio Code, a more advanced text editor</figcaption>
+</figure>
