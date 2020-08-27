@@ -14,6 +14,18 @@ This reading will introduce you to the idea of data, as a computer sees it. We w
 
 # Definitions of Data
 
+"Data," in information theory, is usually opposed to "information." Information is what we want to get from using a computer; data is often all we have to work with. Data is the raw bits of facts and figures from which information is derived. We learn facts---dates, names, places, events---in order to gain a better understanding of the history of a place or a period of time. That moves us from data to information.
+
+We can extrapolate from this relationship (data translated into information, moving from meaningless to meaning or less meaning to more meaning) as a way to think about computers. We interact with a computer to gain information. We read an article on *Wikipedia* because we want to learn about, say, camels (something I was reading about on *Wikipedia* this morning). This process is familiar to us as readers and consumers of culture, of course. We also read books to gain information from the data of the words on the page.
+
+However, there is another story that could be told about data into information when we think about *Wikipedia* and my reading about the difference between "dromedary" and "bactrian." The "content" of the article tells me about one hump vs two when identifying camel species, but there is also a collection of data that tells my computer how to display the *Wikipedia* article about camels as I try to talk to my son about his new camel magnet.
+
+There is a series of exchanges of data between my web browser and a remote computer operated by *Wikipedia* that helps sort out which article I want and send me the content of the page I wish to read; this is called a "protocol." There is the collection of data that describes the article on *Wikipedia*'s computer, including the content of the article, its editing history, a conversation about the editing history, and any other connections between the camel article and other articles (to articles about *Animalia* or the collection of animals that are eaten, which *Wikipedia* labels "*Category: Meat*"); this is stored in a "database." Finally, there is the document as it is displayed to my computer, with text organized into sections, with links attached to relevant words, with a sidebar displaying the camel's taxonomy, with a  footer displaying the collections to which "Camel" belongs; this is an HTML "file."
+
+All of these streams of data are involved in my Wikipedia browsing. When we think about authoring in digital spaces, we have to think about both human-facing data tasks, such as the common writing tasks of producing clear content and using things like headings and lists to guide readers through our document, but we also have to be aware of this more machine-facing layer of data: database, protocol, and file.
+
+To better understand the full dimension of data as it relates to digital writing, let's consider more about how computers see data and how this relates to (and fails to relate to) the way we as humans transform data into information by reading about, looking at, and listening to the world around us. 
+
 ## Variables
 
 Without getting a lot of technical detail, computers store data in memory in fixed locations. So, if I say to the computer "Here, hold all this data for me," the computer will place the data I provide it in a particular part of its memory. Later, when I come back to the computer, I can say things such as "Hey, remember that data I gave you? Update it for me" or "Give me back that data I gave you."
