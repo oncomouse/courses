@@ -24,7 +24,7 @@ Files and folders are what is known as a "hierarchical system," and can be visua
 
 Thinking hierarchically about files and folders, also reminds us that we can think of a file system as a data structure, like the kinds we read about last chapter. Each file and folder in a file system is a dictionary that contains the file or folder's name. A file will also have a dictionary key for the file's contents. A folder will have a key for children, which will be a list of other file or folder dictionaries.
 
-So, for instance, if we have a folder called `Documents` that contains another folder called `ENGL 460`, a file called `notes.md`, a file called `schedule.html`, and a folder called `report.docx` inside of `ENGL 460`, we could represent it as a dictionary using JSON:
+For instance, if we have a folder called `Documents` that contains another folder called `ENGL 460`, a file called `notes.md`, a file called `schedule.html`, and a folder called `report.docx` inside of `ENGL 460`, we could represent it as a dictionary using JSON:
 
 ~~~json
 {
@@ -36,7 +36,7 @@ So, for instance, if we have a folder called `Documents` that contains another f
 		},
 		{
 			"name": "schedule.html",
-			"contents": "<html></html>"
+			"contents": "<html><head><title>Schedule</title></head></html>"
 		},
 		{
 			"name": "ENGL 460",
