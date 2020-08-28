@@ -200,11 +200,38 @@ While GitHub is great for quickly editing texts, web browsers as a rule (outside
 
 However, most people who work on webpages use some kind of dedicated text editor designed to enhance their workflow. Again, as I said, webpage developers, like most programmers, are inherently lazy. Or, putting it more nicely, they are focused on the ideas of their work that they do not want to fight with a complicated interface. Instead, they look for tools that help enhance their workflow.
 
-Ultimately, in this class, we will be moving toward working with an industrial-strength text editor, most likely [Microsoft Visual Studio Code](https://code.visualstudio.com/) (if you prefer a different text editor, feel free to use it). Here is the same blog post above in VSCode:
+Ultimately, in this class, we will be moving toward working with an industrial-strength text editor, most likely [Microsoft Visual Studio Code](https://code.visualstudio.com/) (if you prefer a different text editor, feel free to use it). Here is the same blog post in VSCode:
 
 <figure>
 <img src="./images/files-vscode.png" alt="Visual Studio Code, a more advanced text editor">
 <figcaption>Visual Studio Code, a more advanced text editor</figcaption>
 </figure>
 
+VS Code gives a lot more information and has a lot of features that make writing with plain text easier and quicker. We will be discussing more about this in the coming weeks.
+
 ## Conclusion
+
+We learned that metaphors are a key way data is presented to us on a computer, often with multiple metaphors layered, one atop the other. We also learned that files are a key metaphor for organizing data on a computer and for thinking about how digital writing happens. Files and folders can also be understood as a tree with branches and leaves, or as a data structure composed of dictionaries and lists.
+
+Additionally, we learned that our computers use various standards and formats to figure out what kind of data is stored in any file that we open. Plain text files are especially interesting in this regard because they all (whether `.html`, `.yml`, or `.md`) contain the same kind of data: text. Instead, the way we format the data and the file extension we give determines what kind of data is contained.
+
+As another example of this, consider a `.csv` file. CSV is Comma Separated Values and it is a rudimentary form of a spreadsheet. Texas A&M's roster management system can let me download the course roster as a CSV file. Here is an example:
+
+~~~csv
+LAST NAME,FIRST NAME,MID NAME,UIN,TNUMBER,EMAIL,CLASSIFICATION,CLASSCODE,CREDITS,MAJOR,REMOTE,MIDTERM REQUIRED,DEGREE CANDIDATE,ABSENCES,MIDTERM,FINALGRADE,UPDATEDFINALGRADE
+Student,Student,Student,1234567890,T12345678,student@email.tamu.edu,UG,U4,3,ENGL,N,,,,,,NA
+Student2,Student2,Student2,2345678901,T23456789,student2@email.tamu.edu,UG,U4,3,ENGL,Y,,,,,,NA
+~~~
+
+The first line, in all capitals, provides the name of each column. After that, we have records that describe a dictionary entry for each student based on the first line's labels. We can open this CSV file in Excel:
+
+<figure>
+<img src="./images/files-csv.png" alt="The CSV file open in Excel">
+<figcaption>The CSV file open in Excel</figcaption>
+</figure>
+
+And now we have a plain text way of describing spreadsheet data!
+
+So, we have multiple formats for plain text data, including some that look pretty different from the kinds of documents we are used to writing. That is the power of plain text: we can describe the data we need in a way the computer understands! And we can edit it all from the same program!
+
+Next week, we will look more closely at how to use plain text to describe documents to a web browser so we can start formatting our content!
