@@ -211,6 +211,13 @@ Ultimately, in this class, we will be moving toward working with an industrial-s
 
 VS Code gives a lot more information and has a lot of features that make writing with plain text easier and quicker. We will be discussing more about this in the coming weeks.
 
+To further highlight the versatility of plaintext writing, here is a picture of the blog post open in [1Writer](https://1writerapp.com/), a powerful Markdown editor for iOS devices. While not necessarily designed for working with Jekyll sites, you can see that Markdown, being an open text-based file format, allows for a variety of work environments on any number of devices:
+
+<figure>
+<img src="./images/files-ios.jpg" alt="Blog post open in 1Writer on iOS" style="max-width: 424px">
+<figcaption>Blog post open in 1Writer on iOS</figcaption>
+</figure>
+
 ## Conclusion
 
 We learned that metaphors are a key way data is presented to us on a computer, often with multiple metaphors layered, one atop the other. We also learned that files are a key metaphor for organizing data on a computer and for thinking about how digital writing happens. Files and folders can also be understood as a tree with branches and leaves, or as a data structure composed of dictionaries and lists.
