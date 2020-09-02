@@ -135,6 +135,8 @@ Here's a GIF of adding a video to my about me page:
 
 ## Your Challenge
 
-Create a Page on your Jekyll site.  You can incorporate any images or videos you want. It can be about any topic you like.
+Create a Page on your Jekyll site.  You can incorporate any images or videos you want. It can be about any topic you like, but try to think of something that relates to your site. Maybe you'd like to post some photos from your travels? Or a list of work experience? Or your favorite animated GIFs?
 
 Post the link to your page on your blog and talk about what you did and why.
+
+Next week's exercise will cover how to incorporate this page into your overall site's design.
