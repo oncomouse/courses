@@ -179,7 +179,7 @@ These posts need to be roughly 750-1000 words in length.
 
 ### Scheduling Your Recap
 
-You can sign-up for a week to recap on Canvas, using the Calendar feature. Each slot is for the Wednesday of the week *following* the week you are to recap. So, the first due date is September 2, which would be for the recap of all blog posts from Week 3. The sign-up slots our for 9:20-10:10, which is when our course would be schedule to meet, but it is not actually due to me until the end of the day.
+You can sign-up for a week to recap on Canvas, using the Calendar feature. Each slot is for the Wednesday of the week *following* the week you are to recap. The first due date is September <strong><strike>2</strike> 9</strong>, which would be for the recap of all blog posts from Week 3. The sign-up slots our for 9:20-10:10, which is when our course would be schedule to meet, but it is not actually due to me until the end of the day.
 
 You can write your blog post initially on your blog. When you are finished, you need to file a [new GitHub issue](https://docs.github.com/en/github/managing-your-work-on-github/creating-an-issue) on the course blog's [GitHub repo](https://github.com/oncomouse/460blog/).
 
