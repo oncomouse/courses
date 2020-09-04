@@ -419,4 +419,152 @@ You may have noticed this chapter is on "Markup" and the language you have just 
 
 # Semantic Web Markup: HTML
 
-Given that Markdown is simple and straight-forward, why would anyone ever write anything in HTML?
+Given that Markdown is simple and straight-forward, why would anyone ever write anything in HTML? I ask myself this question quite frequently.
+
+HTML is a significantly more complex markup system that allows us more control over the display and structure of content we create for the web. While in Jekyll we mostly will write in Markdown, HTML is useful for implementing design elements in our site, for controlling how things look and what they are, not just what they say.
+
+When I claim HTML lets us define what things are on our site, I am highlighting HTML's nature as a semantic markup language. "Semantic" refers to meaning and explains HTML's capacity to define what something is, rather just how it displays. We may think of things such as headings, lists, and even emphasis or strong emphasis as formatting decisions, but to the web browser (and to readers, too, as we discussed above), these marks define kinds of data.
+
+HTML goes further than the kind of display-related semantic content we can describe in Markdown by structuring content into articles and asides, and by marking things as time information or address related information. These marks in HTML provide further meaning to our documents. It is important to remember, when working with HTML, that what something means is more important than how it looks. We will talk in future classes about those issues.
+
+## An HTML Tag
+
+An HTML document is made up of paired "tags" which we don't see in a web browser but can see when we do a "View Source" on a web page. Tags define block or span elements, like in Markdown. There are also tags that define the structure of the basic document.
+
+Each tag is formatted with `<` and `>` tags. The `<` is followed by an **element name** which defines the kind of tag. [There are many possible elements in the HTML specification, which is currently on version 5](https://developer.mozilla.org/en-US/docs/Web/HTML/Element). There are a few tags, the most famous of which is `img`, that are referred to as ["self-closing"](http://xahlee.info/js/html5_non-closing_tag.html), but beyond those, every HTML tag formats a region of text contained within an **opening** and a **closing** tag. An open tag is defined by the `<`, an element name, and a `>`. A closing tag is defined by a `<`, a `/`, the *same* element name as the opening tag and a `>`.
+
+A paragraph in HTML can be defined by:
+
+~~~html
+<p>Paragraph content.</p>
+~~~
+
+Note the matching `p` element names and the `/` in the closing tag. Element names can be either lower- or upper-case, though lower is generally the standard today.
+
+HTML tags can also accept attributes, which define optional information about the element in question. The most famous attribute is `href`, which stands for hyperref and defines the URL a link leads to when clicked.
+
+Adding a link to our paragraph above, we write:
+
+~~~html
+<p>Paragraph content, that now <a href="http://google.com">contains a link</a>.</p>
+~~~
+
+Any scalar value can be contained by attributes but strings have to be quoted. Number values and boolean (`true`/`false`) values do not require quotes in HTML.
+
+## An HTML document
+
+There is one HTML tag that is *required* in any HTML document, and that is `html`, the tag that defines plain text as HTML content.
+
+A valid HTML document, based on our paragraph would be:
+
+~~~html
+<html>
+	<p>Paragraph content, that now <a href="http://google.com">contains a link</a>.</p>
+</html>
+~~~
+
+However, in the 21st century, there are a few more elements that should be included in any HTML document, namely `head` and `body`.
+
+These two special tags divided the document into metadata (which we will talk about more in a future chapter) and data, or "information about the content" and the content itself. `<head>` is where information such as the document's title is stored. You cannot set this information in `<body>`.
+
+Making our simple HTML document more robust, we can write:
+
+~~~html
+<html>
+	<head>
+		<title>ENGL 460 - Sample Document</title>
+	</head>
+	<body>
+		<p>Paragraph content, that now <a href="http://google.com">contains a link</a>.</p>
+	</body>
+</html>
+~~~
+
+HTML content goes inside a `<body>` tag, while information about the document goes inside the `<head>`. Remember that and you are well on your way to learning HTML.
+
+Actually, the idea of things having their correct place is important for learning HTML. We put content inside a paragraph when it is a paragraph, we put a level 1 heading before a level 2 heading, the main content of our page goes inside an article, etc. The important thing to remember about HTML is you are telling the computer what your information *is*, not how to display it. If something isn't displaying the way you want, the question to ask is not "why does this look weird?" but "have I described this information incorrectly?"
+
+## From Markdown to HTML
+
+Some tags we have already encountered in Markdown:
+
+*Note*: If you are having trouble with HTML, always, always, always check to make sure your tags are closed and are closed in the proper place and order. It is most likely the cause of the problem you are having.
+
+### Paragraphs
+
+Unlike Markdown, where we get paragraphs for free, we have to define paragraphs in HTML using `<p>` and `</p>` tags.
+
+### Headings
+
+The tag for a heading in HTML is `<h?>`, where `?` can be a number from 1 to 6, so `<h1>` is a level 1 heading, `<h2>` is a level 2 heading, and so on.
+
+*Note:* These headings describe an organization of your document and are especially important in that capacity for screen readers and other assistive technologies. A level 1 heading can be used at the start of any new block element that defines a region of the document, or you can use a consistent leveling hierarchy throughout the document (with 1 being the title, all 2's defining the first headings, etc.). Whichever you choose, consistency is important.
+
+### Lists
+
+Unordered (bulleted) lists are defined as regions by the `<ul>`, while ordered (numbered) lists are defined using the `<ol>` tag. Each item in the list (each item that will be numbered or bulleted) is defined by the `<li>` tag.
+
+Nesting lists is achieved by opening a new list inside of the list item that will become the parent, so to produce the following in HTML:
+
+1. Item 1
+	* Sub-item 1
+	* Sub-item 2
+1. Item 2
+
+You would write:
+
+~~~html
+<ol>
+	<li>Item 1
+		<ul>
+			<li>Sub-item 1</li>
+			<li>Sub-item 2</li>
+		</ul>
+	</li>
+	<li>Item 2</li>
+</ol>
+~~~
+
+In my opinion, this is the single best reason to use Markdown, as lists are very strange to my mind in HTML.
+
+### Blockquotes
+
+### Code Blocks
+
+### Rules
+
+### Italic
+
+### Bold
+
+### In-line Code
+
+### Links
+
+### Images
+
+## A Note on Jekyll and HTML
+
+When we first created our Jekyll sites, we created an `index.html` file that looked like this:
+
+~~~html
+---
+layout: default
+---
+<div class="posts">
+  {% for post in site.posts %}
+    <article class="post">
+
+      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+
+      <div class="entry">
+        {{ post.excerpt }}
+      </div>
+
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+    </article>
+  {% endfor %}
+</div>
+~~~
+
+Looking at that now, you might wonder where the `html`, `head`, and `body` tags are. Jekyll uses document templates (called "layouts") to make creating a consistent layout easier. If you visit the source code of the default them (which is called primer), [you'll find a directory](https://github.com/pages-themes/primer/tree/master/_layouts) called `_layouts` which contains a file called `default.html`. If [you open `default.html`](https://github.com/pages-themes/primer/blob/master/_layouts/default.html), you'll find it contains `<html>` as the second line of the document. If you scroll down [to line 17](https://github.com/pages-themes/primer/blob/master/_layouts/default.html#L17), you'll find the line `{{content}}`. This is a magic command to Jekyll that says to place the contents of the template there (so that is where Jekyll pastes the contents of our `index.html`).
