@@ -13,6 +13,8 @@ In this chapter, we will explore:
 1. Web Documents: Markdown
 1. Semantic Web Documents: HTML
 
+*Note:* This is a very long chapter, so make sure to budget enough time to read it all.
+
 #  Elements of a Document
 
 Think about any document you've ever read. It could be a Word document, a document you created in Google Docs, or an HTML web page you read, on a site such as *Wikipedia*. These documents have certain elements in common, related to how text is formatted and displayed.
@@ -614,9 +616,9 @@ Or:
 <p>General Kenobi!</p>
 ~~~
 
-The second is more correct because it's actually two speakers in [*Attack of the Clones*](https://i.redd.it/0ppwpobaxpb31.jpg), but the first would put the line breaks in. `<br>` is a tag to force a new line. It's generally best practice to avoid using it because it privileges display over semantic meaning.
+The second is more semantic because it's actually two speakers in [*Attack of the Clones*](https://i.redd.it/0ppwpobaxpb31.jpg), but the first would put the line breaks in. `<br>` is a tag to force a new line. It's generally best practice to avoid using it because it privileges display over semantic meaning. **Definitely, never, ever use `<br>` to add space between paragraphs.** We will talk in a future chapter about the correct way to do this.
 
-So, **anyway**, back to `<pre>`, if we typed:
+**Anyway**, back to `<pre>`. If we typed:
 
 ~~~html
 <pre>
