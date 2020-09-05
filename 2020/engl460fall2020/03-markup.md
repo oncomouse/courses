@@ -525,23 +525,204 @@ You would write:
 </ol>
 ~~~
 
-In my opinion, this is the single best reason to use Markdown, as lists are very strange to my mind in HTML.
+In my opinion, HTML's confusing list syntax is the single best reason to use Markdown, but I digress.
 
 ### Blockquotes
 
+Blockquotes are defined by the `<blockquote>` tag, but within a block quote, you still have to define things like lists or paragraphs, so our Markdown example:
+
+~~~markdown
+> Fourscore and seven years ago our fathers brought forth, on this continent, a
+>new nation, conceived in liberty, and dedicated to the proposition that all men
+>are created equal. Now we are engaged in a great civil war, testing whether
+>that nation, or any nation so conceived, and so dedicated, can long endure. We
+>are met on a great battle-field of that war. We have come to dedicate a portion
+>of that field, as a final resting-place for those who here gave their lives,
+>that that nation might live. It is altogether fitting and proper that we should
+>do this. But, in a larger sense, we cannot dedicate, we cannot consecrate—we
+>cannot hallow—this ground. The brave men, living and dead, who struggled here,
+>have consecrated it far above our poor power to add or detract. The world will
+>little note, nor long remember what we say here, but it can never forget what
+>they did here. It is for us the living, rather, to be dedicated here to the
+>unfinished work which they who fought here have thus far so nobly advanced. It
+>is rather for us to be here dedicated to the great task remaining before
+>us—that from these honored dead we take increased devotion to that cause for
+>which they here gave the last full measure of devotion—that we here highly
+>resolve that these dead shall not have died in vain—that this nation, under
+>God, shall have a new birth of freedom, and that government of the people, by
+>the people, for the people, shall not perish from the earth.
+>
+> --- Abraham Lincoln
+~~~
+
+Becomes:
+
+~~~html
+<blockquote><p>Fourscore and seven years ago our fathers brought forth, on this continent, a
+new nation, conceived in liberty, and dedicated to the proposition that all men
+are created equal. Now we are engaged in a great civil war, testing whether
+that nation, or any nation so conceived, and so dedicated, can long endure. We
+are met on a great battle-field of that war. We have come to dedicate a portion
+of that field, as a final resting-place for those who here gave their lives,
+that that nation might live. It is altogether fitting and proper that we should
+do this. But, in a larger sense, we cannot dedicate, we cannot consecrate—we
+cannot hallow—this ground. The brave men, living and dead, who struggled here,
+have consecrated it far above our poor power to add or detract. The world will
+little note, nor long remember what we say here, but it can never forget what
+they did here. It is for us the living, rather, to be dedicated here to the
+unfinished work which they who fought here have thus far so nobly advanced. It
+is rather for us to be here dedicated to the great task remaining before
+us—that from these honored dead we take increased devotion to that cause for
+which they here gave the last full measure of devotion—that we here highly
+resolve that these dead shall not have died in vain—that this nation, under
+God, shall have a new birth of freedom, and that government of the people, by
+the people, for the people, shall not perish from the earth.</p>
+
+<p>--- Abraham Lincoln</p></blockquote>
+~~~
+
 ### Code Blocks
+
+HTML does not have a set standard for fenced code blocks, like in Markdown. Instead, it has the `<pre>` tag which defines a region in which whitespace isn't ignored. What does that mean? In HTML, if you type:
+
+~~~html
+<p>Hello, there!
+
+General Kenobi!</p>
+~~~
+
+You will produce:
+
+<p>Hello, there!
+
+General Kenobi!</p>
+
+Why did we not get our cool line breaks? HTML compresses any space characters (spaces, new lines, tabs) into a single space.
+
+Two ways to format the above that would be correct:
+
+~~~html
+<p>Hello, there!<br>
+<br>
+General Kenobi!</p>
+~~~
+
+Or:
+~~~html
+<p>Hello, there!</p>
+
+<p>General Kenobi!</p>
+~~~
+
+The second is more correct because it's actually two speakers in [*Attack of the Clones*](https://i.redd.it/0ppwpobaxpb31.jpg), but the first would put the line breaks in. `<br>` is a tag to force a new line. It's generally best practice to avoid using it because it privileges display over semantic meaning.
+
+So, **anyway**, back to `<pre>`, if we typed:
+
+~~~html
+<pre>
+Hello, there!
+
+General Kenobi!
+</pre>
+~~~
+
+We would get:
+
+<pre>
+Hello, there!
+
+General Kenobi!
+</pre>
+
+Which changed the formatting to a monospaced font, but did leave the line breaks we had added.
+
+Then, to finish the idea of a code block, it is also convention to include a `<code>` tag inside the `<pre>` tag, so pre-formatted code would be:
+
+~~~html
+<pre>
+<code>
+<p>Here's some source code.</p>
+</code>
+</pre>
+~~~
+
+<pre>
+<code>
+<p>Here's some source code.</p>
+</code>
+</pre>
+
+But that still looks all messed up! Why?
+
+Despite our best-laid plans, your web browser still reads the `<p>` and `</p>` tags as HTML, even in `<pre>` and `<code>` tags. We have to do something called an escape to make it print correctly. This will work:
+
+~~~html
+<pre>
+<code>
+&lt;p&gt;Here's some source code.&lt;/p&gt;
+</code>
+</pre>
+~~~
+
+<pre>
+<code>
+&lt;p&gt;Here's some source code.&lt;/p&gt;
+</code>
+</pre>
+
+Those `&lt;` and `&gt;` things are called HTML special characters and it tells HTML "no, seriously, I want you to display a `<` or a `>`."
+
+Markdown does this for us, which is another reason to use Markdown for content.
 
 ### Rules
 
-### Italic
+The line is called a horizontal rule and is produced by the `<hr>` tag.
 
-### Bold
+### Italic / Emphasis
+
+As I mentioned earlier, italic is actually called "emphasis" in HTML and is signalled by surround content with an `<em>` tag.
+
+### Bold / Strong Emphasis
+
+As I mentioned earlier, bold is actually called "strong emphasis" in HTML and is signalled by surround content with an `<strong>` tag.
+
+#### An Important Note on Emphasis in the 2020s
+
+Before HTML realized it was a semantic markup language---way, way back in the dark ages of the 1990s---there were `<b>` and `<i>` tags in HTML to set content to bold and italic. But now that HTML describes what content is instead of how it looks, these tags are strongly discouraged. So, I tell you about them so you know what's out there, in the dark corner of the web where people don't follow best practices. Avoid them; use `<em>` and `<strong>`.
 
 ### In-line Code
 
+In-line code can be included with just the `<code>` tag.
+
 ### Links
 
+Links are added using the anchor tag. The idea was, in the early days of the web, that a link was a thread connecting two documents that was anchored at both ends, hence the "anchor" tag. An anchor with an `href` property will format as a link to another resource.
+
+As an example:
+
+~~~html
+<p>This paragraph has a <a href="https://reddit.com">link to another website</a>.</p>
+~~~
+
+Linking works the same as it did in Markdown, with relative and absolute URLs. By convention, you shouldn't use the full `https://domain-name.com` portion of the URL for links on your own site. So, if I wanted to link to the syllabus from here, I could just type:
+
+~~~html
+<p><a href="/courses/2020/engl460fall2020.html">Here's the syllabus.</a></p>
+~~~
+
+Or, if I'm feeling frisky:
+
+~~~html
+<p><a href="../engl460fall2020.html">Here's the syllabus.</a></p>
+~~~
+
+That latter is a special kind of relative URL. We'll talk more about this in later chapters, but a `..` in a URL means "give me the parent of the current directory." This chapter lives in a folder, `/courses/2020/engl460fall2020`. The syllabus lives in the parent folder, `/courses/2020`. I can type `../` to access that parent folder from the current directory.
+
+*Note*: As part of the fact that HTML often seems like it is trying to trick you, the `<link>` tag, which makes more sense for linking to a document, exists to include external resources into an HTML document's head. **It is not for linking to a document**.
+
 ### Images
+
+An image is represented by the `<img>` tag and has two properties that are required: `src` and `alt`. `src` is the URL of the image file. `alt` contains a text description of the image for accessibility purposes.
 
 ## A Note on Jekyll and HTML
 
