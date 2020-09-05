@@ -736,6 +736,7 @@ When we first created our Jekyll sites, we created an `index.html` file that loo
 ---
 layout: default
 ---
+{% raw %}
 <div class="posts">
   {% for post in site.posts %}
     <article class="post">
@@ -750,6 +751,9 @@ layout: default
     </article>
   {% endfor %}
 </div>
+{% endraw %}
 ~~~
 
-Looking at that now, you might wonder where the `html`, `head`, and `body` tags are. Jekyll uses document templates (called "layouts") to make creating a consistent layout easier. If you visit the source code of the default them (which is called primer), [you'll find a directory](https://github.com/pages-themes/primer/tree/master/_layouts) called `_layouts` which contains a file called `default.html`. If [you open `default.html`](https://github.com/pages-themes/primer/blob/master/_layouts/default.html), you'll find it contains `<html>` as the second line of the document. If you scroll down [to line 17](https://github.com/pages-themes/primer/blob/master/_layouts/default.html#L17), you'll find the line `{{content}}`. This is a magic command to Jekyll that says to place the contents of the template there (so that is where Jekyll pastes the contents of our `index.html`).
+Looking at that now, you might wonder where the `html`, `head`, and `body` tags are. Jekyll uses document templates (called "layouts") to make creating a consistent layout easier. If you visit the source code of the default them (which is called primer), [you'll find a directory](https://github.com/pages-themes/primer/tree/master/_layouts) called `_layouts` which contains a file called `default.html`. If [you open `default.html`](https://github.com/pages-themes/primer/blob/master/_layouts/default.html), you'll find it contains `<html>` as the second line of the document. If you scroll down [to line 17](https://github.com/pages-themes/primer/blob/master/_layouts/default.html#L17), you'll find the line {% raw %}`{{content}}`{% endraw %}. This is a magic command to Jekyll that says to place the contents of the file being formatted with the template at that point. And that's where the contents of `index.html` ends up.
+
+You'll need to remember this when you get to your hands-on activity for this week.
