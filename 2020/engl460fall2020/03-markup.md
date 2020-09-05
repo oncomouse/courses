@@ -688,7 +688,7 @@ As I mentioned earlier, bold is actually called "strong emphasis" in HTML and is
 
 #### An Important Note on Emphasis in the 2020s
 
-Before HTML realized it was a semantic markup language---way, way back in the dark ages of the 1990s---there were `<b>` and `<i>` tags in HTML to set content to bold and italic. But now that HTML describes what content is instead of how it looks, these tags are strongly discouraged. So, I tell you about them so you know what's out there, in the dark corner of the web where people don't follow best practices. Avoid them; use `<em>` and `<strong>`.
+Before HTML realized it was a semantic markup language---way, way back in the dark ages of the 1990s---there were `<b>` and `<i>` tags in HTML to set content to bold and italic. But now that HTML describes what content is instead of how it looks, these tags are strongly discouraged. I tell you about them so you know what's out there, in the dark corner of the web where people don't follow best practices. Avoid them; use `<em>` and `<strong>`.
 
 ### In-line Code
 
@@ -704,7 +704,7 @@ As an example:
 <p>This paragraph has a <a href="https://reddit.com">link to another website</a>.</p>
 ~~~
 
-Linking works the same as it did in Markdown, with relative and absolute URLs. By convention, you shouldn't use the full `https://domain-name.com` portion of the URL for links on your own site. So, if I wanted to link to the syllabus from here, I could just type:
+Linking works the same as it did in Markdown, with relative and absolute URLs. By convention, you shouldn't use the full `https://domain-name.com` portion of the URL for links on your own site. If I wanted to link to the syllabus from here, I could just type:
 
 ~~~html
 <p><a href="/courses/2020/engl460fall2020.html">Here's the syllabus.</a></p>
@@ -718,11 +718,15 @@ Or, if I'm feeling frisky:
 
 That latter is a special kind of relative URL. We'll talk more about this in later chapters, but a `..` in a URL means "give me the parent of the current directory." This chapter lives in a folder, `/courses/2020/engl460fall2020`. The syllabus lives in the parent folder, `/courses/2020`. I can type `../` to access that parent folder from the current directory.
 
-*Note*: As part of the fact that HTML often seems like it is trying to trick you, the `<link>` tag, which makes more sense for linking to a document, exists to include external resources into an HTML document's head. **It is not for linking to a document**.
+#### A Note about `<link>`
+
+As part of the fact that HTML often seems like it is trying to trick you, the `<link>` tag exists in HTML and is used to include external resources in an HTML document's `<head>`. It is not for creating a link inside the document's `<body>`. In HTML, `<a>` is for linking, `<link>` is for including stylesheets and RSS feeds. Because of course that makes sense.
 
 ### Images
 
 An image is represented by the `<img>` tag and has two properties that are required: `src` and `alt`. `src` is the URL of the image file. `alt` contains a text description of the image for accessibility purposes.
+
+## Other Semantic Tags
 
 ## A Note on Jekyll and HTML
 
