@@ -183,7 +183,9 @@ The above code will produce:
 
 ### Lists
 
-A **list** is either started with an asterisk (`*`) or a number (`1.`). Each new line in the block is a new list item. With ordered lists, the numbers can be sequential (`1.`, `2.`, `3.`, etc.) but it is not required. To facilitate ease of use, most Markdown writers just number everything one (`1.`) so if you change the order of your bullet points, you don't have to renumber everything. If your list is multilevel, you can indent the sub points using a tab or multiple spaces before the heading. You can also mix ordered and unordered lists at different indentation levels:
+A **list** is either started with an asterisk (`*`) or a number (`1.`). Each new line in the block is a new list item. With ordered lists, the numbers can be sequential (`1.`, `2.`, `3.`, etc.) but it is not required. To facilitate ease of use, most Markdown writers just number everything one (`1.`) so if you change the order of your bullet points, you don't have to renumber everything to keep your source code neat. The numbers you write for Markdown bullets have no effect on how they are numbered in HTML.
+
+If your list is multilevel, you can indent the sub points using a tab or multiple spaces before the heading. You can also mix ordered and unordered lists at different indentation levels:
 
 ~~~markdown
 1. Numbered List
