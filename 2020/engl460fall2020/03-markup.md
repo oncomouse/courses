@@ -732,6 +732,22 @@ An image is represented by the `<img>` tag and has two properties that are requi
 
 ## Other Semantic Tags
 
+HTML also gives a more detailed control over the organization of a document, allowing us to provide a more detailed account of the function of our document. Also, as we will talk about two chapters from now, we can use these more detailed organizing tags to provide richer style for our document.
+
+There are a number of semantic tags available in HTML. `<article>`, for instance, designates a block of content as a story, post, or other linked piece of content. We use the `<article>` on the front page of our blog, surrounding the preview of each story, to indicate that this page contains a  collection of stories. Each post is similarly wrapped in an `<article>` to indicate the same.
+
+You can also use `<aside>` to indicate a sidebar or something like a pull-quote in a news story or blog post.
+
+The `<nav>` tag designates a region of the page as being a menu for the site. The `<time>` tag marks something as a date or a time.
+
+Many of these tags have importance for accessibility and for helping machines better make sense of the code we make.
+
+### The two most important tags in HTML
+
+In addition to the many tags we have already talked about, HTML has two tags we could think of as generic. As we will see later, you *could* (though you absolutely should *not*) implement the content of an entire HTML document using these two tags.
+
+They are `<div>` and `<span>`. `<div>` is a generic block tag, while `<span>` is a generic span tag. You use `<div>` to organize the document into sections, while `<span>` is used to mark parts of the text. These two tags will become much more important when we talk about styling HTML documents in two chapters.
+
 ## A Note on Jekyll and HTML
 
 When we first created our Jekyll sites, we created an `index.html` file that looked like this:
@@ -761,3 +777,5 @@ layout: default
 Looking at that now, you might wonder where the `html`, `head`, and `body` tags are. Jekyll uses document templates (called "layouts") to make creating a consistent layout easier. If you visit the source code of the default them (which is called primer), [you'll find a directory](https://github.com/pages-themes/primer/tree/master/_layouts) called `_layouts` which contains a file called `default.html`. If [you open `default.html`](https://github.com/pages-themes/primer/blob/master/_layouts/default.html), you'll find it contains `<html>` as the second line of the document. If you scroll down [to line 17](https://github.com/pages-themes/primer/blob/master/_layouts/default.html#L17), you'll find the line {% raw %}`{{content}}`{% endraw %}. This is a magic command to Jekyll that says to place the contents of the file being formatted with the template at that point. And that's where the contents of `index.html` ends up.
 
 You'll need to remember this when you get to your hands-on activity for this week.
+
+# Conclusion
