@@ -131,7 +131,7 @@ Your group discussion board is a place to discuss class issues in small groups. 
 
 ### Once-a-Semester State of the Board Post
 
-Every two weeks, one of your group members will be appointed leader. It will be the leader's job to facilitate conversation on the board and make sure people are staying on task. At the end of your period as leader, you will post a 500-1000 word wrap-up summarizing your board's discussion of important quotes and questions.
+Every two weeks, one of your group members will be appointed leader. It will be the leader's job to facilitate conversation on the board and make sure people are staying on task. At the end of your period as leader, you will post a 500-1000 word wrap-up summarizing your board's discussion of important quotes and questions during the two weeks. The first post will be due on the Monday of Week 4, summarizing what the board discussed in Weeks 2 & 3, and son.
 
 ### Peer Review
 
