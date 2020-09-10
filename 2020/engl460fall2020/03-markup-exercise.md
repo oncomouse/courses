@@ -268,7 +268,7 @@ Committing those changes, we can edit our `_layouts/default.html` and replace th
 ~~~
 {%endraw%}
 
-The `{%` and `%}` tags are from a language Jekyll uses called ["Liquid"](https://jekyllrb.com/docs/liquid/). But the line tells Jekyll "look in the `_includes` folder for a file named `navigation.html`. Replace this line with the contents of that file." Which is exactly what Jekyll does!
+The {%raw%}`{%` and `%}`{%endraw%} tags are from a language Jekyll uses called ["Liquid"](https://jekyllrb.com/docs/liquid/). But the line tells Jekyll "look in the `_includes` folder for a file named `navigation.html`. Replace this line with the contents of that file." Which is exactly what Jekyll does!
 
 Hooray, we have restored a bit of sanity to this chaotic world! All through the power of file management!
 
