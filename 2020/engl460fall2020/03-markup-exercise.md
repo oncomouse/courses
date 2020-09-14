@@ -263,7 +263,7 @@ Committing those changes, we can edit our `_layouts/default.html` and replace th
       {% if site.title and site.title != page.title %}
       <h1><a href="{{ "/" | absolute_url }}">{{ site.title }}</a></h1>
       {% endif %}
-	  {% include "navigation.html" %}
+	  {% include navigation.html %}
       {{ content }}
 ~~~
 {%endraw%}
