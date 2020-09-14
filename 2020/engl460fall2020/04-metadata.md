@@ -18,6 +18,36 @@ In this chapter, we will learn:
 
 ## Defining Metadata in Jekyll
 
+We have already encountered metadata in Jekyll, which makes extensive use of the idea. Each of your posts, as well as the HTML files we have created, begin with a set of three dashes, like so:
+
+~~~markdown
+---
+title: "New Post"
+layout: post
+---
+
+Hey, blog!
+~~~
+
+The technical term for the content between the two sets of three hyphens is a "YAML metadata block," it lets Markdown documents contain information about the post that is not directly produced in the post itself. This is metadata.
+
+On the [course blog](https://oncomouse.github.io/460blog), I use some more metadata to categorize your semester recap posts. Here's an example:
+
+~~~markdown
+--- 
+title: "Recap Post"
+author:
+	name: oncomouse
+	url: "https://oncomouse.github.io"
+categories:
+- recap
+- fall2020
+layout: post
+---
+
+Content of the recap post.
+~~~
+
 ## Defining Metadata in HTML
 
 ## Metadata for Search Engines
