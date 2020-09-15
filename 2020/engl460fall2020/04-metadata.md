@@ -31,6 +31,29 @@ Hey, blog!
 
 The technical term for the content between the two sets of three hyphens is a "YAML metadata block," it lets Markdown documents contain information about the post that is not directly produced in the post itself. This is metadata.
 
+Jekyll uses a convention that has developed around Markdown of including YAML information at the start of the document to describe more information about the contents. In the above post, we are setting the `layout` value for the page as well as the page's `title`.
+
+### Important Note About Metadata in Jekyll
+
+Any file not in a hidden folder (one that starts with `_`) that includes a YAML metadata block will be processed by Jekyll. Any files that do not contain metadata will be passed directly to output, unchanged.
+
+This is important if, for some reason, you wanted to share a Markdown file on your site but you did not want it to become HTML. If we created the following file:
+
+~~~markdown
+# Title
+
+This is some **Markdown** Content
+
+* List
+* Items
+* Are
+* Cool
+~~~
+
+When we [clicked on the link](/courses/2020/engl460fall2020/04-metadata-example1.md), our browser will try to download the file. This is because GitHub Pages website
+
+### Another Metadata Example in Jekyll
+
 On the [course blog](https://oncomouse.github.io/460blog), I use some more metadata to categorize your semester recap posts. Here's an example:
 
 ~~~markdown
@@ -47,6 +70,8 @@ layout: post
 
 Content of the recap post.
 ~~~
+
+We have already encountered YAML before, but to refresh, 
 
 ## Defining Metadata in HTML
 
