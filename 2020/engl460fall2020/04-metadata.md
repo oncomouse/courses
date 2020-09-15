@@ -65,6 +65,22 @@ Similarly, if we could create the following HTML page:
 </ul>
 ~~~
 
+If we [click that link](/courses/2020/engl460fall2020/04-metadata-example2.html), we see a very rough looking HTML page, but we do see HTML. This is because, while there is no metadata defining a layout, the file is still HTML, which GitHub Pages understands.
+
+~~~html
+---
+---
+<h1>Title</h1>
+<p>This is some <strong>HTML</strong> Content</p>
+<ul>
+<li>List</li>
+<li>Items</li>
+<li>Are</li>
+<li>Cool</li>
+</ul>
+~~~
+
+
 ### Another Metadata Example in Jekyll
 
 On the [course blog](https://oncomouse.github.io/460blog), I use some more metadata to categorize your semester recap posts. Here's an example:
