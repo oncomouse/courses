@@ -204,11 +204,11 @@ For non-title metadata, we use the `<meta>` tag. So, if we wanted to add the aut
 
 This shows the way the majority of `<meta>` tags will be defined, with `name` and `content` attributes. You can think about these as analogous to keys and values in the dictionaries we have been defining in YAML files.
 
-### Other Important `<meta>` Tags
+## Other Important `<meta>` Tags
 
 You can define any meta tag you want, but there are a few meta tags that are, if not outright required, *really* helpful to have in your document.
 
-#### 🚨Setting Character Encoding🚨
+### 🚨Setting Character Encoding🚨
 
 You can use meta tags to set the character encoding in your document. Remember when we talked about the strange history of plain text and how ASCII, the first character encoding set, didn't define characters used in non-English languages? And instead, a new standard, UTF-8, was defined? And this is how we got emoji?
 
@@ -218,13 +218,25 @@ If your webpage were not configured for UTF-8, none of those characters would di
 
 Unless you have a very compelling reason not to, **always** include `<meta charset="UTF-8">` somewhere in the `<head>` of your HTML documents.
 
-#### Make Sure It Looks Good On Your Cellphone
+### Make Sure It Looks Good On Your Cellphone
 
 I'm going to break from my habit, in this text, of trying to explain *why* we do things in this section. Because this section teaches you something important for designing for the web in the 21st century, where lots of web traffic is on mobile phones, and because the explanation is not particularly interesting, I am going to just give you a rule:
 
 To make sure websites display correctly on mobile phones, make sure you always have `<meta name="viewport" content="width=device-width, initial-scale=1">` in the `<head>` of your HTML document.
 
 You may someday encounter a reason to change this tag, but you really need it for websites to work on your mobile phone.
+
+### Keywords
+
+To help make your site more discoverable by search engines, which we'll talk about more in ["Metadta for Search Engines"](#metadata-for-search-engines) below, you can use the `keywords` meta tag, though most search engines ignore them these days, because people try to game the search algorithm.
+
+The `keywords` meta is a comma-separated list of words or phrases that describe your website. You can set it like this:
+
+~~~html
+<meta name="keywords" content="meta data, html, html meta data, using meta data, writing meta data">
+~~~
+
+This tag can help your site be better indexed on the larger web.
 
 ## Metadata for Search Engines
 
