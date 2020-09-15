@@ -50,7 +50,20 @@ This is some **Markdown** Content
 * Cool
 ~~~
 
-When we [clicked on the link](/courses/2020/engl460fall2020/04-metadata-example1.md), our browser will try to download the file. This is because GitHub Pages website
+When we [clicked on the link](/courses/2020/engl460fall2020/04-metadata-example1.md), our browser will try to download the file. This perhaps odd behavior is because GitHub Pages does not know what to do with the `.md` file we have asked it to give to us, so it offers it as a download. Odd, but expected.
+
+Similarly, if we could create the following HTML page:
+
+~~~html
+<h1>Title</h1>
+<p>This is some <strong>HTML</strong> Content</p>
+<ul>
+<li>List</li>
+<li>Items</li>
+<li>Are</li>
+<li>Cool</li>
+</ul>
+~~~
 
 ### Another Metadata Example in Jekyll
 
