@@ -80,6 +80,7 @@ If we [click that link](/courses/2020/engl460fall2020/04-metadata-example2.html)
 </ul>
 ~~~
 
+If we [click that link](/courses/2020/engl460fall2020/04-metadata-example3.html), we see the same rough HTML page. Jekyll is aware of the site, but it provides no formatting. See [Setting Jekyll Defaults](#setting-jekyll-defaults) below for more information on how we might fix that.
 
 ### Another Metadata Example in Jekyll
 
@@ -102,7 +103,128 @@ Content of the recap post.
 
 We have already encountered YAML before, but to refresh, 
 
+## Site-wide Metadata for Jekyll
+
+When we first created our blog, we created the `_config.yml` file. This file is known as the site-wide metadata file for our Jekyll site. Where metadata headers set information for a particular page, `_config.yml` sets metadata for the whole site. This is how we can set both a `title` key in `_config.yml` and in our individual blog posts.
+
+### Setting Jekyll Defaults
+
+When we made the third example file, the one with the empty YAML metadata block, in the previous example, the file still did not have a layout because of the empty metadata block. Thankfully, we can use our site-wide metadata to configure defaults that deal with just this situation.
+
+The `defaults` key in `_config.yaml` sets default values for the site. It is a list of dictionaries that control defaults for different parts of the site.
+
+To fix our earlier problem, we can add the following code in our [`_config.yml`](https://github.com/oncomouse/courses/blob/master/_config.yml):
+
+~~~yaml
+defaults:
+  -
+    scope:
+	  path: ""
+      type: "pages"
+    values:
+      layout: "default"
+~~~
+
+When we reload the third example, we see:
+
+![The third example page, with the default image attached](./images/04-metadata-example4.png)
+{:.text-center}
+
+While, if we load the second example, we still see the same unstyled, rough HTML page. This difference occurs because, even without any metadata information in its YAML block, the third example page is "managed" by Jekyll. Once we define site-wide default values in `_config.yml`, the managed page acquires those default values. If we add values to the YAML block in example three, say changing `layout` to `post`, we "override" the default with the new settings. YAML blocks always override default values set in `_config.yml`.
+
+### Setting a Default Layout for Blog Posts
+
+Some of you have had problems with the `layout` on your blog, or are maybe getting sick of always having to remember to add `layout: post` (or `layout: default` depending on your theme). Using some YAML markup similar to what we saw above, you can add a default layout to blog posts.
+
+Consider this:
+
+~~~yaml
+defaults:
+  -
+    scope:
+	  path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  -
+    scope:
+	  path: ""
+	  type: "posts"
+	values:
+	  layout: "post"
+~~~
+
+We add a second value to the `defaults` list that has a different `scope` and a different `values`. Scope refers, in computing, to the applicability of a setting. In the first entry in `defaults`, we scope our settings to `"pages"`, which is any page we build. In the second entry, we scope the settings to `"posts"`. You can [read more about these and more settings in the Jekyll documentation](https://jekyllrb.com/docs/configuration/front-matter-defaults/).
+
 ## Defining Metadata in HTML
+
+HTML also has the ability to define metadata. When we first learned about HTML, we talked about how an HTML document is first defined by `<html>` but then subdivided into `<head>` and `<body>` tags, such that we have an HTML document that looks like this:
+
+~~~html
+<!doctype html>
+<html>
+	<head>
+	</head>
+	<body>
+	</body>
+</html>
+~~~
+
+I added another tag there, the `<!doctype html>` tag. This is our first piece of metadata; it tells the browser that this is an HTML document, so that the browser does not have to guess we are giving it an HTML file. Then, we have our `<html>`, `<head>`, and `<body>` tags.
+
+We have also already seen one HTML tag that supplies metadata: `<title>`:
+
+~~~html
+<!doctype html>
+<html>
+	<head>
+		<title>Our Document</title>
+	</head>
+	<body>
+	</body>
+</html>
+~~~
+
+This tag tells the browser that the HTML document we are defining here is titled "Our Document." The `<title>` tag predates the understanding of metadata as important to HTML, so it is defined differently than most pieces of metadata.
+
+For non-title metadata, we use the `<meta>` tag. So, if we wanted to add the author's name and a description to our page, we could type the following:
+
+~~~html
+<!doctype html>
+<html>
+	<head>
+		<title>Our Document</title>
+		<meta name="author" content="Andrew Pilsch">
+		<meta name="description" content="An example page, showing how to define metadata in HTML">
+	</head>
+	<body>
+	</body>
+</html>
+~~~
+
+This shows the way the majority of `<meta>` tags will be defined, with `name` and `content` attributes. You can think about these as analogous to keys and values in the dictionaries we have been defining in YAML files.
+
+### Other Important `<meta>` Tags
+
+You can define any meta tag you want, but there are a few meta tags that are, if not outright required, *really* helpful to have in your document.
+
+#### 🚨Setting Character Encoding🚨
+
+You can use meta tags to set the character encoding in your document. Remember when we talked about the strange history of plain text and how ASCII, the first character encoding set, didn't define characters used in non-English languages? And instead, a new standard, UTF-8, was defined? And this is how we got emoji?
+
+In case you don't, UTF-8 is a format for storing plain text on your computer that allows you to store and display characters from non-English languages, such as accents (é), non-Latin alphabets (磨), emoji (🔥), or a variety of other fun characters.
+
+If your webpage were not configured for UTF-8, none of those characters would display.
+
+Unless you have a very compelling reason not to, **always** include `<meta charset="UTF-8">` somewhere in the `<head>` of your HTML documents.
+
+#### Make Sure It Looks Good On Your Cellphone
+
+I'm going to break from my habit, in this text, of trying to explain *why* we do things in this section. Because this section teaches you something important for designing for the web in the 21st century, where lots of web traffic is on mobile phones, and because the explanation is not particularly interesting, I am going to just give you a rule:
+
+To make sure websites display correctly on mobile phones, make sure you always have `<meta name="viewport" content="width=device-width, initial-scale=1">` in the `<head>` of your HTML document.
+
+You may someday encounter a reason to change this tag, but you really need it for websites to work on your mobile phone.
 
 ## Metadata for Search Engines
 
