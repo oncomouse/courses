@@ -284,7 +284,7 @@ To do this for Twitter, we would have to add a set of additional tags.
 
 ### "Isn't This, Like, Just the Worst?"
 
-To answer the question posed in this section's header, "yes, yes it is." Having to add all of this metadata to every, single post we wrote and every single page we built is a gigantic pain. This is why we use a site-builder like Jekyll (or why you might use something like Wordpress to run a blog in a different contenxt; or a site builder like Weebly). Layouts allow us to define SEO tags like Open Graph or Twitter Card once and then have them added to every page we build.
+To answer the question posed in this section's header, "yes, yes it is." Having to add all of this metadata to every, single post we wrote and every single page we built is a gigantic pain. This is why we use a site-builder like Jekyll (or why you might use something like Wordpress to run a blog in a different context; or a site builder like Weebly). Layouts allow us to define SEO tags like Open Graph or Twitter Card once and then have them added to every page we build.
 
 Even easier, GitHub Pages, has, by default a plugin called [jekyll-seo-tag](https://github.com/jekyll/jekyll-seo-tag), which will automatically generate these tags for every page on your site. If you want to make sure, look in your template's `default` layout file for the line {%raw%}`{% seo %}`{%endraw%}. This is the line that tells Jekyll to add Open Graph, Twitter Card, and other discovery-oriented tags to your site.
 
