@@ -212,9 +212,14 @@ You can define any meta tag you want, but there are a few meta tags that are, if
 
 You can use meta tags to set the character encoding in your document. Remember when we talked about the strange history of plain text and how ASCII, the first character encoding set, didn't define characters used in non-English languages? And instead, a new standard, UTF-8, was defined? And this is how we got emoji?
 
-In case you don't, UTF-8 is a format for storing plain text on your computer that allows you to store and display characters from non-English languages, such as accents (é), non-Latin alphabets (磨), emoji (🔥), or a variety of other fun characters.
+In case you don't, UTF-8 is a format for storing plain text on your computer that allows you to store and display characters from non-English languages, such as accents (é), non-Latin alphabets (磨), emoji (🔥), or a variety of other fun characters. UTF-8 is important: 
 
-If your webpage were not configured for UTF-8, none of those characters would display.
+If your webpage were not configured for UTF-8, none of those characters would display. And that would make Dr. Pilsch very angry:
+
+<figure class="mt-5">
+<p class="mb-0 h1">(ノಠ益ಠ)ノ彡┻━┻</p>
+<figcaption class="mt-0">Dr. Pilsch is angered by badly implemented character encodings!</figcaption>
+</figure>
 
 Unless you have a very compelling reason not to, **always** include `<meta charset="UTF-8">` somewhere in the `<head>` of your HTML documents.
 
@@ -240,5 +245,53 @@ This tag can help your site be better indexed on the larger web.
 
 ## Metadata for Search Engines
 
+We have already mentioned [search engine optimization (SEO)](https://en.wikipedia.org/wiki/Search_engine_optimization), the process of growing web content by trying to increase the visibility of a site in a search engine's results. This field is very broad, but in this section I want to focus on making content better at being shared on social media sites, mainly Twitter and Facebook.
+
+When you share a link on Facebook or Twitter, most times, the site pops up with a nice preview, including an image and some description of the content. Here's an example from Twitter:
+
+![Twitter Card Example](https://github.blog/wp-content/uploads/2013/01/e0de6f9c-664e-11e2-8000-cbdbed0f013e.png?resize=569%2C495)
+{:.text-center}
+
+And one from Facebook:
+
+![Open Graph Example](https://2.bp.blogspot.com/-kzdcNpZkkK0/VBHOHfDjlkI/AAAAAAAAALs/Ud6T0JfaB4A/s1600/SharedLink.png)
+{:.text-center}
+
+Both of these examples are generated because the sites being shared implement the two metadata standards Twitter and Facebook have developed to describe content to their sites. Twitter's standard is [Twitter Card](https://developer.twitter.com/en/docs/twitter-for-websites/cards/guides/getting-started); Facebook's is [Open Graph](https://ogp.me/).
+
+### An Open Graph Example
+
+Let's define some metadata!
+
+Open Graph is the standard for making things discoverable on Facebook. The standard defines *a lot* of tags for describing web documents. If we wanted to add Open Graph information to a blog post, we could add the following `<meta>` tags to the `<head>` of the post:
+
+~~~html
+<meta property="og:type" content="article">
+<meta property="og:author" content="Andrew Pilsch">
+<meta property="og:title" content="First Post">
+<meta property="article:published_time" content="2020-09-01T14:11:00-06:00">
+<meta property="og:image" content="https://example.com/ogp.jpg">
+<meta property="og:image:alt" content="The content of this article, illustrated.">
+~~~
+
+We have to reproduce our `<title>` and `<meta name="author" ...>` tags for Open Graph *and* we use the `property` attribute instead of the `name` attribute. There are reasons for this that have to do with the fact that Open Graph is actually an RDFa standard, not an HTML standard, but you don't need to worry about that.
+
+The `og:type` property is set to `article` because, within Open Graph's list of types, `article` is the closest to a blog post.
+
+Additionally, the `og:image` property links to the image that will appear as a preview when Facebook shares our page.
+
+To do this for Twitter, we would have to add a set of additional tags.
+
+### "Isn't This, Like, Just the Worst?"
+
+To answer the question posed in this section's header, "yes, yes it is." Having to add all of this metadata to every, single post we wrote and every single page we built is a gigantic pain. This is why we use a site-builder like Jekyll (or why you might use something like Wordpress to run a blog in a different contenxt; or a site builder like Weebly). Layouts allow us to define SEO tags like Open Graph or Twitter Card once and then have them added to every page we build.
+
+Even easier, GitHub Pages, has, by default a plugin called [jekyll-seo-tag](https://github.com/jekyll/jekyll-seo-tag), which will automatically generate these tags for every page on your site. If you want to make sure, look in your template's `default` layout file for the line {%raw%}`{% seo %}`{%endraw%}. This is the line that tells Jekyll to add Open Graph, Twitter Card, and other discovery-oriented tags to your site.
+
+Most of `jekyll-seo-tag` is configured by a page's YAML metadata block or by the site metadata (`_config.yml`), so take a look at [the usage documentation for `jekyll-seo-tag`](https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md) to see more about adding this information to your site.
+
 ## Conclusion
 
+Metadata represents an important way to describe the content of your document and to make it easier for your users to find your content. Jekyll provides a number of ways to add more information to your site, and automates much of the tedious process of adding this information to your site.
+
+For this week's activity, we will be experimenting with metadata on our sites!
