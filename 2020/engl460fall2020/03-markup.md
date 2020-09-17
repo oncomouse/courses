@@ -780,6 +780,6 @@ You'll need to remember this when you get to your hands-on activity for this wee
 
 # Conclusion
 
-We've seen that markup is the way in which plain text is converted to visually rich content for display in your web browser. This is based off of the material we learned about from the chapter on files, as well. Now, we have the ability to not only author content using Markdown but also to write semantic, structured HTML documents.
+We've seen that markup is the way in which plain text is converted to visually rich content for display in your web browser. This is based on the material we learned about from the chapter on files, as well. Now, we have the ability to not only author content using Markdown but also to write semantic, structured HTML documents.
 
 The next chapter will discuss using metadata to describe in more detail the contents of the documents we create.
