@@ -203,15 +203,179 @@ Now we have our site's CSS loaded in from an external file!
 
 ## Applying your CSS styles to HTML
 
+But CSS can do more than just define rules for tags. We have classes and IDs in the specification, too.
+
+To attach a CSS class to an HTML element, we use the `class` attribute. To attach an ID to an HTML element, we use the `id` attribute.
+
+So, we could add the `text-center` class, which centers text, to a paragraph by writing `<p class="text-center">Centered Text</p>`. We could name a header "title" by writing `<h1 id="title">`.
+
+Using these two attributes, we can attach the rest of our CSS rules to our HTML.
+
+### Generic HTML elements and style.
+
+When we learned about Markdown, we talked about the difference between block and span elements (a paragraph or a list is a block in Markdown, while emphasis or a link is a span element). We also talked about this being applicable to HTML.
+
+When we attach classes and IDs to elements, sometimes we don't want the associated semantic meaning in HTML. For instance, we may want to italicize the name of the author of a blog post on our site, but we don't want it to semantically mean "emphasized." In that case, we can use what is called a "generic HTML element."
+
+There are two generic HTML elements, one for block elements and the other for span elements. The two tags are `<div>` for blocks and `<span>` for spans.
+
+In our example of the author's name, we may want to italicize the name of an author but not emphasize it. In that case, we may come up with some HTML that looks like this:
+
+~~~html
+<article>
+	<header>
+		<h1>Title of the Article</h1>
+		<time>September 20, 2020</time>
+		<span class="author-name">Andrew Pilsch</span>
+	</header>
+</article>
+~~~
+
+Then we could generate the CSS:
+
+~~~css
+.author-name {
+	font-style: italic;
+}
+~~~
+
+From a visual, human-focused standpoint, this is a more complicated, but otherwise comparable, to just typing `<em>Andrew Pilsch</em>`. However, from the web browser's stand-point, it is not at all comparable, because `em` in HTML is meant to emphasize important information, while `span` does not have an implicit meaning. In this way, we can apply the italic styling without also implying a semantic meaning in the HTML. This is why generic tags are so important for designing the appearance of the website.
+
+### Another Example of Generic Tags: Center Content
+
+The basic site we built in the previous section looks like this when we display it in the browser:
+
+![A basic website](./images/05-basic-site.png)
+{:.text-center}
+
+We could make the site look a little better if we centered the column in the browser so that the text was a little narrower.
+
+We have to use a `<div>` for that:
+
+~~~html
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Example Site</title>
+		<link rel="stylesheet" href="site.css">
+	</head>
+	<body>
+		<div class="container">
+			<h1>Page Title</h1>
+			<p>When we learned about Markdown, we talked about the difference between block and span elements (a paragraph or a list is a block in Markdown, while emphasis or a link is a span element). We also talked about this being applicable to HTML.</p>
+
+			<p>When we attach classes and IDs to elements, sometimes we don’t want the associated semantic meaning in HTML. For instance, we may want to italicize the name of the author of a blog post on our site, but we don’t want it to semantically mean “emphasized.” In that case, we can use what is called a “generic HTML element.”</p>
+		</div>
+	</body>
+</html>
+~~~
+
+And add to the CSS:
+
+~~~css
+.container {
+	margin: auto;
+	max-width: 960px;
+	width: 100%;
+}
+~~~
+
+We get [a nicely centered column of text](./05-style-example1.html).
+
+The code to center a block is, counter-intuitively, `margin: auto`. Why? Because CSS is just like that some times. We also set a width and a max-width because it will make sure the column grows with the size of the user's screen (say if they were on a cellphone) until it hits our [desired max of 960px](https://stackoverflow.com/a/7415984).
+
+We can also use generic tags to format and define regions of our website!
+
 # Compound CSS
+
+But can we only apply CSS to single kinds of elements, classes, or IDs? Thanksfully, not. We can make nested selectors and we can combine selectors to make more complex and useful rules.
 
 ## Nesting Selectors
 
 HTML, as you remember, is a hierarchical markup language, with children elements contained within parent elements. CSS can write selectors to take advantage of this structure.
 
+Sometimes you may need to target a particular element inside of another. For instance, say you were adding the class `phone-numbers` to some `<ul>` tags in your document. You need to do some formatting on the `li` tags in each list. In CSS, you can write a nested selector, which combines two selectors in sequence. We could write:
 
+~~~css
+.phone-numbers li {
+	font-weight: bold;
+}
+~~~
+
+Now all the `li` in our phone number lists are going to be bold. You can read this selector from right to left as "target all list items contained within an element with the class `phone-numbers`." The space establishes a parent child relationship in CSS.
+
+### Note on Parentage
+
+In CSS, and this can be very frustrating to remember, the parent child relationship is not immediate in nested selectors, so the above CSS selector would match all the `<li>` tags below:
+
+~~~html
+<div class="phone-numbers">
+	<div id="customer-phone-numbers">
+		<ul>
+			<li>123-456-7890</li>
+			<li>123-456-7890</li>
+			<li>123-456-7890</li>
+			<li>123-456-7890
+				<ul>
+					<li>123-456-7890</li>
+					<li>123-456-7890</li>
+					<li>123-456-7890</li>
+					<li>123-456-7890</li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+	<div id="enemies-phone-numbers">
+		<ul>
+			<li>979-867-5309</li>
+			<li>979-867-5309</li>
+			<li>979-867-5309</li>
+			<li>979-867-5309</li>
+		</ul>
+	</div>
+</div>
+~~~
+
+Even though none of the above `li` tags are direct children of the element with the `phone-numbers` class, they are all children in CSS's eyes.
+
+### Direct Parent -> Child Relationships
+
+In CSS, to select only direct children of a particular parent, you can separate the two rules with a less than symbol (`>`). So, `.phone-numbers > li` will only select `li` tags that are the direct children of a `.phone-numbers` class.
+
+~~~html
+<ul class="phone-numbers">
+	<li>I will be styled</li>
+	<li>I will be styled
+		<ul>
+			<li>I will not be styled</li>
+		</ul>
+	</li>
+</ul>
+~~~
+
+In the above examples, only the elements that contain "I will be styled" are targeted by `.phone-numbers > li`.
 
 ## Combining Selectors
+
+Rules can also be combined outside of nesting. The most common usage for this is applying styling to all six levels of headings in HTML. To do that, rules are separated by commas (`,`). For instance to change headings from bold to normal weight, we could use the following CSS rule:
+
+~~~css
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: normal;
+}
+~~~
+
+This lets us combine selectors quickly and efficiently.
+
+
+**Note on Styling Styles:** Many CSS style guides suggest placing a linebreak after a column to better emphasize each selector in a combined selector, but it is not required by the specification. It is merely done for readability.
 
 # Applying Style in Jekyll Markdown
 
