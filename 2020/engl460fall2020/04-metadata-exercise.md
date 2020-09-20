@@ -37,6 +37,7 @@ For the **primer** theme, once again, I would edit the `_layouts/default.html`. 
 
 The code to add is:
 
+{%raw%}
 ~~~html
 {% if post %}
 	{% assign categories = post.categories %}
@@ -45,6 +46,7 @@ The code to add is:
 {% endif %}
 <p><strong>Posted In</strong>: {{categories | capitalize | join: ', '}}</p>
 ~~~
+{%endraw%}
 
 This will print the categories as a list joined by commas.
 
@@ -52,6 +54,7 @@ This will print the categories as a list joined by commas.
 
 We can also present a page with all our posts sorted by category. To do this, we create a page, say `categories.html`. We can add the following content to it:
 
+{%raw%}
 ~~~html
 ---
 layout: default
@@ -70,6 +73,7 @@ layout: default
   {% endfor %}
 </ul>
 ~~~
+{%endraw%}
 
 We could then add a link to `categories.html` to our menu and have that available to help our users navigate our site.
 
