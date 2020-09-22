@@ -15,8 +15,8 @@ For instance, I could categorize a first post into two categories:
 ---
 title: About Me
 author:
-	name: Dr. Pilsch
-	url: "https://andrew.pilsch.com"
+  name: Dr. Pilsch
+  url: "https://andrew.pilsch.com"
 categories:
 - about
 - welcome
@@ -40,11 +40,13 @@ The code to add is:
 {%raw%}
 ~~~html
 {% if post %}
-	{% assign categories = post.categories %}
+    {% assign categories = post.categories %}
 {% else %}
-	{% assign categories = page.categories %}
+    {% assign categories = page.categories %}
 {% endif %}
-<p><strong>Posted In</strong>: {{categories | capitalize | join: ', '}}</p>
+ {% if categories.size > 0%}
+    <p><strong>Posted In</strong>: {{categories | join: ', ' | capitalize }}</p>
+{%endif%}
 ~~~
 {%endraw%}
 
