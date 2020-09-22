@@ -288,6 +288,72 @@ The code to center a block is, counter-intuitively, `margin: auto`. Why? Because
 
 We can also use generic tags to format and define regions of our website!
 
+# Applying Style in Jekyll Markdown
+
+Your Jekyll theme already has a variety of classes defined in its CSS. To take a look, we need to use something called "View Source," a feature in our web browser that lets us look at the source code of a web page.
+
+We want to look for lines that begin with `<link rel="stylesheet"`. You could search (using the Ctrl+F or Cmd+F hotkey in your browser) for "rel=\"stylesheet" if you want to speed this up. These `<link>` tags will each contain a `href` attribute that links to a CSS file. Click on that in the source viewer and your CSS file load.
+
+Unfortunately, it usually prints as a very long, single-line string that is utterly unreadable by humans. This is because Jekyll removes spaces and line breaks from CSS files when it builds your site in order to save a few bytes here or there (which would add up if we were running a website like Facebook or Google). To fix this, we can copy the CSS code and visit a CSS unminifier website (I use [Unminify](https://unminify.com)), which will add white space back in.
+
+This animated GIF shows the whole process:
+
+![Animated GIF Showing View Source Operation](./images/05-style-view-source.gif)
+{:.text-center}
+
+The CSS for [primer](https://github.com/pages-themes/primer) defines *a lot* of useful CSS classes you can use. One I use frequently on this page is `text-center`, which is defined as:
+
+~~~css
+.text-center {
+	text-align: center
+}
+~~~
+
+When applied to a block element such as a paragraph, it will center the content. I'm using it to center all the images on this page, for instance.
+
+But how do we apply it?
+
+Sadly, Markdown does not have a standard way to add style and class information to content. However, the Markdown library used on GitHub Pages, called [Kramdown](https://kramdown.gettalong.org/), has the ability to add style information to Markdown documents.
+
+So, what I am about to teach you, *and I can't emphasize this strongly enough*, will only work on GitHub Pages or any other Markdown application that uses Kramdown. If you end up using Markdown for anything after this class, make sure you know if Kramdown's add-ons are supported.
+
+Ok, to attach a class to a block element, you add a line in braces (`{` and `}`) that contains a colon (`:`) followed by a list of classes separated by spaces. As an example, to add the `text-center` class to a paragraph, I could write:
+
+~~~markdown
+Here is an example paragraph. It is very short.
+{: .text-center}
+~~~
+
+If I wanted to turn the text blue, I would add a second class:
+
+~~~markdown
+Here is an example paragraph. It is very short.
+{: .text-center .text-blue}
+~~~
+
+This will produce:
+
+Here is an example paragraph. It is very short.
+{: .text-center .text-blue .border .p-4 .container-md}
+
+These classes, `text-center` and `text-blue`, are both defined in primer's CSS file, so you can't just make up whatever you want. You need to be checking the CSS. Primer offers a lot of options for changing aspects of your document.
+
+You can also use Kramdown's add-ons to Markdown to apply CSS classes to in-line elements. Say we wanted to add some emphasized text to our paragraph and turn it red. We could do the following:
+
+~~~markdown
+Here is an example paragraph. *Here is some red emphasized text*{:.text-red}. It is very short.
+{: .text-center .text-blue}
+~~~
+
+Which produces:
+
+Here is an example paragraph. *Here is some red emphasized text*{:.text-red}. It is very short.
+{: .text-center .text-blue .border .p-4 .container-md}
+
+This only works because of the emphasized text. You have to define an in-line element in order to modify it in Markdown, which is the one limitation to the way this is done in Kramdown.
+
+Now, let's talk a little more about writing complex CSS selectors.
+
 # Compound CSS
 
 But can we only apply CSS to single kinds of elements, classes, or IDs? Thanksfully, not. We can make nested selectors and we can combine selectors to make more complex and useful rules.
@@ -377,8 +443,23 @@ This lets us combine selectors quickly and efficiently.
 
 **Note on Styling Styles:** Many CSS style guides suggest placing a linebreak after a column to better emphasize each selector in a combined selector, but it is not required by the specification. It is merely done for readability.
 
-# Applying Style in Jekyll Markdown
-
 # Creating New Styles
+
+We have already talked about overriding the default template files in order to add our own design elements to our GitHub Pages blogs. Thankfully, we can also extend the existing CSS of our theme and add our own elements to create custom CSS rules.
+
+For any CSS theme, we do this by creating a file called `assets/css/style.scss` (*Make sure to note the extension is `.scss` and not `.css`*). We then add the following content to it:
+
+{%raw%}
+~~~scss
+---
+---
+
+@import "{{ site.theme }}";
+~~~
+{%endraw%}
+
+We can then add any custom CSS rules we might wish to define after the line beginning with `@import`.
+
+If you're curious about what this is doing, we are adding a blank YAML header to the `style.scss` file to tell Jekyll to manage the file. Then, the `@import` line tells Jekyll to include the content of a particular file in our file when it builds the site. The {%raw%}`{{ site.them }}`{%endraw%} tells Jekyll to automatically use our site's theme as the file to include. One other thing to note about all of this, the file is called `style.scss` because it is actually using a language called [SASS](https://sass-lang.com/), which is a ridiculously powerful version of CSS that does a lot of things we won't be working with in class. However, if you are interested in learning some of the tricks lazy web developers use to manage complex CSS projects, SASS is a good place to start.
 
 ## Using Developer Tools to Edit CSS Live
