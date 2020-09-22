@@ -463,3 +463,10 @@ We can then add any custom CSS rules we might wish to define after the line begi
 If you're curious about what this is doing, we are adding a blank YAML header to the `style.scss` file to tell Jekyll to manage the file. Then, the `@import` line tells Jekyll to include the content of a particular file in our file when it builds the site. The {%raw%}`{{ site.them }}`{%endraw%} tells Jekyll to automatically use our site's theme as the file to include. One other thing to note about all of this, the file is called `style.scss` because it is actually using a language called [SASS](https://sass-lang.com/), which is a ridiculously powerful version of CSS that does a lot of things we won't be working with in class. However, if you are interested in learning some of the tricks lazy web developers use to manage complex CSS projects, SASS is a good place to start.
 
 ## Using Developer Tools to Edit CSS Live
+
+We talked previously about using your browser's developers tools to edit HTML live in the browser. The truly powerful aspect of developers tools, however, is that it lets you edit CSS live in browser, as well, which is very useful for building custom CSS classes.
+
+When clicking on an element in the source view of developers tools or inspecting an element, the pane to the right of the HTML view displays all the style rules applied to the current element. You can edit them and add new ones if you wish. This can be very helpful when adding new rules and getting everything to look right. *Just remember that if you reload the page, any changes you make are gone.*
+
+![Using Developers' Tools to Edit CSS Live](./images/05-style-dev-tools.gif)
+{:.text-center}
