@@ -14,9 +14,24 @@ So, we could make something like this:
 
 ![Styled Primer Site](./images/05-end-point-1.png)
 
-# Styling Our Navigation Menu
+Or this:
 
-# Styling Categories
+![Styled Primer Site](./images/05-end-point-2.png)
+
+As two examples of how we can build a more amenable layout using just the built-in CSS classes in Primer.
+
+# Some CSS Properties to Look At
+
+Make sure to look at the built-in themes for your theme before you start building new CSS content, but a couple of properties that will likely help are:
+
+* `list-style`
+* `padding`
+* `margin`
+* `border`
+* `border-radius`
+* `display` (pay special attention to the part talking about `inline-block`, which you will definitely want to use for making `<li>` tags into things that work more like buttons)
 
 # Your Challenge for the Week
+
+I am challenging you to start the process of styling your navigation menu and the categories display on your blog posts. See what you can come up with and write a blog post about your process!
 
