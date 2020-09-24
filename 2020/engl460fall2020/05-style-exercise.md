@@ -24,12 +24,12 @@ As two examples of how we can build a more amenable layout using just the built-
 
 Make sure to look at the built-in themes for your theme before you start building new CSS content, but a couple of properties that will likely help are:
 
-* `list-style`
-* `padding`
-* `margin`
-* `border`
-* `border-radius`
-* `display` (pay special attention to the part talking about `inline-block`, which you will definitely want to use for making `<li>` tags into things that work more like buttons)
+* [`list-style`](https://developer.mozilla.org/en-US/docs/Web/CSS/list-style)
+* [`padding`](https://developer.mozilla.org/en-US/docs/Web/CSS/padding)
+* [`margin`](https://developer.mozilla.org/en-US/docs/Web/CSS/margin)
+* [`border`](https://developer.mozilla.org/en-US/docs/Web/CSS/border)
+* [`border-radius`](https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius)
+* [`display`](https://developer.mozilla.org/en-US/docs/Web/CSS/display) (pay special attention to the part talking about `inline-block`, which you will definitely want to use for making `<li>` tags into things that work more like buttons)
 
 # Your Challenge for the Week
 
