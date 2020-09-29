@@ -242,3 +242,5 @@ Next, we need to use bundler to install the rest of the Jekyll requirements. To 
 ![Installing dependencies with bundler](./images/06-jekyll-bundle-install.gif)
 {:.text-center}
 
+Now, we have a working installation of Jekyll!
+
