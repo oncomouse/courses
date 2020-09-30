@@ -139,6 +139,10 @@ In advance of both papers, you will be required to read and provide feedback on 
 
 If you plan to take an [extension](#extension-policy) on an assignment, negotiate modified peer review deadlines amongst yourselves.
 
+#### Procedure For Peer Review
+
+When you are comfortable with your draft, post it to the discussion board on Canvas for the week of the peer review. As you read your classmates' posted drafts, please complete a review worksheet (posted on Canvas) for each paper and post it as a comment on their draft. I will use these responses to calculate your peer review grade for each paper. 
+
 ## Paper 1: Contemporary Rhetoric
 
 We have identified a number of problems in the first few decades of the 20th century that make the practice of rhetoric and the study of persuasion crucial for the functioning of a mediated society. What is the single most important issue today that you think require a new theory of persuasion?
