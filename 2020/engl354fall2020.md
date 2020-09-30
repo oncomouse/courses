@@ -139,6 +139,12 @@ In advance of both papers, you will be required to read and provide feedback on 
 
 If you plan to take an [extension](#extension-policy) on an assignment, negotiate modified peer review deadlines amongst yourselves.
 
+#### Instructions for Peer Review
+
+A peer review worksheet is posted on Canvas for each paper. Complete one worksheet for each paper in your discussion group. You will provide your completed peer review worksheets to the paper's author, but also keep a copy of the peer review sheets you complete for your records.
+
+You are required to submit completed peer review sheets for your paper along with the final draft of your paper. Please submit these as separate files. If you are taking an extension on the paper, please still submit completed peer review sheets along with your paper.
+
 ## Paper 1: Contemporary Rhetoric
 
 We have identified a number of problems in the first few decades of the 20th century that make the practice of rhetoric and the study of persuasion crucial for the functioning of a mediated society. What is the single most important issue today that you think require a new theory of persuasion?
