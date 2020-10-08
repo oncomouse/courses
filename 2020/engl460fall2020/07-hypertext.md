@@ -44,4 +44,14 @@ A game such as *Depression Quest*, which draws on classic RPG tropes and mechani
 
 # Twine
 
-All of the above games were made use [Twine](https://twinery.org/), a program that makes it simple to create interactive fiction and games. Twine is built around HTML and CSS, and also uses a lot of syntax similar to Markdown, to make it easy to create interactive games.
+All of the above games were made use [Twine](https://twinery.org/), a program that makes it simple to create interactive fiction and games. Twine is built around HTML and CSS. It makes creating interactive games easy.
+
+Here's a quick video overview of using Twine to create interactive fiction:
+
+<p class="text-center"><iframe width="560" height="315" src="https://www.youtube.com/embed/ZnARX2ToqYc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
+Here's [another helpful tutorial for designing Twine games](http://www.adamhammond.com/twineguide/) that is specifically geared toward English Majors.
+
+# Why Twine?
+
+[The final project](../engl460fall2020.html#final-project) in this class asks you to create a website or other internet artifact that responds to some of the principles we have explored in class. Twine is an easy way to create an interactive game that can meet a variety of needs for a variety of audiences. Exploring more about Twine would be a good way to think about something to make for the final project.
