@@ -19,7 +19,17 @@ For the remainder of this chapter, I want us to think about how we can use hyper
 
 # Wikipedia as Hypertext
 
+One of the most common experiences of hypertext, as it was intended by Bush and Nelson, might be falling into a ["Wiki rabbit hole"](https://en.wikipedia.org/wiki/Wiki_rabbit_hole). *Wikipedia* defines the concept as:
+
+> The wiki rabbit hole is the learning pathway which a reader travels by navigating from topic to topic while browsing Wikipedia and other wikis. Other names for the concept include wiki black hole[1] and wikihole.[2] The metaphor of a hole comes from Alice's Adventures in Wonderland, in which Alice begins an adventure by following the White Rabbit into his burrow.
+
+Essentially, it is the process of going to *Wikipedia* to find information on a topic, clicking a link to another article and realizing, often an hour or more later, that you have no idea why you are reading an encyclopedia article about pineapples.
+
+This phenomenon is a pure example of Nelson's original notion of hypertext, which was to organize knowledge in a way that encouraged non-linear association amongst ideas instead of linear comprehension of a single topic. By clicking through the various links of *Wikipedia*, we construct our own narrative. Rather than be guided through a text by an author, something we do when we read a novel, we guide ourselves through a collection of texts.
+
 # Hypertext Games
+
+Guiding ourselves through a story, something Michael Joyce was also doing with *afternoon: a story*, is also of interest to a lot of indie game developers. Hypertext games allow creators to explore a variety of topics not normally discussed in gaming.
 
 Sometimes also called interactive fiction, hypertext-based games have become increasingly popular, especially in indie game circles. Here are some examples of games that use hypertext to create a variety of experiences, from scary to tragic to cute:
 
@@ -29,6 +39,8 @@ Sometimes also called interactive fiction, hypertext-based games have become inc
 * [Beneath Floes](https://bravemule.itch.io/beneathfloes)
 
 More examples can be found on [itch.io's list of popular games](https://itch.io/games/made-with-twine).
+
+A game such as *Depression Quest*, which draws on classic RPG tropes and mechanics to explore someone experiencing clinical depression, can let users explore topics beyond traditional gaming narratives.
 
 # Twine
 
