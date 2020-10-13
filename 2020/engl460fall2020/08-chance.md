@@ -111,6 +111,7 @@ If we would like Tracery to be more favorable to one rule over another when choo
 
 If you'd like to use Tracery on your Jekyll site or use Jekyll to test a Tracery grammar for using Twine or somewhere else (see below), you can! Create a file in your repository called `_layouts/tracery.html` and add the following to that file:
 
+{% raw %}
 ~~~html
 ---
 layout: default
@@ -137,6 +138,7 @@ layout: default
   })
 </script>
 ~~~
+{% endraw %}
 
 Now, you can create an html file (it has to be an html) that contains your grammar and set `tracery` as the layout. So, I could create `tracery-example.html` on my Jekyll site and would include the following:
 
