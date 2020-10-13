@@ -31,4 +31,134 @@ Mentioning both hypertext and aleatory poetry in the context of game playing is 
 
 # Using Tracery to Make Aleatory Poetry
 
+Tracery is a simple library developed to make the procedural generation of text simple and fun. It was originally written in JavaScript, so you can use it on a website in addition to anywhere else you might want to generate text (you can even use Tracery to generate randomized dialogue in Twine games).
+
+Tracery uses a JSON file to define a hash describing the generation of text. Each JSON hash must contain a key called `origin`, which tells Tracery to start generating at that point. So, a basic Tracery grammar would be:
+
+~~~json
+{
+	"origin": "Hello"
+}
+~~~
+
+Every time you run this bot, it will just say "Hello" to you, because Tracery accesses the `origin` key, sees it has no randomness defined in it, and returns "Hello" to us. So, while we are now generating sentences using a computer (!), they aren't very interesting.
+
+In Tracery, we can use a special syntax to reference other keys in our JSON hash, which is called a "grammar" in Tracery. Say we wanted to greet the user with a name. We could update our grammar to read:
+
+~~~json
+{
+	"origin": "Hello, #name#.",
+	"name": "dear reader"
+}
+~~~
+
+Now, whenever we run our bot, it will produce "Hello, dear reader," because Tracery substitutes the contents of the key, if it exists, for any text between octothorpes (`#`). So, `#name#` causes Tracery to check that the grammar has a key named `name` (which it does) and return the contents of that key (which is `dear reader`). The result we get is not much better than what we had previously, but we are making progress. *Note*; If we were to run our bot before we defined the `name` key, it would produce "Hello, #name#." because the JSON key is not defined. This can help debug problems you may have later.
+
+Let's make some actual aleatory poetry, now. We can make our bot choose a different name for the reader each time we run it with the following grammar:
+
+~~~json
+{
+	"origin": "Hello, #name#.",
+	"name": ["dear reader", "valued friend", "loyal minion", "weary traveller"]
+}
+~~~
+
+By changing the `name` key to a list, we tell Tracery we want it to choose one of the values at random from that list. Now, when we run our bot, it might say "Hello, dear reader" but it might also say "Hello, loyal minion." We won't know until we run it.
+
+We can further chain our rules together. Each entry in our `name` key contains an adjective and a noun, which we could use to our advantage to produce more randomness, if we wanted:
+
+~~~json
+{
+	"origin": "Hello, #name#.",
+	"name": "#adjective# #noun#",
+	"adjective": ["dear", "valued", "loyal", "weary"],
+	"noun": ["reader", "friend", "minion", "traveller"]
+}
+~~~
+
+Now we are embedding rules within other rules within our grammar. Tracery goes to `origin`, which sends it to `name`, which further sends it to both `adjective` and `noun`. Each time Tracery encounters a list of data a particular key, it chooses at random from the list.
+
+We can also use lists with different combinations of keys to generate further novelty:
+
+~~~json
+{
+	"origin": "Hello, #name#.",
+	"name": ["#adjective# #noun#", "#adjective#, #adjective# #noun#"],
+	"adjective": ["dear", "valued", "loyal", "weary"],
+	"noun": ["reader", "friend", "minion", "traveller"]
+}
+~~~
+
+Now, when Tracery chooses `name`, sometimes it will generate a name composed of one adjective and one noun ("valued reader") and other times it will choose two adjectives and one noun ("valued, weary minion"). It will do this roughly 50% of the time.
+
+If we would like Tracery to be more favorable to one rule over another when choosing from a list, we can repeat it a number of times. For instance,
+
+~~~json
+{
+	"origin": "Hello, #name#.",
+	"name": [
+		"#adjective# #noun#",
+		"#adjective# #noun#",
+		"#adjective# #noun#",
+		"#adjective#, #adjective# #noun#"
+	],
+	"adjective": ["dear", "valued", "loyal", "weary"],
+	"noun": ["reader", "friend", "minion", "traveller"]
+}
+~~~
+
+# Using Tracery on Jekyll
+
+If you'd like to use Tracery on your Jekyll site or use Jekyll to test a Tracery grammar for using Twine or somewhere else (see below), you can! Create a file in your repository called `_layouts/tracery.html` and add the following to that file:
+
+~~~html
+---
+layout: default
+---
+<div class="tracery">
+  <p class="tracery_output"></p>
+  <button class="tracery_generate">Generate Again</button>
+</div>
+<script type="application/json" id="grammar">
+{{ content }}
+</script>
+<script src="https://cdn.jsdelivr.net/npm/cash-dom@8.0.0/dist/cash.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/oncomouse/tracery@1.0.1/tracery.min.js"></script>
+<script>
+  $(function() {
+    function generateTracery(grammar) {
+      return function() {
+        $('.tracery_output').text(grammar.flatten('#origin#'))
+      }
+    }
+    var grammar = tracery.createGrammar(JSON.parse($('#grammar').text()));
+    generateTracery(grammar)();
+    $('.tracery_generate').on('click', generateTracery(grammar));
+  })
+</script>
+~~~
+
+Now, you can create an html file (it has to be an html) that contains your grammar and set `tracery` as the layout. So, I could create `tracery-example.html` on my Jekyll site and would include the following:
+
+~~~html
+---
+layout: tracery
+---
+{
+	"origin": "Hello, #name#.",
+	"name": [
+		"#adjective# #noun#",
+		"#adjective# #noun#",
+		"#adjective# #noun#",
+		"#adjective#, #adjective# #noun#"
+	],
+	"adjective": ["dear", "valued", "loyal", "weary"],
+	"noun": ["reader", "friend", "minion", "traveller"]
+}
+~~~
+
+Loading that page will present some very basic Tracery controls and output. You can style `.tracery`, `.tracery_output`, and `.tracery_generate` to make the appearance fancy, if you want.
+
+**Note**: If you're wondering why the extension for `tracery-example` is `.html` instead of `.json`, I'm very proud of you for noticing that! We have to do that because we are technically tricking Jekyll into display JSON data as an HTML page. It is a bit of a hack, but it will work because the `_layouts/tracery.html` file loads the content of the file as JSON.
+
 # Using Cheap Bots Done Quick to Host on Twitter
