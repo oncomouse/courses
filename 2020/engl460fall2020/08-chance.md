@@ -3,6 +3,10 @@ layout: default
 title: "ENGL 460 – What is Aleatory Poetry?"
 ---
 
+In this chapter, we're going to learn about a process called "aleatory poetry," which is the process of using chance to generate text. This process first emerges in experimental writing circles but moves to more mainstream applications as [procedural generation](https://en.wikipedia.org/wiki/Procedural_generation) becomes used in computing applications such as video games and chat bots.
+
+In this chapter, we'll discuss some applications of aleatory poetry and learn how to use this technique in our own web projects.
+
 # A Definition
 
 # Randomness
@@ -27,7 +31,7 @@ But Tzara's technique continued to be employed by experimental artists throughou
 
 If hypertext is, at its core, basically a [Choose Your Own Adventure Novel](https://en.wikipedia.org/wiki/Choose_Your_Own_Adventure), you can think of aleatory poetry as a game of computerized [Mad Libs](https://en.wikipedia.org/wiki/Mad_Libs).
 
-Mentioning both hypertext and aleatory poetry in the context of game playing is especially important, as many games make use of both tools as part of their story-telling. Where, as we saw last week, game designers use Twine to map out a branching story that a user might move through in order to check for glitches in the story structure, [procedurally-generated content](https://en.wikipedia.org/wiki/Procedural_generation) is used in many video games to increase the reality-effect of games: by making NPCs have slightly different conversations each time a player encounters them, to generating quests and even whole planets new each time a user visits.
+Mentioning both hypertext and aleatory poetry in the context of game playing is especially important, as many games make use of both tools as part of their story-telling. Where, as we saw last week, game designers use Twine to map out a branching story that a user might move through in order to check for glitches in the story structure, procedurally-generated content is used in many video games to increase the reality-effect of games: by making NPCs have slightly different conversations each time a player encounters them, to generating quests and even whole planets new each time a user visits.
 
 # Using Tracery to Make Aleatory Poetry
 
