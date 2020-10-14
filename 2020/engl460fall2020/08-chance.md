@@ -9,6 +9,14 @@ In this chapter, we'll discuss some applications of aleatory poetry and learn ho
 
 # A Definition
 
+In [Richard Lanham's  "The Electronic Word,"](https://www-jstor-org.srv-proxy2.library.tamu.edu/stable/469101?seq=1#metadata_info_tab_contents) an essay from 1989 which outlines the challenges faced by and opportunities afforded to English departments with the rise of digital technology. There, he suggests it is possible to imagine the study of English literature as a more engaged, active process in which the material of the literary canon is re-engaged with to create new art. In this way, he writes:
+
+> And because all arts face the same technological pressures, they are going to find, create, new relationships through that technology, through their new digital equivalences. Such equivalences pose the most fundamental, and most obvious, challenges to the structure and purpose of the university arts curriculum, and to the place of literary study in it. The shocked responses to chance techniques of creation in experimental music will no doubt be duplicated in responses to programs which create **aleatory poetry**. (275)
+
+These chance techniques, for Lanham, include analog practices such as rolling dice or using decks of cards to compose texts, but these processes will only accelerate, he argues, with computers. And while there is a long history of computational poetry, it hasn't really caught fire in your English classes (except this one).
+
+But Lanham's idea of an "aleatory poetry" is an interesting way of engaging with the things that digital technology makes possible, and we can experiment with using chance methods to generate a large array of textual possibilities, much like how Twine allowed for the composition of branching narratives that readers explore.
+
 # Randomness
 
 The dada artist Tristan Tzara, in one of his several manifestos for the absurdist movement, included a section entitled "To Make a Dadaist Poem." It offers some of the first instructions for what Richard Lanham would call aleatory poetry. Here are Tzara's instructions:
