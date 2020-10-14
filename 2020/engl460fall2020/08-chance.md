@@ -168,3 +168,47 @@ Loading that page will present some very basic Tracery controls and output. You 
 **Note**: If you're wondering why the extension for `tracery-example` is `.html` instead of `.json`, I'm very proud of you for noticing that! We have to do that because we are technically tricking Jekyll into display JSON data as an HTML page. It is a bit of a hack, but it will work because the `_layouts/tracery.html` file loads the content of the file as JSON.
 
 # Using Cheap Bots Done Quick to Host on Twitter
+
+In addition to using Tracery on websites, the service, [Cheap Bots Done Quick](http://cheapbotsdonequick.com/), offers a way to host a Tracery bot on Twitter, using your Tracery grammar to generate tweets at an interval you determine (usually once every few hours).
+
+## 1. Create a Twitter Account
+
+To get started with [Cheap Bots Done Quick](http://cheapbotsdonequick.com/), you will first need to create a Twitter account for your bot:
+
+![Image of Twitter's account creation screen with the information for "Test Bot" filled in.](https://andrew.pilsch.com/blog/assets/images/bot1.png)
+
+Next, you will need to log into the account you have created. If you use a main Twitter account in your browser, consider using privacy mode (instructions for [Safari](https://support.apple.com/kb/ph21413?locale=en_US), [Chrome](https://support.google.com/chrome/answer/95464?source=gsearch&hl=en), and [Firefox](https://support.mozilla.org/en-US/kb/private-browsing-use-firefox-without-history)).
+
+**Before Going To Step 2:** Be sure not to log into [Cheap Bots Done Quick](http://cheapbotsdonequick.com/) with your main account, or your new bot might start tweeting as you!
+
+## 2. Authorize the App
+
+Now that you are logged into your new bot's Twitter account, go to [Cheap Bots Done Quick](http://cheapbotsdonequick.com/) and click "Sign In With Twitter". You will be taken to a screen like the one below:
+
+![Image showing the screen Twitter uses to ask if you authorize the app to use your account](https://andrew.pilsch.com/blog/assets/imag/bot2.png)
+
+Click "Authorize App" to continue.
+
+## 3. Enter / Test Your Tracery Grammar
+
+In the [Cheap Bots Done Quick](http://cheapbotsdonequick.com/) editor, there is a textbox labelled "**Tracery JSON**". Paste your grammar there, or start editing the one the app starts you off with. The app will check your JSON syntax and inform you of any errors as you go.
+
+Below the textbox, you can see the output of your grammar. Press the refresh button to generate a new one. If you press the blue "Tweet" button, it will post the current output to Twitter.
+
+When you are happy with your grammar, change the pulldown that says "Never" next to the phrase "post a tweet as" to how often you would like your bot to post (I usually post hourly).
+
+You can also set it to reply to tweets generated using your [Tracery](http://tracery.io/) grammar, either to tweets that match specific [regular expressions](https://developer.mozilla.org/en/docs/Web/JavaScript/Guide/Regular_Expressions) or to all replies. For instance, you could write a regular expression to match certain words or phrases, and respond accordingly.
+
+There are a lot of cool things you can do with this app!
+
+# Some Example Bots
+
+Here are some cool examples of bots made with Tracery:
+
+* [Lost Tesla](https://twitter.com/LostTesla)
+* [Infinite Deserts](https://twitter.com/infinitedeserts)
+* [Soft Landscapes](https://twitter.com/softlandscapes)
+* [lots of eyes](https://twitter.com/lotsofeyes)
+* [Tiny Gallery](https://twitter.com/thetinygallery)
+* [Happnin' in Hastings](https://twitter.com/What_Hastings)
+* [Every Sheriff](https://twitter.com/everysheriff)
