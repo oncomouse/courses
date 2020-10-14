@@ -173,7 +173,7 @@ layout: tracery
 
 Loading that page will present some very basic Tracery controls and output. You can style `.tracery`, `.tracery_output`, and `.tracery_generate` to make the appearance fancy, if you want.
 
-**Note**: If you're wondering why the extension for `tracery-example` is `.html` instead of `.json`, I'm very proud of you for noticing that! We have to do that because we are technically tricking Jekyll into display JSON data as an HTML page. It is a bit of a hack, but it will work because the `_layouts/tracery.html` file loads the content of the file as JSON.
+**Note**: If you're wondering why the extension for `tracery-example` is `.html` instead of `.json`, I'm very proud of you for noticing that! We have to do that because we are technically tricking Jekyll into display JSON data as an HTML page. It is a bit of a hack, but it will work because the `_layouts/tracery.html` file loads the content of the file as JSON, even though it's stored in an HTML file.
 
 # Using Cheap Bots Done Quick to Host on Twitter
 
