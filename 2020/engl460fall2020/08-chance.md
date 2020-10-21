@@ -141,7 +141,7 @@ layout: default
   $(function() {
     function generateTracery(grammar) {
       return function() {
-        $('.tracery_output').text(grammar.flatten('#origin#'))
+        $('.tracery_output').html(grammar.flatten('#origin#'))
       }
     }
     var grammar = tracery.createGrammar(JSON.parse($('#grammar').text()));
