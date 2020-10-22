@@ -120,3 +120,23 @@ There are a lot of nuances to building websites and digital documents for reader
 There are lots of other ways to improve accessibility, [this article covers how to adapt your site for people with physical or hearing disabilities](https://www.dreamhost.com/blog/make-your-website-accessible/).
 
 # Getting Started
+
+Now that we have some idea of what role audience plays in the content and design of a website, we can start to think about how to write the proposal for the final project in this course.
+
+The proposal itself will be a short document (at most five pages of written content, double spaced) that will outline the kind of text you propose to build, who the site will be reaching (think about both real and implied audience when coming up with this), and what steps you will have to take, **in detail**, to create the text.
+
+In addition to the text, any rough drafts of layout, content or functionality, to illustrate your point (including drawings, collages, and mood boards) will help strengthen the proposal and should be included, if they exist.
+
+In terms of concrete steps to take, think of the proposal as the end-point of your brainstorming process, not the beginning. You will most likely create some other working documents that you may not include in the proposal, such as:
+
+1. Audience analysis document
+	* Informal
+	* Who is the audience?
+	* Design expectations?
+1. [Wireframe outlines](https://careerfoundry.com/en/blog/ux-design/what-is-a-wireframe-guide/)
+	* Hand drawn outlines
+	* Set rough ideas for what the site will look like
+	* Document what you want to do, not what you can do
+1. Color scheme documentation
+
+Once you have a better idea of what you want to make, who you will make it for, and how  you will make it, you can begin to write the proposal.
