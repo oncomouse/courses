@@ -25,7 +25,38 @@ When thinking about writing, especially in a technical context, scholars like to
 
 Genre fiction, as discussed above, often makes heavy use of what is called "implied" reader. The implied reader is one who has a particular role to play or expects a certain set of expectations from the document. Implied readers are also often used in other kinds of writing that have very specific constraints placed upon them by reader expectations. Such genres of writing might include instruction manuals or technical documents such as government forms.
 
-Thinking in terms of implied audience helps us identify broad reader expectations by thinking about texts in terms of ritual interaction. "What sorts of things do my readers want to do with my text?"
+Thinking in terms of implied audience helps us identify broad reader expectations by thinking about texts in terms of ritual interaction. "What sort of reader do I imagine for this document?" is the key question here. This is not to say that we get to pick our readers, but instead it means writing a document that encodes the kind of reader it expects. We mentioned how novelists do this, but we can also think about this in terms of a more everyday genre, such as an instruction manual.
+
+When I want to learn how to work my new toaster, I don't really care about the decisions its designers made when creating it. I want to know how to fix my toaster. I expect a concise document I can quickly glance over to make sure I have the tools I need, before working step-by-step through a set of instructions as I fix my appliance.
+
+I am going to want:
+
+1. Clear short, sentences
+1. No prevarication, no complexity, no subordination
+1. Illustrations
+1. Clearly numbered steps
+1. Lots of negative space to indicate where information begins and ends (this is called chunking, which we will see below)
+
+This does not mean I want any of these features if I'm settling into bed at night to read a new novel. We read different documents differently, and effective writers, whether they are writing literary masterpieces or a manual for my broken toaster, encode how I want to read them in the decisions they make.
+
+We can see that the problem with recipe blogs, as we discussed above, lies partly in their having two implied audiences, created by different ways of reading. On the one hand, if I follow a particular recipe blogger, chances are I enjoy their writing, or I enjoy their approach to food, or their photography, or some combination of those things. I read each blog post, as a fan, as a chapter in an unfurling memoir. I want to look at all the photos; I want to read about the blogger's ongoing life.
+
+However, in another scenario, I want to make ramen for dinner, and I want to do it from scratch. I go to a search engine and look for something like "miso ramen from scratch." Recipe blog posts come up as the main results, because this is the main way in which recipes get shared online. My task is not so much to experience a particular blogger as a memoirist, but to compare a collection of reference materials to determine the best recipe. I bring a different set of expectations to the document, I am a reading these documents outside of their implied audience.
+
+This is why many recipe blogs now have a feature to jump straight to the recipe, as it becomes clear that these sites are also serving as a source of reference material.
+
+### Accessing the Implied Reader
+
+Some questions that may give you insight into the implied audience for a document include:
+
+1. What are the circumstances under which the text will be read?
+	* Is my reader going to be enjoying this text?
+	* Is it going to be read in low light or somewhere such as on a mobile phone?
+	* Is my reader going to be a skilled reader?
+	* Is my reader going to care to read complex prose even if they are skilled?
+1. How have other writers solved this issue?
+	* What genre am I writing in?
+	* What do good examples of this genre do to set reader expectations?
 
 ## Real Audience
 
