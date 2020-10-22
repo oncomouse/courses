@@ -66,4 +66,57 @@ Thinking in terms of real audience can help adapt to things like local customs o
 
 Additionally, real audience is sometimes best understood through user research. Interviews, workplace studies, questionnaires, and surveys all help us better understand the specific needs of the actual people to whom we will be writing.
 
+1. Who can I contact, interview, or observe to better understand my readers?
+	* What questions should I ask?
+	* What things do I need to measure or understand?
+1. 
+
 # Audience and Design
+
+## Content Organization
+
+## Design Elements
+
+In addition to content-level decisions that structure our site, design plays an important role in our understanding of audience.
+
+### Color and the Reader
+
+If you were making a site for a traditional German restaurant that served sausage and beer and pretzels, what colors would you expect the website to use? Given user expectations, it's probably not a terrible idea to start [with the colors of the German flag](https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/1200px-Flag_of_Germany.svg.png): red, gold, and black.
+
+We can make this assumption, because we know people have certain expectations for what certain genres of sites will look like. Similarly, websites that deal with patriotism and things associated with US politics will often adopt a red, white, and blue color scheme (this is why most political signs and ads in the US use those three colors, too).
+
+So, color can be a powerful way of signalling a particular implied reader to the user of your site.
+
+Color can also be used to control the mood of a site. Loud and bold colors convey a fun and festive attitude, but high energy may not be right. Similarly, more muted colors can convey certain emotions. Reds tend to compel stronger emotions than blues, which tend to be cool. Earth tones can imply different things, too.
+
+### Your Site's Color Scheme
+
+Choosing colors for your site can be a challenge, but it is an important part of creating your site's identity. Here are some articles and tools that can help you pick a color scheme for your site:
+
+* [Tips for Choosing a Color Scheme](https://websitesetup.org/website-color-schemes/)
+* [Creating your own Color Scheme](https://www.smashingmagazine.com/2010/02/color-theory-for-designer-part-3-creating-your-own-color-palettes/)
+* [Seven Rules for Color Schemes](https://elementor.com/blog/website-color-schemes/)
+
+Tools can also help with this:
+
+* [This site uses color theory to pick related colors](https://paletton.com)
+* [This uses an AI to pick colors](http://colormind.io/)
+
+SASS (which Jekyll uses to generate CSS files (remember the `.scss` extension we added to `site.scss`? That stands for "Sassy Cascading StyleSheets")) has some advanced features that can help make working with a color scheme easier:
+
+* [Dealing w/ Color Schemes in SASS](https://www.sitepoint.com/dealing-color-schemes-sass/)
+
+### Accessibility
+
+There are a lot of nuances to building websites and digital documents for readers with disabilities. A couple of places to start, though, include learning about color contrast---the difference between foreground and background colors---and it's role in accessibility for visually impaired readers:
+
+* [General article on contrast](https://webaim.org/articles/contrast/)
+* [Resource to test color contrasts](https://accessible-colors.com/)
+* [Another contrast checker](https://webaim.org/resources/contrastchecker/)
+* [Article on color contrast myths](https://uxmovement.com/buttons/the-myths-of-color-contrast-accessibility/)
+	* Emphasizes multiple ways to apply contrast
+	* Highlights importance of using multiple cues (text and color, for instance)
+
+There are lots of other ways to improve accessibility, [this article covers how to adapt your site for people with physical or hearing disabilities](https://www.dreamhost.com/blog/make-your-website-accessible/).
+
+# Getting Started
