@@ -62,6 +62,8 @@ Some questions that may give you insight into the implied audience for a documen
 
 Real readers, meanwhile, are less a question of an abstract class or category of reader and, instead, put forth the idea of imagining who readers are as real, specific humans with particular characteristics that must be accounted for. This is an especially strong way to think about audience when one is writing documents for a particular known audience, but it bears fruit as a strategy even when the specific audience is not known in advance.
 
-## Strategies for Greeting Audience
+Thinking in terms of real audience can help adapt to things like local customs or beliefs or prejudices. It can also take into account the kind of jargon---private language shared in a community---that can signal inside and outside of a particular group.
+
+Additionally, real audience is sometimes best understood through user research. Interviews, workplace studies, questionnaires, and surveys all help us better understand the specific needs of the actual people to whom we will be writing.
 
 # Audience and Design
