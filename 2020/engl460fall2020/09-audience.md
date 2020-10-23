@@ -73,11 +73,37 @@ Additionally, real audience is sometimes best understood through user research. 
 
 # Audience and Design
 
+Audience is a classic topic of consideration for writing, dating back to early theories of rhetoric in Ancient Greece. It is equally important to questions of design. As much as how you say something, the way your words present to your reader are of equal importance.
+
 ## Content Organization
 
 ## Design Elements
 
 In addition to content-level decisions that structure our site, design plays an important role in our understanding of audience.
+
+The organization of our site suggests something similar to the theory of the implied reader above. We can, for instance, use recognizable UI patterns to imply the function of a particular element on our site. As an example, consider the shopping cart, a common metaphor used on nearly every e-commerce site online. The reason for this ubiquity is it's a simple pattern that mirrors physical shopping, but most users are also familiar with it. If you have an "Add to Cart" button and a shopping cart widget somewhere on your site, users already know how to buy things on your site. You don't have to teach them, the design implies the functionality.
+
+This level of expectation setting can flow throughout the design of a website, through color, layout, and even font choice.
+
+### Design Patterns
+
+One way to suggest functionality and purpose to users is through the use of design patterns. This is a term, first originating in architecture, for the palette of solutions designers have developed to solve particular problems. In architecture, it can cover everything from the layout of a subdivision to the fasteners on a window; the reason design patterns exist is because tried-and-true solutions to these common problems already exist, a designer or architect need not reinvent the wheel each time they need to create a window.
+
+The same is true in the field of web design. UI (user interface) patterns are collection of common solutions to common problems and, if you start to understand that design is about reproducing these patterns to meet user expectation, you'll be surprised how common design patterns are online.
+
+These design patterns help as you're first building a model of your site. Often, sites are first designed on paper as pen or pencil sketches to quickly and clearly articulate the kind of functionality required of a site, before a commitment is made to start coding. At this stage, you can use some of the resources below, which catalog design patterns, to structure your sketches and clearly articulate functionality without having to worry about if things make sense.
+
+* [12 Timeless UI Patterns](https://www.uxpin.com/studio/blog/web-layout-best-practices-12-timeless-ui-patterns-explained/)
+	* Blog post discussing common approaches to site layout
+	* Thinking in terms of pros and cons
+	* **Start here**
+* [UI Patterns](http://ui-patterns.com/)
+	* Sorted by functionality
+	* Very thorough
+	* Can be a bit overwhelming
+* [Welie UI Pattern Archive](http://www.welie.com/patterns/index.php)
+	* Similar organization
+	* Narrower focus
 
 ### Color and the Reader
 
@@ -105,6 +131,18 @@ Tools can also help with this:
 SASS (which Jekyll uses to generate CSS files (remember the `.scss` extension we added to `site.scss`? That stands for "Sassy Cascading StyleSheets")) has some advanced features that can help make working with a color scheme easier:
 
 * [Dealing w/ Color Schemes in SASS](https://www.sitepoint.com/dealing-color-schemes-sass/)
+
+### Font Selection
+
+Font selection is also important for, like color, establishing the character of your site. With the adoption of web fonts, it is easy to add a variety of fonts to a site, especially using a site such as [Google Fonts](https://fonts.google.com).
+
+Here are some resources for picking fonts:
+
+* [Choosing Web Fonts: A Beginner's Guide](https://design.google/library/choosing-web-fonts-beginners-guide/)
+* [The Best Website Fonts that Go Together](https://www.quicksprout.com/best-font-for-website/)
+	* Usually you don't want to use more than two fonts on a website
+	* Though some would say one font is enough
+	* If you use two, you want to make sure the pair works together
 
 ### Accessibility
 
