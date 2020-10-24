@@ -77,6 +77,14 @@ Audience is a classic topic of consideration for writing, dating back to early t
 
 ## Content Organization
 
+The central question to ask yourself, as you start to think about the intersection design and writing is how to get the information your readers need to them as quickly and easily as possible. There are two ways to approach this task, based on the ideas of real and implied readers we have discussed above.
+
+When thinking about the implied audience, think about your content in terms of expectations your readers bring to websites. A home page should outline a bit about the site and also have visually distinct chunks of information that imply different aspects of the site's function and organization. Users also typically expect a navigation bar on the side or at the top of the site that breaks the content into further focused pages. Based on the content of these two collections---the chunked text on the home page and the navigation links in the bar---, a user should be able to find any piece of information they seek.
+
+Similarly, thinking in terms of real audiences, if you have access to a user population (or this can be done speculatively, if not), you can design narratives that capture different hypothetical usage scenarios in which users might find themselves. These are often domain specific and speak to the particular ways in which your site will be used by the audience you seek to reach.
+
+Once you have a better sense of the overall organization of your content, you can use strong topic sentences, pull quotes, images, bullets, and the other design features available in HTML to draw your reader's attention to the content you've discovered is important to them.
+
 ## Design Elements
 
 In addition to content-level decisions that structure our site, design plays an important role in our understanding of audience.
