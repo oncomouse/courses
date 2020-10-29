@@ -25,8 +25,6 @@ instructors:
 
 {% include schedule.html %}
 
-# Policies
-
 {% include policies.md %}
 ))
 end
