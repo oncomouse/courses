@@ -12,6 +12,13 @@ holidays:
 meets:
   - monday
   - wednesday
+units:
+  - start: 2
+    title: "Theory"
+  - start: 6
+    title: "Case Study"
+  - start: 12
+    title: "Field Work"
 weeks:
 "1": First Week
 "2": First Week
@@ -30,7 +37,8 @@ weeks:
 "15": First Week
 classes:
   - |
-    * Day 1
+    * Course Overview
+    * Paul Ford, ["What is Code?"](https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/)
   - |
     * Day 2
   - |
