@@ -35,7 +35,10 @@ Now your site should be using the new font!
 
 Here's a GIF of the whole process (including some fixes for Primer discussed below):
 
-![Setting a Web Font](./images/webfonts.gif)
+<figure>
+<img src="./images/webfonts.gif" alt="Setting a Web Font">
+<figcaption>I know it's "your". This GIF was the fifth take and I'm tired.</figcaption>
+</figure>
 
 ## It Didn't Work
 
