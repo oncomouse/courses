@@ -12,13 +12,6 @@ holidays:
 meets:
   - monday
   - wednesday
-units:
-  - start: 2
-    title: "Theory"
-  - start: 6
-    title: "Case Study"
-  - start: 12
-    title: "Field Work"
 weeks:
 "1": First Week
 "2": First Week
