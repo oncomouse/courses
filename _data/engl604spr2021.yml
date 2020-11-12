@@ -1,5 +1,18 @@
 ---
-title: "Software Studies"
+title: "Digital Research Methods: Software Studies"
+term: Spring 2021
+number: ENGL 604
+description: |
+  This seminar will introduce students to the emerging field of **software studies**. Software studies explores software systems from the perspective of their social and cultural effects. To this end, the seminar has three goals: 1) to specify software studies as a part of the larger digital humanities while also articulating it as a unique field of study; 2) to explore software development practices as models for cultural studies work; and 3) to consider the degree to which programming skills are necessary to pursue these topics. Students can expect to read work by Neal Stephenson, McKenzie Wark, Douglas Hofstadter, Ellen Ullman, Safiya Noble, Matthew Kirschenbaum, and others. In addition to traditional research papers, the seminar will also feature a gentle introduction to computer science concepts that shape the material being read.
+meetings:
+  - location: ONLINE
+    time: "5:35PM-6:50PM"
+instructors:
+  - name: Andrew Pilsch
+    email: apilsch@tamu.edu
+    office:
+      - hours:
+        location: ONLINE
 start: 2021-01-19
 end: 2021-04-29
 holidays:
@@ -31,8 +44,8 @@ weeks:
 classes:
   - |
     * Course Overview
+    * Mark C. Marino, ["Introduction" from *Critical Code Studies*](https://criticalcodestudies.com/intro.pdf)
   - |
-    * Day 2
   - |
     * Day 3
   - |

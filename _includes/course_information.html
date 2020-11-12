@@ -1,3 +1,14 @@
+{% assign courseKey = page.path | split: "/" | last | replace: ".md", "" | replace: ".html", "" %}
+{% if page.course %}
+{% assign course = page.course %}
+{% else %}
+{% assign course = site.data[courseKey] %}
+{% endif %}
+{% if page.instructors %}
+{% assign instructors = page.instructors %}
+{% else %}
+{% assign instructors = site.data[courseKey].instructors %}
+{% endif %}
 <header class="columns">
   <div class="column col-md-12">
     <h1>Course Information</h1>
@@ -5,28 +16,28 @@
   <div class="column col-md-6">
     <h2 class="border-bottom-0 pb-0">Course</h2>
     <ul>
-      <li><strong>Number:</strong> {{page.course.number}}</li>
-      <li><strong>Title:</strong> {{page.course.title}}</li>
-      <li><strong>Term:</strong> {{ page.course.term }}</li>
-      {% if page.course.meetings %} {% for meeting in page.course.meetings %}
+      <li><strong>Number:</strong> {{course.number}}</li>
+      <li><strong>Title:</strong> {{course.title}}</li>
+      <li><strong>Term:</strong> {{ course.term }}</li>
+      {% if course.meetings %} {% for meeting in course.meetings %}
       <li>
         <strong>Meeting:</strong> {{ meeting.time }}, {{ meeting.location }}
       </li>
-      {% endfor %} {%elsif page.course.time %}
+      {% endfor %} {%elsif course.time %}
       <li>
-        <strong>Meeting:</strong> {{ page.course.time }}, {{
-        page.course.location }}
+        <strong>Meeting:</strong> {{ course.time }}, {{
+        course.location }}
       </li>
       {%endif%}
     </ul>
   </div>
   <div class="column col-md-6">
-    {% if page.instructors != nil %}
+    {% if instructors != nil %}
     <h2 class="border-bottom-0 pb-0">
-      Instructor{% if page.instructors.size > 1 %}s{%endif%}
+      Instructor{% if instructors.size > 1 %}s{%endif%}
     </h2>
     <ul>
-      {% for instructor in page.instructors %}
+      {% for instructor in instructors %}
       <li><strong>Name: </strong>{{instructor.name}}</li>
       <li>
         <strong>Contact:</strong>
@@ -45,11 +56,11 @@
     </ul>
     {% endif %}
   </div>
-  {% if page.course.description != nil %}
+  {% if course.description != nil %}
   <div class="column col-md-12">
     <h2 class="border-bottom-0 pb-0">Course Description</h2>
     <blockquote>
-      {{page.course.description | markdownify}}
+      {{course.description | markdownify}}
     </blockquote>
   </div>
   {%endif%}

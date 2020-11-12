@@ -1,86 +1,109 @@
 ---
 ---
+{% assign courseKey = page.path | split: "/" | last | replace: ".md", "" | replace: ".html", "" %}
+{% if page.course %}
+{% assign course = page.course %}
+{% else %}
+{% assign course = site.data[courseKey] %}
+{% endif %}
 {% assign toc = page.toc | default: site.toc %}
-{% assign title = page.title | default: site.title %}
-{% unless page.course.number == nil %}
-  {% assign title = page.course.number %}
-  {% assign title = title | append: ", " %}
-  {% assign title = title | append: page.course.term %}
+{% assign title = page.title | default: "Syllabus" %}
+{% unless course.number == nil %}
+{% assign title = course.number %}
+{% assign title = title | append: ", " %}
+{% assign title = title | append: course.term %}
 {% endunless %}
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-{%capture seo_tag %}{% seo %}{%endcapture%}
-{{ seo_tag | replace: site.title, title }}
-    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-    {% if toc %}<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tocbot@4.11.2/dist/tocbot.css">{% endif %}
-  </head>
-  <body>
-    <article class="container-lg px-1 px-md-3 my-5 markdown-body">
-      <div class="columns">
-        <div class="column col-12">
-          <a href="/"><h1 class="border-bottom-0">
-            {{ page.course.number }}{% if page.course.title %}: {{ page.course.title }}{% endif %}, {{ page.course.term }}
-          </h1></a>
-        </div>
 
-        <div class="content column{%if toc%} col-md-10{% endif %} pr-3">
-          {% include course_information.html %}
-          {{ content }}
-        </div>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {%capture seo_tag %}{% seo %}{%endcapture%}
+  {{ seo_tag | replace: site.title, title }}
+  <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+  {% if toc %}
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tocbot@4.11.2/dist/tocbot.css">{% endif %}
+</head>
 
-        {% if site.github.private != true and site.github.license %}
-        <!-- <div class="footer border-top border-gray-light mt-5 pt-3 text-right text-gray"> -->
-        <!--   This site is open source. {% github_edit_link "Improve this page" %}. -->
-        <!-- </div> -->
-        {% endif %}
+<body>
+  <article class="container-lg px-1 px-md-3 my-5 markdown-body">
+    <div class="columns">
+      <div class="column col-12">
+        <a href="/">
+          <h1 class="border-bottom-0">
+            {{ course.number }}{% if course.title %}: {{ course.title }}{% endif %}, {{ course.term }}
+          </h1>
+        </a>
       </div>
-    </article>
-    <script src="https://cdn.jsdelivr.net/npm/anchor-js@4.2.2" integrity="sha384-6dhz+LFvhiM4G9QxNyE07x2m2kV0EVfSRSnAaLtTNFSAMe2GA0MGr9r3Yghs03FG" crossorigin="anonymous"></script>
-    <script>
-      document.addEventListener('DOMContentLoaded', function() {anchors.add()}, { once: true });
-    </script>
-    {% if toc %}
-    <!-- Polyfill -->
-    <script src="https://cdn.jsdelivr.net/npm/stickyfilljs@2.1.0" integrity="sha384-nVkrD5zHAtjdlF6XlsjithJouHflTzRN5XVC4iST/boiBaWFzQCAcOCEKuEi65o+" crossorigin="anonymous"></script>
-    <!-- Load TOC Script -->
-    <script src="https://cdn.jsdelivr.net/npm/tocbot@4.11.2/dist/tocbot.js" integrity="sha384-TnuMTlegqfBi40E9e3dO2qfmPVKDjLFCCgyZ5bR3SA/hYTJXI090bTbAr/AXO+bc" crossorigin="anonymous"></script>
-    <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        var toc = document.createElement('DIV');
-        toc.className = 'js-toc column col-md-2 d-none d-md-block float-md-right position-md-sticky';
-        document.querySelector('.content').insertAdjacentElement('beforebegin', toc);
-        // Initiate StickyFill:
-        Stickyfill.add(document.querySelectorAll('.sticky'));
 
-        // Initiate TOCBot:
-        tocbot.init({
-          // Where to render the table of contents.
-          tocSelector: '.js-toc',
-          // Where to grab the headings to build the table of contents.
-          contentSelector: '.content',
-          // Which headings to grab inside of the contentSelector element.
-          headingSelector: 'h1, h2',
-          // For headings inside relative or absolute positioned containers within content.
-          hasInnerContainers: true,
-        });
-      }, {
-        once: true,
+      <div class="content column{%if toc%} col-md-10{% endif %} pr-3">
+        {% include course_information.html %}
+        {{ content }}
+      </div>
+
+      {% if site.github.private != true and site.github.license %}
+      <!-- <div class="footer border-top border-gray-light mt-5 pt-3 text-right text-gray"> -->
+      <!--   This site is open source. {% github_edit_link "Improve this page" %}. -->
+      <!-- </div> -->
+      {% endif %}
+    </div>
+  </article>
+  <script src="https://cdn.jsdelivr.net/npm/anchor-js@4.2.2" integrity="sha384-6dhz+LFvhiM4G9QxNyE07x2m2kV0EVfSRSnAaLtTNFSAMe2GA0MGr9r3Yghs03FG" crossorigin="anonymous"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      anchors.add()
+    }, {
+      once: true
+    });
+  </script>
+  {% if toc %}
+  <!-- Polyfill -->
+  <script src="https://cdn.jsdelivr.net/npm/stickyfilljs@2.1.0" integrity="sha384-nVkrD5zHAtjdlF6XlsjithJouHflTzRN5XVC4iST/boiBaWFzQCAcOCEKuEi65o+" crossorigin="anonymous"></script>
+  <!-- Load TOC Script -->
+  <script src="https://cdn.jsdelivr.net/npm/tocbot@4.11.2/dist/tocbot.js" integrity="sha384-TnuMTlegqfBi40E9e3dO2qfmPVKDjLFCCgyZ5bR3SA/hYTJXI090bTbAr/AXO+bc" crossorigin="anonymous"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var toc = document.createElement('DIV');
+      toc.className = 'js-toc column col-md-2 d-none d-md-block float-md-right position-md-sticky';
+      document.querySelector('.content').insertAdjacentElement('beforebegin', toc);
+      // Initiate StickyFill:
+      Stickyfill.add(document.querySelectorAll('.sticky'));
+
+      // Initiate TOCBot:
+      tocbot.init({
+        // Where to render the table of contents.
+        tocSelector: '.js-toc',
+        // Where to grab the headings to build the table of contents.
+        contentSelector: '.content',
+        // Which headings to grab inside of the contentSelector element.
+        headingSelector: 'h1, h2',
+        // For headings inside relative or absolute positioned containers within content.
+        hasInnerContainers: true,
       });
-    </script>
-    {% endif %}
-    {% if site.google_analytics %}
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-      ga('create', '{{ site.google_analytics }}', 'auto');
-      ga('send', 'pageview');
-    </script>
-    {% endif %}
-  </body>
+    }, {
+      once: true,
+    });
+  </script>
+  {% endif %}
+  {% if site.google_analytics %}
+  <script>
+    (function(i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function() {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', '{{ site.google_analytics }}', 'auto');
+    ga('send', 'pageview');
+  </script>
+  {% endif %}
+</body>
+
 </html>
