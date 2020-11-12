@@ -10,7 +10,7 @@ title: "Andrew Pilsch's Courses"
 {% assign semester_order = "spr,sum,fall" | split: "," %}
 {% comment %}
 Go through each file, finding the keys that have course data while also
-determining the earliest  and latest years courses are available.
+determining the earliest and latest years courses are available.
 {% endcomment %}
 {% capture keys %}{% for object in site.data %}{% if object[1].hidden %}{% continue %}{%endif%}{% unless object[1].start %}{% continue %}{% endunless %}{% assign y = object[0] | slice: -4, 4 | abs %}{% if y < earliestYear %}{% assign earliestYear = y %}{% elsif y > year %}{% assign year = y %}{% endif %}{{ object[0] }} {% endfor %}{% endcapture %}
 {% assign keys = keys | split: " " %}
