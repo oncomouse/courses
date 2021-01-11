@@ -15,12 +15,19 @@ instructors:
 start: 2021-01-19
 end: 2021-04-29
 holidays:
+  - date: 2021-01-18
+    name: MLK Day
   - date: 2021-03-02
     name: Texas Independence Day
   - date: 2021-03-19
     name: Spring Break
   - date: 2021-04-02
     name: Reading Day
+redefined:
+  - date: 2021-03-18
+    is_a: friday
+  - date: 2021-04-28
+    is_a: friday
 meets:
   - monday
   - wednesday
@@ -117,15 +124,3 @@ classes:
     * Class 38
   - |
     * Class 39
-  - |
-    * Class 40
-  - |
-    * Class 41
-  - |
-    * Class 42
-  - |
-    * Class 43
-  - |
-    * Class 44
-  - |
-    * Class 45
