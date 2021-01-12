@@ -33,30 +33,49 @@ meets:
   - monday
   - wednesday
 weeks:
-"1": First Week
-"2": First Week
-"3": First Week
-"4": First Week
-"5": First Week
-"6": First Week
-"7": First Week
-"8": First Week
-"9": First Week
-"10": First Week
-"11": First Week
-"12": First Week
-"13": First Week
-"14": First Week
-"15": First Week
+  "1": SolarWinds
+  "2": Some Methods
+  "3": Software and Ideology
+  "4": First Week
+  "5": First Week
+  "6": First Week
+  "7": First Week
+  "8": First Week
+  "9": First Week
+  "10": First Week
+  "11": First Week
+  "12": First Week
+  "13": First Week
+  "14": First Week
+  "15": First Week
 classes:
   - |
     * Course Overview
+    * SolarWind Attack Readings
+      * **Good Overview, Start Here**: ["The threats arising from the massive SolarWinds hack"](https://www.cbsnews.com/news/the-threats-arising-from-the-massive-solarwinds-hack/), *CBS Sunday Morning*, January 3 2021
+      * ["Premiere security firm FireEye says it was breached by nation-state hackers"](https://arstechnica.com/information-technology/2020/12/security-firm-fireeye-says-nation-state-hackers-stole-potent-attack-tools/), *Ars Technica*, December 8 2020
+      * ["Russian hackers hit US government using widespread supply chain attack"](https://arstechnica.com/information-technology/2020/12/russian-hackers-hit-us-government-using-widespread-supply-chain-attack/), *Ars Technica*, December 14 2020
+      * ["Microsoft unleashes 'Death Star' on SolarWind hackers in extraordinary response to breach"](https://www.geekwire.com/2020/microsoft-unleashes-death-star-solarwinds-hackers-extraordinary-response-breach/), *GeekWire*, December 16 2020
+      * ["Hacked networks will need to be burned 'down to the ground'"](https://abcnews.go.com/Business/wireStory/hacked-networks-burned-ground-74812106), *ABC News*, December 18 2020
+      * ["How the SolarWinds hackers are targeting cloud services in unprecedented cyberattack"](https://www.geekwire.com/2020/solarwinds-hackers-targeting-cloud-services-unprecedented-cyberattack/), *GeekWire*, December 23 2020
+      * Bruce Schneier, ["The US has suffered a massive cyberbreach. It's hard to overstate how bad it is"](https://www.theguardian.com/commentisfree/2020/dec/23/cyber-attack-us-security-protocols), *Guardian*, December 23 2020
+      * ["How hacked is hacked? Here’s a ‘hack scale’ to better understand the SolarWinds cyberattacks"](https://www.geekwire.com/2020/hacked-hacked-heres-hack-scale-better-understand-solarwinds-cyberattacks/), *GeekWire*, December 28 2020
+      * ["Concern mounts over government cyber agency's struggle to respond to hack fallout"](https://www.cnn.com/2021/01/02/politics/hack-goverment-cyber-struggle-respond-fallout/index.html), *CNN*, January 2 2021
+      * ["As Understanding of Russian Hacking Grows, So Does Alarm"](https://www.nytimes.com/2021/01/02/us/politics/russian-hacking-government.html), *NY Times*, January 2 2021
+      * ["SolarWinds hack may be much worse than originally feared"](https://www.theverge.com/2021/1/2/22210667/solarwinds-hack-worse-government-microsoft-cybersecurity), *The Verge*, January 2 2021
+      * ["Widely Used Software Company May Be Entry Point for Huge U.S. Hacking"](https://www.nytimes.com/2021/01/06/us/politics/russia-cyber-hack.html), *NY Times*, January 6 2021
+      * ["Industry urges agencies to accelerate zero trust adoption after SolarWinds hack"](https://www.fedscoop.com/agencies-zero-trust-solarwinds/), *Fedscoop*, January 9 2021
+      * ["Third malware straing discovered in SolarWinds supply chain attack"](https://www.zdnet.com/article/third-malware-strain-discovered-in-solarwinds-supply-chain-attack/), January 12 2021
+  - |
     * Mark C. Marino, ["Introduction" from *Critical Code Studies*](https://criticalcodestudies.com/intro.pdf)
   - |
+    * Susan Leigh Star, ["The Ethnography of Infrastructure"](https://journals-sagepub-com.srv-proxy1.library.tamu.edu/doi/pdf/10.1177/00027649921955326)
+    * Susan Leigh Star, ["Power, technology and the phenomenology of conventions: on being allergic to onions"](https://eds-b-ebscohost-com.srv-proxy1.library.tamu.edu/eds/pdfviewer/pdfviewer?vid=1&sid=b6d38819-dc46-49df-afd7-0aef62e76dcd%40pdc-v-sessmgr05)
   - |
-    * Day 3
+    * Richard Barbrook and Andy Cameron, ["The Californian Ideology"](https://www.metamute.org/editorial/articles/californian-ideology)
   - |
-    * Day 4
+    * [humdog](https://en.wikipedia.org/wiki/Carmen_Hermosillo), ["pandora's vox: on community in cyberspace"](https://gist.github.com/kolber/2131643)
+    * Adam Curtis, [*All Watched Over by Machines of Loving Grace*, "The Use and Abuse of Vegetational Concepts"](https://vimeo.com/groups/96331/videos/80799352)
   - |
     * Day 5
   - |
