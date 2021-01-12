@@ -47,7 +47,7 @@ units:
 - title: First Unit
   start: 1
 weeks:
-"1": First Week
+  "1": First Week
 classes:
 - |
   * First Class
