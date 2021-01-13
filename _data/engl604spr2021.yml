@@ -27,6 +27,8 @@ holidays:
 redefined:
   - date: 2021-03-18
     is_a: friday
+  - date: 2021-04-27
+    is_a: wednesday
   - date: 2021-04-28
     is_a: friday
 meets:
@@ -34,20 +36,20 @@ meets:
   - wednesday
 weeks:
   "1": SolarWinds
-  "2": Some Methods
-  "3": Software Utopians
-  "4": Ideology of Softare
-  "5": Software and Politics
-  "6": First Week
-  "7": First Week
-  "8": First Week
-  "9": First Week
-  "10": First Week
-  "11": First Week
-  "12": First Week
-  "13": First Week
-  "14": First Week
-  "15": First Week
+  "2": What is Software?
+  "3": Some Methods For Approaching Software
+  "4": Software Culture
+  "5": Software Utopians
+  "6": Ideology of Software
+  "7": Software and Politics
+  "8": Week
+  "9": Week
+  "10": Week
+  "11": Week
+  "12": Week
+  "13": Week
+  "14": Week
+  "15": Week
 classes:
   - |
     * Course Overview
@@ -67,31 +69,45 @@ classes:
       * ["Industry urges agencies to accelerate zero trust adoption after SolarWinds hack"](https://www.fedscoop.com/agencies-zero-trust-solarwinds/), *Fedscoop*, January 9 2021
       * ["Third malware straing discovered in SolarWinds supply chain attack"](https://www.zdnet.com/article/third-malware-strain-discovered-in-solarwinds-supply-chain-attack/), January 12 2021
   - |
+    * Alan Turing ["On Computable Numbers, with an Application to the Entscheidungsproblem"](https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf)
+    * ["Turing Machine" from *Wikipedia*](https://en.wikipedia.org/wiki/Turing_machine)
+  - |
+    * Paul Ford, ["What is Code?"](https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/)
+  - |
     * Mark C. Marino, ["Introduction" from *Critical Code Studies*](https://criticalcodestudies.com/intro.pdf)
   - |
     * Susan Leigh Star, ["The Ethnography of Infrastructure"](https://journals-sagepub-com.srv-proxy1.library.tamu.edu/doi/pdf/10.1177/00027649921955326)
     * Susan Leigh Star, ["Power, technology and the phenomenology of conventions: on being allergic to onions"](https://eds-b-ebscohost-com.srv-proxy1.library.tamu.edu/eds/pdfviewer/pdfviewer?vid=1&sid=b6d38819-dc46-49df-afd7-0aef62e76dcd%40pdc-v-sessmgr05)
   - |
-    * Vannevar Bush, ["As We May Think"](https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/)
-    * Richard Stallman, ["What is Free Software?" from *Free Software, Free Society*](https://www.gnu.org/doc/fsfs3-hardcover.pdf)
+    * Neal Stephenson, ["In the Beginning was the Command Line"](http://cristal.inria.fr/~weis/info/commandline.html)
   - |
+    * Ron Rosenbaum, ["Secrets of the Little Blue Box"](http://www.lospadres.info/thorg/lbb.html)
+  - |
+    * Vannevar Bush, ["As We May Think"](https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/)
+    * H.G. Wells, ["World Brain: The Idea of a Permanent Global Encyclopedia"](https://sherlock.ischool.berkeley.edu/wells/world_brain.html)
+  - |
+    * Richard Stallman, ["What is Free Software?" from *Free Software, Free Society*](https://www.gnu.org/doc/fsfs3-hardcover.pdf)
+    * Richard Stallman, ["The GNU Manifesto"](https://www.gnu.org/gnu/manifesto.html)
     * Sascha Dickel & Jan-Felix Schrape, ["The Logic of Digital Utopianism"](https://www.researchgate.net/profile/Jan-Felix_Schrape2/publication/313178460_The_Logic_of_Digital_Utopianism/links/59ca7616aca272bb05078b79/The-Logic-of-Digital-Utopianism.pdf)
-    * George Dyson, ["Engineers' Dreams"](https://web.archive.org/web/20120620084640/http://www.edge.org/documents/archive/edge250.html#dyson)
   - |
     * Richard Barbrook and Andy Cameron, ["The Californian Ideology"](https://www.metamute.org/editorial/articles/californian-ideology)
   - |
     * [humdog](https://en.wikipedia.org/wiki/Carmen_Hermosillo), ["pandora's vox: on community in cyberspace"](https://gist.github.com/kolber/2131643)
-    * Adam Curtis, [*All Watched Over by Machines of Loving Grace*, "The Use and Abuse of Vegetational Concepts"](https://vimeo.com/groups/96331/videos/80799352)
+    * Adam Curtis, ["The Use and Abuse of Vegetational Concepts" from *All Watched Over By Machines of Loving Grace*](https://vimeo.com/groups/96331/videos/80799352)
+  - |
+    * Ellen Ullman, *Close to the Machine*
+  - |
+    * Ellen Ullman, *Close to the Machine*
   - |
     * David Sanger, "Preface" from *The Perfect Weapon*
   - |
     * Benjamin Bratton, ["Introduction" from *The Stack*](https://monoskop.org/media/text/bratton_2016_the_stack/#filepos44713)
   - |
-    * Day 9
+    * McKenzie Wark, [*Hacker Manifesto*](https://ebookcentral.proquest.com/lib/tamucs/detail.action?docID=3300116)
+    * Llyod Blankenship, ["The Hacker Manifesto"](https://en.wikisource.org/wiki/The_Hacker_Manifesto)
   - |
-    * Day 10
+    * McKenzie Wark, [*Hacker Manifesto*](https://ebookcentral.proquest.com/lib/tamucs/detail.action?docID=3300116)
   - |
-    * Day 11
   - |
     * Day 12
   - |
