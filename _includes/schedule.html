@@ -40,6 +40,11 @@
   {% unless schedule.meets contains weekDay or isRedefined.size != 0 %}
   {% continue %}
   {% endunless %}
+  {% if isRedefined.size != 0 %}
+  {% unless schedule.meets contains isRedefined[0].is_a%}
+  {% continue %}
+  {% endunless %}
+  {% endif %}
   {% if isWeek == 0 %}
   {% if schedule.units == nil %}
   {% assign isUnit = "" | split: "" %}
