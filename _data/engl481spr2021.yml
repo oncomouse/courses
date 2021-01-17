@@ -35,11 +35,6 @@ meets:
 redefined:
   - date: 2020-03-18
     is_a: friday
-units:
-  - title: First Unit
-    start: 1
-weeks:
-  "1": First Week
 classes:
   - |
     * Course Overview
@@ -50,83 +45,94 @@ classes:
   - |
     * Ursula K. LeGuin, ["American SF and the Other"](https://www-jstor-org.srv-proxy1.library.tamu.edu/stable/pdf/4238969.pdf)
   - |
-    * Class 4
-  - |
-    * Friday
-  - |
-    * Class 6
-  - |
-    * Shulamith Firestone, "Dialectics of Cultural History"
-  - |
-    * Friday
-  - |
+    * Finish LeGuin
     * Kameron Hurley, ["We Have Always Fought"](http://aidanmoher.com/blog/featured-article/2013/05/we-have-always-fought-challenging-the-women-cattle-and-slaves-narrative-by-kameron-hurley/)
   - |
-    * Joanna Russ, ["*Amor Vincit Foeminam*: The Battle of the Sexes in Science Fiction"](https://www-jstor-org.srv-proxy2.library.tamu.edu/stable/pdf/4239306.pdf?refreqid=excelsior%3Ac3ea4e36c35707b71dcf4ab1a02670f0)
-      * Maybe
-      * [Something from here](https://en.wikipedia.org/wiki/To_Write_Like_a_Woman)
+    * Finish Hurley
   - |
-    * Friday
+    * Leslie Perri, "Space Episode" (FiF)
   - |
-    * Sadie Plant, ["On the Matrix: Cyberfeminist Simulations"](https://uberty.org/wp-content/uploads/2015/09/Sadie-Plant-On-the-Matrix-Cyberfeminist-Simulations.pdf)
+    * Finish Perri
+    * C. L. Moore, "The Black God's Kiss" (FiF)
+  - |
+    * Finish Moore
+  - |
+    * Leslie F. Stone, "The Conquest Of Gola" (FiF)
+  - |
+    * Finish Stone
+    * Alice Eleanor Jones, "Created He Them" (FiF)
+  - |
+    * Finish Jones
+  - |
+    * Leigh Brackett, "All The Colors Of The Rainbow" (FiF)
     * **Position Paper #1 Due**
   - |
-    * Donna Haraway, "A Manifesto for Cyborgs"
+    * Finish Brackett
+    * Shulamith Firestone, "Dialectics of Cultural History" From *The Dialectic of Sex*
   - |
-    * Friday
+    * Finish Firestone
   - |
-    * Laboria Cuboniks, "Xenofeminist Manifesto"
+    * Sonya Dorman, "When I Was Miss Dow" (FiF)
   - |
-    * Class 16
+    * Finish Dorman
+    * Joanna Russ, "The Barbarian" (FiF)
   - |
-    * Friday
+    * Finish Russ
   - |
-    * Class 18
+    * James Tiptree, Jr., "The Last Flight Of Dr. Ain" (FiF)
   - |
     * Peer Review Exercise
   - |
     * Optional In-Class Writing
     * **Thematic Paper #1 Due at 11:59PM**
   - |
-    * Class 21
+    * Ursula K. Le Guin, "Nine Lives" (FiF)
   - |
-    * Class 22
+    * Finish Le Guin
+    * Kit Reed, "The Mothers of Shark Island" (SoR)
   - |
-    * Friday
+    * Finish Reed
   - |
-    * Class 24
+    * Nnedi Okorafor, "The Palm Tree Bandit" (SoR)
     * **Position Paper #2 Due**
   - |
-    * Class 25
+    * Nalo Hopkinson, "The Glass Bottle Trick" (SoR)
   - |
-    * Class 26
+    * Finish Hopkinson
+    * James Tiptree, Jr., "The Screwfly Solution" (SoR)
+      * CW: Domestic Violence
   - |
-    * Class 27
+    * Finish Tiptree
+    * Octavia Butler, "The Evening the Morning and the Night" (SoR)
   - |
-    * Friday
+    * Finish Butler
   - |
-    * Class 29
+    * Anne Richter, "The Sleep of Plants" (SoR)
   - |
-    * Class 30
+    * Finish Richter
+    * Pat Murphy, "Love and Sex Among the Invertebrates" (SoR)
   - |
-    * Class 31
-  - |
-    * Class 32
+    * Carol Emshwiller, "Boys" (SoR)
     * **Position Paper #3 Due**
   - |
-    * Friday
+    * Finish Emshwiller
+    * Sadie Plant, ["On the Matrix: Cyberfeminist Simulations"](https://uberty.org/wp-content/uploads/2015/09/Sadie-Plant-On-the-Matrix-Cyberfeminist-Simulations.pdf)
   - |
-    * Class 34
+    * Finish Plant
   - |
-    * Class 35
+    * Eileen Gunn, "Stable Strategies for Middle Management" (SoR)
   - |
-    * Friday
+    * Finish Gunn
+    * Pamela Sargent, "Fears" (SoR)
   - |
-    * Class 37
+    * Finish Sargent
   - |
-    * Class 38
+    * Catherynne M. Valente, "Thirteen Ways of Looking at Space/Time" (SoR)
   - |
-    * Friday
+    * Finish Valente
+    * Laboria Cuboniks, ["Xenofeminist Manifesto"](https://laboriacuboniks.net/manifesto/xenofeminism-a-politics-for-alienation/)
+  - |
+    * Finish Laboria Cuboniks
   - |
     * Peer Review Exercise
   - |
