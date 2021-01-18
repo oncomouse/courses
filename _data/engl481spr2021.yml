@@ -10,7 +10,7 @@ instructors:
   - name: Andrew Pilsch
     email: apilsch@tamu.edu
     office:
-      - hours:
+      - hours: MW 1-2:30
         location: ONLINE
 start: 2021-01-19
 end: 2021-04-29
