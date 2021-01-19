@@ -19,4 +19,4 @@ I have sourced this list from ["We Aren't Here to Learn What We Already Know" by
 * Sometimes you are stuck with an instinct, a hunch, a nagging feeling and a half-formed question and you simply can't move forward without thinking about it out loud. Bring those seemingly half-formed thoughts to the class: we will figure the direction or shape of your question together.
 * Finally: when you don't get it, you don't get it. Ask for help from the professor or your classmates, and feel free and supported in bringing your "I Don't Get It" questions to class. We will all profit from these acts of intellectual humility and generosity.
 
-[Back to syllabus](./)
+[Back to syllabus](/courses/2021/engl481spr2021)
