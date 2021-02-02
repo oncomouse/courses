@@ -1,5 +1,10 @@
 # frozen_string_literal:true
 
+def file_parts(file)
+  data = /([a-zA-Z]+)([0-9]{3})([A-Za-z]+)([0-9]{4})/.match(file)
+  data.nil? ? ['_', 'engl', '123', 'fall', '2020'] : data
+end
+
 def write_markdown(file, year)
   dir = "./#{year}"
   Dir.mkdir dir unless Dir.exist? dir
@@ -20,37 +25,39 @@ end
 def write_yaml(file)
   return if File.exist? "_data/#{file}.yml"
 
+  course = file_parts(file)
+
   File.write("_data/#{file}.yml", %(---
-term: Fall 2020
-number: ENGL 123
+term: #{course[3].capitalize} #{course[4]}
+number: #{course[1].upcase} #{course[2]}
 description: ""
 meetings:
-- location: LAAH 123
-  time: MWF 10-12
+  - location: LAAH 123
+    time: MWF 10-12
 instructors:
-- name: Andrew Pilsch
-  email: apilsch@tamu.edu
-  office:
-  - hours: MWF 1-2
-    location: LAAH 417
+  - name: Andrew Pilsch
+    email: apilsch@tamu.edu
+    office:
+      - hours: MWF 1-2
+        location: LAAH 417
 title: "Course Title"
-start: 2020-08-19
-end: 2020-11-24
+start: #{course[4]}-08-19
+end: #{course[4]}-11-24
 holidays:
-- date: 2020-11-25
-  name: Reading Day
+  - date: #{course[4]}-11-25
+    name: Reading Day
 meets:
-- monday
-- wednesday
-- friday
+  - monday
+  - wednesday
+  - friday
 units:
-- title: First Unit
-  start: 1
+  - title: First Unit
+    start: 1
 weeks:
   "1": First Week
 classes:
-- |
-  * First Class
+  - |
+    * First Class
 ))
 end
 
