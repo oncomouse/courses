@@ -1,0 +1,22 @@
+---
+layout: syllabus
+course:
+  term: Fall 2020
+  number: ENGL 123
+  description: ""
+  meetings:
+  - location: LAAH 123
+    time: MWF 10-12
+instructors:
+- name: Andrew Pilsch
+  email: apilsch@tamu.edu
+  office:
+  - hours: MWF 1-2
+    location: LAAH 417
+---
+
+# Schedule
+
+{% include schedule.html %}
+
+{% include policies.md %}
