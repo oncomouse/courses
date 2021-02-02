@@ -1,19 +1,31 @@
 ---
+term: Fall 2021
+number: ENGL 353
+description: ""
+meetings:
+  - location: LAAH 123
+    time: MWF 10-12
+instructors:
+  - name: Andrew Pilsch
+    email: apilsch@tamu.edu
+    office:
+      - hours: MWF 1-2
+        location: LAAH 417
 title: "Course Title"
-start: 2020-08-19
-end: 2020-11-24
+start: 2021-08-19
+end: 2021-11-24
 holidays:
-- date: 2020-11-25
-  name: Reading Day
+  - date: 2021-11-25
+    name: Reading Day
 meets:
-- monday
-- wednesday
-- friday
+  - monday
+  - wednesday
+  - friday
 units:
-- title: First Unit
-  start: 1
+  - title: First Unit
+    start: 1
 weeks:
   "1": First Week
 classes:
-- |
-  * First Class
+  - |
+    * First Class
