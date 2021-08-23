@@ -30,6 +30,7 @@ def write_yaml(file)
   File.write("_data/#{file}.yml", %(---
 term: #{course[3].capitalize} #{course[4]}
 number: #{course[1].upcase} #{course[2]}
+title: "Course Title"
 description: ""
 meetings:
   - location: LAAH 123
@@ -40,7 +41,6 @@ instructors:
     office:
       - hours: MWF 1-2
         location: LAAH 417
-title: "Course Title"
 start: #{course[4]}-08-19
 end: #{course[4]}-11-24
 holidays:
