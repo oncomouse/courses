@@ -12,15 +12,22 @@ instructors:
       - hours: MWF 1-2
         location: LAAH 417
 title: "Course Title"
-start: 2021-08-19
-end: 2021-11-24
+start: 2021-08-30
+end: 2021-12-08
 holidays:
-  - date: 2021-11-25
+  - date: 2021-11-24
     name: Reading Day
+  - date: 2021-11-25
+    name: Thanksgiving
+  - date: 2021-11-26
+    name: Thanksgiving
 meets:
   - monday
   - wednesday
   - friday
+redefined:
+  - date: 2021-12-06
+    is_a: friday
 units:
   - title: First Unit
     start: 1
@@ -28,4 +35,86 @@ weeks:
   "1": First Week
 classes:
   - |
-    * First Class
+    * Syllabus
+  - |
+    * Writing Exercise
+  - |
+    * Lecture
+  - |
+    * Lecture
+  - |
+    * Writing Exercise
+  - |
+    * Lecture
+  - |
+    * Lecture
+  - |
+    * Writing Exercise
+  - |
+    * Lecture
+  - |
+    * Lecture
+  - |
+    * Writing Exercise
+  - |
+    * Lecture
+  - |
+    * Lecture
+  - |
+    * Writing Exercise
+  - |
+    * Lecture
+  - |
+    * Lecture
+  - |
+    * Writing Exercise
+  - |
+    * Lecture
+  - |
+    * Lecture
+  - |
+    * Writing Exercise
+  - |
+    * Lecture
+  - |
+    * Lecture
+  - |
+    * Writing Exercise
+  - |
+    * Lecture
+  - |
+    * Lecture
+  - |
+    * Writing Exercise
+  - |
+    * Lecture
+  - |
+    * Lecture
+  - |
+    * Writing Exercise
+  - |
+    * Lecture
+  - |
+    * Lecture
+  - |
+    * Writing Exercise
+  - |
+    * Lecture
+  - |
+    * Lecture
+  - |
+    * Writing Exercise
+  - |
+    * Lecture
+  - |
+    * Work On Your Projects
+  - |
+    * Work On Your Projects
+  - |
+    * Work On Your Projects
+  - |
+    * Work On Your Projects
+  - |
+    * Work On Your Projects
+  - |
+    * Work On Your Projects
