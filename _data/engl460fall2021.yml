@@ -1,7 +1,7 @@
 ---
 term: Fall 2021
 number: ENGL 460
-title: "Course Title"
+title: "Digital Authoring Practices"
 description: ""
 meetings:
   - location: LAAH 123
@@ -28,93 +28,96 @@ meets:
 redefined:
   - date: 2021-12-06
     is_a: friday
-units:
-  - title: First Unit
-    start: 1
-weeks:
-  "1": First Week
 classes:
   - |
-    * Syllabus
+    * Syllabus Overview
   - |
-    * Writing Exercise
+    * Writing Lab: ["Getting Setup"](./engl460fall2021/00-vscode-exercise.html)
   - |
-    * Lecture
+    * Lab Wrap-Up: How'd We Do?
   - |
-    * Lecture
+    * Lecture: ["How Does the Internet Work?"](./engl460fall2021/00-server.html)
+    * Lab Report Due
   - |
-    * Writing Exercise
+    * Writing Lab: ["Getting Started with Jekyll"](./engl460fall2021/00-jekyll-exercise.html)
   - |
-    * Lecture
+    * Lab Wrap-Up: How'd We Do?
   - |
-    * Lecture
+    * Lecture: ["What is a Data?"](./engl460fall2021/01-data.html)
+    * Lab Report Due
   - |
-    * Writing Exercise
+    * Writing Lab: ["Data"](./engl460fall2021/01-data-exercise-exercise.html)
   - |
-    * Lecture
+    * Lab Wrap-Up: How'd We Do?
   - |
-    * Lecture
+    * Lecture: ["What is a File?"](./engl460fall2021/02-file.html)
+    * Lab Report Due
   - |
-    * Writing Exercise
+    * Writing Lab: ["File"](./engl460fall2021/02-file-exercise.html)
   - |
-    * Lecture
+    * Lab Wrap-Up: How'd We Do?
   - |
-    * Lecture
+    * Lecture: ["What is Markup?"](./engl460fall2021/03-markup.html)
+    * Lab Report Due
   - |
-    * Writing Exercise
+    * Writing Lab: ["Markup"](./engl460fall2021/03-markup-exercise.html)
   - |
-    * Lecture
+    * Lab Wrap-Up: How'd We Do?
   - |
-    * Lecture
+    * Lecture: ["What is Metadata?"](./engl460fall2021/04-metadata.html)
+    * Lab Report Due
   - |
-    * Writing Exercise
+    * Writing Lab: ["Metadata"](./engl460fall2021/04-metadata-exercise.html)
   - |
-    * Lecture
+    * Lab Wrap-Up: How'd We Do?
   - |
-    * Lecture
+    * Lecture: ["What is Content? What is Style?"](./engl460fall2021/05-style.html)
+    * Lab Report Due
   - |
-    * Writing Exercise
+    * Writing Lab: ["Style"](./engl460fall2021/05-style-exercise.html)
   - |
-    * Lecture
+    * Lab Wrap-Up: How'd We Do?
   - |
-    * Lecture
+    * Lecture: ["Where Are My Files?"](./engl460fall2021/06-remote.html)
+    * Lab Report Due
   - |
-    * Writing Exercise
+    * Writing Lab: ["Files"](./engl460fall2021/06-remote-exercise.html)
   - |
-    * Lecture
+    * Lab Wrap-Up: How'd We Do?
   - |
-    * Lecture
+    * Lecture: ["What is Hypertext?"](./engl460fall2021/07-hypertext.html)
+    * Lab Report Due
   - |
-    * Writing Exercise
+    * Writing Lab: ["Hypertext"](./engl460fall2021/07-hypertext-exercise.html)
   - |
-    * Lecture
+    * Lab Wrap-Up: How'd We Do?
   - |
-    * Lecture
+    * Lecture: ["What is Aleatory Poetry?"](./engl460fall2021/08-chance.html)
+    * Lab Report Due
   - |
-    * Writing Exercise
+    * Writing Lab: ["Aleatory Poetry"](./engl460fall2021/08-chance-exercise.html)
   - |
-    * Lecture
+    * Lab Wrap-Up: How'd We Do?
   - |
-    * Lecture
+    * Lecture: ["What is an Audience?"](./engl460fall2021/09-audience.html)
+    * Lab Report Due
   - |
-    * Writing Exercise
+    * Writing Lab: ["Audience"](./engl460fall2021/09-audience-exercise.html)
   - |
-    * Lecture
+    * Lab Wrap-Up: How'd We Do?
   - |
-    * Lecture
+    * Stand-up Meeting (Slack)
   - |
-    * Writing Exercise
+    * Work On Your Projects
   - |
-    * Lecture
+    * Work On Your Projects
+  - |
+    * Work On Your Projects
+  - |
+    * Stand-up Meeting (Slack)
   - |
     * Work On Your Projects
   - |
     * Work On Your Projects
   - |
-    * Work On Your Projects
-  - |
-    * Work On Your Projects
-  - |
-    * Work On Your Projects
-  - |
-    * Work On Your Projects
+    * Stand-up Meeting (Slack)
