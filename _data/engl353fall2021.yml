@@ -1,6 +1,7 @@
 ---
 term: Fall 2021
 number: ENGL 353
+title: "History of Rhetoric"
 description: ""
 meetings:
   - location: LAAH 123
@@ -11,7 +12,6 @@ instructors:
     office:
       - hours: MWF 1-2
         location: LAAH 417
-title: "Course Title"
 start: 2021-08-30
 end: 2021-12-08
 holidays:
@@ -36,76 +36,85 @@ weeks:
 classes:
   - |
     * Syllabus
+    * Wish List
+      * Pericles, ["Funeral Oration"](http://hrlibrary.umn.edu/education/thucydides.html), 430 BC
+      * Demosthenes, ["On the Crown"](http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0072%3Aspeech%3D18&force=y) 352 BC
+      * Isocrates, ["Panathenaicus"](http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0144:speech=12) 342 BC
+
   - |
     * Writing Exercise
   - |
-    * Lecture
+    * Lecture: "What Is Rhetoric?"
   - |
-    * Lecture
-  - |
-    * Writing Exercise
-  - |
-    * Lecture
-  - |
-    * Lecture
+    * Lecture: 
   - |
     * Writing Exercise
   - |
-    * Lecture
+    * Lecture: 
   - |
-    * Lecture
-  - |
-    * Writing Exercise
-  - |
-    * Lecture
-  - |
-    * Lecture
+    * Lecture: *Dissoi Logoi* I
+    * Read: Anonymous, *Dissoi Logoi*
   - |
     * Writing Exercise
   - |
-    * Lecture
+    * Lecture: *Dissoi Logoi* II
   - |
-    * Lecture
-  - |
-    * Writing Exercise
-  - |
-    * Lecture
-  - |
-    * Lecture
+    * Lecture: Gorgias I
+    * Read: Gorgias, "Encomium for Helen"
   - |
     * Writing Exercise
   - |
-    * Lecture
+    * Lecture: Gorgias II
   - |
-    * Lecture
-  - |
-    * Writing Exercise
-  - |
-    * Lecture
-  - |
-    * Lecture
+    * Lecture: Plato, *Gorgias* I
   - |
     * Writing Exercise
   - |
-    * Lecture
+    * Lecture: Plato, *Gorgias* II
   - |
-    * Lecture
-  - |
-    * Writing Exercise
-  - |
-    * Lecture
-  - |
-    * Lecture
+    * Lecture: Plato, *Gorgias* III
   - |
     * Writing Exercise
   - |
-    * Lecture
+    * Lecture: Plato, *Gorgias* IV
   - |
-    * Lecture
+    * Lecture: Isocrates
+      * Read: ["Against the Sophists"](http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0144%3Aspeech%3D13%3Asection%3D1)
   - |
     * Writing Exercise
   - |
-    * Lecture
+    * Lecture: Alcidamas
+    * Read: Alcidamas, ["Against the Sophists"](http://www.classicpersuasion.org/pw/alcidamas/alcsoph1.htm)
+  - |
+    * Lecture: Plato, *Phaedrus* I
+  - |
+    * Writing Exercise
+  - |
+    * Lecture: Plato, *Phaedrus* II
+  - |
+    * Lecture: Plato, *Phaedrus* III
+  - |
+    * Writing Exercise
+  - |
+    * Lecture: Plato, *Phaedrus* IV
+  - |
+    * Lecture: Aristotle I
+  - |
+    * Writing Exercise
+  - |
+    * Lecture: Aristotle II
+  - |
+    * Lecture: Aristotle III
+  - |
+    * Writing Exercise
+  - |
+    * Lecture: *Rhetorica ad Herennium* I
+  - |
+    * Lecture: *Rhetorica ad Herennium* II
+  - |
+    * Writing Exercise
+  - |
+    * Lecture: *Rhetorica ad Herennium* III
   - |
     * Work On Your Projects
   - |
