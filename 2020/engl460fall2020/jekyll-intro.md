@@ -3,8 +3,6 @@ layout: default
 title: "ENGL 460 – Intro to Jekyll"
 ---
 
-[Back to Syllabus](./)
-
 # Getting Started
 
 This document will teach you how to create a basic blog using [Jekyll](https://jekyllrb.com/) and GitHub Pages
