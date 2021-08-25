@@ -83,3 +83,16 @@ These position papers ask you to show insights and raise questions in response t
 To help protect Aggieland and stop the spread of COVID-19, Texas A&M University urges students to be vaccinated and to wear masks in classrooms and all other academic facilities on campus, including labs.  Doing so exemplifies the Aggie Core Values of respect, leadership, integrity, and selfless service by putting community concerns above individual preferences. COVID-19 vaccines and masking — regardless of vaccination status — have been shown to be safe and effective at reducing spread to others, infection, hospitalization, and death.
 
 # Writing Exercises
+
+## Exercise 1
+## Exercise 2
+## Exercise 3
+## Exercise 4
+## Exercise 5
+## Exercise 6
+## Exercise 7
+## Exercise 8
+## Exercise 9
+## Exercise 10
+## Exercise 11
+## Exercise 12
