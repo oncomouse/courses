@@ -37,7 +37,6 @@ classes:
   - |
     * Syllabus
     * Wish List
-      * Pericles, ["Funeral Oration"](http://hrlibrary.umn.edu/education/thucydides.html), 430 BC
       * Demosthenes, ["On the Crown"](http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0072%3Aspeech%3D18&force=y) 352 BC
       * Isocrates, ["Panathenaicus"](http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0144:speech=12) 342 BC
 
@@ -46,11 +45,12 @@ classes:
   - |
     * Lecture: "What Is Rhetoric?"
   - |
-    * Lecture: 
+    * Lecture: Pericles I
+    * Read: Pericles, "Funeral Oration"
   - |
     * Writing Exercise
   - |
-    * Lecture: 
+    * Lecture: Pericles II
   - |
     * Lecture: *Dissoi Logoi* I
     * Read: Anonymous, *Dissoi Logoi*
@@ -67,14 +67,18 @@ classes:
     * Lecture: Gorgias II
   - |
     * Lecture: Plato, *Gorgias* I
+    * Read: 447a-468b
   - |
     * Writing Exercise
   - |
     * Lecture: Plato, *Gorgias* II
+    * Read: 468b-486d
   - |
     * Lecture: Plato, *Gorgias* III
+    * Read: 486d-506b
   - |
     * Writing Exercise
+    * Read: 506b-End
   - |
     * Lecture: Plato, *Gorgias* IV
   - |
@@ -87,34 +91,42 @@ classes:
     * Read: Alcidamas, ["Against the Sophists"](http://www.classicpersuasion.org/pw/alcidamas/alcsoph1.htm)
   - |
     * Lecture: Plato, *Phaedrus* I
+    * Read: 227a-244a
   - |
     * Writing Exercise
   - |
     * Lecture: Plato, *Phaedrus* II
+    * Read: 244a-257c
   - |
     * Lecture: Plato, *Phaedrus* III
+    * Read: 257c-274b
   - |
     * Writing Exercise
   - |
     * Lecture: Plato, *Phaedrus* IV
+    * Read: 274b-End
   - |
     * Lecture: Aristotle I
+    * Read: Aristotle, [Book I: All Chapters](http://rhetoric.eserver.org/aristotle/oneindex.html)
   - |
     * Writing Exercise
   - |
     * Lecture: Aristotle II
+    * Read: Aristotle, [Book II: Chapters 1-3, 12-13, 18-25](http://rhetoric.eserver.org/aristotle/twoindex.html)
   - |
     * Lecture: Aristotle III
+    * Read: Aristotle, [Book III: Chapters 1-2, 13](http://rhetoric.eserver.org/aristotle/threeindex.html)
   - |
     * Writing Exercise
+  - |
+    * Lecture: Aristotle IV
   - |
     * Lecture: *Rhetorica ad Herennium* I
-  - |
-    * Lecture: *Rhetorica ad Herennium* II
+    * Read: [*Rhetorica ad Herennium*, Book 1](https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Rhetorica_ad_Herennium/1*.html)
   - |
     * Writing Exercise
   - |
-    * Lecture: *Rhetorica ad Herennium* III
+    * Lecture: *Rhetorica ad Herennium* II
   - |
     * Work On Your Projects
   - |
