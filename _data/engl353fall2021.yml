@@ -2,16 +2,18 @@
 term: Fall 2021
 number: ENGL 353
 title: "History of Rhetoric"
-description: ""
+description: |
+  **The History of Rhetoric** is designed to introduce students to the study of rhetoric
+  from the clasiccal period until the end of the 19th century.
 meetings:
-  - location: LAAH 123
-    time: MWF 10-12
+  - location: LAAH 301
+    time: MWF 11:30-12:20
 instructors:
   - name: Andrew Pilsch
     email: apilsch@tamu.edu
     office:
-      - hours: MWF 1-2
-        location: LAAH 417
+      - hours: MF 10:00-11:30
+        location: Zoom
 start: 2021-08-30
 end: 2021-12-08
 holidays:
@@ -83,7 +85,7 @@ classes:
     * Read: 506b-End
   - |
     * Lecture: Isocrates
-    * Read: ["Against the Sophists"](http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0144%3Aspeech%3D13%3Asection%3D1)
+    * Read: "Against the Sophists"
   - |
     * Writing Exercise
   - |

@@ -4,14 +4,14 @@ number: ENGL 460
 title: "Digital Authoring Practices"
 description: ""
 meetings:
-  - location: LAAH 123
-    time: MWF 10-12
+  - location: LAAH 503
+    time: MWF 9:10-10:00
 instructors:
   - name: Andrew Pilsch
     email: apilsch@tamu.edu
     office:
-      - hours: MWF 1-2
-        location: LAAH 417
+      - hours: MF 10:00-11:30
+        location: Zoom
 start: 2021-08-30
 end: 2021-12-08
 holidays:

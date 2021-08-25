@@ -5,6 +5,13 @@ title: Syllabus
 
 # Required Texts
 
+You are required to have the following two texts. These are both translations from the Greek. You *must* have this particular translation for the course (eBooks or PDFs are acceptable):
+
+* Plato, [*Phaedrus*](https://www.amazon.com/Phaedrus-Hackett-Classics-Plato/dp/0872202208/) (trans. Alexander Nehamas, Paul Woodruff)
+* Plato, [*Gorgias*](https://www.amazon.com/Gorgias-Hackett-Classics-Plato/dp/0872200167/) (trans. Donald J. Zeyl)
+
+Both texts are included in [*Plato: Complete Works*](https://www.amazon.com/Plato-Complete-Works/dp/0872203492/), if you have that text from another class.
+
 # Assignments
 
 | Assignment Name              | Percentage Value | Due Date   |
