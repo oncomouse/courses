@@ -32,6 +32,44 @@ These position papers ask you to show insights and raise questions in response t
 
 ### Research Project
 
+#### Possible Topics
+
+* Hellenistic Rhetoric
+	* Demetrius
+	* Hermagoras
+	* Stoicism
+	* Epicureanism
+	* Cynicism
+	* Academicism
+* Roman Rhetoric
+	* Cicero, *On Invention*
+	* Cicero, *On the Orator*
+	* Cicero, *Orator*
+	* Cicero, Speeches
+	* Cato the Elder
+	* Dionysius of Halicarnassus
+	* Seneca the Elder
+	* Apuleius
+	* Quintilian
+	* The Second Sophistic
+* Christian Rhetoric
+	* St. Augustine
+	* Gregory of Nazianzus
+	* Classical Tradition and Early Christianity
+* Topics
+	* Rhetorical Education in any of the above periods (BE SPECIFIC)
+	* Survival and Transmission of Classical Rhetoric
+		* Philology
+		* Medieval Rhetorical Practice
+		* Early Modern Engagements with Rhetorical Theory
+		* Early Modern Rhetorical Education
+	* Progymnasmata
+
+#### Texts to Get Started With
+
+1. George A. Kennedy, [*A New History of Classical Rhetoric*](https://ipfs.io/ipfs/bafykbzacebnlnhwlnrtbuaw5pwc4aggwrp7jfj7o644ol4olyss6b7zkday44?filename=%28Princeton%20Paperbacks%29%20George%20A.%20Kennedy%20-%20A%20New%20History%20of%20Classical%20Rhetoric-Princeton%20University%20Press%20%281994%29.pdf)
+1. James Herrick, [*The History and Theory of Rhetoric*](https://cloudflare-ipfs.com/ipfs/bafykbzacedghslth6unw3oclws2cspxyu2p4jljksizkg5zlev34fnj3yvy2o?filename=James%20A.%20Herrick%20-%20The%20History%20and%20Theory%20of%20Rhetoric_%20An%20Introduction-Routledge%20%282018%29.pdf)
+
 # Schedule
 
 {% include schedule.html %}
