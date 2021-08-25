@@ -97,3 +97,7 @@ If you have questions about FERPA and this class, I am happy to speak with you d
 {% include schedule.html %}
 
 {% include policies.md %}
+
+## COVID-19 Statement
+
+To help protect Aggieland and stop the spread of COVID-19, Texas A&M University urges students to be vaccinated and to wear masks in classrooms and all other academic facilities on campus, including labs.  Doing so exemplifies the Aggie Core Values of respect, leadership, integrity, and selfless service by putting community concerns above individual preferences. COVID-19 vaccines and masking — regardless of vaccination status — have been shown to be safe and effective at reducing spread to others, infection, hospitalization, and death.
