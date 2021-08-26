@@ -29,6 +29,10 @@ Each week on Wednesday, you will complete a self-paced writing exercise designed
 
 The list of [writing exercises](#writing-exercises) is at the bottom of this document.
 
+#### Grading for Writing Exercises
+
+I will be marking your writing exercises as "satisfactory" and "unsatisfactory." A mark of "unsatisfactory" will be accompanied by comments on how to improve the exercise. If you wish to change an "unsatisfactory" to a "satisfactory," you may revise your document along the lines of my comments and **email me** the updated exercise. Assuming the changes are now "satisfactory," the mark will be changed.
+
 ### Position Paper (2)
 
 Twice (in weeks 7 and 10), you will produce a short paper (2-3 pages, double-spaced) that takes a position on a particular selection from one of the texts we have read so far in class.
