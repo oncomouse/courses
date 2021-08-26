@@ -130,12 +130,41 @@ For today's exercise:
 You should have around one to two pages of double-spaced writing at this point. If not, make sure you have explained your position and your research with enough thoroughness. Then submit to the Dropbox on Canvas.
 
 ## Exercise 3
+
+*Forthcoming*
+
 ## Exercise 4
+
+*Forthcoming*
+
 ## Exercise 5
+
+*Forthcoming*
+
 ## Exercise 6
+
+*Forthcoming*
+
 ## Exercise 7
+
+*Forthcoming*
+
 ## Exercise 8
+
+*Forthcoming*
+
 ## Exercise 9
+
+*Forthcoming*
+
 ## Exercise 10
+
+*Forthcoming*
+
 ## Exercise 11
+
+*Forthcoming*
+
 ## Exercise 12
+
+*Forthcoming*
