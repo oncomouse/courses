@@ -91,12 +91,40 @@ There is a list of possible topics below, but feel free to propose via email som
 
 {% include policies-fall2021.md %}
 
-# Fall 2021 University Policy Addendum
-
 # Writing Exercises
 
-## Exercise 1
-## Exercise 2
+## Exercise 1 - Introductions
+
+Introduce yourself! For this first writing exercise, please provide the following information:
+
+1. Your name
+1. Your pronouns
+1. Your major and year
+1. Your favorite book and briefly why
+1. Your interest in rhetoric or why you took the course
+1. Your previous experiences with rhetoric, either at Texas A&M or elsewhere
+
+When you have answered these questions, submit your document on the dropbox on Canvas.
+
+## Exercise 2 - Definitions of Rhetoric
+
+We talked last week about the origins of the term "rhetoric." This course will concern itself with the mostly messy, often contradictory history of this term. One consequence of this history is that definitions of the term "rhetoric" proliferate. Here are a couple of my favorite:
+
+1. "For he is the best orator who by speaking both teaches, and delights, and moves the minds of his hearers." (Cicero)
+1. The Orator is "a good man speaking well." (Quintilian)
+1. "The duty and office of Rhetoric is to apply Reason to Imagination for the better moving of the will." (Francis Bacon)
+1. "Rhetoric is the art which seeks to capture in opportune moments that which is appropriate and attempts to suggest that which is possible." (John Poulakos)
+
+For today's exercise:
+
+1. Having read the above definitions, pick the one you find most compelling ("compelling" here can be good or bad).
+	* Write a few paragraphs explaining in detail what it is about this definition that compels you. **Be specific**
+	* Use Google to find out a bit about the speaker (making sure you get the correct Francis Bacon; there are two famous people with that name!)
+	* Note some sources you used in a paragraph, commenting on what was good or bad about the source (you don't have to use proper citations at this point).
+	* Write a paragraph or two explaining if the time period or biographical information clarifies your understanding of the definition. If so, how? If not, why not?
+
+You should have around one to two pages of double-spaced writing at this point. If not, make sure you have explained your position and your research with enough thoroughness. Then submit to the Dropbox on Canvas.
+
 ## Exercise 3
 ## Exercise 4
 ## Exercise 5
