@@ -39,6 +39,14 @@ These position papers ask you to show insights and raise questions in response t
 
 ### Research Project
 
+For a final project, you will be asked to create an artifact that documents the research you have been doing this semester. As a baseline, the artifact should be a 10 page research paper that is well-cited and thoroughly-documented. You can treat the paper as a report-style document, often called a literature review in the business, which is a document reporting on the state of research into a particular topic. This is still a composed essay, so you will need to work out a thesis and draw conclusions.
+
+If, however, you would like to write something more argumentative, you may also complete a thesis-driven essay that argues for a particular point. Is Apuleius more influenced by Aristotle than previously thought? Argue that! Do you see a comparison between St. Augustine and Gorgias no one has noticed before? Argue that! Is there a contemporary text or figure how reminds you of one of the ancient rhetoricians we have studied? Argue that!
+
+Finally, if you would like to explore argumentation outside of academic prose, that is fine. Would you like to write a short story about a medieval initiate monk learning rhetoric for the first time? Cool! Do you want to make a video explaining a Cicero speech that seems relevant to contemporary topics? Do it! If you take the creative route, I would ask you submit a two page paper detailing your thinking in creating the artifact and citing some sources you based your project on.
+
+There is a list of possible topics below, but feel free to propose via email some other topic you would like to explore in your paper.
+
 #### Possible Topics
 
 * Hellenistic Rhetoric
@@ -81,13 +89,9 @@ These position papers ask you to show insights and raise questions in response t
 
 {% include schedule.html %}
 
-{% include policies.md %}
+{% include policies-fall2021.md %}
 
 # Fall 2021 University Policy Addendum
-
-## COVID-19 Statement
-
-To help protect Aggieland and stop the spread of COVID-19, Texas A&M University urges students to be vaccinated and to wear masks in classrooms and all other academic facilities on campus, including labs.  Doing so exemplifies the Aggie Core Values of respect, leadership, integrity, and selfless service by putting community concerns above individual preferences. COVID-19 vaccines and masking — regardless of vaccination status — have been shown to be safe and effective at reducing spread to others, infection, hospitalization, and death.
 
 # Writing Exercises
 
