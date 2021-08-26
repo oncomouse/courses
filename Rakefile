@@ -31,7 +31,10 @@ def write_yaml(file)
 term: #{course[3].capitalize} #{course[4]}
 number: #{course[1].upcase} #{course[2]}
 title: "Course Title"
-description: ""
+description: |
+  This is a course
+outcomes:
+  - To finish the course
 meetings:
   - location: LAAH 123
     time: MWF 10-12

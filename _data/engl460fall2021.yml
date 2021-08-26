@@ -2,7 +2,14 @@
 term: Fall 2021
 number: ENGL 460
 title: "Digital Authoring Practices"
-description: ""
+description: |
+  Analysis and practice of authoring in digital environments, including
+  individual and collaborative approaches, audience concerns, theoretical,
+  ethical and stylistic issues; environments and topics may include web design,
+  content management system (CMS), text encoding, project management, usability,
+  version tracking, content authoring and accessibility.
+outcomes:
+  - To finish class
 meetings:
   - location: LAAH 503
     time: MWF 9:10-10:00

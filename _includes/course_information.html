@@ -10,58 +10,69 @@
 {% assign instructors = site.data[courseKey].instructors %}
 {% endif %}
 <header class="columns">
-  <div class="column col-md-12">
-    <h1>Course Information</h1>
-  </div>
-  <div class="column col-md-6">
-    <h2 class="border-bottom-0 pb-0">Course</h2>
-    <ul>
-      <li><strong>Number:</strong> {{course.number}}</li>
-      <li><strong>Title:</strong> {{course.title}}</li>
-      <li><strong>Term:</strong> {{ course.term }}</li>
-      {% if course.meetings %} {% for meeting in course.meetings %}
-      <li>
-        <strong>Meeting:</strong> {{ meeting.time }}, {{ meeting.location }}
-      </li>
-      {% endfor %} {%elsif course.time %}
-      <li>
-        <strong>Meeting:</strong> {{ course.time }}, {{
-        course.location }}
-      </li>
-      {%endif%}
-    </ul>
-  </div>
-  <div class="column col-md-6">
-    {% if instructors != nil %}
-    <h2 class="border-bottom-0 pb-0">
-      Instructor{% if instructors.size > 1 %}s{%endif%}
-    </h2>
-    <ul>
-      {% for instructor in instructors %}
-      <li><strong>Name: </strong>{{instructor.name}}</li>
-      <li>
-        <strong>Contact:</strong>
-        <a href="mailto: {{ instructor.email }}">{{ instructor.email }}</a>
-      </li>
-      {% if instructor.office != nil %}
-      <li>
-        <strong>Office Hours &amp; Locations:</strong>
-        <ul>
-          {% for office in instructor.office %}
-          <li>{{office.hours}}, {{ office.location}}</li>
-          {% endfor %}
-        </ul>
-      </li>
-      {% endif %} {% endfor %}
-    </ul>
-    {% endif %}
-  </div>
-  {% if course.description != nil %}
-  <div class="column col-md-12">
-    <h2 class="border-bottom-0 pb-0">Course Description</h2>
-    <blockquote>
-      {{course.description | markdownify}}
-    </blockquote>
-  </div>
-  {%endif%}
+	<div class="column col-md-12">
+		<h1>Course Information</h1>
+	</div>
+	<div class="column col-md-6">
+		<h2 class="border-bottom-0 pb-0">Course</h2>
+		<ul>
+			<li><strong>Number:</strong> {{course.number}}</li>
+			<li><strong>Title:</strong> {{course.title}}</li>
+			<li><strong>Term:</strong> {{ course.term }}</li>
+			{% if course.meetings %} {% for meeting in course.meetings %}
+			<li>
+				<strong>Meeting:</strong> {{ meeting.time }}, {{ meeting.location }}
+			</li>
+			{% endfor %} {%elsif course.time %}
+			<li>
+				<strong>Meeting:</strong> {{ course.time }}, {{
+				course.location }}
+			</li>
+			{%endif%}
+		</ul>
+	</div>
+	<div class="column col-md-6">
+		{% if instructors != nil %}
+		<h2 class="border-bottom-0 pb-0">
+			Instructor{% if instructors.size > 1 %}s{%endif%}
+		</h2>
+		<ul>
+			{% for instructor in instructors %}
+			<li><strong>Name: </strong>{{instructor.name}}</li>
+			<li>
+				<strong>Contact:</strong>
+				<a href="mailto: {{ instructor.email }}">{{ instructor.email }}</a>
+			</li>
+			{% if instructor.office != nil %}
+			<li>
+				<strong>Office Hours &amp; Locations:</strong>
+				<ul>
+					{% for office in instructor.office %}
+					<li>{{office.hours}}, {{ office.location}}</li>
+					{% endfor %}
+				</ul>
+			</li>
+			{% endif %} {% endfor %}
+		</ul>
+		{% endif %}
+	</div>
+	{% if course.description != nil %}
+	<div class="column col-md-12">
+		<h2 class="border-bottom-0 pb-0">Course Description</h2>
+		<blockquote>
+			{{course.description | markdownify}}
+		</blockquote>
+	</div>
+	{%endif%}
+	{% if course.outcomes != nil %}
+	<div class="column col-md-12">
+		<h1>Course Learning Outcomes</h1>
+		<p>In this course, students can expect:</p>
+		<ol>
+			{% for outcome in course.outcomes %}
+			<li>{{outcome}}</li>
+			{% endfor %}
+		</ol>
+	</div>
+	{%endif%}
 </header>
