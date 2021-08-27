@@ -40,77 +40,103 @@ classes:
   - |
     * Lab Wrap-Up: How'd We Do?
   - |
-    * Lecture: ["How Does the Internet Work?"](/courses/engl460/00-server.html)
-    * Lab Report Due
+    * Lecture: "What is The Digital?"
+    * Read: Nicholas Negroponte, "The DNA of Information" (on Canvas)
+    * **Big Question Due Sunday Night**
+    * **Lab Report Due**
   - |
-    * Writing Lab: ["Getting Started with Jekyll"](/courses/engl460/00-jekyll-exercise.html)
+    * Writing Lab: ["Being Digital"](/courses/engl460/01-digital-exercise.html)
+  - |
+    * Read: [Jorge Luis Borges, "The Analytical Languge of John Wilkins"](https://sites.evergreen.edu/politicalshakespeares/wp-content/uploads/sites/226/2015/12/Borges-The-Analytical-Language-of-JW.pdf)
+    * Lab Wrap-Up: How'd We Do?
+  - |
+    * Lecture: ["What is Multimodality?"](/courses/engl460/02-modal.html)
+    * Read: Alan C. Kay, ["A Personal Computer for Children of All Ages"](https://www.mprove.de/visionreality/media/kay72.html)
+    * **Big Question Due Sunday Night**
+    * **Lab Report Due**
+  - |
+    * Writing Lab: ["Modal Analysis"](/courses/engl460/02-modal-exercise.html)
   - |
     * Lab Wrap-Up: How'd We Do?
   - |
-    * Lecture: ["What is a Data?"](/courses/engl460/01-data.html)
-    * Lab Report Due
+    * Lecture: ["What is a Data?"](/courses/engl460/03-data.html)
+    * **Big Question Due Sunday Night**
+    * **Lab Report Due**
   - |
-    * Writing Lab: ["Data"](/courses/engl460/01-data-exercise-exercise.html)
+    * Writing Lab: ["Data"](/courses/engl460/03-data-exercise.html)
+  - |
+    * Lab Wrap-Up: How'd We Do?
+  - | 
+    * Lecture: ["What is Aleatory Poetry?"](/courses/engl460/04-chance.html)
+    * Read: [William S. Burroughs, "The Cut-up Method of Brion Gysin"](http://www.tbook.constantvzw.org/wp-content/cutup_gysin_burrough.pdf)
+    * Read: [Tristan Tzara, "How to Make a Dadaist Poem"](https://www.writing.upenn.edu/~afilreis/88v/tzara.html)
+    * **Big Question Due Sunday Night**
+    * **Lab Report Due**
+  - |
+    * Writing Lab: ["Aleatory Poetry"](/courses/engl460/04-chance-exercise.html)
+  - |
+    * Read: ["Why Humanists Should Fall in Love with 'Big Data,' and How?"](http://humnviz.blogs.bucknell.edu/welcome/why-humanists-should-fall-in-love-with-big-data-and-how/)
+    * Lab Wrap-Up: How'd We Do?
+  - |
+    * Lecture: ["What is a File?"](/courses/engl460/04-file.html)
+    * **Big Question Due Sunday Night**
+    * **Lab Report Due**
+  - |
+    * Writing Lab: ["File"](/courses/engl460/04-file-exercise.html)
   - |
     * Lab Wrap-Up: How'd We Do?
   - |
-    * Lecture: ["What is a File?"](/courses/engl460/02-file.html)
-    * Lab Report Due
+    * Lecture: ["What is Markup?"](/courses/engl460/07-markup.html)
+    * **Big Question Due Sunday Night**
+    * **Lab Report Due**
   - |
-    * Writing Lab: ["File"](/courses/engl460/02-file-exercise.html)
-  - |
-    * Lab Wrap-Up: How'd We Do?
-  - |
-    * Lecture: ["What is Markup?"](/courses/engl460/03-markup.html)
-    * Lab Report Due
-  - |
-    * Writing Lab: ["Markup"](/courses/engl460/03-markup-exercise.html)
+    * Writing Lab: ["Markup"](/courses/engl460/07-markup-exercise.html)
   - |
     * Lab Wrap-Up: How'd We Do?
   - |
-    * Lecture: ["What is Metadata?"](/courses/engl460/04-metadata.html)
-    * Lab Report Due
+    * Play Through One of the Following:
+      * ["A Tale of Crowns"](https://crownbright.itch.io/a-tale-of-crowns)
+      * ["SPACE FROG!"](https://npckc.itch.io/space-frog)
+      * ["Depression Quest"](http://www.depressionquest.com/dqfinal.html)
+        * Trigger Warning: Mental illness, suicide
+    * Lecture: ["What is Hypertext?"](/courses/engl460/05-hypertext.html)
+    * **Big Question Due Sunday Night**
+    * **Lab Report Due**
   - |
-    * Writing Lab: ["Metadata"](/courses/engl460/04-metadata-exercise.html)
+    * Writing Lab: ["Hypertext"](/courses/engl460/05-hypertext-exercise.html)
+  - |
+    * Lab Wrap-Up: How'd We Do?
+  - |
+    * Lecture: ["Going Online"](/courses/engl460/06-server.html)
+    * **Big Question Due Sunday Night**
+    * **Lab Report Due**
+  - |
+    * Writing Lab: ["Getting Started with Jekyll"](/courses/engl460/06-jekyll-exercise.html)
   - |
     * Lab Wrap-Up: How'd We Do?
   - |
     * Lecture: ["What is Content? What is Style?"](/courses/engl460/05-style.html)
-    * Lab Report Due
+    * **Big Question Due Sunday Night**
+    * **Lab Report Due**
   - |
     * Writing Lab: ["Style"](/courses/engl460/05-style-exercise.html)
   - |
     * Lab Wrap-Up: How'd We Do?
   - |
-    * Lecture: ["Where Are My Files?"](/courses/engl460/06-remote.html)
-    * Lab Report Due
+    * Lecture: ["What is Metadata?"](/courses/engl460/04-metadata.html)
+    * **Big Question Due Sunday Night**
+    * **Lab Report Due**
   - |
-    * Writing Lab: ["Files"](/courses/engl460/06-remote-exercise.html)
-  - |
-    * Lab Wrap-Up: How'd We Do?
-  - |
-    * Lecture: ["What is Hypertext?"](/courses/engl460/07-hypertext.html)
-    * Lab Report Due
-  - |
-    * Writing Lab: ["Hypertext"](/courses/engl460/07-hypertext-exercise.html)
+    * Writing Lab: ["Metadata"](/courses/engl460/04-metadata-exercise.html)
   - |
     * Lab Wrap-Up: How'd We Do?
   - |
-    * Lecture: ["What is Aleatory Poetry?"](/courses/engl460/08-chance.html)
-    * Lab Report Due
+    * Brainstorming: "What Makes a Good Final Project?"
   - |
-    * Writing Lab: ["Aleatory Poetry"](/courses/engl460/08-chance-exercise.html)
+    * Work on Your Project Proposals
   - |
-    * Lab Wrap-Up: How'd We Do?
-  - |
-    * Lecture: ["What is an Audience?"](/courses/engl460/09-audience.html)
-    * Lab Report Due
-  - |
-    * Writing Lab: ["Audience"](/courses/engl460/09-audience-exercise.html)
-  - |
-    * Lab Wrap-Up: How'd We Do?
-  - |
-    * Stand-up Meeting (Slack)
+    * Pitch Presentations
+    * **Project Proposal Due at 11:59PM**
   - |
     * Work On Your Projects
   - |
@@ -118,10 +144,8 @@ classes:
   - |
     * Work On Your Projects
   - |
-    * Stand-up Meeting (Slack)
-  - |
     * Work On Your Projects
   - |
     * Work On Your Projects
-  - |
-    * Stand-up Meeting (Slack)
+    * **Project Artifact Due at 11:59PM**
+    * **Project Reflection Due at 11:59PM
