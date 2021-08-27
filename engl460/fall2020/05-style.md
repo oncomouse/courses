@@ -245,7 +245,7 @@ From a visual, human-focused standpoint, this is a more complicated, but otherwi
 
 The basic site we built in the previous section looks like this when we display it in the browser:
 
-![A basic website](./images/05-basic-site.png)
+![A basic website](/courses/engl460/images/05-basic-site.png)
 {:.text-center}
 
 We could make the site look a little better if we centered the column in the browser so that the text was a little narrower.
@@ -298,7 +298,7 @@ Unfortunately, it usually prints as a very long, single-line string that is utte
 
 This animated GIF shows the whole process:
 
-![Animated GIF Showing View Source Operation](./images/05-style-view-source.gif)
+![Animated GIF Showing View Source Operation](/courses/engl460/images/05-style-view-source.gif)
 {:.text-center}
 
 The CSS for [primer](https://github.com/pages-themes/primer) defines *a lot* of useful CSS classes you can use. One I use frequently on this page is `text-center`, which is defined as:
@@ -468,5 +468,5 @@ We talked previously about using your browser's developers tools to edit HTML li
 
 When clicking on an element in the source view of developers tools or inspecting an element, the pane to the right of the HTML view displays all the style rules applied to the current element. You can edit them and add new ones if you wish. This can be very helpful when adding new rules and getting everything to look right. *Just remember that if you reload the page, any changes you make are gone.*
 
-![Using Developers' Tools to Edit CSS Live](./images/05-style-dev-tools.gif)
+![Using Developers' Tools to Edit CSS Live](/courses/engl460/images/05-style-dev-tools.gif)
 {:.text-center}

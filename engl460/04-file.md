@@ -74,7 +74,7 @@ You may have noticed, if you were reading carefully, one key difference between 
 Remember when we tried to look at the content of a Word document last week and all we saw was a bunch of unreadable characters. Here's that image again, in case you want a refresher:
 
 <figure>
-<img src="./images/data-binary.png" alt="The incomprehensible results of trying to view the source of a Microsoft Word Document">
+<img src="/courses/engl460/images/data-binary.png" alt="The incomprehensible results of trying to view the source of a Microsoft Word Document">
 <figcaption>The incomprehensible results of trying to view the source of a Microsoft Word Document</figcaption>
 </figure>
 
@@ -85,14 +85,14 @@ And, we can verify that my computer knows the document is an MS Word file in a c
 Using the command line, I can run the old UNIX `file` command, which tells me:
 
 <figure>
-<img src="./images/files-file.png" alt="The document is of type 'Microsoft Word 2007+'">
+<img src="/courses/engl460/images/files-file.png" alt="The document is of type 'Microsoft Word 2007+'">
 <figcaption>The document is of type `Microsoft Word 2007+`</figcaption>
 </figure>
 
 If I right click (or <kbd>control</kbd>+click) on the file in macOS's Finder, I see similar information displayed:
 
 <figure>
-<img src="./images/files-macos.png" alt="Document kind is 'Microsoft Word Document'">
+<img src="/courses/engl460/images/files-macos.png" alt="Document kind is 'Microsoft Word Document'">
 <figcaption>Document kind is `Microsoft Word Document`</figcaption>
 </figure>
 
@@ -194,7 +194,7 @@ When you want to write a document for a class, you usually open Microsoft Word o
 The same is true of plain text. There are myriad of plain text editors available on most modern computers. Windows has the venerable "Notepad," while macOS ships with "Text Edit." When you edit your blog on GitHub, you are also using a text editor.
 
 <figure>
-<img src="./images/files-gh-text-edit.png" alt="GitHub as a text editor">
+<img src="/courses/engl460/images/files-gh-text-edit.png" alt="GitHub as a text editor">
 <figcaption>GitHub as a text editor</figcaption>
 </figure>
 
@@ -205,7 +205,7 @@ However, most people who work on webpages use some kind of dedicated text editor
 Ultimately, in this class, we will be moving toward working with an industrial-strength text editor, most likely [Microsoft Visual Studio Code](https://code.visualstudio.com/) (if you prefer a different text editor, feel free to use it). Here is the same blog post in VSCode:
 
 <figure>
-<img src="./images/files-vscode.png" alt="Visual Studio Code, a more advanced text editor">
+<img src="/courses/engl460/images/files-vscode.png" alt="Visual Studio Code, a more advanced text editor">
 <figcaption>Visual Studio Code, a more advanced text editor</figcaption>
 </figure>
 
@@ -214,7 +214,7 @@ VS Code gives a lot more information and has a lot of features that make writing
 To further highlight the versatility of plaintext writing, here is a picture of the blog post open in [1Writer](https://1writerapp.com/), a powerful Markdown editor for iOS devices. While not necessarily designed for working with Jekyll sites, you can see that Markdown, being an open text-based file format, allows for a variety of work environments on any number of devices:
 
 <figure>
-<img src="./images/files-ios.jpg" alt="Blog post open in 1Writer on iOS" style="max-width: 424px">
+<img src="/courses/engl460/images/files-ios.jpg" alt="Blog post open in 1Writer on iOS" style="max-width: 424px">
 <figcaption>Blog post open in 1Writer on iOS</figcaption>
 </figure>
 
@@ -235,7 +235,7 @@ Student2,Student2,Student2,2345678901,T23456789,student2@email.tamu.edu,UG,U4,3,
 The first line, in all capitals, provides the name of each column. After that, we have records that describe a dictionary entry for each student based on the first line's labels. We can open this CSV file in Excel:
 
 <figure>
-<img src="./images/files-csv.png" alt="The CSV file open in Excel">
+<img src="/courses/engl460/images/files-csv.png" alt="The CSV file open in Excel">
 <figcaption>The CSV file open in Excel</figcaption>
 </figure>
 

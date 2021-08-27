@@ -19,7 +19,7 @@ The core of git's operation is in something called a "commit." Commits are incre
 
 From the main page of your repository, in the upper right hand of the blue title bar above your repository's list of files, there is an icon like a backwards running clock next to a number. Clicking this will show your repository's commit history. Here's an example:
 
-![Accessing The History on a GitHub Repository](./images/06-commit-history.gif)
+![Accessing The History on a GitHub Repository](/courses/engl460/images/06-commit-history.gif)
 {:.text-center}
 
 The history list contains all your commits, including the description of the commit, the author of the commit, and when it was made. To the right of this is three buttons. The second button contains a seven digit [hexadecimal](https://simple.wikipedia.org/wiki/Hexadecimal) number. Clicking this will show you the changes made in that commit in the form of a [diff](https://en.wikipedia.org/wiki/Diff). The red text on the left of the diff is text that was deleted, while the right column of green text represents additions. A diff is a compressed plain-text format for viewing changes made to a repository over time.
@@ -32,7 +32,7 @@ Between these two buttons and your commit history, you can explore changes you'v
 
 Using GitHub to edit your blog, you probably have not been filling out the title bar above the code when you change it, leaving "Update \<file name\>" as the default. This has been an easy editing workflow and has served you well in the past (when I'm editing my GitHub repositories on my phone, I don't bother with that box either). However, now that we have discovered the commit history, we might wish we had been setting something in that field.
 
-![The text field in question](./images/06-commit-message.png)
+![The text field in question](/courses/engl460/images/06-commit-message.png)
 {:.text-center}
 
 In GitHub's terminology, the contents of this box is called a "commit message" and it is used, as we have already seen, to let others (or a future version of ourselves) know what was changed in a particular commit.
@@ -47,7 +47,7 @@ Branches are especially useful for our purposes, because they can let us impleme
 
 To create a branch on GitHub, find the pull down menu that says "master," which is located on the left side of the repository just above your files and folders. In the pull down menu, you'll find a field labelled "Find or create a branch..." Type the name of the branch in this field. If you entered a new branch name, the option to "Create branch: XXX from master" will appear. Click on that option and a new branch will be created.
 
-![Creating a branch on GitHub](./images/06-gh-new-branch.gif)
+![Creating a branch on GitHub](/courses/engl460/images/06-gh-new-branch.gif)
 {:.text-center}
 
 You can name branches whatever you want, but it is generally a good idea to name them after the feature you are trying to implement. You can create as many branches as you want on GitHub, so feel free to create new ones when you want to implement new features.
@@ -60,7 +60,7 @@ When working on your blog in a different branch, you can set GitHub Pages to dis
 
 Just remember to set your GitHub Pages source back to master when you are done working in your branch!
 
-![Setting GitHub Pages To a Different Branch](./images/06-gh-pages-branch.gif)
+![Setting GitHub Pages To a Different Branch](/courses/engl460/images/06-gh-pages-branch.gif)
 {:.text-center}
 
 ### Creating a Pull Request With Your Changes
@@ -73,7 +73,7 @@ This will load a list of commits, along with their diffs, we can then click the 
 
 When the PR is created, we can click on our repo's "Pull Request" tab again, click on the PR we just created and scroll to the bottom. There will be a green button that says "Merge pull request" and a message telling us there are no conflicts (if there were conflicts, we could fix them there). Click the green "Merge pull request" button and your changes will be in master.
 
-![Creating a Pull Request to Merge Changes Into Master](./images/06-gh-pull-request.gif)
+![Creating a Pull Request to Merge Changes Into Master](/courses/engl460/images/06-gh-pull-request.gif)
 {:.text-center}
 
 #### Remote Forks and Pull Requests
@@ -130,7 +130,7 @@ We can use the command palette to search for the "Git: Clone" command, so if we 
 
 VSCode will now ask you for a location to clone into. You can save your repositories anywhere you wish, but by convention, GitHub clones live in a folder called `Projects`. So, I select my `Projects` directory and VSCode clones my repository. In the bottom right of the screen, VSCode will show a notification when it is finished and ask if I'd like to Open my cloned repository. Doing so, I see the contents of my repository.
 
-![Cloning a GitHub Repository in VSCode](./images/06-vscode-clone.gif)
+![Cloning a GitHub Repository in VSCode](/courses/engl460/images/06-vscode-clone.gif)
 {:.text-center}
 
 ### Using Visual Studio Code
@@ -155,7 +155,7 @@ Above this list of changes, is a field labelled "Message." We can type our commi
 
 Sync performs an additional task: if others are working on the same repository as us (or if you make changes in your web browser directly on the remote master; or edit a different clone on a different computer), our current local repository will become "behind" the remote master. In GitHub, we "pull" these remote changes down to our local repository, in order to catch up to the master. In VSCode, pushing and pulling is squashed into one function called sync, so you can just use that menu option. You can also run "Git: Sync" from the command palette (<kbd>Ctrl+Shift+P</kbd> on Windows; <kbd>Command+Shift+P</kbd> on macOS).
 
-![Committing Changes Using VSCode](./images/06-vscode-push.gif)
+![Committing Changes Using VSCode](/courses/engl460/images/06-vscode-push.gif)
 {:.text-center}
 
 *Note:* You can also click in the "Synchronize Changes" panel in the bottom menu to sync changes, as I do in the GIF. That panel will also show you how many commits ahead and behind of the remote master your repo is.
@@ -237,19 +237,19 @@ Now, we are going to use the command line. Command lines work by taking a series
 
 To open a command line in VS Code, you can press <kbd>Ctrl+~</kbd> on Windows or <kbd>Control+~</kbd> on macOS (note that this command on macOS does not use the command key!). This will bring up a command line window in the lower third of your right pane. There is an illustration of one below, though yours will look different than mine, as I have customized my command line quite a bit:
 
-![A Command Line Window](./images/06-vscode-terminal.png)
+![A Command Line Window](/courses/engl460/images/06-vscode-terminal.png)
 {:.text-center}
 
 In my terminal window, there is a small white square after a lamdba symbol (λ). The white square is called the cursor, it is the current position where typed text will enter. If you do not see a cursor, the command line is still running a program and you cannot enter text yet. Some command line programs take a while to execute (we are going to execute one in particular). Also, once we start Jekyll on our computer, the program will run until will tell it to stop.
 
 Now, to start the process of getting Jekyll working, we need to enter a few commands. First, we need to install a program called bundler, which downloads other required pieces of software. To do so, run `gem install bundler` from the command line you opened in your repository.
 
-![Installing bundler](./images/06-jekyll-bundler-install.gif)
+![Installing bundler](/courses/engl460/images/06-jekyll-bundler-install.gif)
 {:.text-center}
 
 Next, we need to use bundler to install the rest of the Jekyll requirements. To do so, run `bundle install` from the command line you opened in your repository.
 
-![Installing dependencies with bundler](./images/06-jekyll-bundle-install.gif)
+![Installing dependencies with bundler](/courses/engl460/images/06-jekyll-bundle-install.gif)
 {:.text-center}
 
 Now, we have a working installation of Jekyll!
@@ -262,7 +262,7 @@ But, how do we use it?
 
 Assuming everything went ok above, we should be ready to start a local Jekyll server. To do so, we run the command `bundle exec jekyll serve` in our command line window. This command will not return our cursor to us, instead it will start a web server on our local computer and run until we shut the server down (more on that in a second).
 
-![Running Jekyll](./images/06-jekyll-serve.gif)
+![Running Jekyll](/courses/engl460/images/06-jekyll-serve.gif)
 
 As you can see in the GIF above, I can hold the <kbd>Command</kbd> key (or <kbd>Ctrl</kbd> key on Windows) and click that URL in my terminal to open it, but if that doesn't work for you, once the server is running, [http://localhost:4000/](http://localhost:4000/) will get you to your local site.
 

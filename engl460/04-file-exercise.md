@@ -72,7 +72,7 @@ This page is about my job!
 Now I have this:
 
 <figure>
-<img src="./images/files-about.png" alt="A directory named 'about/' with three files">
+<img src="/courses/engl460/images/files-about.png" alt="A directory named 'about/' with three files">
 <figcaption>A directory named 'about/' with three files</figcaption>
 </figure>
 
@@ -95,7 +95,7 @@ I am going to upload an image I took in Cushing Library's Science Fiction & Fant
 Here's a GIF of the process:
 
 <figure>
-<img src="./images/files-upload-image.gif" alt="Uploading a file to GitHub">
+<img src="/courses/engl460/images/files-upload-image.gif" alt="Uploading a file to GitHub">
 <figcaption>Uploading a file to GitHub</figcaption>
 </figure>
 
@@ -129,7 +129,7 @@ The process is the same for displaying tweets on your site or videos from Vimeo.
 Here's a GIF of adding a video to my about me page:
 
 <figure>
-<img src="./images/files-add-video.gif" alt="Adding a video to a GitHub Page">
+<img src="/courses/engl460/images/files-add-video.gif" alt="Adding a video to a GitHub Page">
 <figcaption>Adding a video to a GitHub Page</figcaption>
 </figure>
 

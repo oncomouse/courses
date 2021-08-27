@@ -143,7 +143,7 @@ defaults:
 
 When we reload the third example, we see:
 
-![The third example page, with the default image attached](./images/04-metadata-example4.png)
+![The third example page, with the default image attached](/courses/engl460/images/04-metadata-example4.png)
 {:.text-center}
 
 While, if we load the second example, we still see the same unstyled, rough HTML page. This difference occurs because, even without any metadata information in its YAML block, the third example page is "managed" by Jekyll. Once we define site-wide default values in `_config.yml`, the managed page acquires those default values. If we add values to the YAML block in example three, say changing `layout` to `post`, we "override" the default with the new settings. YAML blocks always override default values set in `_config.yml`.

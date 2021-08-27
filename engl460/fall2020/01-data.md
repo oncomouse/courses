@@ -64,7 +64,7 @@ If the phone records every temperature reading in one variable (one place in mem
 In the GIF below, you can see a simulated run of a program that might read from a thermometer as we bake something. It reads temperature data from the thermometer and stores it in a list of temperatures:
 
 <figure>
-	<img src="./images/data-temp.gif" alt="Simulation of a thermometer measuring the temperature of a roast">
+	<img src="/courses/engl460/images/data-temp.gif" alt="Simulation of a thermometer measuring the temperature of a roast">
 	<figcaption>Simulation of a thermometer measuring the temperature of a roast</figcaption>
 </figure>
 
@@ -93,7 +93,7 @@ Dictionary data on a computer works similarly: scalar data is associated with pa
 Consider this sample Texas A&M ID card:
 
 <figure>
-	<img src="./images/data-id-card.jpg" alt="A Sample Texas A&M ID Card">
+	<img src="/courses/engl460/images/data-id-card.jpg" alt="A Sample Texas A&M ID Card">
 	<figcaption>A Sample Texas A&M ID Card</figcaption>
 </figure>
 
@@ -143,7 +143,7 @@ It turns out this question is particularly relevant at the level of data, as wel
 Consider writing in cursive, which is maybe something you learned in grade school. Here's an example of my very bad cursive writing:
 
 <figure>
-	<img src="./images/data-cursive.gif" alt="Writing in Cursive">
+	<img src="/courses/engl460/images/data-cursive.gif" alt="Writing in Cursive">
 	<figcaption>Writing in Cursive</figcaption>
 </figure>
 
@@ -152,14 +152,14 @@ Writing in cursive, words are composed of a few smooth motions, with each letter
 Now think about writing in print. Even though the individual letters are discrete, they are still composed of individual marks, individual gestures made by hand. The first downward stroke of the "H," followed by a cross bar and another downward stroke. Writing is still about making gestures in time, even if words have a more concrete dimension.
 
 <figure>
-	<img src="./images/data-print.gif" alt="Writing in Print">
+	<img src="/courses/engl460/images/data-print.gif" alt="Writing in Print">
 	<figcaption>Writing in Print</figcaption>
 </figure>
 
 Now, think about writing the same message on a keyboard. I peck keys on a keyboard, choosing letters from a pre-defined list on a grid in front of me. This is not the same idea of gesture. Each letter requires the same number of movements (unlike how an "H" is three strokes with the pen, while an "o" is a single circle).
 
 <figure>
-	<img src="./images/data-typing.gif" alt="Writing on Screen">
+	<img src="/courses/engl460/images/data-typing.gif" alt="Writing on Screen">
 	<figcaption>"Writing" "on" "Screen"</figcaption>
 </figure>
 
@@ -195,7 +195,7 @@ They are the same but they are also different. And that's because there are laye
 HTML and Markdown are, however, unified in both being what are called "plain text files." Plain text is a way of storing data in contrast to binary, which is a file structure readable at the source level only by computers. Examples of binary files include most images, movies, and sound files. A Microsoft Word document is also a binary file. Binary files are only able to be edited by specialized programs that format the file for us to see. If you tried to do the equivalent of "View Source" on a Microsoft Word document, you might think your computer is trying to summon some sort of demon:
 
 <figure>
-<img src="./images/data-binary.png" alt="The incomprehensible results of trying to view the source of a Microsoft Word Document">
+<img src="/courses/engl460/images/data-binary.png" alt="The incomprehensible results of trying to view the source of a Microsoft Word Document">
 <figcaption>The incomprehensible results of trying to view the source of a Microsoft Word Document</figcaption>
 </figure>
 

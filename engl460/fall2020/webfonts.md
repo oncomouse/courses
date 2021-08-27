@@ -16,7 +16,7 @@ There are two steps to use a web font:
 
 On [Google Fonts](https://fonts.google.com), you can browse for a font and then select the faces you want. The faces are sorted by weight and face. Weights are represented by words in certain cases (`normal` and `bold`) but are also more accurately presented as numbers from 100 to 900 (thinnest to thickest). `normal` is 400 and `bold` is 700. See below if you would like to use different default weights.
 
-![Google Fonts sorted by weight and face](./images/google-fonts.png)
+![Google Fonts sorted by weight and face](/courses/engl460/images/google-fonts.png)
 {:.text-center}
 
 On Google Fonts, you click "+ Select This Style" to add different fonts to your site. If you plan to use bold, italic, and normal fonts (and you are fine with the standard weights), you need 400, 400 Italic, 700, and 700 Italic. However, will you really use bold italic all that often? You can shave some time off the loading of your site by not loading unused fonts.
@@ -36,7 +36,7 @@ Now your site should be using the new font!
 Here's a GIF of the whole process (including some fixes for Primer discussed below):
 
 <figure>
-<img src="./images/webfonts.gif" alt="Setting a Web Font">
+<img src="/courses/engl460/images/webfonts.gif" alt="Setting a Web Font">
 <figcaption>I know it's "your". This GIF was the fifth take and I'm tired.</figcaption>
 </figure>
 
@@ -101,7 +101,7 @@ Here are two articles discussing some pairs that designers like:
 
 When selecting fonts, you can choose more than one font family to add to your bundle on Google Fonts, as the image below shows:
 
-![Choosing Two Fonts](./images/google-fonts-multiple.png)
+![Choosing Two Fonts](/courses/engl460/images/google-fonts-multiple.png)
 
 So, you would then add your `<link>` the way you normally would, but your CSS would look like this:
 

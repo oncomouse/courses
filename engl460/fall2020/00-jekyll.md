@@ -20,7 +20,7 @@ GitHub uses the concept of a **repository** to organize projects. GitHub "repos"
 Visit [http://github.com/new ](http://github.com/new) to create a new repo. When there, you will need to call your new repository **\<username>.github.io**, **where you replace \<username> with your GitHub username**. If your GitHub username was `just_an_aggie`, you would type **just_an_aggie.github.io** as your repository name. If your GitHub username was `some_student`, you would type **some_student.github.io** as your repository name.
 
 <figure>
-<img alt="An example of creating a new repository on GitHub" src="./images/jk-create-repo.gif">
+<img alt="An example of creating a new repository on GitHub" src="/courses/engl460/images/jk-create-repo.gif">
 <figcaption>Creating a new repository on GitHub.</figcaption>
 </figure>
 
@@ -69,7 +69,7 @@ In the editor, where the file says `title: Site Title`, you can change "Site Tit
 When you are done editing your file, scroll to the bottom of the page and click "Commit new file" to save your changes. "Commiting" is the fancy GitHub lingo for saving files to your repo.
 
 <figure>
-<img alt="Creating the _config.yml file" src="./images/jk-create-config.gif">
+<img alt="Creating the _config.yml file" src="/courses/engl460/images/jk-create-config.gif">
 <figcaption>Creating a new <code>_config.yml</code> file.</figcaption>
 </figure>
 
@@ -110,7 +110,7 @@ layout: default
 Scroll to the bottom and click "Commit New File" to commit `index.html` to your repo.
 
 <figure>
-<img alt="Creating the index.html file" src="./images/jk-create-index.gif">
+<img alt="Creating the index.html file" src="/courses/engl460/images/jk-create-index.gif">
 <figcaption>Creating a new <code>index.html</code> file.</figcaption>
 </figure>
 
@@ -127,7 +127,7 @@ Click the link and you should see your site!
 If you don't something has gone wrong. Now would be a good time to ask for help.
 
 <figure>
-<img alt="Checking the GitHub Pages source" src="./images/jk-settings.gif">
+<img alt="Checking the GitHub Pages source" src="/courses/engl460/images/jk-settings.gif">
 <figcaption>Success! This message displays when GitHub Pages has built our site</figcaption>
 </figure>
 
@@ -148,14 +148,14 @@ You can also change the contents of the line that begins `description:` to give 
 When you are happy with your site's title and description, click the button labelled "Commit changes".
 
 <figure>
-<img alt="Changing the title and description of our site" src="./images/jk-change-config.gif">
+<img alt="Changing the title and description of our site" src="/courses/engl460/images/jk-change-config.gif">
 <figcaption>Changing the title and description of our site on GitHub.</figcaption>
 </figure>
 
 After the site has rebuilt (see below), you should see the results of your changes:
 
 <figure>
-<img alt="My Blog Reloaded with New Title and Description" src="./images/jk-change-config-success.png">
+<img alt="My Blog Reloaded with New Title and Description" src="/courses/engl460/images/jk-change-config-success.png">
 <figcaption>Results of setting a new title, a new description, and waiting for the site to be rebuilt.</figcaption>
 </figure>
 
@@ -210,14 +210,14 @@ Below the second set of three hyphens is the body of our post, which is written 
 When you are happy with your first post, click "Commit new file"
 
 <figure>
-<img alt="Creating the first post" src="./images/jk-first-post.gif">
+<img alt="Creating the first post" src="/courses/engl460/images/jk-first-post.gif">
 <figcaption>Creating your first blog post.</figcaption>
 </figure>
 
 Once you wait for the site to rebuild, again, you should be able to reload your site and see your first blog post!
 
 <figure>
-<img alt="My blog showing the post I just created, titled 'My First Post'" src="./images/jk-first-post-success.png">
+<img alt="My blog showing the post I just created, titled 'My First Post'" src="/courses/engl460/images/jk-first-post-success.png">
 <figcaption>The results of successfully creating your first blog post and waiting for your site to rebuild.</figcaption>
 </figure>
 

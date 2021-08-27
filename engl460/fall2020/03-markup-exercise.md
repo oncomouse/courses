@@ -21,7 +21,7 @@ Pretty neat, huh? The developer tools let's you edit your site's HTML in the bro
 
 You will want to get familiar with the developer tools as you work on this hands-on activity.
 
-![An animated GIF illustrating the use of Firefox's Developer Tools](./images/markup-devtools.gif)
+![An animated GIF illustrating the use of Firefox's Developer Tools](/courses/engl460/images/markup-devtools.gif)
 {:.text-center}
 
 ## Site Theming With Jekyll
@@ -88,7 +88,7 @@ When Jekyll finds a line like `theme: jekyll-theme-cayman` in your `_config.yml`
 
 Thus, we can visit our theme's repository to see what it is using. There's a GIF below showing me visiting the primer repository:
 
-![GIF of a visit to the primer theme's repository. Layout and include folders are visited](./images/markup-gh-theme.gif)
+![GIF of a visit to the primer theme's repository. Layout and include folders are visited](/courses/engl460/images/markup-gh-theme.gif)
 {:.text-center}
 
 If we open the `_layouts` folder, we see the following files:
