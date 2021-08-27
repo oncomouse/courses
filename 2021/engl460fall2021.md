@@ -25,7 +25,7 @@ You are not required to complete all lab reports to earn an "A" in this course, 
 
 At the start of each week (by Sunday night), you will be asked to submit a big question to help guide our weekly discussion. For the first 11 weeks of class, this will be based on the reading. What aspects did you not understand? What do you wish to know more about? What was unclear?
 
-For the final 3 weeks, your question will need to be derived from the work you are doing on your final project. Where are you having challenges? What can we do more? These questions will help seed the discussion in our stand-up meetings, where we will catch up on how our projects are going.
+Each big question needs to be posted to Slack.
 
 ### Project
 
@@ -93,6 +93,10 @@ Work must be submitted by the indicated due date to be considered satisfactory. 
 These are grades are earned for unsuccessful completion of work in a systematic way, at the discretion of the professor. A "D" denotes some minimal attempt having been made, while an "F" is awarded in the absence of enough satisfactory work to justify passing the course.
 
 # Class Procedures
+
+## Slack
+
+We will be using Slack to coordinate communication in class. There is a link to join our class workspace on Canvas. Please do this today!
 
 ## FERPA Privacy Notice
 
