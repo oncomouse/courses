@@ -19,7 +19,7 @@ instructors:
       - hours: MF 10:00-11:30
         location: Zoom
 start: 2021-08-30
-end: 2021-12-08
+end: 2021-12-06
 holidays:
   - date: 2021-11-24
     name: Reading Day
@@ -31,9 +31,6 @@ meets:
   - monday
   - wednesday
   - friday
-redefined:
-  - date: 2021-12-06
-    is_a: friday
 units:
   - title: First Unit
     start: 1
