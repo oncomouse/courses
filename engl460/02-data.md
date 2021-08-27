@@ -237,4 +237,4 @@ More importantly, by thinking about JSON as data readable by both the computer a
 
 We will read more about file types next week.
 
-Your hands-on assignment on Wednesday will ask you to think more about data structures for visualizing data. For now, try your hand at describing something digital using JSON. You can create JSON files on your blog, just create a file with a `.json` extension, and you can also use [this site](https://jsonlint.com) to check if you produced valid JSON.
+Your hands-on assignment on Wednesday will ask you to think more about data structures for visualizing data. For now, try your hand at describing something digital using JSON. You can create JSON files with Visual Studio Code, just create a file with a `.json` extension, and you can also use [this site](https://jsonlint.com) to check if you produced valid JSON.
