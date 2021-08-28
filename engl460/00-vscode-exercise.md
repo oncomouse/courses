@@ -38,6 +38,15 @@ VSCode uses "themes" to change the appearance of the editor to meet a user's pre
 
 [Read the documentation on changing the theme](https://code.visualstudio.com/docs/getstarted/themes) and pick one for your editor. Think about how you use a program and also about what colors look good to you.
 
+# Other Tools
+
+There are some other things you will likely need for this class:
+
+1. **A Web Browser** -- This goes without saying, but there are web browsers and then there are **web browsers**. Due to privacy concerns and issues of working correctly, I would strongly recommend using either of the following browsers in this class:
+	* [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new/) -- Classic Mozilla browser with lots of privacy and ad-blocking features
+	* [Brave](https://brave.com/) -- Based on Google Chrome but not spied on by Google and much more secure
+1. **Slack** -- There is a Slack workspace for this class. Having the desktop client might be preferable to the browser client.
+
 # Write Your Lab Report
 
 This week, you'll be writing a short lab report, but still answer all the questions indicated on the syllabus:
