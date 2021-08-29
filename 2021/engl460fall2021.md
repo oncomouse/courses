@@ -19,11 +19,13 @@ You are tasked with completing the following units of work in this course:
 
 Each week, on Wednesday, you have a lab exercise. This will be a particular set of tasks derived from the week's discussion topic. The week following the exercise, you will be asked to submit a report of what you did, what you learned, what challenges you faced, and how or if you overcame them. Additionally, you will submit the artifact you were asked to create.
 
-You are not required to complete all lab reports to earn an "A" in this course, however, it is **strongly recommended** you at least attempt all 11 labs.
+You are not required to complete all lab reports to earn an "A" in this course, however, it is **strongly recommended** you at least attempt all 10 labs.
 
 ### Big Questions
 
-At the start of each week (by Sunday night), you will be asked to submit a big question to help guide our weekly discussion. For the first 11 weeks of class, this will be based on the reading. What aspects did you not understand? What do you wish to know more about? What was unclear?
+At the start of each week (by Sunday night), you will be asked to submit a big question to help guide our weekly discussion. These will be based on the reading. What aspects did you not understand? What do you wish to know more about? What was unclear? Does something you read relate to another class or topic of interest?
+
+These questions, to be considered "satisfactory," must be generative of discussion and somewhat open-ended. "Why" and "how" questions are particularly good. For more on writing good discussion questions, [click here](/courses/questions.html)
 
 Each big question needs to be posted to Slack.
 
