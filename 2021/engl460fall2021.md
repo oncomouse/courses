@@ -19,6 +19,8 @@ You are tasked with completing the following units of work in this course:
 
 Each week, on Wednesday, you have a lab exercise. This will be a particular set of tasks derived from the week's discussion topic. The week following the exercise, you will be asked to submit a report of what you did, what you learned, what challenges you faced, and how or if you overcame them. Additionally, you will submit the artifact you were asked to create.
 
+The report should be between 2 and 3 pages of double-spaced, Times New Roman 12pt, writing. The report itself will need to be written in MS Word format (`.docx` or `.doc`) or in Markdown (`.md`), once we've learned about that.
+
 You are not required to complete all lab reports to earn an "A" in this course, however, it is **strongly recommended** you at least attempt all 10 labs.
 
 ### Big Questions
