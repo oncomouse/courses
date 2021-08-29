@@ -106,8 +106,6 @@ This means that if you choose to use your real name on your course blog and as y
 
 However, if you use an alias, please email it to me so I know who you are.
 
-If you have questions about FERPA and this class, I am happy to speak with you during [Student Visiting Hours](#student-visiting-hours).
-
 # Schedule
 
 {% include schedule.html %}
