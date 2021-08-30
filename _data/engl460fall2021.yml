@@ -68,17 +68,6 @@ classes:
     * Writing Lab: ["Data"](/courses/engl460/03-data-exercise.html)
   - |
     * Lab Wrap-Up: How'd We Do?
-  - | 
-    * Lecture: ["What is Aleatory Poetry?"](/courses/engl460/04-chance.html)
-    * Read: [William S. Burroughs, "The Cut-up Method of Brion Gysin"](http://www.tbook.constantvzw.org/wp-content/cutup_gysin_burrough.pdf)
-    * Read: [Tristan Tzara, "How to Make a Dadaist Poem"](https://www.writing.upenn.edu/~afilreis/88v/tzara.html)
-    * **Big Question Due Sunday Night**
-    * **Lab Report Due**
-  - |
-    * Writing Lab: ["Aleatory Poetry"](/courses/engl460/04-chance-exercise.html)
-  - |
-    * Read: ["Why Humanists Should Fall in Love with 'Big Data,' and How?"](http://humnviz.blogs.bucknell.edu/welcome/why-humanists-should-fall-in-love-with-big-data-and-how/)
-    * Lab Wrap-Up: How'd We Do?
   - |
     * Lecture: ["What is a File?"](/courses/engl460/04-file.html)
     * **Big Question Due Sunday Night**
@@ -87,12 +76,23 @@ classes:
     * Writing Lab: ["File"](/courses/engl460/04-file-exercise.html)
   - |
     * Lab Wrap-Up: How'd We Do?
-  - |
-    * Lecture: ["What is Markup?"](/courses/engl460/07-markup.html)
+  - | 
+    * Lecture: ["What is Aleatory Poetry?"](/courses/engl460/05-chance.html)
+    * Read: [William S. Burroughs, "The Cut-up Method of Brion Gysin"](http://www.tbook.constantvzw.org/wp-content/cutup_gysin_burrough.pdf)
+    * Read: [Tristan Tzara, "How to Make a Dadaist Poem"](https://www.writing.upenn.edu/~afilreis/88v/tzara.html)
     * **Big Question Due Sunday Night**
     * **Lab Report Due**
   - |
-    * Writing Lab: ["Markup"](/courses/engl460/07-markup-exercise.html)
+    * Writing Lab: ["Aleatory Poetry"](/courses/engl460/05-chance-exercise.html)
+  - |
+    * Read: ["Why Humanists Should Fall in Love with 'Big Data,' and How?"](http://humnviz.blogs.bucknell.edu/welcome/why-humanists-should-fall-in-love-with-big-data-and-how/)
+    * Lab Wrap-Up: How'd We Do?
+  - |
+    * Lecture: ["What is Markup?"](/courses/engl460/06-markup.html)
+    * **Big Question Due Sunday Night**
+    * **Lab Report Due**
+  - |
+    * Writing Lab: ["Markup"](/courses/engl460/06-markup-exercise.html)
   - |
     * Lab Wrap-Up: How'd We Do?
   - |
@@ -101,35 +101,35 @@ classes:
       * ["SPACE FROG!"](https://npckc.itch.io/space-frog)
       * ["Depression Quest"](http://www.depressionquest.com/dqfinal.html)
         * Trigger Warning: Mental illness, suicide
-    * Lecture: ["What is Hypertext?"](/courses/engl460/05-hypertext.html)
+    * Lecture: ["What is Hypertext?"](/courses/engl460/07-hypertext.html)
     * **Big Question Due Sunday Night**
     * **Lab Report Due**
   - |
-    * Writing Lab: ["Hypertext"](/courses/engl460/05-hypertext-exercise.html)
+    * Writing Lab: ["Hypertext"](/courses/engl460/07-hypertext-exercise.html)
   - |
     * Lab Wrap-Up: How'd We Do?
   - |
-    * Lecture: ["Going Online"](/courses/engl460/06-server.html)
+    * Lecture: ["Going Online"](/courses/engl460/08-server.html)
     * **Big Question Due Sunday Night**
     * **Lab Report Due**
   - |
-    * Writing Lab: ["Getting Started with Jekyll"](/courses/engl460/06-jekyll-exercise.html)
+    * Writing Lab: ["Getting Started with Jekyll"](/courses/engl460/08-jekyll-exercise.html)
   - |
     * Lab Wrap-Up: How'd We Do?
   - |
-    * Lecture: ["What is Content? What is Style?"](/courses/engl460/05-style.html)
+    * Lecture: ["What is Content? What is Style?"](/courses/engl460/09-style.html)
     * **Big Question Due Sunday Night**
     * **Lab Report Due**
   - |
-    * Writing Lab: ["Style"](/courses/engl460/05-style-exercise.html)
+    * Writing Lab: ["Style"](/courses/engl460/09-style-exercise.html)
   - |
     * Lab Wrap-Up: How'd We Do?
   - |
-    * Lecture: ["What is Metadata?"](/courses/engl460/04-metadata.html)
+    * Lecture: ["What is Metadata?"](/courses/engl460/10-metadata.html)
     * **Big Question Due Sunday Night**
     * **Lab Report Due**
   - |
-    * Writing Lab: ["Metadata"](/courses/engl460/04-metadata-exercise.html)
+    * Writing Lab: ["Metadata"](/courses/engl460/10-metadata-exercise.html)
   - |
     * Lab Wrap-Up: How'd We Do?
   - |

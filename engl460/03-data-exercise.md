@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Hands-on Activity 1: What is Data?"
+title: "Hands-on Activity 4: What is Data?"
 ---
 
 One thing that can be done with data is visualization. Data visualization is a fancy term for things such as charts, graphs, and other means of making data clear to non-specialists. There are many ways of visualizing data, with both pros and cons.
