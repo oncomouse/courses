@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "ENGL 460 - Getting Started"
+title: "Writing Lab #1: Getting Started"
 ---
 
 This lab is intended to get you setup for the course.
