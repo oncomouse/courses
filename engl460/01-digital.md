@@ -103,8 +103,8 @@ The interesting thing from this, more over, especially from an aesthetic perspec
 As an example, in the 1999 single "Windowlicker," Aphex Twin encoded a picture of his face in the sound file so that if you visualize the song with a spectrogram, you get a really disturbing surprise, which you can see below:
 
 <figure>
-<img alt="Aphex Twin's self-portrait in song format" href="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.stack.imgur.com%2F8bHCA.png&f=1&nofb=1">
-<figcaption>Aphex TWin's self-portrait in song format</figcaption>
+<img alt="Aphex Twin's self-portrait in song format" href="/courses/engl460/images/01-aphex-twin.png">
+<figcaption>Aphex Twin's self-portrait in song format</figcaption>
 </figure>
 
 On a less avant-garde register, this produces a convergence of media: sound can stand alongside text to enrich the book or the song. With something like a webpage, we can include video, sound, and text all in the same place.
