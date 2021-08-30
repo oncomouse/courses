@@ -7,9 +7,9 @@ One thing that can be done with data is visualization. Data visualization is a f
 
 But one question we can ask ourselves when we look at a data visualization is "what data structure generated this"?
 
-In addition to some background reading, I've provided you with some sample visualizations. For your activity, look at each of them and try to imagine the data structure and the kinds of data needed to create them. Then, ask yourself: what are the advantages and disadvantages of this visualization? Could something else be more effective?
+In addition to some background reading, I've provided you with some sample visualizations. For your activity, look at each of them and try to imagine the data structure and the kinds of data needed to create them. Try your hand at writing a `JSON` or `YAML` file for the visualization in VSCode. Then, ask yourself: what are the advantages and disadvantages of this visualization? Could something else be more effective?
 
-Write up your description of the data and your thoughts on effectiveness and post to your blog.
+Answer these questions as part of your lab report and submit along with your data file.
 
 ## Background Reading
 
