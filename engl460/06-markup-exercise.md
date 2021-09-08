@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Hands-on Activity 3: What is Markup?"
+title: "Hands-on Activity 7: What is Markup?"
 ---
 Last week, we created an "About" page for our blog, but it doesn't appear on our site. That was sort of underwhelming, right?
 

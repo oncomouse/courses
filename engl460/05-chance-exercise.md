@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Hands-on Activity 8: What is Aleatory Poetry?"
+title: "Hands-on Activity 6: What is Aleatory Poetry?"
 ---
 
 This week we read about procedural generation and the ways we can use Tracery to make simple grammars to generate randomized content.

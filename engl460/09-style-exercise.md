@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Hands-on Activity 5: What is Style?"
+title: "Hands-on Activity 10: What is Style?"
 ---
 
 This week, we'll put our new-found knowledge of CSS to use.

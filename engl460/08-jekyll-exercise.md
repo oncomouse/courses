@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "ENGL 460 – Intro to Jekyll"
+title: "Hands-on Activity 9: Getting Started with Jekyll"
 ---
 
 # Getting Started

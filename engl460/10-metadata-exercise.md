@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Hands-on Activity 4: What is Metadata?"
+title: "Hands-on Activity 11: What is Metadata?"
 ---
 
 In this activity, we will learn how to use metadata to categorize our posts.
