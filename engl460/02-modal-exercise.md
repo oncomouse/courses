@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Hands-on Activity 2: What is Multimodality?"
+title: "Hands-on Activity 3: What is Multimodality?"
 ---
 
 Using the five modes of digital texts:
