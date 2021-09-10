@@ -131,7 +131,13 @@ You should have around one to two pages of double-spaced writing at this point. 
 
 ## Exercise 3
 
-*Forthcoming*
+Read ["The Cost of Achieving Community: Pericles' Funeral Oration"](https://files.eric.ed.gov/fulltext/ED285234.pdf) by Jim Mackin, which concerns itself with some of the rhetorical aspects of Pericles' speech. What, to your reading, is the most controversial claim made in the text?
+
+Quote the claim in the text (again, not worrying yet about citing it properly). Use a [block quote](https://writingcenter.uagc.edu/block-quotations) if the selection is longer than four lines, otherwise quote your selection using quotation marks.
+
+After the quote, explain why you chose it as controversial? Do you agree with the claim? Do you disagree? What criteria helped you decide what was controversial? Did the author signal that this claim was controversial or are you basing your selection off of your personal interests?
+
+Write up your answer to these questions in a 1-2 page set of notes (don't worry about it being a formal essay) and submit to the dropbox on Canvas.
 
 ## Exercise 4
 
