@@ -141,7 +141,11 @@ Write up your answer to these questions in a 1-2 page set of notes (don't worry 
 
 ## Exercise 4
 
-*Forthcoming*
+Read ["Discovering a Topic, Preparing for Discussion "](https://mlpp.pressbooks.pub/writinghandbook/chapter/2-discovering-a-topic-preparing-for-discussion/).
+
+Think about three topics you could use for the first position paper and analyze them given the rubric described in the above chapter. Which do you think is most effective? Why?
+
+Write up your answer, including the three possible topics, as a 1-2 page document and submit to the dropbox on Canvas.
 
 ## Exercise 5
 
