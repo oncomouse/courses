@@ -145,7 +145,7 @@ Read ["Discovering a Topic, Preparing for Discussion "](https://mlpp.pressbooks.
 
 Think about three topics you could use for the first position paper and analyze them given the rubric described in the above chapter. Which do you think is most effective? Why?
 
-Write up your answer, including the three possible topics, as a 1-2 page document and submit to the dropbox on Canvas.
+Write up your answer, including the three possible topics, as a 1-2 page collection of notes and submit to the dropbox on Canvas.
 
 ## Exercise 5
 
