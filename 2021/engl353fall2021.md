@@ -141,7 +141,7 @@ Write up your answer to these questions in a 1-2 page set of notes (don't worry 
 
 ## Exercise 4
 
-Read ["Discovering a Topic, Preparing for Discussion "](https://mlpp.pressbooks.pub/writinghandbook/chapter/2-discovering-a-topic-preparing-for-discussion/).
+Read ["Discovering a Topic, Preparing for Discussion."](https://mlpp.pressbooks.pub/writinghandbook/chapter/2-discovering-a-topic-preparing-for-discussion/)
 
 Think about three topics you could use for the first position paper and analyze them given the rubric described in the above chapter. Which do you think is most effective? Why?
 
@@ -153,11 +153,22 @@ Write up your answer, including the three possible topics, as a 1-2 page collect
 
 ## Exercise 6
 
-*Forthcoming*
+With this exercise, we will be shifting to the research paper, to be completed at the end of the semester.
+
+One of the first tasks of a scholar is positioning their work within the conversation. And to do that, a scholar must have some understand of the state of the field. There are many ways to do this, but a quick one is to use various reference works designed to help situate new researchers within a topic.
+
+For this exercise, I have provided on Canvas a chapter from *The Present State of Scholarship in the History of Rhetoric* (3rd Edition; 2010) that summarizes work done on the classical period (Greek and Roman rhetoric, which is the topic of the research project). Read over this document, which includes an extensive bibliography, and write up some notes on two topics:
+
+1. What was it like reading this kind of document? Have you read something like this before? Did you find it helpful? Or confusing? What jargon did the document use?
+2. What topics interested you? What would you like to know more about? Why?
+
+Submit your notes on these two topics to the dropbox on Canvas.
 
 ## Exercise 7
 
-*Forthcoming*
+Conducting peer review is an important part of the writing process, even though it often feels like a chore. The reason being that, as we write, we often do not see the parts of our paper that don't make sense or have grammatical errors and so forth because we are so familiar with what we are trying to say that it blocks us from seeing what we did say. Thus, getting someone else to look over our paper can greatly help clarify and improve our argumentation.
+
+For this week's exercise, arrange with two classmates to exchange drafts (you can do this virtually or in person) and read each others' documents over. There is a peer review checklist posted to Canvas. You will complete this document and provide copies to your two peers and also to me as proof you have completed the lab.
 
 ## Exercise 8
 
