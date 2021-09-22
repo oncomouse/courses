@@ -149,7 +149,15 @@ Write up your answer, including the three possible topics, as a 1-2 page collect
 
 ## Exercise 5
 
-*Forthcoming*
+Read ["Ordering Evidence, Building an Argument"](https://mlpp.pressbooks.pub/writinghandbook/chapter/ordering-evidence-building-an-argument/)
+
+Given the three topics you outlined in last week's assignments, what kind of evidence would you need to argue for the controversial nature of each? Using the methods described in this chapter, create three rough outlines of the position paper you would write based on each claim.
+
+Now, which one seems like the most compelling? Which will make the strongest first paper? Why?
+
+Along with the three outlines, include some thoughts on the above list of questions and submit the whole thing to the dropbox on Canvas.
+
+*This will be the final writing exercise in preparation for the first position paper. [Writing Exercise 7](#exercise-7) will be peer review for this paper.*
 
 ## Exercise 6
 
