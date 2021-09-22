@@ -176,7 +176,7 @@ Submit your notes on these two topics to the dropbox on Canvas.
 
 Conducting peer review is an important part of the writing process, even though it often feels like a chore. The reason being that, as we write, we often do not see the parts of our paper that don't make sense or have grammatical errors and so forth because we are so familiar with what we are trying to say that it blocks us from seeing what we did say. Thus, getting someone else to look over our paper can greatly help clarify and improve our argumentation.
 
-For this week's exercise, arrange with two classmates to exchange drafts (you can do this virtually or in person) and read each others' documents over. There is a peer review checklist posted to Canvas. You will complete this document and provide copies to your two peers and also to me as proof you have completed the lab.
+For this week's exercise, arrange with two classmates to exchange drafts (you can do this virtually or in person) and read each others' documents over. There is a peer review checklist posted to Canvas. You will complete this document for each of your two peers, provide copies to your two peers, and turn in the checklists you completed to the dropbox on Canvas for credit on this lab.
 
 ## Exercise 8
 
@@ -188,7 +188,13 @@ For this week's exercise, arrange with two classmates to exchange drafts (you ca
 
 ## Exercise 10
 
-*Forthcoming*
+We will be conducting peer review for the second position paper this week. Once again, work with two other classmates to evaluate and improve one another's work.
+
+You will have the same peer review checklist as in Writing Exercise 7 on Canvas.
+
+**In addition to the two reports, you will also submit a document---one or two short paragraphs---, detailing what strategies you adopted this time, if any, to improve your peer review experience, either in soliciting feedback or giving better feedback. What else would you like to try?**
+
+Submit this reflection along with the two checklists you completed for your peers to the dropbox on Canvas.
 
 ## Exercise 11
 
