@@ -180,7 +180,15 @@ For this week's exercise, arrange with two classmates to exchange drafts (you ca
 
 ## Exercise 8
 
-*Forthcoming*
+You have been provided a list of [topics](#possible-topics) for the research paper. How are you going to choose which to write about? Becoming familiar with unfamiliar topics is key to starting the research process. Perhaps something I've said in class sparked your interest? Perhaps you encountered something reading from *The Present State of Scholarship in the History of Rhetoric* about which you'd like to know more?
+
+In any case, for this writing exercise, spend some time researching the list of provided topics. *Wikipedia* is an excellent source for starting research, as is [*The Stanford Encyclopedia of Philosophy*](https://plato.stanford.edu/index.html).
+
+If you have another topic in mind, spend some time with the list nonetheless, but also do some more background work on your proposed topic.
+
+Write up, in the form of notes, an account of your research. What sources did you consult? What else do you want to know?
+
+Conclude by picking a topic (I won't hold you to it at this point) and discussing why you chose what you chose.
 
 ## Exercise 9
 
