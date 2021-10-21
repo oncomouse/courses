@@ -5,7 +5,7 @@ title: "Hands-on Activity 9: Getting Started with Jekyll"
 
 # Getting Started
 
-This document will teach you how to create a basic blog using [Jekyll](https://jekyllrb.com/) and GitHub Pages
+This exercise will teach you how to create a basic blog using [Jekyll](https://jekyllrb.com/) and GitHub Pages
 
 ## Before You Begin
 
@@ -234,3 +234,7 @@ Now that you have created a basic blog, there are more things to learn. Here are
 * [Advanced Customization for your GitHub Pages blog](https://help.github.jp/enterprise/2.11/user/articles/customizing-css-and-html-in-your-jekyll-theme/)
 * [Jekyll documentation for Posts](https://jekyllrb.com/docs/posts/)
 	* Learn how to use categories and tags on your posts
+
+# Turn In
+
+Include the URL for your new Jekyll site in your lab report.
