@@ -225,6 +225,183 @@ That's it for this tutorial. You should now have a functioning blog built on Git
 
 Now, you may want to review [the syllabus](../engl460fall2020) and edit the first post following the prompt for your [blog check-in assignment](../engl460fall2020#blog-check-in)
 
+# Editing Text in a Web Browser Stinks
+
+If you're wondering "Dr. Pilsch, can we do this in VS Code?" the answer is "Yes, yes we can."
+
+GitHub is designed as a repository for any software project, not just a blog like we are writing. The website is based around a tool called `git` which was originally developed to manage the core of the Linux operating system. Most open source software projects use GitHub (or the site's main competitor, GitLab) to track and coordinate the development of software.
+
+The core of git's operation is in something called a "commit." Commits are incremental changes to the repository that are bundled together to track the addition of specific changes. If commits sound scary, remember that every time you update your blog, the button you press on GitHub is labelled as "Commit to Repository." By editing your site, you have already been building a history of commits to your blog.
+
+Generally, these commits come from repositories that have been copied from the remote server (GitHub) to your local computer. These copies are called "clones" in git's lexicon.
+
+## Cloning a Repository in Visual Studio Code
+
+We can use VSCode to clone our GitHub repository, so let's see how to do that now.
+
+A core mechanism in VSCode is the command palette, which lets you search for the *many* commands offered by the editor. On Windows, the command palette is accessed by hitting <kbd>Ctrl+Shift+P</kbd>. On macOS, it is accessed with <kbd>Command+Shift+P</kbd>.
+
+We can use the command palette to search for the "Git: Clone" command, so if we open the command palette and search for "git clone," we should see the command. Highlight it and press <kbd>enter</kbd>. A dialog will pop up asking for the URL to clone from. Copy and paste your GitHub repository's URL (copy the text in the browser's location field when you are visiting your repository) into this dialog and press <kbd>enter</kbd>.
+
+VSCode will now ask you for a location to clone into. You can save your repositories anywhere you wish, but by convention, GitHub clones live in a folder called `Projects`. So, I select my `Projects` directory and VSCode clones my repository. In the bottom right of the screen, VSCode will show a notification when it is finished and ask if I'd like to Open my cloned repository. Doing so, I see the contents of my repository.
+
+![Cloning a GitHub Repository in VSCode](/courses/engl460/images/06-vscode-clone.gif)
+{:.text-center}
+
+## Pushing and Pulling: Working with a Cloned Repository
+
+Now that we have a local copy of our repository, we can change it as much as we want. But what happens when we finally have things working and we want to see those changes on our GitHub Pages blog?
+
+To do this, we have to perform an action on GitHub called a "push." Pushing is how we move changes from a clone to its remote master when we already own the repository. It's a more convenient way to update a repository than creating a pull request, but it is only available between a clone and a remote master that we own.
+
+Pushing a change is a three step process. We have to first stage changes, then we have to commit them to the local repository, then we push that commit to the remote repository. The first two steps, staging and committing, were taken care of for us on GitHub's webpage. Doing them locally with VSCode, however, lets us bundle changes into chunks, if we like, and allow us more control over the shape of our repository's commit history.
+
+When we change files in VSCode, a button on the left side of the screen will start a count that goes up each time we change a new file. This button, which is below the icon that looks like a magnifying glass, opens the "Source Control" pane, which tracks local changes to our code. If we click on it, we see our changes divided into staged and unstaged changes. Staging marks a change as ready for publication in git. In the list of changes, clicking the "+" next to each file name will add the change to the staged changes. Clicking the "-" next to the file name of a staged change will unstage it. You can also press the backwards circling arrow to the left of the "+" to discard changes, if you changed something that did not work.
+
+Above this list of changes, is a field labelled "Message." We can type our commit message here. Then we press <kbd>Ctrl+Enter</kbd> on Windows or <kdb>Command+Enter</kbd> on macOS to commit our change. When that happens, we have updated our local repository. Moreover, GitHub now knows that our local repository is one commit (or more) ahead of the remote master repository. To fix this, we can issue a "Push." In the "Source Control" pane, above the commit message field, clicking on the "..." button will bring up a menu that contains a submenu labelled "Push/Pull." From this sub-menu, we can click "Sync," which will push our changes out to our remote repository.
+
+Sync performs an additional task: if others are working on the same repository as us (or if you make changes in your web browser directly on the remote master; or edit a different clone on a different computer), our current local repository will become "behind" the remote master. In GitHub, we "pull" these remote changes down to our local repository, in order to catch up to the master. In VSCode, pushing and pulling is squashed into one function called sync, so you can just use that menu option. You can also run "Git: Sync" from the command palette (<kbd>Ctrl+Shift+P</kbd> on Windows; <kbd>Command+Shift+P</kbd> on macOS).
+
+![Committing Changes Using VSCode](/courses/engl460/images/06-vscode-push.gif)
+{:.text-center}
+
+*Note:* You can also click in the "Synchronize Changes" panel in the bottom menu to sync changes, as I do in the GIF. That panel will also show you how many commits ahead and behind of the remote master your repo is.
+
+## Saving is Not Committing
+
+The biggest change from working on GitHub in your web browser to working with a locally cloned repository in VSCode is in saving. When in the browser, any time you save changes to a file, those changes are committed to your repository. Locally, changing a file just changes it locally. The changed file will be noted by GitHub as an untracked change. Only when you commit these untracked changes do you they become part of the history of your repository.
+
+This difference means that you do not have to make a commit every time you change a file. In fact, you shouldn't. Only commit things to your local repository when they seem to be working. Or, at the end of a work session, so that you don't lose what you are working on.
+
+Similarly, only push commits to your remote master repository when the local commits are all working and everything has been tested to your liking.
+
+It is ok, even normal, to have untracked changes in your repository. It is how we build larger, inter-related commits that track the new features in our project, rather than merely tracking every time we change a file.
+
+# Getting Jekyll Working Locally
+
+Now that we can edit locally and push our changes back to our repository, it would be nice to see what our changes looked like without having to wait for GitHub Pages to rebuild. Thankfully, we can do this pretty simply using VSCode.
+
+First, if you are on a Windows machine, you will need to install the Ruby programming language on your computer to use Jekyll locally. You can [download it here](https://rubyinstaller.org/); it is pretty straight-forward to install. I broke my last working Windows machine, so I can't demo this portion of the course, but if you are having problems with it, I can help in office hours.
+
+If you are using macOS, you're in luck, your computer already has a version of Ruby installed.
+
+Ruby uses a command line interface to work. The command line is an old form of interacting with a computers, before the invention of the graphical user interface (GUI) at Xerox PARC in the 1970s and the popularization of the paradigm by Apple with the Macintosh. In a lot of ways the command line is a more powerful way to interact with a computer (I'm typing this chapter in a command line editor, for instance) but it can be challenging if you've never used it before.
+
+Thankfully, VSCode builds in a terminal to the editor.
+
+Once you, if you are using Windows, have installed Ruby, open your cloned repository in VSCode. We have to add two files to our repository and commit them, for this to work, so let's do that first.
+
+## New Files
+
+First, create a new file (<kbd>Ctrl+N</kbd> on Windows; <kbd>Command+N</kbd> on macOS) and add the following to it:
+
+~~~ruby
+# frozen_string_literal: true
+
+source 'https://rubygems.org'
+# Hello! This is where you manage which Jekyll version is used to run.
+# When you want to use a different version, change it below, save the
+# file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
+#
+#     bundle exec jekyll serve
+#
+# This will help ensure the proper Jekyll version is running.
+# Happy Jekylling!
+gem 'jekyll', '~> 3.8'
+group :jekyll_plugins do
+  gem 'github-pages'
+end
+
+# Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
+# and associated library.
+platforms :mingw, :x64_mingw, :mswin, :jruby do
+  gem 'tzinfo', '~> 1.2'
+  gem 'tzinfo-data'
+end
+
+# Performance-booster for watching directories on Windows
+gem 'wdm', '~> 0.1.1', platforms: %i[mingw x64_mingw mswin]
+~~~
+
+We are telling Ruby to install some libraries for us so we can use Jekyll. Save this file as `Gemfile` (not the capital "G").
+
+Create another new file and add the following:
+
+~~~
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+~~~
+
+Save this file as `.gitignore` (note that the file starts with a period). This file tells git to ignore some of the files created by Jekyll when it runs locally. We don't want to commit these to our repository, as they will be generated differently, depending on which computer we are working on.
+
+Once you have saved these two files, you can commit them to your repo and push them to your remote master.
+
+## Installing Jekyll
+
+Now, we are going to use the command line. Command lines work by taking a series of words as programs and arguments to those programs. You type in your command and press <kbd>Enter</kbd> to execute the code. Everything has to be spelled correctly, capitalized correctly, and spaced accordingly. It takes a while to get used to this mode of working. Make sure you copy or transcribe the commands I provide *exactly*.
+
+To open a command line in VS Code, you can press <kbd>Ctrl+~</kbd> on Windows or <kbd>Control+~</kbd> on macOS (note that this command on macOS does not use the command key!). This will bring up a command line window in the lower third of your right pane. There is an illustration of one below, though yours will look different than mine, as I have customized my command line quite a bit:
+
+![A Command Line Window](/courses/engl460/images/06-vscode-terminal.png)
+{:.text-center}
+
+In my terminal window, there is a small white square after a lamdba symbol (λ). The white square is called the cursor, it is the current position where typed text will enter. If you do not see a cursor, the command line is still running a program and you cannot enter text yet. Some command line programs take a while to execute (we are going to execute one in particular). Also, once we start Jekyll on our computer, the program will run until will tell it to stop.
+
+Now, to start the process of getting Jekyll working, we need to enter a few commands. First, we need to install a program called bundler, which downloads other required pieces of software. To do so, run `gem install bundler` from the command line you opened in your repository.
+
+![Installing bundler](/courses/engl460/images/06-jekyll-bundler-install.gif)
+{:.text-center}
+
+Next, we need to use bundler to install the rest of the Jekyll requirements. To do so, run `bundle install` from the command line you opened in your repository.
+
+![Installing dependencies with bundler](/courses/engl460/images/06-jekyll-bundle-install.gif)
+{:.text-center}
+
+Now, we have a working installation of Jekyll!
+
+But, how do we use it?
+
+## A Local Jekyll Server
+
+**Note**: You have to repeat this step *every* time you work on your local Jekyll server.
+
+Assuming everything went okay above, we should be ready to start a local Jekyll server. To do so, we run the command `bundle exec jekyll serve` in our command line window. This command will not return our cursor to us, instead it will start a web server on our local computer and run until we shut the server down (more on that in a second).
+
+![Running Jekyll](/courses/engl460/images/06-jekyll-serve.gif)
+
+As you can see in the GIF above, I can hold the <kbd>Command</kbd> key (or <kbd>Ctrl</kbd> key on Windows) and click that URL in my terminal to open it, but if that doesn't work for you, once the server is running, [http://localhost:4000/](http://localhost:4000/) will get you to your local site.
+
+When you make changes to your site in VSCode, those changes will be built by Jekyll and reflected the next time your reload your web browser. You do have to wait for Jekyll to rebuild the site, but it takes usually less than a second, unlike the minutes it can take on GitHub Pages.
+
+When you are finished working on your site, typing <kbd>Ctrl+C</kbd> in your command line pane in VSCode will stop the server. You can also just quit VSCode, too.
+
+You can only have one copy of the server running. If you see an error message when you run `bundle exec jekyll serve` that reads `jekyll 3.8.7 | Error:  Address already in use - bind(2) for 127.0.0.1:4000`, it means you already have a server running somewhere on your computer. Find it, shut it down, and then you can start a new one.
+
+# Rebuilding Your Jekyll Site
+
+Whenever you push new changes to GitHub, GitHub Pages's copy of Jekyll will rebuild your site for you. So, once you have everything working locally the way you want, you can create a commit and push that back up to your remote repo.
+
+## What If Something Goes Wrong?
+
+In addition to committing and pushing, you can also discard saved changes made in your repo since the last commit. In the same panel where we made our commit, each change also features a second button that discards local changes. Click this and any work you've made will be lost, **but** if you broke something, things will be working again!
+
+# Conclusion
+
+You now know how to use GitHub like a professional. We learned about:
+
+* Cloning
+* Staging
+* Pushing
+* Pulling
+
+Which are all git actions useful to managing complex project involving multiple collaborators, but also useful for simplifying the management of something as simple as our blogs.
+
+We also discussed how to use GitHub remotely, by cloning and editing our repositories in Visual Studio Code.
+
+Finally, we learned how to host a local version of Jekyll that lets us test changes to our site without having to worry about breaking things on our public website.
+
 # Further Reading
 
 Now that you have created a basic blog, there are more things to learn. Here are some links to topics related to customizing and posting on your new blog.
