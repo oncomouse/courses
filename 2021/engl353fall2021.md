@@ -192,7 +192,29 @@ Conclude by picking a topic (I won't hold you to it at this point) and discussin
 
 ## Exercise 9
 
-*Forthcoming*
+Now that you have a topic in mind, it's time to start doing some research. Finding sources can be baffling at first, especially for a paper such as our research assignment.
+
+There are a few things to remember and some tools that can help:
+
+### Kinds of Sources
+
+When we talk about citing sources in a research paper, we mean two things: **primary sources** and **secondary sources**. Primary sources refer to texts from the period in question. So, for instance, in our course, Plato's *Phaedrus* would be a primary source, as it was from ancient Greece and about rhetoric. Jacques Derrida's "Plato's Pharmacy" is a secondary source, as it is a work of criticism *about* a primary source.
+
+We also have to evaluate the scholarly nature of our secondary sources. As a rule, we want scholarly sources that have been peer-reviewed, so books published by university presses (they mostly have "university" in the name of the publisher, though Routledge, Bloomsbury Academic, and Palgrave Macmillan are considered scholarly as well) or journals that have peer-reviewed their articles. Articles published in national news magazines (such as *Time* or *The Atlantic*) can usually be used as a secondary source. The big questions to ask when evaluating the scholarly nature of a secondary source include "who published this?," "who wrote this (and what is their job)?," "does this seem like an authoritative publication?," "is the article advocating a particularly biased opinion or using a neutral tone to convey knowledge?" (the latter is preferable).
+
+We treat our sources differently depending on their character. Primary sources are examples: they show cultural or philosophical or other attitudes at a time and a place. For instance, I could cite a science fiction novel about alien invasion as an example of Cold War paranoia but I could not cite it as an example that pod people walk among us. Secondary sources are treated as authoritative voices in our text, they support our arguments by adding the ethos of their authors, they provide a starting point (by providing our argument an entry point into the conversation), or they provide us negative examples to bounce off of (by showing how existent scholarship is wrong or incomplete).
+
+#### A Note on *Wikipedia*
+
+*Wikipedia* is often, but not always, a well-researched compendium of human knowledge. As a rule, using it as a starting place, especially in topics like the history of rhetoric and philosophy which tend to be pretty robust on the site, is advisable, but verify with a scholarly source anything you find on *Wikipedia*. Don't cite *Wikipedia* as an authority.
+
+### Finding Sources
+
+The best way to find scholarly sources for your 
+
+#### How to Get Sources
+
+### Your Task
 
 ## Exercise 10
 
