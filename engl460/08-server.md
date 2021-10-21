@@ -5,7 +5,7 @@ title: "ENGL 460: What is a Server?"
 
 We've built a few digital texts this semester that can serve as web pages but what do we do with them now that we have them? To share things with the world, we need to host them on the Internet, so that we can share them quickly and easily with others. Thankfully, this is an easy task!
 
-This chapter will discuss several factors:
+This chapter will discuss:
 
 1. How does the Internet work?
 1. How do servers work?
@@ -13,17 +13,17 @@ This chapter will discuss several factors:
 
 # The Internet 
 
-The Internet, the tool you're using to read this chapter, is a network of networks. Originally designed to share scientific information between institutions. [This animated GIF](https://beta.gadgetzz.com/wp-content/uploads/ku-bigpic.gif) shows the expansion of the Internet from 1969 to 1989. The original connections are between SRI (The Stanford Research Institute); University of California, Santa Barbara; University of California, Los Angeles; and University of Utah. It was also partly created as part of defense department initiative to build a set of tools to share information across a network that had been partly destroyed by nuclear war.
+The Internet, the tool you're using to read this chapter, is a network of networks originally designed to share scientific information between institutions. [This animated GIF](https://beta.gadgetzz.com/wp-content/uploads/ku-bigpic.gif) shows the expansion of the Internet from 1969 to 1989. The original connections are between SRI (The Stanford Research Institute); University of California, Santa Barbara; University of California, Los Angeles; and University of Utah. It was also partly created as part of a defense department initiative to build a set of tools to share information across a network that had been partly destroyed by nuclear war.
 
-But what does calling it "a network of networks" actually mean? A network is a way of connecting any kind of points in mathematics, which was used early on as a metaphor to link computers together. Networks allow computers to share data amongst themselves and between their users, whether local or remote.
+But what does calling it "a network of networks" actually mean? A network is a way of connecting any kind of points in mathematics, which is used as a metaphor for how computers link together to share information. Networks allow computers to share data amongst themselves and between their users, whether local or remote.
 
-If you have a wifi router in your house connected to a modem, your house has a network in it. Your home network connect through a modem to your Internet Service Provider's network (an ISP is usually the cable or phone company). You pay the ISP to connect their network to the Internet. Similarly, your cellphone connects to a different network composed of cellular towers that spreads across the world. You are once again, paying for the service of having that cell network connected to the broader Internet. If you access your university's wireless network, you are connected to their network, which is in turn connected to the Internet.
+If you have a wifi router in your house connected to a modem, your house has a network in it. Your home network connects through a modem to your Internet Service Provider's network (an ISP is usually the cable or phone company). You pay the ISP to connect their network to the Internet. Similarly, your cellphone connects to a different network composed of cellular towers that spreads across the world. You are, once again, paying for the service of having that cell network connected to the broader Internet. If you access your university's wireless network, you are connected to their network, which is in turn connected to the Internet.
 
 The Internet, then, is a bridge that exists between these and many other privately operated networks. It's the glue that makes it possible for you to read your university email on your cellphone or when you are at home.
 
 ## How does the Internet do it?
 
-Every device connected to the Internet as an address that is unique to it (just like how a mailing address uniquely identifies a residence). These addresses consist of four numbers between 0 and 256, so an address might be `127.0.0.1` or `192.168.1.15`. These are referred to as "IP addresses" because they are assigned as part of the **I**nternet **P**rotocol, which is the set of messages that govern how the Internet works. If something has an IP address, it is considered addressable on the Internet.
+Every device connected to the Internet as an address that is unique to it (just like how a mailing address uniquely identifies an IRL building). Internet addresses consist of four numbers between 0 and 256, so an address might be `127.0.0.1` or `192.168.1.15`. These are referred to as "IP addresses" because they are assigned as part of the **I**nternet **P**rotocol, which is the set of messages that govern how the Internet works. If something has an IP address, it is considered addressable on the Internet.
 
 *Side Note*: `127.0.0.1` and `192.168.1.15`, which I used as examples above, are special local IP addresses. Every device on the Internet assigns `127.0.0.1` to itself, so that you can always talk to yourself on the Internet (this will matter more when we start running our own web server in a few sections). Additionally, IP addresses that start with `192.168` are "private" according to the Internet. Your computer at home likely has one of these addresses assigned to it, because you only actually pay for a single Internet connection from your ISP and your wifi router shares that between multiple devices on your home's private network.
 
@@ -63,6 +63,8 @@ google.com.             3600    IN      A       64.233.185.101
 
 The portion labelled `ANSWER SECTION` is the most important. It shows us the IP addresses associated with `google.com`. If we were to [open one of these](http://64.233.185.138) in our web browser, we would be connected to Google's site. Click the previous link if you don't believe me!
 
+*Note*: As I mentioned, every computer that exists assigns itself the address of `127.0.0.1`. This special IP is also assigned the domain name `localhost`, so you can always connect to your local computer using `localhost` or `127.0.0.1`.
+
 Now that we've found Google, our browser can connect and start showing us some search results.
 
 Or can it?
@@ -77,15 +79,15 @@ Servers are computers that provide content when accessed by clients. Your comput
 
 However, this identity is not fixed. If a computer has an IP address on the public Internet (such as your cable modem or your cellphone), it can be treated as a server. Client/server is a relationship that can change. When my computer has content to give it is a server; when it wants to access other content, it is a client.
 
-Network architects and software developers find it easier to dedicate computers to the role of server, which is why you here things about email servers or web servers (usually when things fail). Besides, you wouldn't to serve Google off your personal computer.
+Network architects and software developers find it easier to dedicate computers to the role of server, which is why you hear things about email servers or web servers (usually when things fail). Besides, you wouldn't to serve Google off your personal computer.
 
 ### Server Software
 
-Computers working as servers need to be running special software that can translate client requests into appropriate data. These client requests are defined by protocols. A protocol is a pre-arranged set of messages agreed upon by a client and a server. The kind of [paroles](https://www.spymuseum.org/education-programs/spy-resources/language-of-espionage/#P) used by spies to identify one another are an analog of these protocols, that often involve lots of additional messages to verify what version of a protocol is being spoken and specifically what data is needed.
+Computers working as servers need to be running special software that can translate client requests into appropriate data. These client requests are defined by protocols. A protocol is a pre-arranged set of messages agreed upon by a client and a server. The kind of [paroles](https://www.spymuseum.org/education-programs/spy-resources/language-of-espionage/#P) used by spies to identify one another are an analog of these protocols, which often involve lots of additional messages to verify what version of a protocol is being spoken and specifically what data is needed.
 
-Every computer that connects to the Internet, in addition to having a unique address, also has 65536 individual ports open. Each of these, like a window on a house, can be attached to a particular piece of software. While any port could be used, protocols define particular ports for particular services. 80 is HTTP; 443 is HTTPS; 21 is FTP; 22 is SSH; and so on. So, whenever your browser connects to a webpage, it connects to port 80 on the particular computer that lives at the address we got from the DNS server above (DNS uses port 53).
+Every computer that connects to the Internet, in addition to having a unique address, also has 65536 (which is 2<sup>16</sup>) individual ports open. If an IP address is like an IRL building's address, think of ports as like windows or doors, each a separate way into the building. Each port can be attached to a particular piece of software, which is said to "listen" on its assigned port. While any port could be used, protocols define particular ports for particular services. 80 is HTTP; 443 is HTTPS; 21 is FTP; 22 is SSH; and so on. So, whenever your browser connects to a webpage, it connects to port 80 on the particular computer that lives at the address we got from the DNS server above (DNS uses port 53, btw).
 
-When it connects to a server, your web browser is speaking to a special piece of called a "daemon" that interprets a particular protocol, in this case HTTP. Back in the day, I could connect directly to these daemons without using a browser and transmit HTTP commands directly to them. This is increasingly difficult because most of the Internet is switching to the significantly more secure HTTPS (the "S" stands for "Secure") protocol. However, I can run a version of this chapter on my local computer (more on that in a second) to show you what an HTTP transaction looks like.
+When it connects to a server, your web browser is speaking to a special piece of called a "daemon" that interprets a particular protocol, in this case HTTP. Back in the day, I could connect directly to these daemons without using a browser and transmit HTTP commands directly to them. This is increasingly difficult because most of the Internet is switching to the significantly more secure HTTPS (the "S" stands for "Secure") protocol. However, I can run a version of this chapter on my local computer to show you what an HTTP transaction looks like.
 
 I'm using a command line program called `telnet` to connect to port `80` on my computer, where my copy of this document is running. At my command line, I type `telnet 127.0.0.1 80` and hit <kbd>Enter</kbd>. The server sends me the following welcome message:
 
