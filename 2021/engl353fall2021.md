@@ -210,11 +210,109 @@ We treat our sources differently depending on their character. Primary sources a
 
 ### Finding Sources
 
-The best way to find scholarly sources for your 
+The best way to find scholarly sources for your research is [Google Scholar](https://scholar.google.com). It is a search engine for scholarly sources and indexes most academic journals and scholarly books. Use it as you would Google, though the indexing on Google Scholar does tend toward STEM fields, so sometimes you have to be creative in your terms. As this research paper draws from fairly specific classical terminology, you shouldn't have that problem, but you will most likely want to include "rhetoric" in your search terms, so that you have some scope of the problem.
 
-#### How to Get Sources
+You may also want to think about related searches as you conduct research. Are their particular people associated with your topic who you could also search for? Are their concepts related to your topic that you could also search for? Can you find general information about the period in a more broadly scoped textbook to include? Get creative with the searches you are conducting!
+
+Sources indexed by Google Scholar may not necessarily be open access, so the task falls to you to acquire the pieces you have found. Thankfully, Texas A&M Libraries makes this fairly easy.
+
+### Getting Sources
+
+As an example, I'm going to search for [phaedrus rhetoric](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C44&q=phaedrus+rhetoric&btnG=) in Google Scholar. It produces several results, which you can see below:
+
+![Results for searching "phaedrus rhetoric" in Google Scholar](/courses/images/engl353_gs_results.png)
+
+The four results are:
+
+1. *The Rhetoric of Morality and Philosophy: Plato's Gorgias and Phaedrus* by S. Bernadete
+1. "Plato's Denunciation of Rhetoric in the Phaedrus" by B. McAdon
+1. *Rhetoric and Reality in Plato's "Phaedrus"* by D.A. White
+1. "Disputation, Deception, and Dialectic: Plato on the True Rhetoric ('Phaedrus' 261-266)" by J.S. Murray
+
+Results 1 and 3 are tagged `[BOOK]` by the results, so we can assume they are printed books. Results 2 and 4 are not tagged at all, so we know they are journal articles. Below the titles, the publication information is listed. Result 2 was published in *Rhetoric Review* in 2004 and Result 4 was published in *Philosophy & Rhetoric* in 1988.
+
+So, how to get those?
+
+We are in luck, as Result 2 (the McAdon article) has "Full View" as a link option to the right of the main result column. That means Google Scholar has found a copy of the article on the web. We can click it and read about denunciation (though, being a journal article, the piece will likely have an abstract, which we should read first to determine its relevance to our research).
+
+However, Result 4 (the Murray article) does not have a "Full View" option. To access it, we must turn to the library's page, specifically [the list of electronic journal](https://library.tamu.edu/search/eJournals.html). We can search for "Philosophy and Rhetoric," which produces the following results:
+
+![Search results for philosophy and rhetoric on Texas A&M's Library Website](/courses/images/engl353_lib_results.png) 
+
+The first result reads:
+
+~~~
+JSTOR Arts and Sciences VIII open_in_new
+Available from 1968/01/01 volume: 1 issue: 1
+Most recent 4 year(s) not available
+~~~
+
+And the second reads:
+
+~~~
+Project Muse Premium Collection open_in_new
+Available from 1999 volume: 32 issue: 2
+~~~
+
+Both results list the restrictions on that particular collection. JSTOR does not have recent articles, which does not matter to us because our article was published in 1988. Project MUSE has recent articles but does not have anything before 1999. So, it looks like we should click on the JSTOR result.
+
+On the JSTOR page for *Philosophy & Rhetoric*, we find the list of all issues, expanding on "1980s" and finding four issues for 1988. If we click on all of them, we eventually find the Murray article in Vol. 21, No. 4. We can download the PDF of the article or read it online, as we prefer (though the PDFs let you highlight and copy text, so they can be useful for transcribing quotes).
+
+**Note:** If you cannot find access to a journal through the A&M library, you can use ILL ([discussed below](#accessing-ill) to get a copy of the journal article from another library).
+
+#### Finding a Book
+
+Now that we found a journal article in one of Texas A&M's library databases, how to find the book? We have two options:
+
+1. Go to the library
+1. Use ILL to access the book
+
+##### Finding Books in the Library
+
+To find out if A&M owns the book in question and if the book is not checked out, [search in the catalog](https://library.tamu.edu/) using the search box provided on the front page.
+
+If I search for our third search result from Google Scholar (*Rhetoric and Reality in Plato's "Phaedrus"* by D.A. White), I get the following:
+
+![Catalog results searching for Rhetoric and Reality in Plato's" Phaedrus"](/courses/images/engl353_cat_results.png) 
+
+I get two results. The first is listed as an eBook and the second is a book.
+
+So it looks like, if I want, I can avoid going outside today and just get the eBook. But, say I really want to smell old paper and feel the rough pages of the book as I read. The second result indicates the book is available (Green status with "Available") and that the call number is B380 .W48 1993 in Evans Library.
+
+When I get to Evans, I would consult the guide by the elevators to know which floor I need to go to (I believe B is on Floor Six) and head out for my book.
+
+You may check out books at the circulation desk on the ground floor of Evans library or at any of the self-checkout kiosks throughout the library. If you decide you don't want a book, find the re-shelving areas around the library and a library worker will re-shelve the book for you. **Never re-shelve a book yourself**, that's how books get lost.
+
+There are also scanners and photocopiers available around Evans, if you would like to make a digital or paper copy of part of the book.
+
+##### Accessing ILL
+
+We used the third result, because the first result from Google Scholar (*The Rhetoric of Morality and Philosophy: Plato's Gorgias and Phaedrus* by S. Bernadete) produces the following results:
+
+![Catalog results searching for The Rhetoric of Morality and Philosophy](/course/images/engl353_cat_results2.png) 
+
+The first two results are listed as "Academic Journal Articles." These are book reviews, which are other scholars discussing the merits of a work. Results like this mean A&M does not own the book in question.
+
+To access it, we would need to use the Interlibrary Loan (or ILL) service. A&M can get most anything through ILL, if you are willing to wait for it. To access ILL, [click here](https://getitforme.library.tamu.edu/illiadlocal/) and log in. Once you are connected, in the left sidebar, you will see a number of options under "New Requests."
+
+ILL has many options for getting text. If you would like another library to send you a print book, click on "Book." If you have access to the table of contents and know which section you would like (say one chapter or one article in an edited collection), click on "Book Chapter." If you need a journal article, click on "Article."
+
+You will be taken to a form that will ask you some minimal information about the book. When you have completed it, the ILL office (who are amazing) will get on finding your text.
+
+A couple of things to note:
+
+1. **ILL is totally free for you to use**
+1. You can access anything via ILL, not just stuff at other libraries
+	1. They can pull books from the stacks and store them for you at the front circulation desk
+	1. They can also scan chapters from books owned by A&M
+1. Electronic copies of articles or book chapters are always much faster than getting the physical book
+	1. I have received requested chapters within 4 hours when the book is in A&M's collection
 
 ### Your Task
+
+Now that you know a bit about finding resources at A&M, begin to do some research for your paper. Identify four potential sources you would use based on the topic you have already selected. Write up how you can access them (if you need to go to the library or use ILL, you may want to start the process), so that you have them on-hand, as we will be working with these sources in Exercises 11 & 12.
+
+Submit a 1-2 page document covering your sources, how you found them, and a paragraph or two about additional research you need to conduct for the research paper.
 
 ## Exercise 10
 
