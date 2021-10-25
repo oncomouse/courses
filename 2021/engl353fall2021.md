@@ -41,6 +41,14 @@ These papers will cover material that has already been discussed in class but ha
 
 These position papers ask you to show insights and raise questions in response to the reading and course discussions. Papers that merely summarize an argument or restate the selected passage will receive a failing grade. You need to explain why the passage in question is thought-provoking, or unsettling, or unclear and suggest how you respond to this challenge.
 
+#### Update
+
+To clarify, this assignment asks you to pick one key point in the text, ideally a single quote or, if not possible, a single very specific claim that is advanced in a few places, and traces why that claim is controversial or challenging. The best papers will also articulate your opinion about the issue or explain why the issue is controversial.
+
+This paper is not intended as a summary of the reading or an overview of the author's life. I am looking for focused, detailed engagement with specific aspects of the text.
+
+Several successful papers this semester have also related very specific elements of the texts in question to contemporary issues. This is also acceptable, but, again, the idea is to show me you can identify a controversial claim being made in the reading and why that claim is controversial.
+
 ### Research Project
 
 For a final project, you will be asked to create an artifact that documents the research you have been doing this semester. As a baseline, the artifact should be a 10 page research paper that is well-cited and thoroughly-documented. You can treat the paper as a report-style document, often called a literature review in the business, which is a document reporting on the state of research into a particular topic. This is still a composed essay, so you will need to work out a thesis and draw conclusions.
