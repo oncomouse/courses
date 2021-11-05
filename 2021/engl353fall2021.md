@@ -334,7 +334,29 @@ Submit this reflection along with the two checklists you completed for your peer
 
 ## Exercise 11
 
-*Forthcoming*
+Now that we have identified a number of sources, we need to focus on summarizing our sources. Summarizing is the process of condensing an argument into a focused set of sentences. These sentences need to be our own words, but can use light quoting, especially for key concepts introduced by the author of the text. Summarization serves a number of purposes, but the main one is reminding us of our own reading, answering "what was this article about, again?" Additionally, we can use these summaries we write in our own writing.
+
+### Writing Summaries
+
+A summary needs to have two parts: an overview of the entire argument and an account of that argument's use for our current research project. So, for instance, imagine you were reading an encyclopedia entry by a Dr. Joseph Palpatine on the topic of ancient rhetoric. The article has some particularly good stuff on the second sophistic, which is the topic of your research paper. You might write the following summary:
+
+> Palpatine offers a rich and detailed account of rhetoric in ancient Greece and Rome, paying special attention to Rome and both the republic and imperial periods. Palpatine places particular interest on rhetorical education and the ways in which young orators attained their training.
+>
+> The entry offers a particularly good discussion of this period and it's educational methods. Palpatine has a particularly striking defense of Philostratus, which will help in the section on the veracity of *Lives of the Sophists*. He suggests that while the lives may be based on heresay, they are our only source for information on the period and ignoring the accounts offered there will do more damage.
+
+The first paragraph in my summary gives an overview of the article. The second focuses on what I'm interested in it for (the defense of *Lives of the Sophists*).
+
+We write summaries in the way I described above because we need two things from them: to introduce a general summary of the work and to highlight what we are specifically interested in.
+
+When I went to talk about *Lives of the Sophists*, I might add the following: "Palpatine, in an encyclopedia article on ancient rhetoric, defends Philostratus on the grounds that *Lives of the Sophists* is often our only source for information from the period." So, I used my introductory paragraph to remind my readers what the overall argument of the piece was and to provide my particular interest in it.
+
+If I had a source I wanted to discuss at more length, say some of the entries in *Lives of the Sophists* itself, I might need a longer summary, but I would still want to rely on my overall summary to frame the text when I first talk about it. This helps establish *ethos* by explaining to our readers what the text is and why they can trust what it says.
+
+### Your Task
+
+Taking the sources you find in the previous exercise, write short summaries for each. Try to give an account of what the article is about, including its most important claims. Remember that the summary needs to brief (4-5 sentences at most). Try to also include a second paragraph explaining your own interest in each source.
+
+Submit these summaries to Canvas.
 
 ## Exercise 12
 
