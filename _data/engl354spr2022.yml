@@ -1,0 +1,34 @@
+---
+term: Spr 2022
+number: ENGL 354
+title: "Course Title"
+description: |
+  This is a course
+outcomes:
+  - To finish the course
+meetings:
+  - location: LAAH 123
+    time: MWF 10-12
+instructors:
+  - name: Andrew Pilsch
+    email: apilsch@tamu.edu
+    office:
+      - hours: MWF 1-2
+        location: LAAH 417
+start: 2022-08-19
+end: 2022-11-24
+holidays:
+  - date: 2022-11-25
+    name: Reading Day
+meets:
+  - monday
+  - wednesday
+  - friday
+units:
+  - title: First Unit
+    start: 1
+weeks:
+  "1": First Week
+classes:
+  - |
+    * First Class

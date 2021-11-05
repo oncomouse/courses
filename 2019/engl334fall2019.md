@@ -18,8 +18,6 @@ layout: syllabus
 
 # Books
 
-
-
 ## Books to Buy
 
 * *A Princess of Mars* by Edgar Rice Burroughs
