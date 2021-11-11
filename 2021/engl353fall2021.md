@@ -360,4 +360,17 @@ Submit these summaries to Canvas.
 
 ## Exercise 12
 
-*Forthcoming*
+The final step to incorporating research material is citation. Citation practices are often discussed as a means of preventing plagiarism, which they are, of course, but, more importantly, citations allow later scholars to trace source material, verify our claims, and to extend the scholarly conversation we are participating in.
+
+Purdue University's OWL is one of the best resources on academic research writing. Review the following pages on the OWL covering MLA 9 citations:
+
+* [In-text Citation](https://owl.purdue.edu/owl/research_and_citation/mla_style/mla_formatting_and_style_guide/mla_in_text_citations_the_basics.html) 
+* [Formatting Quotations](https://owl.purdue.edu/owl/research_and_citation/mla_style/mla_formatting_and_style_guide/mla_formatting_quotations.html)
+	* Pay special attention to the differences between block and inline quotes
+* [Endnotes and Footnotes](https://owl.purdue.edu/owl/research_and_citation/mla_style/mla_formatting_and_style_guide/mla_endnotes_and_footnotes.html)
+	* Footnotes are often useful to quickly summarize a lot of research, especially when it isn't directly relevant to your writing
+* [Works Cited Pages: Basics](https://owl.purdue.edu/owl/research_and_citation/mla_style/mla_formatting_and_style_guide/mla_works_cited_page_basic_format.html)
+	* [Works Cited Pages: Books](https://owl.purdue.edu/owl/research_and_citation/mla_style/mla_formatting_and_style_guide/mla_works_cited_page_books.html)
+	* [Works Cited Pages: Periodicals](https://owl.purdue.edu/owl/research_and_citation/mla_style/mla_formatting_and_style_guide/mla_works_cited_periodicals.html)
+
+After you have finished that reading, produce a works cited page for the sources you have been working with in the last few exercises. Submit this to Canvas.
