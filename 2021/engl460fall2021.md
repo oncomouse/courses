@@ -45,9 +45,30 @@ The project reflection does need to be completed individually.
 
 **This portion of the project may be done in groups**
 
-For the first part of the project, you or your group will generate a project proposal. This document will briefly outline what you plan to make and include any relevant items such as wireframes, rough draft language, mood boards, or other tools you have created to support your vision for the project.
+~~For the first part of the project, you or your group will generate a project proposal. This document will briefly outline what you plan to make and include any relevant items such as wireframes, rough draft language, mood boards, or other tools you have created to support your vision for the project.~~
 
-Additionally, you will deliver a very short, very informal (do not stress about this, please) presentation on the day the proposal is due to inform your classmates of what you are doing and to solicit any feedback
+~~Additionally, you will deliver a very short, very informal (do not stress about this, please) presentation on the day the proposal is due to inform your classmates of what you are doing and to solicit any feedback~~
+
+To start the project, you working individually or as part of a group will generate a project proposal. This will be an informal outline of your plan, including what you intend to make and how you intend to make it. The proposal should include [wireframes](https://careerfoundry.com/en/blog/ux-design/what-is-a-wireframe-guide/), [mood boards](https://www.canva.com/learn/make-a-mood-board/), and any technical and logistical issues you expect to encounter.
+
+At a minimum, the proposal requires:
+
+1. A 2-3 paragraph description of what you are making
+1. A bulleted, detailed schedule of the work, including when things need to be finished by
+1. At least one visual element, including
+	* Example websites
+	* Animated GIFs
+	* Hand drawn mock-ups
+
+This proposal can be a narrated video, a static website, or a collection of links. Post your proposal to Slack before class on Friday, November 19th (so by 8AM on Friday).
+
+During class time on Friday (or over the weekend), you will read each of your classmates proposals and offer commentary in the following form:
+
+1. Ask a question about the project.
+1. Offer what you think is the biggest strength of the project.
+1. Offer what you think is the biggest weakness of the project.
+
+Post these reflections in a comment on each proposal post in Slack.
 
 #### Project Artifact
 
