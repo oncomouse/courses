@@ -2,34 +2,111 @@
 hidden: true
 term: Fall 2022
 number: ENGL 334
-title: "Course Title"
-description: |
-  This is a course
+title: ""
+description: 'Origins and development of the science fiction genre.
+
+  '
+title: "Science Fiction"
 outcomes:
-  - To finish the course
+  - To learn about the history of science fiction
+  - To articulate the various media forms taken by SF publication
+  - To understand the relationships between fandom and production in SF
 meetings:
-  - location: LAAH 123
-    time: MWF 10-12
+  - location: LAAH 466
+    time: MWF 1:50-2:40
 instructors:
   - name: Andrew Pilsch
     email: apilsch@tamu.edu
     office:
-      - hours: MWF 1-2
-        location: LAAH 417
-start: 2022-08-19
-end: 2022-11-24
+      - hours: MWF 12:30-1:30
+        location: Zoom
+start: 2022-08-24
+end: 2022-12-07
 holidays:
-  - date: 2022-11-25
+  - date: 2022-09-05
+    name: Labor Day
+  - date: 2022-10-10
+    name: Fall Break
+  - date: 2022-10-11
+    name: Fall Break
+  - date: 2022-11-23
     name: Reading Day
+  - date: 2022-11-24
+    name: Thanksgiving
+  - date: 2022-11-25
+    name: Thanksgiving
 meets:
   - monday
   - wednesday
   - friday
-units:
-  - title: First Unit
-    start: 1
-weeks:
-  "1": First Week
 classes:
   - |
-    * First Class
+    * Course Overview
+  - |
+    * Edgar Rice Burroughs, *A Princess of Mars* (1912), Ch. 1-7
+  - |
+    * Edgar Rice Burroughs, *A Princess of Mars* (1912), Ch. 8-14
+  - |
+    * Edgar Rice Burroughs, *A Princess of Mars* (1912), Ch. 15-21
+  - |
+    * Edgar Rice Burroughs, *A Princess of Mars* (1912), Rest
+  - |
+    * Hugo Gernsback, ["The Magnetic Storm"](https://manifold.umn.edu/read/the-perversity-of-things-hugo-gernsback-on-media-tinkering-and-scientifiction/section/c39d8a96-dc8e-4b66-ae16-1672e4023d67) (1918)
+  - |
+    * Finish Gernsback
+    * H.P. Lovecraft, ["The Colour Out of Space"](http://www.hplovecraft.com/writings/texts/fiction/cs.aspx) (1927)
+  - |
+    * Finish Lovecraft
+  - |
+    * C.L. Moore, ["Shambleau"](https://ia800700.us.archive.org/11/items/Shambleau19331948/ShambleauByC.L.Moore1948_text.pdf) (1933)
+  - |
+    * Finish Moore
+    * **Short Assignment #1 Due**
+  - |
+    * A.E. van Vogt, "Black Destroyer"
+  - |
+    * Finish van Vogt
+    * Judith Merril, "That Only a Mother" (1948)
+  - |
+    * Finish Merril
+  - |
+    * Robert Heinlein, ["'---All You Zombies---'"](https://emilkirkegaard.dk/en/wp-content/uploads/Robert-A.-Heinlein-All-You-Zombies.pdf) (1958)
+  - |
+    * Pamela Zoline, ["The Heat Death of the Universe"](https://web.archive.org/web/20060207070257/www.scifi.com/scifiction/classics/classics_archive/zoline/zoline1.html) (1967)
+  - |
+    * Samuel R. Delaney, ["Time Considered as a Helix of Semi-Precious Stones"](http://classes.dma.ucla.edu/Fall10/157A/wp-content/uploads/timeDelany_01.pdf) (1968)
+  - |
+    * Philip K. Dick, ["The Electric Ant"](https://kit.ntnu.no/sites/www.kit.ntnu.no/files/Philip%20K.%20Dick%20-%20The%20Electric%20Ant.pdf) (1969)
+  - |
+    * Ursula K. LeGuin, "Vaster than Empires and More Slow" (1969)
+  - |
+    * Joanna Russ, ["When It Changed"](http://www.future-lives.com/wp-content/uploads/2014/09/When-It-Changed.pdf)
+  - |
+    * James Tiptree, Jr., ["The Women Men Don't See"](http://valerie.debill.org/Hosting/The_Women_Men_Dont_See.pdf) (1973)
+    * **Short Assignment #2 Due**
+  - |
+    * William Gibson, *Neuromancer* (1984), Ch. 1-7
+  - |
+    * William Gibson, *Neuromancer* (1984), Ch. 8-15
+  - |
+    * William Gibson, *Neuromancer* (1984), Rest
+  - |
+    * Octavia Butler, ["Speech Sounds"](https://www.unl.edu/english/docs/englishweek17/engl200-speechsounds.pdf) (1983)
+  - |
+    * Elizabeth Bear, ["Shoggoth's In Bloom"](https://web.archive.org/web/20110716145404/http:/www.elizabethbear.com/shoggoths.html) (2008)
+  - |
+    * Nnendi Okorafor, ["Rusties"](https://clarkesworldmagazine.com/okorafor-kahiu_10_16/) (2016)
+    * **Short Assignment #3 Due**
+  - |
+    * Becky Chambers, *A Long Way to a Small, Angry Planet* (2016)
+  - |
+    * Becky Chambers, *A Long Way to a Small, Angry Planet* (2016)
+  - |
+    * Becky Chambers, *A Long Way to a Small, Angry Planet* (2016)
+  - |
+    * Margaret Killjoy, ["The Fortunate Death of Jonathan Sandelson"](http://strangehorizons.com/fiction/the-fortunate-death-of-jonathan-sandelson/) (2018)
+  - |
+    * Martha Wells, *All Systems Red* (2018), Ch. 1-5
+  - |
+    * Martha Wells, *All Systems Red* (2018), Rest
+    * **Short Assignment #4 Due**
