@@ -14,7 +14,7 @@
 {% assign daysOfTheWeek = schedule.meets.size %}
 {% assign date = schedule.start | date: "%s" %}
 {% assign endDate = schedule.end | date: "%s" %}
-{% assign max = endDate | minus: date | divided_by: 86400 %}
+{% assign max = endDate | minus: date | divided_by: 86400 | plus: 1%}
 {% assign class = 0 %}
 {% assign meeting = 0 %}
 {% assign week = 1 %}
