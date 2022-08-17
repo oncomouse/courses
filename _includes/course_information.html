@@ -17,7 +17,7 @@
 		<h2 class="border-bottom-0 pb-0">Course</h2>
 		<ul>
 			<li><strong>Number:</strong> {{course.number}}</li>
-			<li><strong>Title:</strong> {{course.title}}</li>
+			<li><strong>Title:</strong> {{course.title}}{%if course.subtitle %}: {{ course.subtitle }}{% endif %}</li>
 			<li><strong>Term:</strong> {{ course.term }}</li>
 			{% if course.meetings %} {% for meeting in course.meetings %}
 			<li>

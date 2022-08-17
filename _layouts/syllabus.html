@@ -33,7 +33,7 @@
       <div class="column col-12">
         <a href="/">
           <h1 class="border-bottom-0">
-            {{ course.number }}{% if course.title %}: {{ course.title }}{% endif %}, {{ course.term }}
+            {{ course.number }}{% if course.title %}: {{ course.title }}{%if course.subtitle %}: <small>{{ course.subtitle }}</small>{% endif %}{% endif %}, {{ course.term }}
           </h1>
         </a>
       </div>
