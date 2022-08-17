@@ -2,34 +2,147 @@
 hidden: true
 term: Fall 2022
 number: ENGL 481
-title: "Course Title"
+title: "Senior Seminar"
+subtitle: "Cyberpunk, Fact and Fiction"
 description: |
-  This is a course
+  Capstone seminar on significant figures, movements or issues with special attention to methods and materials of scholarship.
 outcomes:
-  - To finish the course
+  - Formulate questions for generating and sustaining analytical conversations about literature
+  - Take a position on an issue in a particular text
+  - Articulate positions in persuasive essays, utilizing evidence and rhetoric
+  - Identify recurring themes across a variety of texts
+  - Synthesize evidence to establish how themes change between authors and why this matters
 meetings:
-  - location: LAAH 123
-    time: MWF 10-12
+  - location: LAAH 373
+    time: MWF 11:30-12:20
 instructors:
   - name: Andrew Pilsch
     email: apilsch@tamu.edu
     office:
-      - hours: MWF 1-2
-        location: LAAH 417
-start: 2022-08-19
-end: 2022-11-24
+      - hours: MWF 12:30-1:30
+        location: Zoom Link
+start: 2022-08-24
+end: 2022-12-07
 holidays:
-  - date: 2022-11-25
+  - date: 2022-09-05
+    name: Labor Day
+  - date: 2022-10-10
+    name: Fall Break
+  - date: 2022-10-11
+    name: Fall Break
+  - date: 2022-11-23
     name: Reading Day
+  - date: 2022-11-24
+    name: Thanksgiving
+  - date: 2022-11-25
+    name: Thanksgiving
 meets:
   - monday
   - wednesday
   - friday
-units:
-  - title: First Unit
-    start: 1
 weeks:
-  "1": First Week
+  "1": Origins & Destinations
+  "2": When Cyber Met Punk
+  "3": Definitions
+  "4": Opening Salvo
+  "5": The Kids Aren't Okay
+  "6": Cyber Noir
+  "7": The Straylight Run
+  "8": "\"Things Are things\""
+  "9": Neotokyo is About to Explode
+  "10": Computer Liberation
+  "11": The New Intimacy
+  "12": Women in the Matrix
+  "15": The Last Cyberpunk
 classes:
   - |
     * First Class
+    * Watch before first day: [Microsoft Windows 95 Video Guide](https://www.youtube.com/watch?v=NA4zoQHLhok)
+  - |
+    * William Gibson, "Winter Market"
+  - |
+    * Norbert Weiner, from *The Human Uses of Human Beings*
+  - |
+    * Finish Weiner
+    * Legs McNeil and Gillian McCain, [from *Please Kill Me*](https://cloudflare-ipfs.com/ipfs/bafykbzaceb4gdg442ikla423kethamcmqc3jx4gd5vr7uxdyxcewrg77ufrpw?filename=Legs%20McNeil%2C%20Gillian%20McCain%20-%20Please%20kill%20me_%20the%20uncensored%20oral%20history%20of%20punk%20%20-Grove%20Press%20%281996%29.pdf)
+      * Sex Pistols, ["Anarchy in the UK"](https://www.youtube.com/watch?v=cBojbjoMttI)
+      * The Ramones, ["Blitzkrieg Bop"](https://www.youtube.com/watch?v=skdE0KAFCEA)
+  - |
+    * Finish McNeil and McCain
+  - |
+    * ["R U a Cyberpunk?"](https://i.imgur.com/8il6T.jpg) from *Mondo 2000* (1993)
+    * Bruce Sterling, ["Preface to *Mirrorshades*"](http://project.cyberpunk.ru/idb/mirrorshades_preface.html)
+    * Watch ["Cyberpunk 2077 - Official Launch Trailer"](https://www.youtube.com/watch?v=UnA7tepsc7s)
+  - |
+    * Finish Definitions
+  - |
+    * *Mirrorshades*
+  - |
+    * *Mirrorshades*
+  - |
+    * *Mirrorshades*
+  - |
+    * George McKay, ["'I'm So Bored With the USA': The Punk in Cyberpunk"](https://cloudflare-ipfs.com/ipfs/bafykbzaceasasp26xyyhrku3nei2eodq3kim3othxnedmjdqsudukqbomuviy?filename=Roger%20Sabin%20-%20Punk%20Rock_%20So%20What__%20The%20Cultural%20Legacy%20of%20Punk-Routledge%20%281999%29.pdf)
+  - |
+    * Finish McKay
+    * Gilles Deleuze, ["Postscript on the Society of Control"](https://www-jstor-org.srv-proxy2.library.tamu.edu/stable/778828)
+  - |
+    * Finish Deleuze
+  - |
+    * Writing Day
+  - |
+    * *Blade Runner*
+  - |
+    * Finish *Blade Runner*
+  - |
+    * William Gibson, *Neuromancer* (1984), Ch. 1-4
+  - |
+    * William Gibson, *Neuromancer* (1984), Ch. 5-9
+  - |
+    * William Gibson, *Neuromancer* (1984), Ch. 10-15
+  - |
+    * William Gibson, *Neuromancer* (1984), Rest
+  - |
+    * Where Are We?
+  - |
+    * Takayuki Tatsumi, ["The Japanese Reflection of Mirrorshades"](https://ipfs.io/ipfs/bafykbzacecnjgw2rcubvuk3d66kt5klexcqmgxvmyb7k34qr77mowvtgddw6c?filename=Larry%20McCaffery%2C%20Lawrence%20F.%20McCaffery%20%28editor%29%20-%20Storming%20the%20Reality%20Studio_%20Casebook%20of%20Cyberpunk%20and%20Postmodern%20Science%20Fiction-Duke%20University%20Press%20%281991%29.pdf)
+  - |
+    * *Akira*
+      * TW: Gore
+  - |
+    * Finish *Akira*
+  - |
+    * Ron Rosenbaum, ["Secrets of the Little Blue Box"](http://www.lospadres.info/thorg/lbb.html)
+  - |
+    * Finish Rosenbaum
+    * Timothy Leary, ["The Cyber-punk: The Individual as reality Pilot"](https://www-jstor-org.srv-proxy1.library.tamu.edu/stable/20134179#metadata_info_tab_contents)
+  - |
+    * Finish Leary
+  - |
+    * Ellen Ullman, *Close to the Machine*
+  - |
+    * Ellen Ullman, *Close to the Machine*
+  - |
+    * Ellen Ullman, *Close to the Machine*
+  - |
+    * Ellen Ullman, *Close to the Machine*
+  - |
+    * Sadie Plant, ["The Future Looms: Weaving Women and Cybernetics"](https://monoskop.org/images/1/13/Plant_Sadie_1995_The_Future_Looms_Weaving_Women_and_Cybernetics.pdf)
+  - |
+    * Finish Plant
+    * VNS Matrix, ["Bitch Mutant Manifesto"](https://vnsmatrix.net/wordpress/wp-content/uploads/bitch-mutant-manifesto-11-Seiten.pdf)
+  - |
+  - |
+  - |
+  - |
+  - |
+    * Watch *The Matrix*
+  - |
+    * Finish *The Matrix*
+  - |
+    * What Have We Learned?
+  - |
+    * Work on your papers
+  - |
+    * Work on your papers
+    * Last Day
