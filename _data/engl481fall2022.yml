@@ -44,16 +44,18 @@ weeks:
   "1": Origins & Destinations
   "2": When Cyber Met Punk
   "3": Definitions
-  "4": Opening Salvo
-  "5": The Kids Aren't Okay
-  "6": Cyber Noir
-  "7": The Straylight Run
-  "8": "\"Things Are things\""
-  "9": Neotokyo is About to Explode
-  "10": Computer Liberation
-  "11": The New Intimacy
-  "12": Women in the Matrix
-  "15": The Last Cyberpunk
+  "4": First Verse
+  "5": Second Verse, Stranger Than the First
+  "6": What is To Be Done?
+  "7": Cyber Noir
+  "8": The Straylight Run
+  "9": "\"Things Are things\""
+  "10": Neotokyo is About to Explode
+  "11": Computer Liberation
+  "12": The New Intimacy
+  "13": Women in the Matrix
+  "15": Legacies
+  "16": The Last Cyberpunk
 classes:
   - |
     * First Class
@@ -77,26 +79,36 @@ classes:
   - |
     * Finish Definitions
   - |
-    * *Mirrorshades*
+    * Tom Maddox, "Snake Eyes"
   - |
-    * *Mirrorshades*
+    * Pat Cadigan, "Rock On"
   - |
-    * *Mirrorshades*
+    * Lewis Shiner, "Till Human Voices Wake Us"
   - |
-    * George McKay, ["'I'm So Bored With the USA': The Punk in Cyberpunk"](https://cloudflare-ipfs.com/ipfs/bafykbzaceasasp26xyyhrku3nei2eodq3kim3othxnedmjdqsudukqbomuviy?filename=Roger%20Sabin%20-%20Punk%20Rock_%20So%20What__%20The%20Cultural%20Legacy%20of%20Punk-Routledge%20%281999%29.pdf)
+    * John Shirley, ["Wolves of the Plateau"](https://www-jstor-org.srv-proxy1.library.tamu.edu/stable/20134167)
   - |
-    * Finish McKay
+    * Bruce Sterling, "Our Neural Chernobyl"
+    * Bruce Sterling, "Mozart in Mirrorshades"
+  - |
+    * Rudy Rucker, ["Christmas in Louisville December 24, 2030"](https://www-jstor-org.srv-proxy1.library.tamu.edu/stable/20134164?seq=1#metadata_info_tab_contents)
+    * **Position Paper #1 Due**
+  - |
+    * Istvan Csicsery-Ronay, ["Cyberpunk and Neuromanticism"](https://www-jstor-org.srv-proxy1.library.tamu.edu/stable/20134180?seq=1#metadata_info_tab_contents)
+  - |
+    * Finish Csicsery-Ronay
     * Gilles Deleuze, ["Postscript on the Society of Control"](https://www-jstor-org.srv-proxy2.library.tamu.edu/stable/778828)
   - |
     * Finish Deleuze
   - |
-    * Writing Day
-  - |
     * *Blade Runner*
+    * ["Defining Film Noir"](https://www.youtube.com/watch?v=K77aPil7btM)
   - |
     * Finish *Blade Runner*
   - |
+    * William Gibson, "The Gernsback Continuum"
+  - |
     * William Gibson, *Neuromancer* (1984), Ch. 1-4
+    * ["Julia Styles in Ghostwriter"](https://www.youtube.com/watch?v=bLlj_GeKniA)
   - |
     * William Gibson, *Neuromancer* (1984), Ch. 5-9
   - |
@@ -104,14 +116,14 @@ classes:
   - |
     * William Gibson, *Neuromancer* (1984), Rest
   - |
-    * Where Are We?
-  - |
-    * Takayuki Tatsumi, ["The Japanese Reflection of Mirrorshades"](https://ipfs.io/ipfs/bafykbzacecnjgw2rcubvuk3d66kt5klexcqmgxvmyb7k34qr77mowvtgddw6c?filename=Larry%20McCaffery%2C%20Lawrence%20F.%20McCaffery%20%28editor%29%20-%20Storming%20the%20Reality%20Studio_%20Casebook%20of%20Cyberpunk%20and%20Postmodern%20Science%20Fiction-Duke%20University%20Press%20%281991%29.pdf)
+    * **Position Paper #2 Due**
   - |
     * *Akira*
       * TW: Gore
   - |
     * Finish *Akira*
+  - |
+    * Takayuki Tatsumi, ["The Japanese Reflection of Mirrorshades"](https://ipfs.io/ipfs/bafykbzacecnjgw2rcubvuk3d66kt5klexcqmgxvmyb7k34qr77mowvtgddw6c?filename=Larry%20McCaffery%2C%20Lawrence%20F.%20McCaffery%20%28editor%29%20-%20Storming%20the%20Reality%20Studio_%20Casebook%20of%20Cyberpunk%20and%20Postmodern%20Science%20Fiction-Duke%20University%20Press%20%281991%29.pdf)
   - |
     * Ron Rosenbaum, ["Secrets of the Little Blue Box"](http://www.lospadres.info/thorg/lbb.html)
   - |
@@ -132,18 +144,22 @@ classes:
   - |
     * Finish Plant
     * VNS Matrix, ["Bitch Mutant Manifesto"](https://vnsmatrix.net/wordpress/wp-content/uploads/bitch-mutant-manifesto-11-Seiten.pdf)
+    * **Position Paper #3 Due**
   - |
+    * Catch-up Day
   - |
+    * Jean Gomoll, ["An Open Letter to Joanna Russ"](https://geocities.restorativland.org/Athens/8720/letter.htm)
   - |
+    * Keza MacDonald, ["I've Seen the Metaverse - And I Don't Want It"](https://www.theguardian.com/games/2022/jan/25/ive-seen-the-metaverse-and-i-dont-want-it)
+    * Ryan Zickgraf, ["Mark Zuckerberg's 'Metaverse' Is a Dystopian Nightmare"](https://jacobin.com/2021/09/facebook-zuckerberg-metaverse-stephenson-big-tech)
+    * Ian Bogost, ["The Metaverse is Bad"](https://www.theatlantic.com/technology/archive/2021/10/facebook-metaverse-name-change/620449/)
   - |
+    * Watch ["What is Nobody Here? The story of Sunset Corp and Vaporwave"](https://www.youtube.com/watch?v=1DoBcIQnMcw)
+    * Watch ["Vaporwave—Down the Rabbit Hole"](https://www.youtube.com/watch?v=w_T1nkER3vA)
+    * ["Vaporwave"](https://aesthetics.fandom.com/wiki/Vaporwave) from *Aesthetics Wiki*
+    * Listen [*Floral Shoppe* by Macintosh Plus](https://www.youtube.com/watch?v=cCq0P509UL4)
+    * Listen [*Chuck Person's Ecco Jams, Volume 1* by Daniel Lopatin](https://www.youtube.com/watch?v=unN7QvSWSTo)
   - |
     * Watch *The Matrix*
   - |
     * Finish *The Matrix*
-  - |
-    * What Have We Learned?
-  - |
-    * Work on your papers
-  - |
-    * Work on your papers
-    * Last Day
