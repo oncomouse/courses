@@ -21,7 +21,7 @@ title: Syllabus
 
 ## Entry Ticket
 
-Thirty minutes before the start of class on the days in which readings are assigned (Mondays and Wednesdays this semester), you will need to post a discussion question to that week's discussion board on our Canvas site. These questions will help start our conversation and will help to structure our knowledge of the course topic as we move forward.
+Thirty minutes before the start of class on the days in which readings are assigned (mostly Mondays and Wednesdays this semester; check [the schedule](#schedule) to see if an entry ticket is due), you will need to post a discussion question to that week's discussion board on our Canvas site. These questions will help start our conversation and will help to structure our knowledge of the course topic as we move forward.
 
 Each question needs to be generative but can be specific. If you don't understand a particular scene or wonder why the writer chose to portray a particular detail in a particular way, ask. If you notice a theme developing across several readings and find it reflected in this story, ask.
 
