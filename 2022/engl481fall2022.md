@@ -12,18 +12,28 @@ title: Syllabus
 
 # Assignments
 
-| Assignment                   | Due Date     | Percent Value |
-|------------------------------|--------------|---------------|
-| Participation                | Continuous   | 10%           |
-| Entry Ticket                 | Continuous   | 20%           |
-| Position Papers (3)          | See Schedule | 30%           |
-| Thematic Analysis (2)        | See Schedule | 40%           |
+| Assignment            | Due Date     | Percent Value |
+|-----------------------|--------------|---------------|
+| Discussion Questions  | 2-3 per week | 20%           |
+| Short Reflections     | 3 per week   | 10%           |
+| Position Papers (3)   | See Schedule | 30%           |
+| Thematic Analysis (2) | See Schedule | 40%           |
 
-## Entry Ticket
+## Discussion Questions
 
-Thirty minutes before the start of class on the days in which readings are assigned (mostly Mondays and Wednesdays this semester; check [the schedule](#schedule) to see if an entry ticket is due), you will need to post a discussion question to that week's discussion board on our Canvas site. These questions will help start our conversation and will help to structure our knowledge of the course topic as we move forward.
+Thirty minutes before the start of class on the days in which readings are assigned (mostly Mondays and Wednesdays this semester; check [the schedule](#schedule) to see if an entry ticket is due), you will need to post a discussion question to that week's Discussion Question board. These questions will help start our conversation and will help to structure our knowledge of the course topic as we move forward.
 
 Each question needs to be generative but can be specific. If you don't understand a particular scene or wonder why the writer chose to portray a particular detail in a particular way, ask. If you notice a theme developing across several readings and find it reflected in this story, ask.
+
+If a day has multiple assigned readings/viewings, you only need to post a question on one reading/viewing for that day.
+
+Questions may be posted earlier, if you are unable to attend class.
+
+## Short Reflections
+
+At the end of each class, post a 1-2 sentence reflection (basically, tell me what the most interesting thing said in that day's class was). These will be posted to the Short Reflection board for each week. 
+
+These reflections can be posted by the following Sunday of a given week, if you are unable to attend class.
 
 ## Position Papers (3)
 
@@ -46,6 +56,11 @@ Having exemplified the theme in the two (or more) texts, conclude by explaining 
 # Schedule
 
 Readings are to be completed *before* the start of class on the day indicated.
+
+Each week, you will produce:
+
+1. Two [Discussion Questions](#discussion-questions) (except days we have readings on Friday)
+1. Three [Short Reflections](#short-reflections) (one for each day class meets)
 
 {% include schedule.html %}
 
