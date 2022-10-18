@@ -1,0 +1,35 @@
+---
+term: Spr 2023
+number: ENGL 642
+title: "Studies in Genre"
+subtitle: "Science Fiction and the Man-Machine"
+description: |
+  This is a course
+outcomes:
+  - To finish the course
+meetings:
+  - location: LAAH 123
+    time: MWF 10-12
+instructors:
+  - name: Andrew Pilsch
+    email: apilsch@tamu.edu
+    office:
+      - hours: MWF 1-2
+        location: LAAH 417
+start: 2023-08-19
+end: 2023-11-24
+holidays:
+  - date: 2023-11-25
+    name: Reading Day
+meets:
+  - monday
+  - wednesday
+  - friday
+units:
+  - title: First Unit
+    start: 1
+weeks:
+  "1": First Week
+classes:
+  - |
+    * First Class
