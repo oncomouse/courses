@@ -1,0 +1,158 @@
+---
+term: Spr 2023
+number: ENGL 354
+title: "Modern Rhetorical Theory"
+description: |
+  This is a course
+outcomes:
+  - To finish the course
+instructors:
+  - name: Andrew Pilsch
+    email: apilsch@tamu.edu
+    office:
+      - hours: WF 1-2
+        location: Zoom
+start: 2023-01-17
+end: 2023-05-02
+holidays:
+  - date: 2023-03-13
+    name: Spring Break
+  - date: 2023-03-14
+    name: Spring Break
+  - date: 2023-03-15
+    name: Spring Break
+  - date: 2023-03-16
+    name: Spring Break
+  - date: 2023-03-17
+    name: Spring Break
+  - date: 2023-04-07
+    name: Reading Day
+redefined:
+  - date: 2023-05-03
+    is_a: friday
+meets:
+  - monday
+  - wednesday
+  - friday
+units:
+  - title: Rhetoric as a Solution to the Problem of Modernity
+    start: 1
+  - title: Modern Theories of Persuasion
+    start: 6
+weeks:
+  "1": Why Do People Do Dumb Things?
+  "2": Why Are Cities So Scary?
+  "3": What Do Words Actually Do?
+  "4": How Do Words Manipulate the Public?
+  "5": They're Printing What?
+  "6": Why Aren't We Talking About Rhetoric?
+  "7": What Happens When We Do a Rhetoric?
+  "8": How Does this Work in the Real World?
+  "9": "Spring Break!"
+  "10": How Else Do We Argue?
+  "11": Where Else Does Rhetoric Happen?
+  "12": Does Food Tell a Story?
+  "13": Is This All Natural?
+  "14": Who Makes the Most Authentic Food?
+  "15": What Should We Have For Dinner?
+  "16": What Should I Write My Paper About?
+classes:
+  - |
+    * Course Overview
+  - |
+    * Sigmund Freud, from *Beyond the Pleasure Principle*
+  - |
+    * Finish Freud
+  - |
+    * Bronislaw Malinowski, from *Myth in Primitive Psychology*
+    * **First Participation Card Due**
+  - |
+    * Finish Malinowski
+    * Georg Simmel, [from *Metropolis and Modern Life*](http://www.blackwellpublishing.com/content/bpl_images/content_store/sample_chapter/0631225137/bridge.pdf)
+  - |
+    * Finish Simmel
+  - |
+    * Ferdinand de Saussure, "Object of Linguistics" & "Nature of Linguistic Signs" from *Course in General Linguistics*
+  - |
+    * Finish de Saussure
+    * Friedrich Nietzsche, "On Truth and Lies in a Nonmoral Sense"
+  - |
+    * Finish Nietzsche
+  - |
+    * Edward Bernays, from [*Propaganda*](http://www.historyisaweapon.org/defcon1/bernprop.html)
+       * Ch. 1-2
+  - |
+    * Finish Bernays
+    * Walter Lippman, From *The Phantom Public*
+  - |
+    * Finish Lippman
+  - |
+    * John Dewey, from [*The Public and Its Problems*](http://muse.jhu.edu.lib-ezproxy.tamu.edu:2048/chapter/575834)
+  - |
+    * Finish Dewey
+    * George Herbert Mead, From *Mind, Self, and Society*
+  - |
+    * Finish Mead
+  - |
+    * Kenneth Burke, "The Rhetoric of Hitler's Battle"
+  - |
+    * Finish Burke
+    * Wayne Booth, ["The Revival of Rhetoric"](https://www-jstor-org.lib-ezproxy.tamu.edu:9443/stable/1261264)
+  - |
+    * Finish Booth
+  - |
+    * John Poulakos, ["Toward a Sophistic Definition of Rhetoric"](https://www-jstor-org.lib-ezproxy.tamu.edu:9443/stable/40237348)
+  - |
+    * Finish Poulakos
+  - |
+    * Paper Workshop Day
+  - |
+    * Lloyd F. Bitzer, ["The Rhetorical Situation"](https://www-jstor-org.lib-ezproxy.tamu.edu:9443/stable/40236733)
+    * **Paper 1 Due 2/22 by 11:59PM**
+  - |
+    * Finish Bitzer
+    * Richard E. Vatz, "The Myth of the Rhetorical Situation"
+  - |
+    * Finish Vatz
+  - |
+    * Maurice Charland, ["Constitutive Rhetoric"](http://ezproxy.library.tamu.edu/login?url=http://search.ebscohost.com/login.aspx?direct=true&db=cms&AN=10104146&site=ehost-live)
+  - |
+    * Finish Charland
+    * ??
+  - |
+    * Finish ??
+  - |
+    * Simone De Beauvoir, from [*The Second Sex*](https://www.marxists.org/reference/subject/ethics/de-beauvoir/2nd-sex/introduction.htm)
+  - |
+    * Finish De Beauvoir
+    * Betty Friedan, from [*The Feminine Mystique*](http://www.nationalhumanitiescenter.org/ows/seminars/tcentury/FeminineMystique.pdf)
+  - |
+    * Finish Friedan
+  - |
+    * ??
+  - |
+    * Finish ??
+  - |
+    * Sonja K. Foss & Cindy L. Griffin, ["Beyond Persuasion: A Proposal for an Invitational Rhetoric"](http://sonjafoss.com/html/Foss21.pdf)
+  - |
+    * Finish Foss & Griffin
+    * Krista Ratcliffe, ["Rhetorical Listening: A Trope for Interpretive Invention and a 'Code of Cross-cultural Conduct'"](https://epublications.marquette.edu/cgi/viewcontent.cgi?article=1286&context=english_fac)
+  - |
+    * Finish Ratcliffe
+  - |
+    * Jim W. Corder, ["Argument as Emergence, Rhetoric as Love"](https://www-jstor-org.lib-ezproxy.tamu.edu:9443/stable/465760)
+  - |
+    * Finish Corder
+    * ??
+  - |
+    * Finish ??
+  - |
+    * George Kennedy, ["A Hoot in the Dark"](http://www.jstor.org.lib-ezproxy.tamu.edu:2048/stable/40238276)
+  - |
+    * Finish Kennedy
+    * James J. Brown, Jr. ["The Machine That Therefore I Am"]()
+  - |
+    * Finish Brown
+  - |
+    * Paper Workshop Day
+    * **Paper 2 Due 4/28 by 11:59PM**

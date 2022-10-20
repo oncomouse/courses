@@ -14,8 +14,8 @@ instructors:
   - name: Andrew Pilsch
     email: apilsch@tamu.edu
     office:
-      - hours: MWF 1-2
-        location: LAAH 417
+      - hours: WF 1-2
+        location: Zoom
 start: 2023-01-17
 end: 2023-05-02
 holidays:
@@ -36,13 +36,33 @@ redefined:
     is_a: friday
 meets:
   - monday
-  - wednesday
-  - friday
-units:
-  - title: First Unit
-    start: 1
-weeks:
-  "1": First Week
 classes:
   - |
     * First Class
+  - |
+    * Samuel Butler, ["The Book of The Machine" from *Erewhon*](https://www.gutenberg.org/cache/epub/1906/pg1906-images.html#chap23)
+  - |
+    * C.L. Moore, "No Woman Born"
+    * *Metropolis* (on Canvas; Click on "Mediasite Collection")
+  - |
+    * Isaac Asimov, *I Robot*
+  - |
+    * Samuel R. Delaney, *Babel 17*
+  - |
+    * Philip K. Dick, *Do Androids Dream of Electric Sheep*
+  - |
+    * James Tiptree Jr., "The Girl Who Was Plugged In"
+  - |
+    * Vonda McIntyre, "Of Mist, and Grass, and Sand"; Ursula K. LeGuin, "Nine Lives"
+  - |
+    * Rudy Rucker, *Software*
+  - |
+    * William Gibson, *Neuromancer*
+  - |
+    * Octavia Butler, *Dawn*
+  - |
+    * Marge Piercy, *He, She, and It*
+  - |
+    * Ann Leckie, *Ancillary Justice*
+  - |
+    * Martha Wells, *All Systems Red*
