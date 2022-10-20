@@ -83,3 +83,7 @@ task :delete_course do
 end
 
 task remove_course: :delete_course
+
+task :serve do
+  system("bundle exec jekyll serve")
+end
