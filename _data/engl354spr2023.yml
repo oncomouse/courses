@@ -38,24 +38,26 @@ units:
   - title: Rhetoric as a Solution to the Problem of Modernity
     start: 1
   - title: Modern Theories of Persuasion
-    start: 6
+    start: 5
+  - title: What I Did On My Rhetorical Summer Vacation
+    start: 11
+
 weeks:
   "1": Why Do People Do Dumb Things?
   "2": Why Are Cities So Scary?
   "3": What Do Words Actually Do?
   "4": How Do Words Manipulate the Public?
-  "5": They're Printing What?
-  "6": Why Aren't We Talking About Rhetoric?
+  "5": Why Aren't We Talking About Rhetoric?
+  "6": What Did Those Greek Guys Know, Anyway?
   "7": What Happens When We Do a Rhetoric?
   "8": How Does this Work in the Real World?
   "9": "Spring Break!"
   "10": How Else Do We Argue?
-  "11": Where Else Does Rhetoric Happen?
-  "12": Does Food Tell a Story?
-  "13": Is This All Natural?
-  "14": Who Makes the Most Authentic Food?
-  "15": What Should We Have For Dinner?
-  "16": What Should I Write My Paper About?
+  "11": Where Did You Go?
+  "12": What Did You See?
+  "13": Why Is No One Having A Good Time? I Specifically Requested It
+  "14": Why Don't We Stay Home Next Year?
+  "15": What Should I Write My Paper About?
 classes:
   - |
     * Course Overview
@@ -83,16 +85,9 @@ classes:
        * Ch. 1-2
   - |
     * Finish Bernays
-    * Walter Lippman, From *The Phantom Public*
+    * Walter Lippman, From *Public Opinion*
   - |
     * Finish Lippman
-  - |
-    * John Dewey, from [*The Public and Its Problems*](http://muse.jhu.edu.lib-ezproxy.tamu.edu:2048/chapter/575834)
-  - |
-    * Finish Dewey
-    * George Herbert Mead, From *Mind, Self, and Society*
-  - |
-    * Finish Mead
   - |
     * Kenneth Burke, "The Rhetoric of Hitler's Battle"
   - |
@@ -118,20 +113,9 @@ classes:
     * Maurice Charland, ["Constitutive Rhetoric"](http://ezproxy.library.tamu.edu/login?url=http://search.ebscohost.com/login.aspx?direct=true&db=cms&AN=10104146&site=ehost-live)
   - |
     * Finish Charland
-    * ??
-  - |
-    * Finish ??
-  - |
     * Simone De Beauvoir, from [*The Second Sex*](https://www.marxists.org/reference/subject/ethics/de-beauvoir/2nd-sex/introduction.htm)
   - |
     * Finish De Beauvoir
-    * Betty Friedan, from [*The Feminine Mystique*](http://www.nationalhumanitiescenter.org/ows/seminars/tcentury/FeminineMystique.pdf)
-  - |
-    * Finish Friedan
-  - |
-    * ??
-  - |
-    * Finish ??
   - |
     * Sonja K. Foss & Cindy L. Griffin, ["Beyond Persuasion: A Proposal for an Invitational Rhetoric"](http://sonjafoss.com/html/Foss21.pdf)
   - |
@@ -140,19 +124,35 @@ classes:
   - |
     * Finish Ratcliffe
   - |
-    * Jim W. Corder, ["Argument as Emergence, Rhetoric as Love"](https://www-jstor-org.lib-ezproxy.tamu.edu:9443/stable/465760)
+    * Umberto Eco, "Travels in Hyperreality"
   - |
-    * Finish Corder
+    * Finish Eco
+    * Uel Aramchek, ["A Dimension of Mind"](http://www.northofreality.com/tales/2016/8/9/a-dimension-of-mind)
+  - |
+    * Finish Aramchek
+  - |
     * ??
   - |
     * Finish ??
   - |
-    * George Kennedy, ["A Hoot in the Dark"](http://www.jstor.org.lib-ezproxy.tamu.edu:2048/stable/40238276)
+    * David Foster Wallace, "A Supposedly Fun Thing I'll Never Do Again"
   - |
-    * Finish Kennedy
-    * James J. Brown, Jr. ["The Machine That Therefore I Am"]()
+    * Finish Wallace
+    * Jason Crider & Kenny Anderson, ["Disney Death Tour"](https://www.disneydeathtour.com/)
   - |
-    * Finish Brown
+    * Finish Crider & Anderson
+  - |
+    * ??
+  - |
+    * Finish ??
+    * ??
+  - |
+    * Finish ??
+  - |
+    * Consultations, Work On Your Papers
+  - |
+    * Consultations, Work On Your Papers
   - |
     * Paper Workshop Day
-    * **Paper 2 Due 4/28 by 11:59PM**
+  - |
+    * **Paper 2 Due by 11:59PM**
