@@ -12,8 +12,8 @@
 {% assign schedule = site.data[dataKey] %}
 {%endif%}
 {% assign daysOfTheWeek = schedule.meets.size %}
-{% assign date = schedule.start | date: "%s" %}
-{% assign endDate = schedule.end | date: "%s" %}
+{% assign date = schedule.start | date: "%Y-%m-%d" | date: "%s" %}
+{% assign endDate = schedule.end | date: "%Y-%m-%d" | date: "%s" %}
 {% assign max = endDate | minus: date | divided_by: 86400 | plus: 1%}
 {% assign class = 0 %}
 {% assign meeting = 0 %}
