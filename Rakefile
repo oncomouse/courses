@@ -2,7 +2,7 @@
 
 def file_parts(file)
   data = /([a-zA-Z]+)([0-9]{3})([A-Za-z]+)([0-9]{4})/.match(file)
-  data.nil? ? ['_', 'engl', '123', 'fall', '2020'] : data
+  data.nil? ? ["_", "engl", "123", "fall", "2020"] : data
 end
 
 def write_markdown(file, year)
