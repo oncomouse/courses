@@ -1,11 +1,14 @@
 ---
-term: Spr 2023
+term: Spring 2023
 number: ENGL 354
 title: "Modern Rhetorical Theory"
 description: |
-  This is a course
+  This course studies the return of interest in rhetorical theory and rhetorical training in the 20th century. There are three units: 1) we explore various texts that situate modern life (cities, cars, and mass media, especially) as a problem that rhetoric can solve; 2) we look at some theories of persuasion that respond specifically to these various challenges; 3) we use these theories to explore a rhetorical case study.
 outcomes:
-  - To finish the course
+  - To learn about the development of rhetorical theory during the twentieth century
+  - To understand methods of rhetorical analysis
+  - To use these methods to understand cultural artifacts
+  - To identify problems in communication that persuasion can help solve
 instructors:
   - name: Andrew Pilsch
     email: apilsch@tamu.edu
@@ -14,6 +17,9 @@ instructors:
         location: Zoom
 start: 2023-01-17
 end: 2023-05-02
+meetings:
+  - location: LAAH 401
+    time: 11:30-12:20
 holidays:
   - date: 2023-03-13
     name: Spring Break
