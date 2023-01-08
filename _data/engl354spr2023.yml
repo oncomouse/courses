@@ -33,9 +33,6 @@ holidays:
     name: Spring Break
   - date: 2023-04-07
     name: Reading Day
-redefined:
-  - date: 2023-05-03
-    is_a: friday
 meets:
   - monday
   - wednesday
