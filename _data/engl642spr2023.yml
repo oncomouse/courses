@@ -3,6 +3,8 @@ term: Spr 2023
 number: ENGL 642
 title: "Studies in Genre"
 subtitle: "Science Fiction and the Man-Machine"
+description: |
+  This seminar will consider the history of American science fiction in the 20th century and will also focus on the human-machine relationship therein. We will not just consider robots, but also the cybernetic usage of people as machines and the creation of cyborgs (hybrids of human and machine). Students can expect to gain a better understanding of the development of a particular topic within a particular genre and to better understand the relationship between computation and culture in the 20th and 21st centuries.
 meetings:
   - location: LAAH 503
     time: M 12:40-3:40
@@ -35,20 +37,23 @@ meets:
 classes:
   - |
     * Samuel Butler, "The Book of the Machine" from *Erewhon*
-    * Darko Suvin, "Estrangement and Cognition" from *Metamorphoses of Science Fiction""
+      * [Chapter 23](https://www.marxists.org/reference/archive/butler-samuel/1872/erewhon/ch23.htm)
+      * [Chapter 24](https://www.marxists.org/reference/archive/butler-samuel/1872/erewhon/ch24.htm)
+      * [Chapter 25](https://www.marxists.org/reference/archive/butler-samuel/1872/erewhon/ch25.htm)
+    * Darko Suvin, ["Estrangement and Cognition"](http://strangehorizons.com/non-fiction/articles/estrangement-and-cognition/) from *Metamorphoses of Science Fiction*
   - |
     * Cordwainer Smith, "Scanners Live in Vain"
     * Lester Del Rey, "Helen O'Loy"
   - |
     * C.L. Moore, "No Woman Born"
-    * Watch *Metropolis*
-      * Available on Canvas, click on "Mediasite Collection"
+    * Watch [*Metropolis*](https://www.kanopy.com/en/texasam/video/114333)
   - |
     * Isaac Asimov, from *The Complete Robot*:
       * "Robbie"
       * "Reason"
       * "First Law"
       * "Feminine Intuition"
+      * "Bicentennial Man"
   - |
     * Samuel R. Delany, *Babel 17*
   - |
@@ -56,6 +61,7 @@ classes:
       * James Tiptree Jr., "The Girl Who Was Plugged In"
       * Vonda McIntyre, "Of Mist, and Grass, and Sand"
       * Ursula K. LeGuin
+    * **Position Paper #1 Due**
   - |
     * Readings from *The Future is Female, vol. 2*
       * Lisa Yaszek Visit
@@ -67,7 +73,12 @@ classes:
     * Octavia Butler, *Dawn*
   - |
     * Marge Piercy, *He, She, and It*
+    * **Position Paper #1 Due**
   - |
     * Ann Leckie, *Ancillary Justice*
   - |
     * Martha Wells, *All Systems Red*
+  - |
+    * Ken Liu, ["50 Things Every AI Working With Humans Should Know"](https://www.uncannymagazine.com/article/50-things-every-ai-working-with-humans-should-know/)
+    * Vina Jie-Min Prasad, ["A Guide for Working Breeds"](https://www.tor.com/2020/03/17/a-guide-for-working-breeds-vina-jie-min-prasad/)
+    * Vina Jie-Min Prasad, ["Fandom for Robots"](https://www.uncannymagazine.com/article/fandom-for-robots/)
