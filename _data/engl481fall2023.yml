@@ -1,0 +1,170 @@
+---
+term: Fall 2023
+number: ENGL 481
+title: "Senior Seminar"
+subtitle: "Cyberpunk, Fact and Fiction"
+description: |
+  Capstone seminar on significant figures, movements or issues with special attention to methods and materials of scholarship.
+outcomes:
+  - Formulate questions for generating and sustaining analytical conversations about literature
+  - Take a position on an issue in a particular text
+  - Articulate positions in persuasive essays, utilizing evidence and rhetoric
+  - Identify recurring themes across a variety of texts
+  - Synthesize evidence to establish how themes change between authors and why this matters
+meetings:
+  - location: LAAH 465
+    time: MWF 8:00-8:50
+instructors:
+  - name: Andrew Pilsch
+    email: apilsch@tamu.edu
+    office:
+      - hours: 
+        location: Zoom
+start: 2023-08-21
+end: 2023-12-04
+holidays:
+  - date: 2023-09-04
+    name: Labor Day
+  - date: 2023-10-09
+    name: Fall Break
+  - date: 2023-10-10
+    name: Fall Break
+  - date: 2022-11-23
+  - date: 2023-11-22
+    name: Reading Day
+  - date: 2023-11-23
+    name: Thanksgiving
+  - date: 2023-11-24
+    name: Thanksgiving
+meets:
+  - monday
+  - wednesday
+  - friday
+units:
+  - title: First Unit
+    start: 1
+weeks:
+  "1": Origins & Destinations
+  "2": Rumblings
+  "3": First 
+  "4": First Verse
+  "5": Second Verse, Stranger Than the First
+  "6": Crises
+  "7": Cyber Noir
+  "8": The Straylight Run
+  "9": "\"Things Are things\""
+  "10": Neotokyo is About to Explode
+  "11": Computer Liberation
+  "12": The New Intimacy
+  "13": Women in the Matrix
+  "15": Legacies
+  "16": The Last Cyberpunk
+classes:
+  - |
+    * First Class
+  - |
+    * Vincent Omniveritas, ["The New Science Fiction"](https://web.archive.org/web/20081021104919/http://cyberculture.hu/the-new-science-fiction-by-vincent-omniaveritas/)
+  - |
+    * Vincent Omniveritas, [*Cheap Truth* 1](https://fanac.org/fanzines/Cheap_Truth/Cheap_Truth01-01.html)
+    * Vincent Omniveritas, [*Cheap Truth* 2](https://fanac.org/fanzines/Cheap_Truth/Cheap_Truth02-01.html)
+    * Vincent Omniveritas, [*Cheap Truth* 3](https://fanac.org/fanzines/Cheap_Truth/Cheap_Truth03-01.html)
+  - |
+    * William Gibson, "Burning Chrome" from *Burning Chrome*
+  - |
+    * Finish Gibson
+  - |
+    * Bruce Sterling, ["Preface to *Mirrorshades*"](http://project.cyberpunk.ru/idb/mirrorshades_preface.html)
+    * Bruce Sterling, ["Cyberpunk in the Nineties"](https://www.streettech.com/bcp/BCPtext/Manifestos/CPInThe90s.html)
+    * ["R U a Cyberpunk?"](https://i.imgur.com/8il6T.jpg) from *Mondo 2000* (1993)
+    * Watch ["Cyberpunk 2077 - Official Launch Trailer"](https://www.youtube.com/watch?v=UnA7tepsc7s)
+    * ["Cyberpunk"](https://aesthetics.fandom.com/wiki/Cyberpunk) from *Aesthetics Wiki*
+  - |
+    * Finish Definitions
+  - |
+    * Tom Maddox, "Snake Eyes" from *Mirrorshades*
+  - |
+    * Pat Cadigan, "Rock On" from *Storming the Reality Studio*
+  - |
+    * Lewis Shiner, "Till Human Voices Wake Us" from *Mirrorshades*
+  - |
+    * John Shirley, ["Wolves of the Plateau"](https://www-jstor-org.srv-proxy1.library.tamu.edu/stable/20134167)
+  - |
+    * Bruce Sterling and Lewis Shiner, "Mozart in Mirrorshades" from *Mirrorshades*
+  - |
+    * Rudy Rucker, ["Christmas in Louisville December 24, 2030"](https://www-jstor-org.srv-proxy1.library.tamu.edu/stable/20134164)
+    * **Position Paper #1 Due**
+  - |
+    * Istvan Csicsery-Ronay, ["Cyberpunk and Neuromanticism"](https://www-jstor-org.srv-proxy1.library.tamu.edu/stable/20134180)
+  - |
+    * Finish Csicsery-Ronay
+    * Gilles Deleuze, ["Postscript on the Society of Control"](https://www-jstor-org.srv-proxy2.library.tamu.edu/stable/778828)
+  - |
+    * Finish Deleuze
+  - |
+    * Watch *Blade Runner*
+    * Watch ["Defining Film Noir"](https://www.youtube.com/watch?v=K77aPil7btM)
+  - |
+    * Finish *Blade Runner*
+  - |
+    * Rough Draft Day
+    * **Thematic Analysis #1 Due**
+  - |
+    * William Gibson, "The Gernsback Continuum" from *Burning Chrome*
+  - |
+    * William Gibson, *Neuromancer* (1984), Ch. 1-4
+    * ["Julia Styles in Ghostwriter"](https://www.youtube.com/watch?v=bLlj_GeKniA)
+  - |
+    * William Gibson, *Neuromancer* (1984), Ch. 5-9
+  - |
+    * William Gibson, *Neuromancer* (1984), Ch. 10-15
+  - |
+    * William Gibson, *Neuromancer* (1984), Rest
+    * **Position Paper #2 Due**
+  - |
+    * *Akira*
+      * TW: Gore
+  - |
+    * Finish *Akira*
+  - |
+    * Takayuki Tatsumi, "The Japanese Reflection of Mirrorshades"
+  - |
+    * Ron Rosenbaum, ["Secrets of the Little Blue Box"](http://www.lospadres.info/thorg/lbb.html)
+  - |
+    * Finish Rosenbaum
+    * Timothy Leary, ["The Cyber-punk: The Individual as reality Pilot"](https://www-jstor-org.srv-proxy1.library.tamu.edu/stable/20134179)
+  - |
+    * Finish Leary
+  - |
+    * Ellen Ullman, *Close to the Machine*, ch. 1-2
+  - |
+    * Ellen Ullman, *Close to the Machine*, ch. 3-4
+  - |
+    * Ellen Ullman, *Close to the Machine*, ch. 5-6
+  - |
+    * Ellen Ullman, *Close to the Machine*, rest
+  - |
+    * Sadie Plant, ["The Future Looms: Weaving Women and Cybernetics"](https://monoskop.org/images/1/13/Plant_Sadie_1995_The_Future_Looms_Weaving_Women_and_Cybernetics.pdf)
+  - |
+    * Finish Plant
+    * VNS Matrix, ["Bitch Mutant Manifesto"](https://vnsmatrix.net/wordpress/wp-content/uploads/bitch-mutant-manifesto-11-Seiten.pdf)
+    * **Position Paper #3 Due**
+  - |
+    * Catch-up Day
+  - |
+    * Jeanne Gomoll, ["An Open Letter to Joanna Russ"](https://geocities.restorativland.org/Athens/8720/letter.htm)
+    * Bruce Sterling, ["Letter to the Editor" in *Aurora* 10:2](https://fanac.org/fanzines/Aurora/Aurora26.pdf) (scroll to page 7)
+  - |
+    * Keza MacDonald, ["I've Seen the Metaverse - And I Don't Want It"](https://www.theguardian.com/games/2022/jan/25/ive-seen-the-metaverse-and-i-dont-want-it)
+    * Ryan Zickgraf, ["Mark Zuckerberg's 'Metaverse' Is a Dystopian Nightmare"](https://jacobin.com/2021/09/facebook-zuckerberg-metaverse-stephenson-big-tech)
+    * Ian Bogost, ["The Metaverse is Bad"](https://www.theatlantic.com/technology/archive/2021/10/facebook-metaverse-name-change/620449/)
+  - |
+    * Watch ["What is Nobody Here? The story of Sunset Corp and Vaporwave"](https://www.youtube.com/watch?v=1DoBcIQnMcw)
+    * Watch ["Vaporwave—Down the Rabbit Hole"](https://www.youtube.com/watch?v=w_T1nkER3vA)
+    * ["Vaporwave"](https://aesthetics.fandom.com/wiki/Vaporwave) from *Aesthetics Wiki*
+    * Listen [*Floral Shoppe* by Macintosh Plus](https://www.youtube.com/watch?v=cCq0P509UL4)
+    * Listen [*Chuck Person's Ecco Jams, Volume 1* by Daniel Lopatin](https://www.youtube.com/watch?v=unN7QvSWSTo)
+  - |
+    * Watch *The Matrix*
+  - |
+    * Finish *The Matrix*
+    * **Thematic Analysis #2 Due**
