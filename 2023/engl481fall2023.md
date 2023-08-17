@@ -18,7 +18,7 @@ title: Syllabus
 | Writing Exercises     | Fridays      | 15%           |
 | Position Paper #1     | 2023-10-06   | 20%           |
 | Position Paper #2     | 2023-10-27   | 20%           |
-| Research Paper        | 2023-12-14   | 30%           |
+| Research Paper        | 2023-12-08   | 30%           |
 
 ## Discussion Questions
 
