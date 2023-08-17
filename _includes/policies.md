@@ -85,6 +85,18 @@ Texas A&M University recognizes that mental health and wellness are critical fac
 
 The mission of the University Writing Center (UWC) is to help you develop and refine the communication skills vital to success in college and beyond. You can choose to work with a trained UWC peer consultant in person or via web conference or email. Consultants can help with everything from lab reports to application essays and at any stage of your process, from brainstorming to reviewing the final draft. You can also get help with public speaking, presentations, and group projects. The UWC's main location is on the second floor of Evans Library; there's also a walk-in location on the second floor of the Business Library & Collaboration Commons. To schedule an appointment or view our helpful handouts and videos, visit [writingcenter.tamu.edu](https://writingcenter.tamu.edu). Or call 979-458-1455.
 
-## Diversity Statement
+## Statement on Generative AI
 
-It is my intent that students from all diverse backgrounds and perspectives be well-served by this course, that students' learning needs be addressed both in and out of class, and that the diversity that students bring to this class be viewed as a resource, strength, and benefit. It is my intent to present materials and activities that are respectful of diversity: gender, sexual orientation, disability, age, religion, socioeconomic status, ethnicity, race, culture, perspective, and other background characteristics. I encourage your suggestions about how to improve the value of diversity in this course.
+We in the Department of English believe that writing is central to the production of knowledge. The written word is how ideas circulate but, more importantly, the act of crafting words, sentences, paragraphs, and essays refines thoughts into ideas that matter. As such, we strongly stand against the usage of generative artificial intelligence—applications such as ChatGPT or Bard—as a replacement for the act of writing that has been the bedrock of human knowledge for thousands of years.
+
+Writing has always incorporated tools as well as the voices and ideas of other people. GenAI can be a powerful tool in any writer’s arsenal, but its use is not without risk. While GenAI’s ability to convincingly string words together has a place in the writing process, it also risks introducing factual inaccuracies and, more importantly, risks making invisible the important connections between writing and thinking we are cultivating in this class. 
+
+If you use GenAI tools to assist your writing process, I ask you to provide a short (1-2 page) GenAI Statement that includes the following:
+
+1. What GenAI Tools Did You Use?
+2. What Prompts Did You Provide to the Tool?
+3. How Did You Incorporate AI-generated Material Into Your Writing?
+4. How Did Your Use of GenAI Shape Your Thinking About the Assignment?
+
+Without this documentation, usage of AI will be considered plagiarism and subject to the university’s academic integrity policy. Also, you are responsible for fact-checking any GenAI; errors in citation or other basic facts will also be considered a violation of academic integrity
+
