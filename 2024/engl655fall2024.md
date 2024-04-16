@@ -95,6 +95,11 @@ schedule:
     - |
       * McKenzie Wark, *A Hacker Manifesto*
     - |
+      * Selfe and Self, "The Politics of the Interface"
+      * Rob Swigart, "A Writer's Desktop"
+      * Steven Johnson, from *Interface Culture*
+      * Chole Milligan, "The Page is a Touchscreen: Haptic Narrtives and 'Novel' Media"
+    - |
       * Thomas Rickert, "Invention in the Wild: On Locating *Kairos* in Space-Time"
       * [John R. Gallagher, "Machine Time: Unifying *Chronos* and *Kairos* in an Era of Ubiquitous Technologies"](https://www-tandfonline-com.srv-proxy1.library.tamu.edu/doi/full/10.1080/07350198.2020.1805573)
     - |
