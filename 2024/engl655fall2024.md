@@ -49,13 +49,13 @@ schedule:
     "5": Television Screens
     "6": Time I
     "7": Classical Screens
-    "8": Early Digital Screens
-    "9": Hack the Planet!
-    "10": Screening Metaphors
-    "11": Time II
-    "12": Electracy!
-    "13": Body Screens/World Screens
-    "14": Physical Computing
+    "9": Early Digital Screens
+    "10": Hack the Planet!
+    "11": Screening Metaphors
+    "12": Time II
+    "13": Electracy!
+    "14": Body Screens/World Screens
+    "15": Physical Computing
   classes:
     - |
       * Wayne Booth, "The Revival of Rhetoric"
