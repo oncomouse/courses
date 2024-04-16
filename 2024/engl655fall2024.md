@@ -42,19 +42,19 @@ schedule:
   meets:
     - tuesday
   weeks:
-    "1": Words as Screens
-    "2": Rhetoric(s)
-    "3": A Rhetorical Situation
-    "4": Television Screens
   classes:
-    - |
-      * Kenneth Burke, "Terministic Screens"
-      * Friedrich Nietzsche, "On Truth and Lies in a Non-moral Sense"
-      * Robert Anton Wilson, from *Prometheus Rising*
     - |
       * Wayne Booth, "The Revival of Rhetoric"
       * John Poulakos, "Toward a Sophistic Definition of Rhetoric"
       * I.A. Richards, from _The Philosophy of Rhetoric_
+    - |
+      * Kenneth Burke, ["Four Master Tropes"](https://www-jstor-org.srv-proxy2.library.tamu.edu/stable/4332286)
+      * George Lakoff and Mark Johnson, from *Metaphors We Live By*
+      * Paul de Man, ["The Epistemology of Metaphor"](https://www-jstor-org.srv-proxy1.library.tamu.edu/stable/1342975)
+    - |
+      * Kenneth Burke, "Terministic Screens"
+      * Friedrich Nietzsche, "On Truth and Lies in a Non-moral Sense"
+      * Robert Anton Wilson, from *Prometheus Rising*
     - |
       * [Lloyd F. Bitzer, "The Rhetorical
         Situation"](https://www-jstor-org.srv-proxy1.library.tamu.edu/stable/40236733)
