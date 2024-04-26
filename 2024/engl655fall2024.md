@@ -23,7 +23,6 @@ course:
       office:
         - hours: MWF 1-2
           location: LAAH 417
-schedule:
   start: 2024-08-19
   end: 2024-12-02
   holidays:

@@ -1,6 +1,8 @@
 {% assign fileName = page.path | split: "/" | last | replace: ".md", "" | replace: ".html", "" %}
 {% if page.schedule != nil %}
 {% assign schedule = page.schedule %}
+{% elsif page.course and page.course.start %}
+{% assign schedule = page.course %}
 {% else %}
 {% if include.schedule != nil %}
 {% assign dataKey = include.schedule %}

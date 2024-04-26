@@ -4,8 +4,7 @@ title: Syllabus
 course:
   term: Fall 2024
   number: ENGL 303
-  title: "Approaches to English Studies"
-  subtitle: "Unreliable Narrators"
+  title: "Course Title"
   description: |
     This is a course
   outcomes:
@@ -19,22 +18,11 @@ course:
       office:
         - hours: MWF 1-2
           location: LAAH 417
-schedule:
   start: 2024-08-19
-  end: 2024-12-02
+  end: 2024-11-24
   holidays:
-    - date: 2024-09-02
-      name: Labor Day
-    - date: 2024-10-07
-      name: Fall Break
-    - date: 2024-10-08
-      name: Fall Break
-    - date: 2024-11-27
+    - date: 2024-11-25
       name: Reading Day
-    - date: 2024-11-28
-      name: Thanksgiving Day
-    - date: 2024-11-29
-      name: Thanksgiving Day
   meets:
     - monday
     - wednesday
@@ -46,7 +34,8 @@ schedule:
     "1": First Week
   classes:
     - |
-      * 
+      * First Class
+
 ---
 
 # Schedule
