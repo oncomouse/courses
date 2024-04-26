@@ -42,22 +42,28 @@ course:
     - tuesday
   weeks:
     "1": Rhetoric(s)
-    "2": Words as Screens
-    "3": A Rhetorical Situation
-    "4": Television Screens
-    "5": Time I
-    "6": Classical Screens
-    "7": Early Digital Screens
-    "9": Hack the Planet!
-    "10": Time II
-    "11": Electracy!
-    "12": Body Screens/World Screens
-    "13": Physical Computing
+    "2": Tropes
+    "3": Words as Screens
+    "4": A Rhetorical Situation
+    "5": Television Screens
+    "6": Time I
+    "7": Classical Screens
+    "9": Early Digital Screens
+    "10": Hack the Planet!
+    "11": Screening Metaphors
+    "12": Time II
+    "13": Electracy!
+    "14": Body Screens/World Screens
+    "15": Physical Computing
   classes:
     - |
       * Wayne Booth, "The Revival of Rhetoric"
       * John Poulakos, "Toward a Sophistic Definition of Rhetoric"
       * I.A. Richards, from _The Philosophy of Rhetoric_
+    - |
+      * Kenneth Burke, ["Four Master Tropes"](https://www-jstor-org.srv-proxy2.library.tamu.edu/stable/4332286)
+      * George Lakoff and Mark Johnson, from *Metaphors We Live By*
+      * Paul de Man, ["The Epistemology of Metaphor"](https://www-jstor-org.srv-proxy1.library.tamu.edu/stable/1342975)
     - |
       * Kenneth Burke, "Terministic Screens"
       * Friedrich Nietzsche, "On Truth and Lies in a Non-moral Sense"
@@ -87,6 +93,11 @@ course:
       * Ted Nelson, *Computer Lib; Dream Machines*
     - |
       * McKenzie Wark, *A Hacker Manifesto*
+    - |
+      * Selfe and Self, "The Politics of the Interface"
+      * Rob Swigart, "A Writer's Desktop"
+      * Steven Johnson, from *Interface Culture*
+      * Chole Milligan, "The Page is a Touchscreen: Haptic Narrtives and 'Novel' Media"
     - |
       * Thomas Rickert, "Invention in the Wild: On Locating *Kairos* in Space-Time"
       * [John R. Gallagher, "Machine Time: Unifying *Chronos* and *Kairos* in an Era of Ubiquitous Technologies"](https://www-tandfonline-com.srv-proxy1.library.tamu.edu/doi/full/10.1080/07350198.2020.1805573)
