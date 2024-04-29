@@ -4,14 +4,15 @@ title: Syllabus
 course:
   term: Fall 2024
   number: ENGL 303
-  title: "Course Title"
+  title: "Approaches to English Studies"
+  subtitle: "Unreliable Narrators"
   description: |
-    This is a course
+    A writing intensive exploration of the methodologies and major topics of English studies.
   outcomes:
     - To finish the course
   meetings:
-    - location: LAAH 123
-      time: MWF 10-12
+    - location: LAAH 373
+      time: MWF 11:30-12:20
   instructors:
     - name: Andrew Pilsch
       email: apilsch@tamu.edu
