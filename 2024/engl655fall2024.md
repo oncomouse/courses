@@ -81,6 +81,7 @@ course:
     - |
       * Raymond Williams, *Television: Technology and Cultural Form*
       * Greg Ulmer, "One Video Theory (some assembly required)"
+      * David Foster Wallace, ["E Unibus Pluram: Television and US Fiction"](https://jsomers.net/DFW_TV.pdf)
     - |
       * James Kinneavy, "Kairos: A Neglected Concept in Classical Rhetoric"
       * Debra Hawhee, "Kairotic Encounters"
