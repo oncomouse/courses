@@ -1,5 +1,6 @@
 ---
 layout: syllabus
+title: Syllabus
 course:
   term: Fall 2024
   number: ENGL 655
