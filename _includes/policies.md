@@ -16,6 +16,8 @@ If my door is closed and it is not during office hours, please do not knock. I o
 
 Attendance in class is mandatory and is necessary for you to get what you need out of this course. You may have **2 unexcused absences**. Every absence after 2 will result in a **5 point deduction from your attendance grade**. I must have documentation (doctor's notes, schedule for sports, etc) for excused absences. Please talk to me in advance if you have any extenuating circumstances.
 
+Regardless of kind (excused or unexcused), missing more than 10 classes in the semester will result in your failing the course.
+
 ## Late Work
 
 Under Student Rule 7.4, I am under "under no obligation to provide an opportunity for the student to make up work missed because of an unexcused absence." However, I do accept late work and will take off 5 points for every day late. A paper that would have received an 85% that was 3 days late will receive a 70%.
