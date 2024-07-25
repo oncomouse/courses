@@ -85,11 +85,13 @@ course:
       * David Foster Wallace, ["E Unibus Pluram: Television and US Fiction"](https://jsomers.net/DFW_TV.pdf)
     - |
       * James Kinneavy, "Kairos: A Neglected Concept in Classical Rhetoric"
-      * Debra Hawhee, "Kairotic Encounters"
+      * Debra Hawhee, ["Kairotic Encounters"](https://s3.amazonaws.com/edu.psu.libraries.scholarsphere-prod/store/757f9eb77af18f71b3a9a282faa38327.pdf?response-content-disposition=inline%3B%20filename%3D%222003_PRI_Kairotic_Encounters.pdf%22%3B%20filename%2A%3DUTF-8%27%272003_PRI_Kairotic_Encounters.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAUNVJ736SV2C6NUXM%2F20240725%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240725T193553Z&X-Amz-Expires=6&X-Amz-SignedHeaders=host&X-Amz-Signature=1b689f5814b4da46d1ae9bff01e068505d10f5eec40fbaaaf1d286a3db399121)
+      * Essays from Phillip Sipiora & James S. Baumlin, eds, [*Rhetoric and Kairos: Essays in History, Theory, and Praxis*](https://muse-jhu-edu.srv-proxy2.library.tamu.edu/book/4489)
     - |
       * Richard A. Lanham, from *The Electronic Word*
         * [Richard A. Lanham, "The 'Q' Question"](https://read-dukeupress-edu.srv-proxy1.library.tamu.edu/south-atlantic-quarterly/article/87/4/653/344654/The-Q-Question)
         * [Richard A. Lanham, "The Electronic Word: Literary Study and the Digital Revolution"](https://www.jstor.org/stable/469101)
+      * Richard A. Lanham, from *The Economics of Attention*
     - |
       * [Alan C. Kay, "A Personal Computer for Children of All Ages"](https://mprove.de/visionreality/media/kay72.html)
       * Ted Nelson, *Computer Lib; Dream Machines*
@@ -103,6 +105,8 @@ course:
     - |
       * Thomas Rickert, "Invention in the Wild: On Locating *Kairos* in Space-Time"
       * [John R. Gallagher, "Machine Time: Unifying *Chronos* and *Kairos* in an Era of Ubiquitous Technologies"](https://www-tandfonline-com.srv-proxy1.library.tamu.edu/doi/full/10.1080/07350198.2020.1805573)
+      * Essays from Phillip Sipiora & James S. Baumlin, eds, [*Rhetoric and Kairos: Essays in History, Theory, and Praxis*](https://muse-jhu-edu.srv-proxy2.library.tamu.edu/book/4489)
+
     - |
       * Gregory Ulmer, *Heuretics*
       * [Sarah J. Arroyo, "Playing to the Tune of Electracy: From Post-Process to a Pedagogy Otherwise"](https://www.jstor.org/stable/20866712)
