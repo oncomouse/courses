@@ -14,7 +14,10 @@ course:
 
     We will be exploring these two claims through two bodies of work: canonical texts of 20th- and 21st-century rhetorical theory and media theory that shades and informs the rhetorical work. Participants will be expected to read thoroughly but will come away with an understanding of the shift in rhetorical thinking from linguistic to infrastructural during the period. Authors to be discussed include Kenneth Burke, Thomas Rickert, Richard Lanham, Raymond Williams, Jean Baudrillard, Wendy Hui Kyong Chun, and Susan Leigh Star.
   outcomes:
-    - To finish the course
+    - To understand the evolution of rhetorical theory during the period of its revival (1950-today)
+    - To identify key themes and major conversations within rhetorical theory
+    - To formulate an argument that inserts their ideas into one or more of these conversations
+    - To articulate key themes in history of rhetoric and digital rhetoric as they relate to broader understandings of rhetorical theory
   meetings:
     - location: LAAH 123
       time: MWF 10-12
@@ -96,7 +99,7 @@ course:
       * [Alan C. Kay, "A Personal Computer for Children of All Ages"](https://mprove.de/visionreality/media/kay72.html)
       * Ted Nelson, *Computer Lib; Dream Machines*
     - |
-      * McKenzie Wark, *A Hacker Manifesto*
+      * McKenzie Wark, [*A Hacker Manifesto*](https://hackermanifesto.org/en/english/)
     - |
       * Selfe and Self, "The Politics of the Interface"
       * Rob Swigart, "A Writer's Desktop"
@@ -108,20 +111,20 @@ course:
       * Essays from Phillip Sipiora & James S. Baumlin, eds, [*Rhetoric and Kairos: Essays in History, Theory, and Praxis*](https://muse-jhu-edu.srv-proxy2.library.tamu.edu/book/4489)
 
     - |
-      * Gregory Ulmer, *Heuretics*
-      * [Sarah J. Arroyo, "Playing to the Tune of Electracy: From Post-Process to a Pedagogy Otherwise"](https://www.jstor.org/stable/20866712)
-      * [Sarah Arroyo, "The Choric Swipe"](https://www.youtube.com/watch?v=gCjTHU_IzSE)
-    - |
-      * David M. Rieder, ["From GUI to NUI: Microsoft’s Kinect and the Politics of the (Body as) Interface"](https://www.presenttensejournal.org/volume-3/from-gui-to-nui-microsofts-kinect-and-the-politics-of-the-body-as-interface/)
-      * John Tinnell, ["All the World’s a Link: The Global Theater of Mobile World Browsers"](https://enculturation.net/all-the-worlds-a-link)
-      * Casey Boyle, Jim Brown, Steph Ceraso, ["The Digital: Rhetoric Behind and Beyond the Screen"](https://static1.squarespace.com/static/53713bf0e4b0297decd1ab8b/t/60a032d091a61c7799ac35a6/1621111504785/boyle_et_al_the_digital.pdf0)
+      * [David M. Rieder, "From GUI to NUI: Microsoft’s Kinect and the Politics of the (Body as) Interface"](https://www.presenttensejournal.org/volume-3/from-gui-to-nui-microsofts-kinect-and-the-politics-of-the-body-as-interface/)
+      * [John Tinnell, "All the World’s a Link: The Global Theater of Mobile World Browsers"](https://enculturation.net/all-the-worlds-a-link)
+      * [Casey Boyle, Jim Brown, Steph Ceraso, "The Digital: Rhetoric Behind and Beyond the Screen"](https://static1.squarespace.com/static/53713bf0e4b0297decd1ab8b/t/60a032d091a61c7799ac35a6/1621111504785/boyle_et_al_the_digital.pdf0)
     - |
       * Michael J. Faris & Steve Holmes (eds), *Re-programmable Rhetoric*
+    - |
+      * [Anthony Stagliano, *Disobedient Aesthetics: Surveillance, Bodies, Control*](https://search.ebscohost.com/login.aspx?direct=true&db=nlebk&AN=3762244&authtype=shib&site=eds-live&scope=site&authtype=shib&custid=s8516548&ebv=EB&ppid=pp_C)
 ---
 
-# Schedule
+# Books to Buy
 
-## Hello
+1. [Michael J. Faris & Steve Holmes (eds.), *Re-programmable Rhetoric*](https://upcolorado.com/utah-state-university-press/item/6203-reprogrammable-rhetoric)
+
+# Schedule
 
 {{ course }}
 
