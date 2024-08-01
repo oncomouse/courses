@@ -130,9 +130,9 @@ course:
 |------------------------------|------------|-------|
 | Statement of Purpose Meeting | 2024/08/30 | 15%   |
 | Exit Ticket                  | Weekly     | 10%   |
-| Response                     | Weekly     | 30%   |
+| Weekly Response              | Weekly     | 30%   |
 | Proposal                     | 2024/11/05 | 15%   |
-| Seminar Paper                | 05/03/2018 | 40%   |
+| Seminar Paper                | 2024/12/09 | 40%   |
 
 ## Assignment Descriptions
 
@@ -142,7 +142,15 @@ At a scheduled time during the first two weeks of class, we will have a one-on-o
 
 ### Exit Ticket
 
-### Response
+At the end of each class period, on a 3x5 notecard (provided), please write your name, the date, and the one most interesting thing you learned today in class.
+
+### Weekly Response
+
+Each week, by midnight the night before our seminar meets, you will compose a thoughtful and substantive response to the weekly reading. Rather than a summary of the reading or simply a review of the texts, you should produce something that positions the week's reading within your own goals for the course or broader research agenda. This might take the form of a particular aspect of one text that informs your broader research agenda or of placing the weekly readings in the context of more broadly developing theme you are noticing across the works. Thus, while each individual response may be analytical or comparative in approach, each piece you write should be detailed, specific, and working with quoted textual material. These are not vibes-based pieces, I want to see you extracting textual evidence and using it to support whatever position you are taking on the text in question.
+
+Finally, your response should concluded with a generative, open-ended discussion question that could be posed to the class as a means of stimulating our in-class discussion of the book.
+
+Failure to produce a successful response will result in a 0. You have three (3) make-up responses that will not count toward your total.
 
 ### Proposal
 
