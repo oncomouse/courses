@@ -116,6 +116,7 @@ course:
       * [David M. Rieder, "From GUI to NUI: Microsoft’s Kinect and the Politics of the (Body as) Interface"](https://www.presenttensejournal.org/volume-3/from-gui-to-nui-microsofts-kinect-and-the-politics-of-the-body-as-interface/)
       * [John Tinnell, "All the World’s a Link: The Global Theater of Mobile World Browsers"](https://enculturation.net/all-the-worlds-a-link)
       * [Casey Boyle, Jim Brown, Steph Ceraso, "The Digital: Rhetoric Behind and Beyond the Screen"](https://static1.squarespace.com/static/53713bf0e4b0297decd1ab8b/t/60a032d091a61c7799ac35a6/1621111504785/boyle_et_al_the_digital.pdf0)
+      * [Sarah J. Arroyo, "One More Video Theory (Some Assemblage Required)](https://www.presenttensejournal.org/volume-5/one-more-video-theory-some-assemblage-required/)
     - |
       * [Michael J. Faris & Steve Holmes (eds), *Re-programmable Rhetoric*](http://proxy.library.tamu.edu/login?url=https://www.jstor.org/stable/j.ctv2vr9ccj)
         * Thanks to the support of Texas A&M University Libraries, you can access the above course materials for free.
