@@ -153,15 +153,30 @@ Finally, your response should concluded with a generative, open-ended discussion
 
 Failure to produce a successful response will result in a 0. You have three (3) make-up responses that will not count toward your total.
 
+### Book Report
+
+1. Anna Kornbluh, *Immediacy or, The style of too-late capitalism*
+2. Mark Fisher, *Capitalist Realism: Is There No Alternative?*
+3. Minh-Ha T. Pham, *Asians Wear Clothes on the Internet*
+4. Amelie Hastie, *Columbo: Make Me a Perfect Murder*
+5. Ian Bogost and Nick Montfort, *Racing the Beam: The Atari Video Computer System*
+6. Jason Puskar, *The Switch: An Off and On History of Digital Humans*
+7. EL Putnam, *Livestreaming: An Aesthetics and Ethics of Technical Encounter*
+8. Caddie Alford, *Entitled Opinions: Doxa after Digitality*
+9. Kathleen J. Turner and Jason Edward Black (eds.), *Reframing Rhetorical History*
+10. Nathan R. Johnson, *Architects of Memory: Information and Rhetoric in a Networked Archival Age*
+11. Donna LeCourt, *Social Mediations: Writing for Digital Public Spheres*
+12. Jonathan Crary, *24/7: Late Capitalism and the Ends of Sleep*
+13. Martin Paul Eve, *Theses on the Metaphors of Digital-Textual History*
+14. Alexander Galloway, *Uncomputable: Play and Politics in the Long Digital Age*
+
 ### Proposal
 
 ### Seminar-length Paper
 
-# Books to Buy
-
-1. [Michael J. Faris & Steve Holmes (eds.), *Re-programmable Rhetoric*](https://upcolorado.com/utah-state-university-press/item/6203-reprogrammable-rhetoric)
-
 # Schedule
+
+*Works that are not hyperlinks are available on the course Google Drive.*
 
 {{ course }}
 
