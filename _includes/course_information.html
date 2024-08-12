@@ -4,8 +4,8 @@
 {% else %}
 {% assign course = site.data[courseKey] %}
 {% endif %}
-{% if page.instructors %}
-{% assign instructors = page.instructors %}
+{% if course.instructors %}
+{% assign instructors = course.instructors %}
 {% else %}
 {% assign instructors = site.data[courseKey].instructors %}
 {% endif %}
@@ -16,17 +16,22 @@
 	<div class="column col-md-6">
 		<h2 class="border-bottom-0 pb-0">Course</h2>
 		<ul>
-			<li><strong>Number:</strong> {{course.number}}</li>
+			<li><strong>Number:</strong> {{course.number}}{%if course.section %}.{{course.section }}{% endif %}</li>
 			<li><strong>Title:</strong> {{course.title}}{%if course.subtitle %}: {{ course.subtitle }}{% endif %}</li>
 			<li><strong>Term:</strong> {{ course.term }}</li>
 			{% if course.meetings %} {% for meeting in course.meetings %}
 			<li>
-				<strong>Meeting:</strong> {{ meeting.time }}, {{ meeting.location }}
+				<strong>Time:</strong> {{ meeting.time }}
+                        </li>
+                        <li>
+				<strong>Location:</strong> {{ meeting.location }}
 			</li>
 			{% endfor %} {%elsif course.time %}
 			<li>
-				<strong>Meeting:</strong> {{ course.time }}, {{
-				course.location }}
+				<strong>Time:</strong> {{ course.time }}
+                        </li>
+                        <li>
+				<strong>Location:</strong> {{course.location }}
 			</li>
 			{%endif%}
 		</ul>
