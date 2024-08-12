@@ -28,7 +28,7 @@ course:
         - hours: MWF 1-2
           location: LAAH 417
   start: 2024-08-19
-  end: 2024-12-02
+  end: 2024-11-30
   holidays:
     - date: 2024-09-02
       name: Labor Day
