@@ -133,14 +133,16 @@ course:
 | Statement of Purpose Meeting | 2024/08/30 | 15%   |
 | Exit Ticket                  | Weekly     | 10%   |
 | Weekly Response              | Weekly     | 30%   |
-| Proposal                     | 2024/11/05 | 15%   |
-| Seminar Paper                | 2024/12/09 | 40%   |
+| Book Report                  | Weekly     | 15%   |
+| Seminar Paper                | 2024/12/09 | 30%   |
 
 ## Assignment Descriptions
 
 ### Statement of Purpose Meeting
 
 At a scheduled time during the first two weeks of class, we will have a one-on-one meeting lasting 30 minutes in which we talk over your research interests, goals for the course, and possible ideas you might wish to explore during the course of the semester.
+
+Be prepared to speak for 30 minutes. If you have any questions about the course, ask those now. If not, bring other material to talk about.
 
 ### Exit Ticket
 
@@ -155,6 +157,8 @@ Finally, your response should concluded with a generative, open-ended discussion
 Failure to produce a successful response will result in a 0. You have three (3) make-up responses that will not count toward your total.
 
 ### Book Report
+
+In addition to our exploration of 20th- and 21st-century rhetorical theory through the lenses of "screen" and "time," I would also like you to update us on more recent work in both rhetoric and media theory that relates to class contents. You may choose from the following list of books:
 
 1. Anna Kornbluh, *Immediacy or, The style of too-late capitalism*
 2. Mark Fisher, *Capitalist Realism: Is There No Alternative?*
@@ -171,7 +175,9 @@ Failure to produce a successful response will result in a 0. You have three (3) 
 13. Martin Paul Eve, *Theses on the Metaphors of Digital-Textual History*
 14. Alexander Galloway, *Uncomputable: Play and Politics in the Long Digital Age*
 
-### Proposal
+Beginning in week five, we will have one report per week. These reports should be no more than *20 minutes maximum* with 10-15 minutes open for Q&A. Your presentation should cover the basic arguments of the book, include some kind of visual component such as a slide deck or handout, and tie in ideas from the course. Following your presentation, you will write a short book review that will explore your given text for a digital rhetoric audience that will be submitted to the class for peer review.
+
+(This assignment is reproduced with permission from Jason Crider's ENGL 655 syllabus).
 
 ### Seminar-length Paper
 
