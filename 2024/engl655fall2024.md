@@ -4,6 +4,7 @@ title: Syllabus
 course:
   term: Fall 2024
   number: ENGL 655
+  section: 600
   title: "Contemporary Theories of Rhetoric"
   subtitle: "Screen Time!"
   description: |
@@ -19,8 +20,8 @@ course:
     - To formulate an argument that inserts their ideas into one or more of these conversations
     - To articulate key themes in history of rhetoric and digital rhetoric as they relate to broader understandings of rhetorical theory
   meetings:
-    - location: LAAH 123
-      time: MWF 10-12
+    - location: LAAH 504
+      time: T 1-4
   instructors:
     - name: Andrew Pilsch
       email: apilsch@tamu.edu
@@ -124,6 +125,11 @@ course:
       * [Gilles Deleuze, "Postscript on the Socities of Control"](http://proxy.library.tamu.edu/login?url=https://jstor.org/stable/778828)
       * [Anthony Stagliano, *Disobedient Aesthetics: Surveillance, Bodies, Control*](https://search.ebscohost.com/login.aspx?direct=true&db=nlebk&AN=3762244&authtype=shib&site=eds-live&scope=site&authtype=shib&custid=s8516548&ebv=EB&ppid=pp_C)
 ---
+
+# Resource Materials
+
+This course has no required textbooks. All materials are either linked [on the course schedule below](#schedule) or available on the course Google Drive (shared on Canvas).
+
 # Assignments
 
 ## Assignment Values
