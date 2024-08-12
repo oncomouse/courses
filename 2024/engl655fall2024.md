@@ -105,7 +105,7 @@ course:
       * [Selfe and Self, "The Politics of the Interface"](http://proxy.library.tamu.edu/login?url=https://www.jstor.org/stable/358761)
       * Rob Swigart, "A Writer's Desktop"
       * Steven Johnson, from *Interface Culture*
-      * Chloe Milligan, "The Page is a Touchscreen: Haptic Narrtives and 'Novel' Media"
+      * [Chloe Milligan, "The Page is a Touchscreen: Haptic Narrtives and 'Novel' Media"](https://www.researchgate.net/publication/327871166_The_Page_is_a_Touchscreen_Haptic_Narratives_and_Novel_Media)
     - |
       * [Thomas Rickert, "Invention in the Wild: On Locating *Kairos* in Space-Time"](http://proxy.library.tamu.edu/login?url=https://muse.jhu.edu/pub/49/monograph/chapter/808891) from *Ambient Rhetoric*
       * [John R. Gallagher, "Machine Time: Unifying *Chronos* and *Kairos* in an Era of Ubiquitous Technologies"](http://proxy.library.tamu.edu/login?url=https://www.tandfonline.com/doi/full/10.1080/07350198.2020.1805573)
