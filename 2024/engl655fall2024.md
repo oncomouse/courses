@@ -146,7 +146,7 @@ At a scheduled time during the first two weeks of class, we will have a one-on-o
 
 Be prepared to speak for 30 minutes. If you have any questions about the course, ask those now. If not, bring other material to talk about. This can be related to larger graduate school issues, the profession, or anything else you'd like to discuss with me before class gets rolling.
 
-*I prefer to these meetings in-person, but Zoom accommodations can be made.*
+*I prefer meeting in-person, but Zoom accommodations can be made.*
 
 ### Exit Ticket
 
