@@ -26,7 +26,7 @@ course:
     - name: Andrew Pilsch
       email: apilsch@tamu.edu
       office:
-        - hours: MWF 1-2
+        - hours: M 10-12
           location: LAAH 417
   start: 2024-08-19
   end: 2024-11-30
@@ -126,10 +126,6 @@ course:
       * [Anthony Stagliano, *Disobedient Aesthetics: Surveillance, Bodies, Control*](https://search.ebscohost.com/login.aspx?direct=true&db=nlebk&AN=3762244&authtype=shib&site=eds-live&scope=site&authtype=shib&custid=s8516548&ebv=EB&ppid=pp_C)
 ---
 
-# Resource Materials
-
-This course has no required textbooks. All materials are either linked [on the course schedule below](#schedule) or available on the course Google Drive (shared on Canvas).
-
 # Assignments
 
 ## Assignment Values
@@ -148,7 +144,9 @@ This course has no required textbooks. All materials are either linked [on the c
 
 At a scheduled time during the first two weeks of class, we will have a one-on-one meeting lasting 30 minutes in which we talk over your research interests, goals for the course, and possible ideas you might wish to explore during the course of the semester.
 
-Be prepared to speak for 30 minutes. If you have any questions about the course, ask those now. If not, bring other material to talk about.
+Be prepared to speak for 30 minutes. If you have any questions about the course, ask those now. If not, bring other material to talk about. This can be related to larger graduate school issues, the profession, or anything else you'd like to discuss with me before class gets rolling.
+
+*I prefer to these meetings in-person, but Zoom accommodations can be made.*
 
 ### Exit Ticket
 
@@ -183,9 +181,19 @@ In addition to our exploration of 20th- and 21st-century rhetorical theory throu
 
 Beginning in week five, we will have one report per week. These reports should be no more than *20 minutes maximum* with 10-15 minutes open for Q&A. Your presentation should cover the basic arguments of the book, include some kind of visual component such as a slide deck or handout, and tie in ideas from the course. Following your presentation, you will write a short book review that will explore your given text for a digital rhetoric audience that will be submitted to the class for peer review.
 
-(This assignment is reproduced with permission from Jason Crider's ENGL 655 syllabus).
+(This assignment is reproduced with permission from Jason Crider's ENGL 655 syllabus)
 
 ### Seminar-length Paper
+
+**Your Position**: A rhetorician interested in the development of argumentation during the 20th- and 21st-centuries. You are maybe also a relative newcomer to this style of argumentation.
+
+**You Produce:** An argumentative paper of roughly 7000-9000 words that makes a specific intervention into some aspect of our course discussion (rhetorical history, theories of rhetorical time, media and persuasion, etc.). You should plan to engage with one or more course texts and explore one particular intellectual issue in some depth.
+
+**Your Work:** Research on the topic you've chosen beyond the assigned course texts. Detailed readings of those course texts that use examples from the text to sustain and nuance your own argument. Proofreading a long-form essay.
+
+**Benefits to You:** This is practice for writing the kind of work that constitutes conference papers and articles in our field. Moreover, work of this length approaches a dissertation chapter or masters thesis section.
+
+(This assignment structure is adapted with permission from Shawna Ross)
 
 # Schedule
 
@@ -214,10 +222,6 @@ Regardless of kind (excused or unexcused), missing more than 10 classes in the s
 ## Late Work
 
 Under Student Rule 7.4, I am under "under no obligation to provide an opportunity for the student to make up work missed because of an unexcused absence." However, I do accept late work and will take off 5 points for every day late. A paper that would have received an 85% that was 3 days late will receive a 70%.
-
-### Extension Policy
-
-Additionally, if you are falling behind on a project and feel that you are not going to finish on time, email me 24 hours before the assignment is due to request an extension. In this email, propose how many additional days you will need to finish the assignment. Requests for extension that do not contain this information will not be honored.
 
 ### Technology
 
@@ -253,7 +257,9 @@ You can learn more about the Aggie Honor System Office Rules and Procedures, aca
 
 ## Americans with Disabilities Act (ADA) Policy
 
-Texas A&M University is committed to providing equitable access to learning opportunities for all students. If you experience barriers to your education due to a disability or think you may have a disability, please contact Disability Resources in the Student Services Building or at (979) 845-1637 or visit [disability.tamu.edu](https://disability.tamu.edu/). Disabilities may include, but are not limited to attentional, learning, mental health, sensory, physical, or chronic health conditions. All students are encouraged to discuss their disability related needs with Disability Resources and their instructors as soon as possible.
+Texas A&M University is committed to providing equitable access to learning opportunities for all students. If you experience barriers to your education due to a disability or think you may have a disability, please contact the Disability Resources office on your campus (resources listed below) Disabilities may include, but are not limited to attentional, learning, mental health, sensory, physical, or chronic health conditions. All students are encouraged to discuss their disability related needs with Disability Resources and their instructors as soon as possible.
+
+Disability Resources is located in the Student Services Building or at (979) 845-1637 or visit [disability.tamu.edu](https://disability.tamu.edu/).
 
 ## Title IX and Statement on Limits to Confidentiality
 
@@ -266,13 +272,15 @@ With the exception of some medical and mental health providers, all university e
 
 Mandatory Reporters must file a report regardless of how the information comes to their attention – including but not limited to face-to-face conversations, a written class assignment or paper, class discussion, email, text, or social media post. Although Mandatory Reporters must file a report, in most instances, you will be able to control how the report is handled, including whether or not to pursue a formal investigation. The University's goal is to make sure you are aware of the range of options available to you and to ensure access to the resources you need.
 
-Students wishing to discuss concerns in a confidential setting are encouraged to make an appointment with [Counseling and Psychological Services](https://caps.tamu.edu/) (CAPS). 
+Students wishing to discuss concerns related to mental and/or physical health in a confidential setting are encouraged to make an appointment with [University Health Services](https://uhs.tamu.edu/appointments) or download the [TELUS Health Student Support](https://uhs.tamu.edu/mental-health/student-support.html) app for 24/7 access to professional counseling in multiple languages. Walk-in services for urgent, non-emergency needs are available during normal business hours at University Health Services locations; call 979.458.4584 for details.
 
 Students can learn more about filing a report, accessing supportive resources, and navigating the Title IX investigation and resolution process on the University's [Title IX webpage](https://titleix.tamu.edu/).
 
-## Statement on Mental Health and Wellness
+### Statement on Mental Health and Wellness
 
-Texas A&M University recognizes that mental health and wellness are critical factors that influence a student's academic success and overall wellbeing. Students are encouraged to engage in proper self-care by utilizing the resources and services available from Counseling & Psychological Services (CAPS). Students who need someone to talk to can call the TAMU Helpline (979-845-2700) from 4:00 p.m. to 8:00 a.m. weekdays and 24 hours on weekends. 24-hour emergency help is also available through the National Suicide Prevention Hotline (800-273-8255) or at [suicidepreventionlifeline.org](https://suicidepreventionlifeline.org/). 
+Texas A&M University recognizes that mental health and wellness are critical factors influencing a student's academic success and overall wellbeing. Students are encouraged to engage in healthy self-care practices by utilizing the resources and services available through [University Health Services](https://uhs.tamu.edu/). Students needing a listening ear can call the Texas A&M Helpline (979.845.2700) from 4:00 p.m. to 8:00 a.m. weekdays and 24 hours on weekends for mental health peer support while classes are in session. The [TELUS Health Student Support app](https://uhs.tamu.edu/mental-health/student-support.html) provides access to professional counseling in multiple languages anytime, anywhere by phone or chat, and the 988 Suicide & Crisis Lifeline offers 24-hour emergency support at 988 or [988lifeline.org](http://988lifeline.org/).
+
+Students needing a listening ear can contact University Health Services (979.458.4584) or call the Texas A&M Helpline (979.845.2700) from 4:00 p.m. to 8:00 a.m. weekdays and 24 hours on weekends while classes are in session. 24-hour emergency help is also available through the 988 Suicide & Crisis Lifeline (988) or at [988lifeline.org](http://988lifeline.org/).
 
 # Department Policies
 
