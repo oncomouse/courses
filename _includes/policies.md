@@ -50,17 +50,11 @@ Absences related to Title IX of the Education Amendments of 1972 may necessitate
 
 Students who request an excused absence are expected to uphold the Aggie Honor Code and Student Conduct Code. (See [Student Rule 24](https://student-rules.tamu.edu/rule24/).)
 
-## Academic Integrity Statement and Policy
-
-"An Aggie does not lie, cheat or steal, or tolerate those who do."
-
-"Texas A&M University students are responsible for authenticating all work submitted to an instructor. If asked, students must be able to produce proof that the item submitted is indeed the work of that student. Students must keep appropriate records at all times. The inability to authenticate one's work, should the instructor request it, may be sufficient grounds to initiate an academic misconduct case" ([Section 20.1.2.3, Student Rule 20](https://aggiehonor.tamu.edu/Rules-and-Procedures/Rules/Honor-System-Rules)).
-
-You can learn more about the Aggie Honor System Office Rules and Procedures, academic integrity, and your rights and responsibilities at [aggiehonor.tamu.edu](https://aggiehonor.tamu.edu/).
-
 ## Americans with Disabilities Act (ADA) Policy
 
-Texas A&M University is committed to providing equitable access to learning opportunities for all students. If you experience barriers to your education due to a disability or think you may have a disability, please contact Disability Resources in the Student Services Building or at (979) 845-1637 or visit [disability.tamu.edu](https://disability.tamu.edu/). Disabilities may include, but are not limited to attentional, learning, mental health, sensory, physical, or chronic health conditions. All students are encouraged to discuss their disability related needs with Disability Resources and their instructors as soon as possible.
+Texas A&M University is committed to providing equitable access to learning opportunities for all students. If you experience barriers to your education due to a disability or think you may have a disability, please contact the Disability Resources office on your campus (resources listed below) Disabilities may include, but are not limited to attentional, learning, mental health, sensory, physical, or chronic health conditions. All students are encouraged to discuss their disability related needs with Disability Resources and their instructors as soon as possible.
+
+Disability Resources is located in the Student Services Building or at (979) 845-1637 or visit [disability.tamu.edu](https://disability.tamu.edu/).
 
 ## Title IX and Statement on Limits to Confidentiality
 
@@ -73,13 +67,15 @@ With the exception of some medical and mental health providers, all university e
 
 Mandatory Reporters must file a report regardless of how the information comes to their attention – including but not limited to face-to-face conversations, a written class assignment or paper, class discussion, email, text, or social media post. Although Mandatory Reporters must file a report, in most instances, you will be able to control how the report is handled, including whether or not to pursue a formal investigation. The University's goal is to make sure you are aware of the range of options available to you and to ensure access to the resources you need.
 
-Students wishing to discuss concerns in a confidential setting are encouraged to make an appointment with [Counseling and Psychological Services](https://caps.tamu.edu/) (CAPS). 
+Students wishing to discuss concerns related to mental and/or physical health in a confidential setting are encouraged to make an appointment with [University Health Services](https://uhs.tamu.edu/appointments) or download the [TELUS Health Student Support](https://uhs.tamu.edu/mental-health/student-support.html) app for 24/7 access to professional counseling in multiple languages. Walk-in services for urgent, non-emergency needs are available during normal business hours at University Health Services locations; call 979.458.4584 for details.
 
 Students can learn more about filing a report, accessing supportive resources, and navigating the Title IX investigation and resolution process on the University's [Title IX webpage](https://titleix.tamu.edu/).
 
-## Statement on Mental Health and Wellness
+### Statement on Mental Health and Wellness
 
-Texas A&M University recognizes that mental health and wellness are critical factors that influence a student's academic success and overall wellbeing. Students are encouraged to engage in proper self-care by utilizing the resources and services available from Counseling & Psychological Services (CAPS). Students who need someone to talk to can call the TAMU Helpline (979-845-2700) from 4:00 p.m. to 8:00 a.m. weekdays and 24 hours on weekends. 24-hour emergency help is also available through the National Suicide Prevention Hotline (800-273-8255) or at [suicidepreventionlifeline.org](https://suicidepreventionlifeline.org/). 
+Texas A&M University recognizes that mental health and wellness are critical factors influencing a student's academic success and overall wellbeing. Students are encouraged to engage in healthy self-care practices by utilizing the resources and services available through [University Health Services](https://uhs.tamu.edu/). Students needing a listening ear can call the Texas A&M Helpline (979.845.2700) from 4:00 p.m. to 8:00 a.m. weekdays and 24 hours on weekends for mental health peer support while classes are in session. The [TELUS Health Student Support app](https://uhs.tamu.edu/mental-health/student-support.html) provides access to professional counseling in multiple languages anytime, anywhere by phone or chat, and the 988 Suicide & Crisis Lifeline offers 24-hour emergency support at 988 or [988lifeline.org](http://988lifeline.org/).
+
+Students needing a listening ear can contact University Health Services (979.458.4584) or call the Texas A&M Helpline (979.845.2700) from 4:00 p.m. to 8:00 a.m. weekdays and 24 hours on weekends while classes are in session. 24-hour emergency help is also available through the 988 Suicide & Crisis Lifeline (988) or at [988lifeline.org](http://988lifeline.org/).
 
 # Department Policies
 
